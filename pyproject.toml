@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurogenesis-lab"
+version = "1.0.0"
+description = "Recomputable energy-information nervous-system experiments for Yucong Duan's book"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Yucong Duan"}]
+dependencies = []
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Scientific/Engineering", "Operating System :: OS Independent"]
+
+[project.scripts]
+neurogenesis = "neurogenesis.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["neurogenesis*"]
+
+[tool.setuptools.package-data]
+neurogenesis = ["data/*.json", "web/*.html", "web/*.js", "web/*.css"]

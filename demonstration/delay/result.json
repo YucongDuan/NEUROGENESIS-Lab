@@ -1,0 +1,72 @@
+{
+  "book_sections": [
+    "3.1",
+    "3.18"
+  ],
+  "experiment": "delay",
+  "limitations": [
+    "Conditional scaling comparison, not a reconstruction of ancestral nervous systems.",
+    "Assigned conduction velocity omits diameter, temperature and myelination mechanisms."
+  ],
+  "method": "One-dimensional characteristic diffusion time and a conditional conduction-time budget.",
+  "metrics": {
+    "comparison": "1D diffusion time versus assigned conduction speed"
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "diffusivity_m2_s": 1e-09,
+    "distance_mm": 1.0,
+    "synaptic_delay_ms": 1.0,
+    "velocity_m_s": 1.0
+  },
+  "question": "How do local diffusion and assigned propagation speed scale differently?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "conduction_s": 0.0011,
+      "diffusion_s": 5.0,
+      "distance_mm": 0.1
+    },
+    {
+      "conduction_s": 0.0012000000000000001,
+      "diffusion_s": 20.0,
+      "distance_mm": 0.2
+    },
+    {
+      "conduction_s": 0.0015,
+      "diffusion_s": 124.99999999999999,
+      "distance_mm": 0.5
+    },
+    {
+      "conduction_s": 0.002,
+      "diffusion_s": 499.99999999999994,
+      "distance_mm": 1.0
+    },
+    {
+      "conduction_s": 0.003,
+      "diffusion_s": 1999.9999999999998,
+      "distance_mm": 2.0
+    },
+    {
+      "conduction_s": 0.006,
+      "diffusion_s": 12500.0,
+      "distance_mm": 5.0
+    },
+    {
+      "conduction_s": 0.011,
+      "diffusion_s": 50000.0,
+      "distance_mm": 10.0
+    }
+  ],
+  "series": {
+    "x": "distance_mm",
+    "y": [
+      "diffusion_s",
+      "conduction_s"
+    ]
+  },
+  "source_kind": "synthetic_or_conditional",
+  "title": "Communication before centralization"
+}

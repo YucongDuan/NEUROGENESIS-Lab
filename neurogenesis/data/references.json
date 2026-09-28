@@ -1,0 +1,53 @@
+[
+  {
+    "id": "BOOK",
+    "type": "user_supplied_manuscript",
+    "title": "A Brief History of the Nervous System: From Life Sensing to Consciousness and Civilization",
+    "author": "Yucong Duan",
+    "year": 2026,
+    "locator": "Nervous_System_History_Final.docx; section anchors and source hashes in book_map.json",
+    "scope": "Source for problem framing and the three research programmes, not a clinical validation dataset."
+  },
+  {
+    "id": "HH1952",
+    "type": "primary_paper",
+    "authors": "Hodgkin AL; Huxley AF",
+    "year": 1952,
+    "title": "A quantitative description of membrane current and its application to conduction and excitation in nerve",
+    "doi": "10.1113/jphysiol.1952.sp004764",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12991237/",
+    "verification": "PubMed metadata accessed; no abstract on that page."
+  },
+  {
+    "id": "BRIAN_HH",
+    "type": "official_implementation_documentation",
+    "title": "Brian 2: Example hodgkin_huxley_1952",
+    "url": "https://brian2.readthedocs.io/en/stable/examples/compartmental.hodgkin_huxley_1952.html",
+    "verification": "Equation conventions and parameters read; Brian2 was not executed or bundled. This release uses V=Brian-v-65 mV."
+  },
+  {
+    "id": "HOPFIELD1982",
+    "type": "primary_paper_via_book",
+    "authors": "Hopfield JJ",
+    "year": 1982,
+    "title": "Neural networks and physical systems with emergent collective computational abilities",
+    "doi": "10.1073/pnas.79.8.2554",
+    "verification": "Referenced by supplied book; small standard network newly implemented, not an empirical reproduction."
+  },
+  {
+    "id": "LANDAUER1961",
+    "type": "primary_paper_via_book",
+    "authors": "Landauer R",
+    "year": 1961,
+    "title": "Irreversibility and heat generation in the computing process",
+    "doi": "10.1147/rd.53.0183",
+    "verification": "The conditional lower bound is used as discussed in the supplied book."
+  },
+  {
+    "id": "RG_LIST",
+    "type": "user_supplied_bibliographic_list",
+    "title": "ResearchGate technical-report and preprint listing supplied with the book project",
+    "url": "https://www.researchgate.net/publication/413548692_yuzhoudezhongjibenzhi",
+    "verification": "The provided listing identifies technical reports; listing metadata is not full-text or empirical confirmation."
+  }
+]

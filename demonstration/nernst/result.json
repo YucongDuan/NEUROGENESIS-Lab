@@ -1,0 +1,68 @@
+{
+  "book_sections": [
+    "2.7",
+    "6.2"
+  ],
+  "experiment": "nernst",
+  "limitations": [
+    "Single-ion equilibrium with ideal activities. Not the resting potential of a multi-ion membrane."
+  ],
+  "method": "Ideal Nernst equation; signed valence and Kelvin temperature are explicit.",
+  "metrics": {
+    "equilibrium_mV": -89.01562196464293
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "inside_mmol_L": 140.0,
+    "outside_mmol_L": 5.0,
+    "temperature_K": 310.0,
+    "valence": 1
+  },
+  "question": "Why does an ion concentration ratio determine an equilibrium voltage?",
+  "references": [
+    "BOOK",
+    "HH1952"
+  ],
+  "rows": [
+    {
+      "equilibrium_mV": -132.0097168202631,
+      "outside_mmol_L": 1.0
+    },
+    {
+      "equilibrium_mV": -113.49316803036363,
+      "outside_mmol_L": 2.0
+    },
+    {
+      "equilibrium_mV": -89.01562196464293,
+      "outside_mmol_L": 5.0
+    },
+    {
+      "equilibrium_mV": -70.49907317474347,
+      "outside_mmol_L": 10.0
+    },
+    {
+      "equilibrium_mV": -51.98252438484403,
+      "outside_mmol_L": 20.0
+    },
+    {
+      "equilibrium_mV": -27.50497831912333,
+      "outside_mmol_L": 50.0
+    },
+    {
+      "equilibrium_mV": -8.988429529223872,
+      "outside_mmol_L": 100.0
+    },
+    {
+      "equilibrium_mV": 0.0,
+      "outside_mmol_L": 140.0
+    }
+  ],
+  "series": {
+    "x": "outside_mmol_L",
+    "y": [
+      "equilibrium_mV"
+    ]
+  },
+  "source_kind": "synthetic_or_conditional",
+  "title": "Electrochemical gradients"
+}

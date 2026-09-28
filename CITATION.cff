@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the software version and retain the experiment capsule when using this work."
+title: "NEUROGENESIS-Lab: Energy, Information and Reconstructive Neural Science"
+version: 1.0.0
+date-released: 2026-09-27
+authors:
+  - family-names: Duan
+    given-names: Yucong
+license: Apache-2.0
+type: software
+abstract: "An English research and teaching companion with neural mechanisms, controlled experiments, evidence revision, and reproducible run capsules."
+repository-code: "https://github.com/YucongDuan/NEUROGENESIS-Lab"
+url: "https://yucongduan.github.io/NEUROGENESIS-Lab/"

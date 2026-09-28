@@ -1,0 +1,10 @@
+{
+  "source_kind": "synthetic",
+  "source_locator": "Generated with R=100 MOhm, tau=20 ms, I=100 pA, seed=98; not an empirical recording",
+  "license": "CC0-1.0",
+  "time_unit": "ms",
+  "voltage_unit": "mV",
+  "current_pA": 100,
+  "rest_mV": -65,
+  "onset_ms": 0
+}

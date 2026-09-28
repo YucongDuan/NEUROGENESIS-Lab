@@ -1,0 +1,13 @@
+{
+  "engine_digest": "a6a69af7325df8c12ffd8b0f6b4ac8acc18b5070732559eb8c9da3fee72696c5",
+  "event_head": "c473ad110f6432cdc2e2023fb443ca1ea4ffada3afa157e38cf2943e580c12c8",
+  "files": {
+    "data.csv": "d951d3e55cb89ae957c72a4679829f3fb91278ee61cbddb8f283b76044def0a9",
+    "events.jsonl": "529e22a525f1f2f23c0543efa1bcbfe4c84ee9e14f272c8f0aee070f7ff3f1f4",
+    "protocol.json": "4e137f760330079b57dad8b1ac0a617ad8cd08d4ead26aa9eed9a860fbc0ffd5",
+    "report.html": "957909be2f10ad6e615482b23d74ffb93402aeb3a23502d7086d077efe50155b",
+    "result.json": "39bcfc876a8a3816c3c26963f0e13c4c250d3245dd992e7135c7ef4a7167766f"
+  },
+  "format": "neurogenesis-capsule-v1",
+  "trust_model": "Unkeyed hashes. Preserve receipt_digest independently; no signature or external timestamp is supplied."
+}

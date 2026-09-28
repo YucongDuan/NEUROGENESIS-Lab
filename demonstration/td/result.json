@@ -1,0 +1,1235 @@
+{
+  "book_sections": [
+    "12.3",
+    "12.5"
+  ],
+  "experiment": "td",
+  "limitations": [
+    "One-state reward prediction update. Not a dopamine assay, pleasure measure or moral-value metric."
+  ],
+  "method": "One-state reward prediction update, with an explicit reversal in the outcome schedule.",
+  "metrics": {
+    "final_value": 0.00023915465233602132
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "learning_rate": 0.08,
+    "trials": 200
+  },
+  "question": "How does a learned expectation change when reward stops?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "prediction_error": 1.0,
+      "reward": 1.0,
+      "trial": 0,
+      "value": 0.08
+    },
+    {
+      "prediction_error": 0.92,
+      "reward": 1.0,
+      "trial": 1,
+      "value": 0.15360000000000001
+    },
+    {
+      "prediction_error": 0.8464,
+      "reward": 1.0,
+      "trial": 2,
+      "value": 0.221312
+    },
+    {
+      "prediction_error": 0.778688,
+      "reward": 1.0,
+      "trial": 3,
+      "value": 0.28360704000000003
+    },
+    {
+      "prediction_error": 0.71639296,
+      "reward": 1.0,
+      "trial": 4,
+      "value": 0.34091847680000004
+    },
+    {
+      "prediction_error": 0.6590815232,
+      "reward": 1.0,
+      "trial": 5,
+      "value": 0.39364499865600006
+    },
+    {
+      "prediction_error": 0.606355001344,
+      "reward": 1.0,
+      "trial": 6,
+      "value": 0.44215339876352006
+    },
+    {
+      "prediction_error": 0.55784660123648,
+      "reward": 1.0,
+      "trial": 7,
+      "value": 0.48678112686243846
+    },
+    {
+      "prediction_error": 0.5132188731375615,
+      "reward": 1.0,
+      "trial": 8,
+      "value": 0.5278386367134433
+    },
+    {
+      "prediction_error": 0.47216136328655667,
+      "reward": 1.0,
+      "trial": 9,
+      "value": 0.5656115457763679
+    },
+    {
+      "prediction_error": 0.43438845422363215,
+      "reward": 1.0,
+      "trial": 10,
+      "value": 0.6003626221142584
+    },
+    {
+      "prediction_error": 0.3996373778857416,
+      "reward": 1.0,
+      "trial": 11,
+      "value": 0.6323336123451178
+    },
+    {
+      "prediction_error": 0.36766638765488224,
+      "reward": 1.0,
+      "trial": 12,
+      "value": 0.6617469233575083
+    },
+    {
+      "prediction_error": 0.3382530766424917,
+      "reward": 1.0,
+      "trial": 13,
+      "value": 0.6888071694889076
+    },
+    {
+      "prediction_error": 0.31119283051109237,
+      "reward": 1.0,
+      "trial": 14,
+      "value": 0.713702595929795
+    },
+    {
+      "prediction_error": 0.286297404070205,
+      "reward": 1.0,
+      "trial": 15,
+      "value": 0.7366063882554114
+    },
+    {
+      "prediction_error": 0.26339361174458864,
+      "reward": 1.0,
+      "trial": 16,
+      "value": 0.7576778771949785
+    },
+    {
+      "prediction_error": 0.24232212280502152,
+      "reward": 1.0,
+      "trial": 17,
+      "value": 0.7770636470193802
+    },
+    {
+      "prediction_error": 0.22293635298061976,
+      "reward": 1.0,
+      "trial": 18,
+      "value": 0.7948985552578298
+    },
+    {
+      "prediction_error": 0.20510144474217018,
+      "reward": 1.0,
+      "trial": 19,
+      "value": 0.8113066708372034
+    },
+    {
+      "prediction_error": 0.18869332916279657,
+      "reward": 1.0,
+      "trial": 20,
+      "value": 0.8264021371702271
+    },
+    {
+      "prediction_error": 0.17359786282977285,
+      "reward": 1.0,
+      "trial": 21,
+      "value": 0.840289966196609
+    },
+    {
+      "prediction_error": 0.159710033803391,
+      "reward": 1.0,
+      "trial": 22,
+      "value": 0.8530667689008803
+    },
+    {
+      "prediction_error": 0.1469332310991197,
+      "reward": 1.0,
+      "trial": 23,
+      "value": 0.8648214273888098
+    },
+    {
+      "prediction_error": 0.13517857261119015,
+      "reward": 1.0,
+      "trial": 24,
+      "value": 0.8756357131977051
+    },
+    {
+      "prediction_error": 0.12436428680229494,
+      "reward": 1.0,
+      "trial": 25,
+      "value": 0.8855848561418886
+    },
+    {
+      "prediction_error": 0.11441514385811136,
+      "reward": 1.0,
+      "trial": 26,
+      "value": 0.8947380676505375
+    },
+    {
+      "prediction_error": 0.10526193234946246,
+      "reward": 1.0,
+      "trial": 27,
+      "value": 0.9031590222384945
+    },
+    {
+      "prediction_error": 0.09684097776150546,
+      "reward": 1.0,
+      "trial": 28,
+      "value": 0.910906300459415
+    },
+    {
+      "prediction_error": 0.08909369954058499,
+      "reward": 1.0,
+      "trial": 29,
+      "value": 0.9180337964226618
+    },
+    {
+      "prediction_error": 0.08196620357733819,
+      "reward": 1.0,
+      "trial": 30,
+      "value": 0.9245910927088489
+    },
+    {
+      "prediction_error": 0.07540890729115113,
+      "reward": 1.0,
+      "trial": 31,
+      "value": 0.930623805292141
+    },
+    {
+      "prediction_error": 0.06937619470785905,
+      "reward": 1.0,
+      "trial": 32,
+      "value": 0.9361739008687697
+    },
+    {
+      "prediction_error": 0.06382609913123027,
+      "reward": 1.0,
+      "trial": 33,
+      "value": 0.9412799887992681
+    },
+    {
+      "prediction_error": 0.05872001120073189,
+      "reward": 1.0,
+      "trial": 34,
+      "value": 0.9459775896953266
+    },
+    {
+      "prediction_error": 0.05402241030467336,
+      "reward": 1.0,
+      "trial": 35,
+      "value": 0.9502993825197005
+    },
+    {
+      "prediction_error": 0.049700617480299525,
+      "reward": 1.0,
+      "trial": 36,
+      "value": 0.9542754319181245
+    },
+    {
+      "prediction_error": 0.04572456808187553,
+      "reward": 1.0,
+      "trial": 37,
+      "value": 0.9579333973646745
+    },
+    {
+      "prediction_error": 0.04206660263532547,
+      "reward": 1.0,
+      "trial": 38,
+      "value": 0.9612987255755006
+    },
+    {
+      "prediction_error": 0.03870127442449944,
+      "reward": 1.0,
+      "trial": 39,
+      "value": 0.9643948275294605
+    },
+    {
+      "prediction_error": 0.035605172470539515,
+      "reward": 1.0,
+      "trial": 40,
+      "value": 0.9672432413271036
+    },
+    {
+      "prediction_error": 0.0327567586728964,
+      "reward": 1.0,
+      "trial": 41,
+      "value": 0.9698637820209353
+    },
+    {
+      "prediction_error": 0.03013621797906474,
+      "reward": 1.0,
+      "trial": 42,
+      "value": 0.9722746794592605
+    },
+    {
+      "prediction_error": 0.027725320540739506,
+      "reward": 1.0,
+      "trial": 43,
+      "value": 0.9744927051025196
+    },
+    {
+      "prediction_error": 0.02550729489748038,
+      "reward": 1.0,
+      "trial": 44,
+      "value": 0.9765332886943181
+    },
+    {
+      "prediction_error": 0.023466711305681898,
+      "reward": 1.0,
+      "trial": 45,
+      "value": 0.9784106255987727
+    },
+    {
+      "prediction_error": 0.021589374401227324,
+      "reward": 1.0,
+      "trial": 46,
+      "value": 0.9801377755508709
+    },
+    {
+      "prediction_error": 0.019862224449129107,
+      "reward": 1.0,
+      "trial": 47,
+      "value": 0.9817267535068013
+    },
+    {
+      "prediction_error": 0.018273246493198725,
+      "reward": 1.0,
+      "trial": 48,
+      "value": 0.9831886132262572
+    },
+    {
+      "prediction_error": 0.01681138677374283,
+      "reward": 1.0,
+      "trial": 49,
+      "value": 0.9845335241681566
+    },
+    {
+      "prediction_error": 0.015466475831843352,
+      "reward": 1.0,
+      "trial": 50,
+      "value": 0.9857708422347041
+    },
+    {
+      "prediction_error": 0.014229157765295875,
+      "reward": 1.0,
+      "trial": 51,
+      "value": 0.9869091748559278
+    },
+    {
+      "prediction_error": 0.013090825144072227,
+      "reward": 1.0,
+      "trial": 52,
+      "value": 0.9879564408674536
+    },
+    {
+      "prediction_error": 0.0120435591325464,
+      "reward": 1.0,
+      "trial": 53,
+      "value": 0.9889199255980573
+    },
+    {
+      "prediction_error": 0.011080074401942697,
+      "reward": 1.0,
+      "trial": 54,
+      "value": 0.9898063315502127
+    },
+    {
+      "prediction_error": 0.010193668449787308,
+      "reward": 1.0,
+      "trial": 55,
+      "value": 0.9906218250261957
+    },
+    {
+      "prediction_error": 0.009378174973804332,
+      "reward": 1.0,
+      "trial": 56,
+      "value": 0.9913720790241
+    },
+    {
+      "prediction_error": 0.008627920975900039,
+      "reward": 1.0,
+      "trial": 57,
+      "value": 0.9920623127021719
+    },
+    {
+      "prediction_error": 0.007937687297828067,
+      "reward": 1.0,
+      "trial": 58,
+      "value": 0.9926973276859982
+    },
+    {
+      "prediction_error": 0.007302672314001835,
+      "reward": 1.0,
+      "trial": 59,
+      "value": 0.9932815414711184
+    },
+    {
+      "prediction_error": 0.006718458528881643,
+      "reward": 1.0,
+      "trial": 60,
+      "value": 0.9938190181534289
+    },
+    {
+      "prediction_error": 0.006180981846571121,
+      "reward": 1.0,
+      "trial": 61,
+      "value": 0.9943134967011545
+    },
+    {
+      "prediction_error": 0.005686503298845458,
+      "reward": 1.0,
+      "trial": 62,
+      "value": 0.9947684169650621
+    },
+    {
+      "prediction_error": 0.00523158303493787,
+      "reward": 1.0,
+      "trial": 63,
+      "value": 0.9951869436078572
+    },
+    {
+      "prediction_error": 0.0048130563921428005,
+      "reward": 1.0,
+      "trial": 64,
+      "value": 0.9955719881192286
+    },
+    {
+      "prediction_error": 0.004428011880771354,
+      "reward": 1.0,
+      "trial": 65,
+      "value": 0.9959262290696903
+    },
+    {
+      "prediction_error": 0.004073770930309695,
+      "reward": 1.0,
+      "trial": 66,
+      "value": 0.9962521307441151
+    },
+    {
+      "prediction_error": 0.0037478692558848836,
+      "reward": 1.0,
+      "trial": 67,
+      "value": 0.9965519602845859
+    },
+    {
+      "prediction_error": 0.003448039715414075,
+      "reward": 1.0,
+      "trial": 68,
+      "value": 0.9968278034618191
+    },
+    {
+      "prediction_error": 0.0031721965381809047,
+      "reward": 1.0,
+      "trial": 69,
+      "value": 0.9970815791848736
+    },
+    {
+      "prediction_error": 0.002918420815126388,
+      "reward": 1.0,
+      "trial": 70,
+      "value": 0.9973150528500837
+    },
+    {
+      "prediction_error": 0.0026849471499162947,
+      "reward": 1.0,
+      "trial": 71,
+      "value": 0.997529848622077
+    },
+    {
+      "prediction_error": 0.0024701513779229467,
+      "reward": 1.0,
+      "trial": 72,
+      "value": 0.9977274607323109
+    },
+    {
+      "prediction_error": 0.002272539267689111,
+      "reward": 1.0,
+      "trial": 73,
+      "value": 0.997909263873726
+    },
+    {
+      "prediction_error": 0.002090736126273973,
+      "reward": 1.0,
+      "trial": 74,
+      "value": 0.998076522763828
+    },
+    {
+      "prediction_error": 0.0019234772361720331,
+      "reward": 1.0,
+      "trial": 75,
+      "value": 0.9982304009427218
+    },
+    {
+      "prediction_error": 0.0017695990572782483,
+      "reward": 1.0,
+      "trial": 76,
+      "value": 0.9983719688673041
+    },
+    {
+      "prediction_error": 0.0016280311326959396,
+      "reward": 1.0,
+      "trial": 77,
+      "value": 0.9985022113579197
+    },
+    {
+      "prediction_error": 0.0014977886420802777,
+      "reward": 1.0,
+      "trial": 78,
+      "value": 0.9986220344492861
+    },
+    {
+      "prediction_error": 0.0013779655507139,
+      "reward": 1.0,
+      "trial": 79,
+      "value": 0.9987322716933432
+    },
+    {
+      "prediction_error": 0.001267728306656779,
+      "reward": 1.0,
+      "trial": 80,
+      "value": 0.9988336899578758
+    },
+    {
+      "prediction_error": 0.0011663100421241968,
+      "reward": 1.0,
+      "trial": 81,
+      "value": 0.9989269947612457
+    },
+    {
+      "prediction_error": 0.0010730052387543099,
+      "reward": 1.0,
+      "trial": 82,
+      "value": 0.999012835180346
+    },
+    {
+      "prediction_error": 0.0009871648196539962,
+      "reward": 1.0,
+      "trial": 83,
+      "value": 0.9990918083659184
+    },
+    {
+      "prediction_error": 0.0009081916340816232,
+      "reward": 1.0,
+      "trial": 84,
+      "value": 0.9991644636966449
+    },
+    {
+      "prediction_error": 0.0008355363033550889,
+      "reward": 1.0,
+      "trial": 85,
+      "value": 0.9992313066009133
+    },
+    {
+      "prediction_error": 0.0007686933990866951,
+      "reward": 1.0,
+      "trial": 86,
+      "value": 0.9992928020728402
+    },
+    {
+      "prediction_error": 0.0007071979271597861,
+      "reward": 1.0,
+      "trial": 87,
+      "value": 0.999349377907013
+    },
+    {
+      "prediction_error": 0.0006506220929870521,
+      "reward": 1.0,
+      "trial": 88,
+      "value": 0.999401427674452
+    },
+    {
+      "prediction_error": 0.0005985723255480524,
+      "reward": 1.0,
+      "trial": 89,
+      "value": 0.9994493134604958
+    },
+    {
+      "prediction_error": 0.000550686539504186,
+      "reward": 1.0,
+      "trial": 90,
+      "value": 0.9994933683836561
+    },
+    {
+      "prediction_error": 0.0005066316163439,
+      "reward": 1.0,
+      "trial": 91,
+      "value": 0.9995338989129636
+    },
+    {
+      "prediction_error": 0.00046610108703637465,
+      "reward": 1.0,
+      "trial": 92,
+      "value": 0.9995711869999265
+    },
+    {
+      "prediction_error": 0.0004288130000734691,
+      "reward": 1.0,
+      "trial": 93,
+      "value": 0.9996054920399324
+    },
+    {
+      "prediction_error": 0.0003945079600675694,
+      "reward": 1.0,
+      "trial": 94,
+      "value": 0.9996370526767379
+    },
+    {
+      "prediction_error": 0.00036294732326214163,
+      "reward": 1.0,
+      "trial": 95,
+      "value": 0.9996660884625989
+    },
+    {
+      "prediction_error": 0.00033391153740114365,
+      "reward": 1.0,
+      "trial": 96,
+      "value": 0.9996928013855909
+    },
+    {
+      "prediction_error": 0.0003071986144090877,
+      "reward": 1.0,
+      "trial": 97,
+      "value": 0.9997173772747436
+    },
+    {
+      "prediction_error": 0.0002826227252563651,
+      "reward": 1.0,
+      "trial": 98,
+      "value": 0.9997399870927641
+    },
+    {
+      "prediction_error": 0.00026001290723587367,
+      "reward": 1.0,
+      "trial": 99,
+      "value": 0.999760788125343
+    },
+    {
+      "prediction_error": -0.999760788125343,
+      "reward": 0.0,
+      "trial": 100,
+      "value": 0.9197799250753156
+    },
+    {
+      "prediction_error": -0.9197799250753156,
+      "reward": 0.0,
+      "trial": 101,
+      "value": 0.8461975310692903
+    },
+    {
+      "prediction_error": -0.8461975310692903,
+      "reward": 0.0,
+      "trial": 102,
+      "value": 0.7785017285837471
+    },
+    {
+      "prediction_error": -0.7785017285837471,
+      "reward": 0.0,
+      "trial": 103,
+      "value": 0.7162215902970474
+    },
+    {
+      "prediction_error": -0.7162215902970474,
+      "reward": 0.0,
+      "trial": 104,
+      "value": 0.6589238630732835
+    },
+    {
+      "prediction_error": -0.6589238630732835,
+      "reward": 0.0,
+      "trial": 105,
+      "value": 0.6062099540274208
+    },
+    {
+      "prediction_error": -0.6062099540274208,
+      "reward": 0.0,
+      "trial": 106,
+      "value": 0.5577131577052272
+    },
+    {
+      "prediction_error": -0.5577131577052272,
+      "reward": 0.0,
+      "trial": 107,
+      "value": 0.5130961050888091
+    },
+    {
+      "prediction_error": -0.5130961050888091,
+      "reward": 0.0,
+      "trial": 108,
+      "value": 0.4720484166817044
+    },
+    {
+      "prediction_error": -0.4720484166817044,
+      "reward": 0.0,
+      "trial": 109,
+      "value": 0.43428454334716804
+    },
+    {
+      "prediction_error": -0.43428454334716804,
+      "reward": 0.0,
+      "trial": 110,
+      "value": 0.3995417798793946
+    },
+    {
+      "prediction_error": -0.3995417798793946,
+      "reward": 0.0,
+      "trial": 111,
+      "value": 0.367578437489043
+    },
+    {
+      "prediction_error": -0.367578437489043,
+      "reward": 0.0,
+      "trial": 112,
+      "value": 0.33817216248991955
+    },
+    {
+      "prediction_error": -0.33817216248991955,
+      "reward": 0.0,
+      "trial": 113,
+      "value": 0.311118389490726
+    },
+    {
+      "prediction_error": -0.311118389490726,
+      "reward": 0.0,
+      "trial": 114,
+      "value": 0.2862289183314679
+    },
+    {
+      "prediction_error": -0.2862289183314679,
+      "reward": 0.0,
+      "trial": 115,
+      "value": 0.26333060486495047
+    },
+    {
+      "prediction_error": -0.26333060486495047,
+      "reward": 0.0,
+      "trial": 116,
+      "value": 0.24226415647575444
+    },
+    {
+      "prediction_error": -0.24226415647575444,
+      "reward": 0.0,
+      "trial": 117,
+      "value": 0.22288302395769408
+    },
+    {
+      "prediction_error": -0.22288302395769408,
+      "reward": 0.0,
+      "trial": 118,
+      "value": 0.20505238204107856
+    },
+    {
+      "prediction_error": -0.20505238204107856,
+      "reward": 0.0,
+      "trial": 119,
+      "value": 0.18864819147779227
+    },
+    {
+      "prediction_error": -0.18864819147779227,
+      "reward": 0.0,
+      "trial": 120,
+      "value": 0.1735563361595689
+    },
+    {
+      "prediction_error": -0.1735563361595689,
+      "reward": 0.0,
+      "trial": 121,
+      "value": 0.15967182926680337
+    },
+    {
+      "prediction_error": -0.15967182926680337,
+      "reward": 0.0,
+      "trial": 122,
+      "value": 0.1468980829254591
+    },
+    {
+      "prediction_error": -0.1468980829254591,
+      "reward": 0.0,
+      "trial": 123,
+      "value": 0.1351462362914224
+    },
+    {
+      "prediction_error": -0.1351462362914224,
+      "reward": 0.0,
+      "trial": 124,
+      "value": 0.1243345373881086
+    },
+    {
+      "prediction_error": -0.1243345373881086,
+      "reward": 0.0,
+      "trial": 125,
+      "value": 0.11438777439705991
+    },
+    {
+      "prediction_error": -0.11438777439705991,
+      "reward": 0.0,
+      "trial": 126,
+      "value": 0.10523675244529512
+    },
+    {
+      "prediction_error": -0.10523675244529512,
+      "reward": 0.0,
+      "trial": 127,
+      "value": 0.09681781224967151
+    },
+    {
+      "prediction_error": -0.09681781224967151,
+      "reward": 0.0,
+      "trial": 128,
+      "value": 0.0890723872696978
+    },
+    {
+      "prediction_error": -0.0890723872696978,
+      "reward": 0.0,
+      "trial": 129,
+      "value": 0.08194659628812197
+    },
+    {
+      "prediction_error": -0.08194659628812197,
+      "reward": 0.0,
+      "trial": 130,
+      "value": 0.07539086858507221
+    },
+    {
+      "prediction_error": -0.07539086858507221,
+      "reward": 0.0,
+      "trial": 131,
+      "value": 0.06935959909826643
+    },
+    {
+      "prediction_error": -0.06935959909826643,
+      "reward": 0.0,
+      "trial": 132,
+      "value": 0.06381083117040512
+    },
+    {
+      "prediction_error": -0.06381083117040512,
+      "reward": 0.0,
+      "trial": 133,
+      "value": 0.05870596467677271
+    },
+    {
+      "prediction_error": -0.05870596467677271,
+      "reward": 0.0,
+      "trial": 134,
+      "value": 0.05400948750263089
+    },
+    {
+      "prediction_error": -0.05400948750263089,
+      "reward": 0.0,
+      "trial": 135,
+      "value": 0.04968872850242042
+    },
+    {
+      "prediction_error": -0.04968872850242042,
+      "reward": 0.0,
+      "trial": 136,
+      "value": 0.045713630222226784
+    },
+    {
+      "prediction_error": -0.045713630222226784,
+      "reward": 0.0,
+      "trial": 137,
+      "value": 0.042056539804448644
+    },
+    {
+      "prediction_error": -0.042056539804448644,
+      "reward": 0.0,
+      "trial": 138,
+      "value": 0.03869201662009275
+    },
+    {
+      "prediction_error": -0.03869201662009275,
+      "reward": 0.0,
+      "trial": 139,
+      "value": 0.03559665529048533
+    },
+    {
+      "prediction_error": -0.03559665529048533,
+      "reward": 0.0,
+      "trial": 140,
+      "value": 0.032748922867246504
+    },
+    {
+      "prediction_error": -0.032748922867246504,
+      "reward": 0.0,
+      "trial": 141,
+      "value": 0.030129009037866784
+    },
+    {
+      "prediction_error": -0.030129009037866784,
+      "reward": 0.0,
+      "trial": 142,
+      "value": 0.027718688314837443
+    },
+    {
+      "prediction_error": -0.027718688314837443,
+      "reward": 0.0,
+      "trial": 143,
+      "value": 0.025501193249650448
+    },
+    {
+      "prediction_error": -0.025501193249650448,
+      "reward": 0.0,
+      "trial": 144,
+      "value": 0.023461097789678413
+    },
+    {
+      "prediction_error": -0.023461097789678413,
+      "reward": 0.0,
+      "trial": 145,
+      "value": 0.02158420996650414
+    },
+    {
+      "prediction_error": -0.02158420996650414,
+      "reward": 0.0,
+      "trial": 146,
+      "value": 0.01985747316918381
+    },
+    {
+      "prediction_error": -0.01985747316918381,
+      "reward": 0.0,
+      "trial": 147,
+      "value": 0.018268875315649104
+    },
+    {
+      "prediction_error": -0.018268875315649104,
+      "reward": 0.0,
+      "trial": 148,
+      "value": 0.016807365290397176
+    },
+    {
+      "prediction_error": -0.016807365290397176,
+      "reward": 0.0,
+      "trial": 149,
+      "value": 0.015462776067165403
+    },
+    {
+      "prediction_error": -0.015462776067165403,
+      "reward": 0.0,
+      "trial": 150,
+      "value": 0.01422575398179217
+    },
+    {
+      "prediction_error": -0.01422575398179217,
+      "reward": 0.0,
+      "trial": 151,
+      "value": 0.013087693663248797
+    },
+    {
+      "prediction_error": -0.013087693663248797,
+      "reward": 0.0,
+      "trial": 152,
+      "value": 0.012040678170188893
+    },
+    {
+      "prediction_error": -0.012040678170188893,
+      "reward": 0.0,
+      "trial": 153,
+      "value": 0.011077423916573782
+    },
+    {
+      "prediction_error": -0.011077423916573782,
+      "reward": 0.0,
+      "trial": 154,
+      "value": 0.010191230003247878
+    },
+    {
+      "prediction_error": -0.010191230003247878,
+      "reward": 0.0,
+      "trial": 155,
+      "value": 0.009375931602988049
+    },
+    {
+      "prediction_error": -0.009375931602988049,
+      "reward": 0.0,
+      "trial": 156,
+      "value": 0.008625857074749005
+    },
+    {
+      "prediction_error": -0.008625857074749005,
+      "reward": 0.0,
+      "trial": 157,
+      "value": 0.007935788508769085
+    },
+    {
+      "prediction_error": -0.007935788508769085,
+      "reward": 0.0,
+      "trial": 158,
+      "value": 0.007300925428067559
+    },
+    {
+      "prediction_error": -0.007300925428067559,
+      "reward": 0.0,
+      "trial": 159,
+      "value": 0.006716851393822154
+    },
+    {
+      "prediction_error": -0.006716851393822154,
+      "reward": 0.0,
+      "trial": 160,
+      "value": 0.0061795032823163815
+    },
+    {
+      "prediction_error": -0.0061795032823163815,
+      "reward": 0.0,
+      "trial": 161,
+      "value": 0.005685143019731071
+    },
+    {
+      "prediction_error": -0.005685143019731071,
+      "reward": 0.0,
+      "trial": 162,
+      "value": 0.005230331578152585
+    },
+    {
+      "prediction_error": -0.005230331578152585,
+      "reward": 0.0,
+      "trial": 163,
+      "value": 0.004811905051900378
+    },
+    {
+      "prediction_error": -0.004811905051900378,
+      "reward": 0.0,
+      "trial": 164,
+      "value": 0.004426952647748348
+    },
+    {
+      "prediction_error": -0.004426952647748348,
+      "reward": 0.0,
+      "trial": 165,
+      "value": 0.00407279643592848
+    },
+    {
+      "prediction_error": -0.00407279643592848,
+      "reward": 0.0,
+      "trial": 166,
+      "value": 0.0037469727210542015
+    },
+    {
+      "prediction_error": -0.0037469727210542015,
+      "reward": 0.0,
+      "trial": 167,
+      "value": 0.0034472149033698656
+    },
+    {
+      "prediction_error": -0.0034472149033698656,
+      "reward": 0.0,
+      "trial": 168,
+      "value": 0.0031714377111002764
+    },
+    {
+      "prediction_error": -0.0031714377111002764,
+      "reward": 0.0,
+      "trial": 169,
+      "value": 0.0029177226942122543
+    },
+    {
+      "prediction_error": -0.0029177226942122543,
+      "reward": 0.0,
+      "trial": 170,
+      "value": 0.002684304878675274
+    },
+    {
+      "prediction_error": -0.002684304878675274,
+      "reward": 0.0,
+      "trial": 171,
+      "value": 0.002469560488381252
+    },
+    {
+      "prediction_error": -0.002469560488381252,
+      "reward": 0.0,
+      "trial": 172,
+      "value": 0.002271995649310752
+    },
+    {
+      "prediction_error": -0.002271995649310752,
+      "reward": 0.0,
+      "trial": 173,
+      "value": 0.002090235997365892
+    },
+    {
+      "prediction_error": -0.002090235997365892,
+      "reward": 0.0,
+      "trial": 174,
+      "value": 0.0019230171175766205
+    },
+    {
+      "prediction_error": -0.0019230171175766205,
+      "reward": 0.0,
+      "trial": 175,
+      "value": 0.0017691757481704908
+    },
+    {
+      "prediction_error": -0.0017691757481704908,
+      "reward": 0.0,
+      "trial": 176,
+      "value": 0.0016276416883168516
+    },
+    {
+      "prediction_error": -0.0016276416883168516,
+      "reward": 0.0,
+      "trial": 177,
+      "value": 0.0014974303532515035
+    },
+    {
+      "prediction_error": -0.0014974303532515035,
+      "reward": 0.0,
+      "trial": 178,
+      "value": 0.0013776359249913833
+    },
+    {
+      "prediction_error": -0.0013776359249913833,
+      "reward": 0.0,
+      "trial": 179,
+      "value": 0.0012674250509920725
+    },
+    {
+      "prediction_error": -0.0012674250509920725,
+      "reward": 0.0,
+      "trial": 180,
+      "value": 0.0011660310469127067
+    },
+    {
+      "prediction_error": -0.0011660310469127067,
+      "reward": 0.0,
+      "trial": 181,
+      "value": 0.0010727485631596902
+    },
+    {
+      "prediction_error": -0.0010727485631596902,
+      "reward": 0.0,
+      "trial": 182,
+      "value": 0.000986928678106915
+    },
+    {
+      "prediction_error": -0.000986928678106915,
+      "reward": 0.0,
+      "trial": 183,
+      "value": 0.0009079743838583617
+    },
+    {
+      "prediction_error": -0.0009079743838583617,
+      "reward": 0.0,
+      "trial": 184,
+      "value": 0.0008353364331496928
+    },
+    {
+      "prediction_error": -0.0008353364331496928,
+      "reward": 0.0,
+      "trial": 185,
+      "value": 0.0007685095184977173
+    },
+    {
+      "prediction_error": -0.0007685095184977173,
+      "reward": 0.0,
+      "trial": 186,
+      "value": 0.0007070287570178999
+    },
+    {
+      "prediction_error": -0.0007070287570178999,
+      "reward": 0.0,
+      "trial": 187,
+      "value": 0.0006504664564564679
+    },
+    {
+      "prediction_error": -0.0006504664564564679,
+      "reward": 0.0,
+      "trial": 188,
+      "value": 0.0005984291399399505
+    },
+    {
+      "prediction_error": -0.0005984291399399505,
+      "reward": 0.0,
+      "trial": 189,
+      "value": 0.0005505548087447545
+    },
+    {
+      "prediction_error": -0.0005505548087447545,
+      "reward": 0.0,
+      "trial": 190,
+      "value": 0.0005065104240451741
+    },
+    {
+      "prediction_error": -0.0005065104240451741,
+      "reward": 0.0,
+      "trial": 191,
+      "value": 0.0004659895901215602
+    },
+    {
+      "prediction_error": -0.0004659895901215602,
+      "reward": 0.0,
+      "trial": 192,
+      "value": 0.0004287104229118354
+    },
+    {
+      "prediction_error": -0.0004287104229118354,
+      "reward": 0.0,
+      "trial": 193,
+      "value": 0.00039441358907888857
+    },
+    {
+      "prediction_error": -0.00039441358907888857,
+      "reward": 0.0,
+      "trial": 194,
+      "value": 0.0003628605019525775
+    },
+    {
+      "prediction_error": -0.0003628605019525775,
+      "reward": 0.0,
+      "trial": 195,
+      "value": 0.00033383166179637127
+    },
+    {
+      "prediction_error": -0.00033383166179637127,
+      "reward": 0.0,
+      "trial": 196,
+      "value": 0.00030712512885266156
+    },
+    {
+      "prediction_error": -0.00030712512885266156,
+      "reward": 0.0,
+      "trial": 197,
+      "value": 0.00028255511854444865
+    },
+    {
+      "prediction_error": -0.00028255511854444865,
+      "reward": 0.0,
+      "trial": 198,
+      "value": 0.00025995070906089274
+    },
+    {
+      "prediction_error": -0.00025995070906089274,
+      "reward": 0.0,
+      "trial": 199,
+      "value": 0.00023915465233602132
+    }
+  ],
+  "series": {
+    "x": "trial",
+    "y": [
+      "reward",
+      "value",
+      "prediction_error"
+    ]
+  },
+  "source_kind": "synthetic_or_conditional",
+  "title": "Prediction error and changing outcomes"
+}

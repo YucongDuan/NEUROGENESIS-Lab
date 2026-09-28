@@ -1,0 +1,251 @@
+{
+  "book_sections": [
+    "11.16",
+    "18.15",
+    "18.16"
+  ],
+  "evidence_events": [
+    {
+      "hash": "04e93877518195f885fbe04fe160c80de19fb005b7a337df35316e0ddaee95ec",
+      "operation": {
+        "action": "goal",
+        "goal": "Explain a recorded increase without changing the raw event"
+      },
+      "previous": "0000000000000000000000000000000000000000000000000000000000000000",
+      "sequence": 0,
+      "state_digest": "bb8c91dfb76b3157b439a9b26e414fff451ea163ccd065834030d8dc68b7b33a"
+    },
+    {
+      "hash": "47a7b3a1cd60cd0fc85c19d804c819aab09029178c00a2175c18fbcf47c24e9f",
+      "operation": {
+        "action": "put",
+        "node": {
+          "id": "raw",
+          "kind": "synthetic",
+          "parents": [],
+          "provides": [
+            "raw_voltage"
+          ],
+          "role": "D",
+          "text": "Recorded response amplitude 2.0; acquisition unit mV."
+        }
+      },
+      "previous": "04e93877518195f885fbe04fe160c80de19fb005b7a337df35316e0ddaee95ec",
+      "sequence": 1,
+      "state_digest": "aff33b2b1c80ba5649f97ccd978466a20a48a221173fa69da9dfe5c1a5f39e53"
+    },
+    {
+      "hash": "a1b0024d7fcfe9c75b0a5ee74c56b40e328dc113cc8b2aebab19b8c0836cdad0",
+      "operation": {
+        "action": "put",
+        "node": {
+          "id": "cal-v1",
+          "kind": "hypothesis",
+          "parents": [],
+          "provides": [
+            "calibration"
+          ],
+          "role": "I",
+          "text": "Acquisition gain is 1.0."
+        }
+      },
+      "previous": "47a7b3a1cd60cd0fc85c19d804c819aab09029178c00a2175c18fbcf47c24e9f",
+      "sequence": 2,
+      "state_digest": "fc05ba114a2a41aa3b94553caac366013ccb640895dd5384b8b91f846c70ef1d"
+    },
+    {
+      "hash": "c815bf6c711ef138dc8f244dfd718a42a7c9c0c6de4dd002016354ef7e60d80c",
+      "operation": {
+        "action": "put",
+        "node": {
+          "id": "mechanism",
+          "kind": "interpretation",
+          "parents": [
+            "raw",
+            "cal-v1"
+          ],
+          "requires": [
+            "raw_voltage",
+            "calibration"
+          ],
+          "role": "K",
+          "text": "Increased synaptic drive is the initial interpretation."
+        }
+      },
+      "previous": "a1b0024d7fcfe9c75b0a5ee74c56b40e328dc113cc8b2aebab19b8c0836cdad0",
+      "sequence": 3,
+      "state_digest": "736b515df9694368ac961845ba9d3ff5a40e05387ab0d72df8e44236336ddf62"
+    },
+    {
+      "hash": "9d7c6454e50654e547832ad44034f734fb17e8541a1b37f2245fa094826752d3",
+      "operation": {
+        "action": "withdraw",
+        "id": "cal-v1",
+        "reason": "A gain change was found; old calibration is invalid"
+      },
+      "previous": "c815bf6c711ef138dc8f244dfd718a42a7c9c0c6de4dd002016354ef7e60d80c",
+      "sequence": 4,
+      "state_digest": "414010aa6137832eba9a84cda8c07892a5b35e5bd1b8d33a58eca5f84724a46f"
+    },
+    {
+      "hash": "b079dd1492f482f43645aebef0c3946bb0bafc7bcb8c29b6f0931de503ff1372",
+      "operation": {
+        "action": "put",
+        "node": {
+          "id": "cal-v2",
+          "kind": "synthetic",
+          "parents": [],
+          "provides": [
+            "calibration"
+          ],
+          "role": "D",
+          "text": "Calibration record: gain was 2.0."
+        }
+      },
+      "previous": "9d7c6454e50654e547832ad44034f734fb17e8541a1b37f2245fa094826752d3",
+      "sequence": 5,
+      "state_digest": "c69df0b52d0e8bf7bd76880dcd375eac2740477393825d70816c634c62a259c4"
+    },
+    {
+      "hash": "f35e36b6b21c30c7854c1b507fc805c95db9575b78e2f97d50b589cf5290b60e",
+      "operation": {
+        "action": "revise",
+        "id": "mechanism",
+        "parents": [
+          "raw",
+          "cal-v2"
+        ],
+        "text": "Gain drift explains the recorded increase under the corrected calibration."
+      },
+      "previous": "b079dd1492f482f43645aebef0c3946bb0bafc7bcb8c29b6f0931de503ff1372",
+      "sequence": 6,
+      "state_digest": "4fb309923f8ee5f451f6a099caf40eea0df3a52b1538574245ece941f0272493"
+    },
+    {
+      "hash": "7ccf3e7b3f9b6e40a1beccd82b6504344e98af53f96e9be67b2c1f6ec3685744",
+      "operation": {
+        "action": "goal",
+        "goal": "Test whether a new independent recording supports the corrected interpretation"
+      },
+      "previous": "f35e36b6b21c30c7854c1b507fc805c95db9575b78e2f97d50b589cf5290b60e",
+      "sequence": 7,
+      "state_digest": "8d75f4ba90c558ee9a54ee61a882b581684a12a74fff9d0e1ab5e74a30a3f90e"
+    }
+  ],
+  "experiment": "revision",
+  "fixture_expected_answers": {
+    "current_interpretation_updated": "Gain drift explains the recorded increase under the corrected calibration.",
+    "past_goal_recoverable": "Explain a recorded increase without changing the raw event",
+    "raw_event_retained": {
+      "id": "raw",
+      "kind": "synthetic",
+      "parents": [],
+      "provides": [
+        "raw_voltage"
+      ],
+      "role": "D",
+      "status": "active",
+      "text": "Recorded response amplitude 2.0; acquisition unit mV.",
+      "version": 1
+    },
+    "withdrawal_identified": false
+  },
+  "limitations": [
+    "Four constructed regression tasks, not an independent benchmark of human memory or DIKWP superiority.",
+    "All architectures see the same events and budget cap, but they consume different serialized storage; cap failures are reported rather than prevented. These are not runtime-RAM measurements.",
+    "Goal changes are software records, not an assertion that a biological brain contains DIKWP labels."
+  ],
+  "method": "Same scripted event stream and storage cap applied to summary, current-DAG and versioned-DAG stores.",
+  "metrics": {
+    "shared_budget_bytes": 16000,
+    "stale_descendants_after_retraction": 2,
+    "versioned_task_passes": 4
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "budget_bytes": 16000
+  },
+  "query_answers": {
+    "current_dag": {
+      "current_interpretation_updated": "Gain drift explains the recorded increase under the corrected calibration.",
+      "past_goal_recoverable": null,
+      "raw_event_retained": {
+        "id": "raw",
+        "kind": "synthetic",
+        "parents": [],
+        "provides": [
+          "raw_voltage"
+        ],
+        "role": "D",
+        "status": "active",
+        "text": "Recorded response amplitude 2.0; acquisition unit mV.",
+        "version": 1
+      },
+      "withdrawal_identified": false
+    },
+    "summary_only": {
+      "current_interpretation_updated": "Gain drift explains the recorded increase under the corrected calibration.",
+      "past_goal_recoverable": null,
+      "raw_event_retained": null,
+      "withdrawal_identified": null
+    },
+    "versioned_dag": {
+      "current_interpretation_updated": "Gain drift explains the recorded increase under the corrected calibration.",
+      "past_goal_recoverable": "Explain a recorded increase without changing the raw event",
+      "raw_event_retained": {
+        "id": "raw",
+        "kind": "synthetic",
+        "parents": [],
+        "provides": [
+          "raw_voltage"
+        ],
+        "role": "D",
+        "status": "active",
+        "text": "Recorded response amplitude 2.0; acquisition unit mV.",
+        "version": 1
+      },
+      "withdrawal_identified": false
+    }
+  },
+  "question": "Can a correction propagate without rewriting the original event or old goal?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "architecture": "summary_only",
+      "current_interpretation_updated": true,
+      "passed_tasks": 1,
+      "past_goal_recoverable": false,
+      "raw_event_retained": false,
+      "serialized_bytes": 175,
+      "tasks": 4,
+      "withdrawal_identified": false,
+      "within_shared_budget": true
+    },
+    {
+      "architecture": "current_dag",
+      "current_interpretation_updated": true,
+      "passed_tasks": 3,
+      "past_goal_recoverable": false,
+      "raw_event_retained": true,
+      "serialized_bytes": 860,
+      "tasks": 4,
+      "withdrawal_identified": true,
+      "within_shared_budget": true
+    },
+    {
+      "architecture": "versioned_dag",
+      "current_interpretation_updated": true,
+      "passed_tasks": 4,
+      "past_goal_recoverable": true,
+      "raw_event_retained": true,
+      "serialized_bytes": 3218,
+      "tasks": 4,
+      "withdrawal_identified": true,
+      "within_shared_budget": true
+    }
+  ],
+  "source_kind": "synthetic_or_conditional",
+  "title": "Programme II: reconstructive evidence memory"
+}

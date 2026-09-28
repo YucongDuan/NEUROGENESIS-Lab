@@ -1,0 +1,49 @@
+{
+  "book_sections": [
+    "18.4",
+    "18.8",
+    "18.11"
+  ],
+  "experiment": "energy",
+  "limitations": [
+    "Landauer comparison is an ideal logically irreversible erasure bound, not measured energy of a neural bit.",
+    "J/mol is converted to J/event using Avogadro constant before forming the dimensionless ratio.",
+    "Capacitor energy, restoration cost, variational free energy and life value are not interchangeable."
+  ],
+  "method": "Explicit per-mole/per-event conversion, a conditional erasure bound and capacitor energy.",
+  "metrics": {
+    "capacitor_energy_J": 4.2250000000000007e-13,
+    "dimensionless_ratio": 27.986504867125415,
+    "event_energy_J": 8.302695335869234e-20,
+    "landauer_floor_J_bit": 2.9666781812480147e-21,
+    "ratio_via_RT": 27.98650486712542
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "capacitance_pF": 200.0,
+    "molar_energy_J_mol": 50000.0,
+    "temperature_K": 310.0,
+    "voltage_mV": 65.0
+  },
+  "question": "When is an energy-to-information comparison dimensionally valid?",
+  "references": [
+    "BOOK",
+    "LANDAUER1961"
+  ],
+  "rows": [
+    {
+      "quantity": "molar energy converted to one event",
+      "value_J": 8.302695335869234e-20
+    },
+    {
+      "quantity": "ideal one-bit erasure floor",
+      "value_J": 2.9666781812480147e-21
+    },
+    {
+      "quantity": "capacitor energy relative to zero volts",
+      "value_J": 4.2250000000000007e-13
+    }
+  ],
+  "source_kind": "synthetic_or_conditional",
+  "title": "Energy, information and dimensional bridges"
+}

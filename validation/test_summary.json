@@ -1,0 +1,10 @@
+{
+  "tests": 235,
+  "failures": 0,
+  "errors": 0,
+  "python": "3.13.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "statement_coverage_percent": 96.11528822055138,
+  "branch_coverage_percent": 87.09677419354838,
+  "coverage_scope": "Imported neurogenesis modules during the coverage test process. CLI is tested in subprocesses and not included in coverage totals. No cross-platform CI runs are claimed."
+}

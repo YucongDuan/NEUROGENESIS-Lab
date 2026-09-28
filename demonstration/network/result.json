@@ -1,0 +1,1044 @@
+{
+  "book_sections": [
+    "4.10",
+    "17.4",
+    "17.5"
+  ],
+  "experiment": "network",
+  "limitations": [
+    "Two linear states with the same unsigned adjacency but different signed connections.",
+    "Exact solutions isolate signs and gains; no connectome is claimed to have been biologically reconstructed."
+  ],
+  "method": "Exact two-state linear solutions; one positive loop and one opponent-sign loop.",
+  "metrics": {
+    "excitatory_max_real_eigenvalue_per_ms": 0.009999999999999998,
+    "opponent_max_real_eigenvalue_per_ms": -0.05,
+    "same_unsigned_adjacency": true
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "duration_ms": 100.0,
+    "gain": 1.2,
+    "tau_ms": 20.0
+  },
+  "question": "Can the same unsigned adjacency support different behavior?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "excitatory_x1": 1.0,
+      "opponent_x1": 1.0,
+      "time_ms": 0.0
+    },
+    {
+      "excitatory_x1": 0.9757488344064423,
+      "opponent_x1": 0.974871055483642,
+      "time_ms": 0.5
+    },
+    {
+      "excitatory_x1": 0.9529421511903482,
+      "opponent_x1": 0.9495177251388662,
+      "time_ms": 1.0
+    },
+    {
+      "excitatory_x1": 0.9315033843518173,
+      "opponent_x1": 0.923988660742998,
+      "time_ms": 1.5
+    },
+    {
+      "excitatory_x1": 0.9113600689946171,
+      "opponent_x1": 0.8983304026698155,
+      "time_ms": 2.0
+    },
+    {
+      "excitatory_x1": 0.8924436218746987,
+      "opponent_x1": 0.8725874136437889,
+      "time_ms": 2.5
+    },
+    {
+      "excitatory_x1": 0.8746891336927215,
+      "opponent_x1": 0.8468021139382202,
+      "time_ms": 3.0
+    },
+    {
+      "excitatory_x1": 0.8580351725021054,
+      "opponent_x1": 0.8210149178945162,
+      "time_ms": 3.5
+    },
+    {
+      "excitatory_x1": 0.8424235976377648,
+      "opponent_x1": 0.7952642716438441,
+      "time_ms": 4.0
+    },
+    {
+      "excitatory_x1": 0.8277993836025133,
+      "opponent_x1": 0.7695866919164264,
+      "time_ms": 4.5
+    },
+    {
+      "excitatory_x1": 0.8141104533782554,
+      "opponent_x1": 0.7440168058277086,
+      "time_ms": 5.0
+    },
+    {
+      "excitatory_x1": 0.8013075206576019,
+      "opponent_x1": 0.718587391534582,
+      "time_ms": 5.5
+    },
+    {
+      "excitatory_x1": 0.7893439405185295,
+      "opponent_x1": 0.6933294196587592,
+      "time_ms": 6.0
+    },
+    {
+      "excitatory_x1": 0.7781755680902621,
+      "opponent_x1": 0.6682720953782814,
+      "time_ms": 6.5
+    },
+    {
+      "excitatory_x1": 0.7677606247827222,
+      "opponent_x1": 0.6434429010919649,
+      "time_ms": 7.0
+    },
+    {
+      "excitatory_x1": 0.7580595716747903,
+      "opponent_x1": 0.618867639565392,
+      "time_ms": 7.5
+    },
+    {
+      "excitatory_x1": 0.7490349896782701,
+      "opponent_x1": 0.5945704774707881,
+      "time_ms": 8.0
+    },
+    {
+      "excitatory_x1": 0.7406514661149585,
+      "opponent_x1": 0.5705739892368172,
+      "time_ms": 8.5
+    },
+    {
+      "excitatory_x1": 0.7328754873636281,
+      "opponent_x1": 0.5468992011279638,
+      "time_ms": 9.0
+    },
+    {
+      "excitatory_x1": 0.7256753372520849,
+      "opponent_x1": 0.5235656354767431,
+      "time_ms": 9.5
+    },
+    {
+      "excitatory_x1": 0.7190210008868635,
+      "opponent_x1": 0.5005913549954991,
+      "time_ms": 10.0
+    },
+    {
+      "excitatory_x1": 0.7128840736295593,
+      "opponent_x1": 0.47799300709800474,
+      "time_ms": 10.5
+    },
+    {
+      "excitatory_x1": 0.7072376749443793,
+      "opponent_x1": 0.4557858681644623,
+      "time_ms": 11.0
+    },
+    {
+      "excitatory_x1": 0.7020563668562307,
+      "opponent_x1": 0.43398388768683427,
+      "time_ms": 11.5
+    },
+    {
+      "excitatory_x1": 0.6973160767726129,
+      "opponent_x1": 0.41259973223467705,
+      "time_ms": 12.0
+    },
+    {
+      "excitatory_x1": 0.6929940244357865,
+      "opponent_x1": 0.39164482918484556,
+      "time_ms": 12.5
+    },
+    {
+      "excitatory_x1": 0.6890686527841882,
+      "opponent_x1": 0.3711294101615414,
+      "time_ms": 13.0
+    },
+    {
+      "excitatory_x1": 0.6855195625138917,
+      "opponent_x1": 0.3510625541362257,
+      "time_ms": 13.5
+    },
+    {
+      "excitatory_x1": 0.6823274501421026,
+      "opponent_x1": 0.3314522301398787,
+      "time_ms": 14.0
+    },
+    {
+      "excitatory_x1": 0.6794740493852829,
+      "opponent_x1": 0.3123053395429883,
+      "time_ms": 14.5
+    },
+    {
+      "excitatory_x1": 0.6769420756745186,
+      "opponent_x1": 0.29362775786146533,
+      "time_ms": 15.0
+    },
+    {
+      "excitatory_x1": 0.6747151736402462,
+      "opponent_x1": 0.2754243760494271,
+      "time_ms": 15.5
+    },
+    {
+      "excitatory_x1": 0.6727778674074304,
+      "opponent_x1": 0.2576991412424603,
+      "time_ms": 16.0
+    },
+    {
+      "excitatory_x1": 0.6711155135507937,
+      "opponent_x1": 0.2404550969175661,
+      "time_ms": 16.5
+    },
+    {
+      "excitatory_x1": 0.6697142565677485,
+      "opponent_x1": 0.2236944224385044,
+      "time_ms": 17.0
+    },
+    {
+      "excitatory_x1": 0.6685609867342928,
+      "opponent_x1": 0.20741847195769714,
+      "time_ms": 17.5
+    },
+    {
+      "excitatory_x1": 0.6676433002163515,
+      "opponent_x1": 0.19162781264821063,
+      "time_ms": 18.0
+    },
+    {
+      "excitatory_x1": 0.6669494613158602,
+      "opponent_x1": 0.17632226224162767,
+      "time_ms": 18.5
+    },
+    {
+      "excitatory_x1": 0.6664683667373531,
+      "opponent_x1": 0.1615009258498302,
+      "time_ms": 19.0
+    },
+    {
+      "excitatory_x1": 0.6661895117669286,
+      "opponent_x1": 0.1471622320508512,
+      "time_ms": 19.5
+    },
+    {
+      "excitatory_x1": 0.6661029582612519,
+      "opponent_x1": 0.1333039682210174,
+      "time_ms": 20.0
+    },
+    {
+      "excitatory_x1": 0.6661993043497322,
+      "opponent_x1": 0.11992331509759058,
+      "time_ms": 20.5
+    },
+    {
+      "excitatory_x1": 0.6664696557581944,
+      "opponent_x1": 0.10701688055803099,
+      "time_ms": 21.0
+    },
+    {
+      "excitatory_x1": 0.6669055986672705,
+      "opponent_x1": 0.09458073260385032,
+      "time_ms": 21.5
+    },
+    {
+      "excitatory_x1": 0.6674991740233837,
+      "opponent_x1": 0.08261043153878571,
+      "time_ms": 22.0
+    },
+    {
+      "excitatory_x1": 0.6682428532245873,
+      "opponent_x1": 0.07110106133273404,
+      "time_ms": 22.5
+    },
+    {
+      "excitatory_x1": 0.669129515107688,
+      "opponent_x1": 0.06004726016450436,
+      "time_ms": 23.0
+    },
+    {
+      "excitatory_x1": 0.6701524241670096,
+      "opponent_x1": 0.049443250138015836,
+      "time_ms": 23.5
+    },
+    {
+      "excitatory_x1": 0.6713052099388954,
+      "opponent_x1": 0.039282866168052336,
+      "time_ms": 24.0
+    },
+    {
+      "excitatory_x1": 0.6725818474895554,
+      "opponent_x1": 0.029559584033113998,
+      "time_ms": 24.5
+    },
+    {
+      "excitatory_x1": 0.6739766389472245,
+      "opponent_x1": 0.02026654759426352,
+      "time_ms": 25.0
+    },
+    {
+      "excitatory_x1": 0.6754841960227351,
+      "opponent_x1": 0.011396595180158828,
+      "time_ms": 25.5
+    },
+    {
+      "excitatory_x1": 0.6770994234656196,
+      "opponent_x1": 0.0029422851396947018,
+      "time_ms": 26.0
+    },
+    {
+      "excitatory_x1": 0.6788175034056709,
+      "opponent_x1": -0.0051040794351539555,
+      "time_ms": 26.5
+    },
+    {
+      "excitatory_x1": 0.6806338805325832,
+      "opponent_x1": -0.012750426812590684,
+      "time_ms": 27.0
+    },
+    {
+      "excitatory_x1": 0.6825442480688158,
+      "opponent_x1": -0.02000489354560688,
+      "time_ms": 27.5
+    },
+    {
+      "excitatory_x1": 0.6845445344932406,
+      "opponent_x1": -0.026875802212208297,
+      "time_ms": 28.0
+    },
+    {
+      "excitatory_x1": 0.6866308909753882,
+      "opponent_x1": -0.03337163996458452,
+      "time_ms": 28.5
+    },
+    {
+      "excitatory_x1": 0.6887996794822699,
+      "opponent_x1": -0.039501037879675294,
+      "time_ms": 29.0
+    },
+    {
+      "excitatory_x1": 0.691047461521781,
+      "opponent_x1": -0.045272751102759974,
+      "time_ms": 29.5
+    },
+    {
+      "excitatory_x1": 0.6933709874886214,
+      "opponent_x1": -0.05069563977492719,
+      "time_ms": 30.0
+    },
+    {
+      "excitatory_x1": 0.6957671865804899,
+      "opponent_x1": -0.05577865073456116,
+      "time_ms": 30.5
+    },
+    {
+      "excitatory_x1": 0.6982331572540321,
+      "opponent_x1": -0.06053079998231061,
+      "time_ms": 31.0
+    },
+    {
+      "excitatory_x1": 0.7007661581916643,
+      "opponent_x1": -0.0649611558983858,
+      "time_ms": 31.5
+    },
+    {
+      "excitatory_x1": 0.7033635997519244,
+      "opponent_x1": -0.06907882320045237,
+      "time_ms": 32.0
+    },
+    {
+      "excitatory_x1": 0.7060230358774866,
+      "opponent_x1": -0.07289292762986314,
+      "time_ms": 32.5
+    },
+    {
+      "excitatory_x1": 0.7087421564363371,
+      "opponent_x1": -0.0764126013534819,
+      "time_ms": 33.0
+    },
+    {
+      "excitatory_x1": 0.7115187799729404,
+      "opponent_x1": -0.07964696906791242,
+      "time_ms": 33.5
+    },
+    {
+      "excitatory_x1": 0.7143508468474494,
+      "opponent_x1": -0.08260513479254254,
+      "time_ms": 34.0
+    },
+    {
+      "excitatory_x1": 0.7172364127421971,
+      "opponent_x1": -0.08529616933745232,
+      "time_ms": 34.5
+    },
+    {
+      "excitatory_x1": 0.7201736425158174,
+      "opponent_x1": -0.08772909843191316,
+      "time_ms": 35.0
+    },
+    {
+      "excitatory_x1": 0.7231608043863844,
+      "opponent_x1": -0.0899128914989147,
+      "time_ms": 35.5
+    },
+    {
+      "excitatory_x1": 0.726196264425976,
+      "opponent_x1": -0.09185645106091109,
+      "time_ms": 36.0
+    },
+    {
+      "excitatory_x1": 0.7292784813499835,
+      "opponent_x1": -0.09356860276175602,
+      "time_ms": 36.5
+    },
+    {
+      "excitatory_x1": 0.7324060015854046,
+      "opponent_x1": -0.09505808598961696,
+      "time_ms": 37.0
+    },
+    {
+      "excitatory_x1": 0.7355774546031837,
+      "opponent_x1": -0.09633354508550426,
+      "time_ms": 37.5
+    },
+    {
+      "excitatory_x1": 0.738791548500475,
+      "opponent_x1": -0.09740352112193035,
+      "time_ms": 38.0
+    },
+    {
+      "excitatory_x1": 0.742047065819452,
+      "opponent_x1": -0.09827644423612114,
+      "time_ms": 38.5
+    },
+    {
+      "excitatory_x1": 0.7453428595900037,
+      "opponent_x1": -0.09896062650213645,
+      "time_ms": 39.0
+    },
+    {
+      "excitatory_x1": 0.7486778495843409,
+      "opponent_x1": -0.09946425532621841,
+      "time_ms": 39.5
+    },
+    {
+      "excitatory_x1": 0.7520510187721695,
+      "opponent_x1": -0.09979538734967267,
+      "time_ms": 40.0
+    },
+    {
+      "excitatory_x1": 0.7554614099656988,
+      "opponent_x1": -0.09996194284359772,
+      "time_ms": 40.5
+    },
+    {
+      "excitatory_x1": 0.7589081226443299,
+      "opponent_x1": -0.09997170057981225,
+      "time_ms": 41.0
+    },
+    {
+      "excitatory_x1": 0.7623903099494037,
+      "opponent_x1": -0.09983229316238368,
+      "time_ms": 41.5
+    },
+    {
+      "excitatory_x1": 0.7659071758399105,
+      "opponent_x1": -0.09955120280423815,
+      "time_ms": 42.0
+    },
+    {
+      "excitatory_x1": 0.7694579724005534,
+      "opponent_x1": -0.09913575753342671,
+      "time_ms": 42.5
+    },
+    {
+      "excitatory_x1": 0.7730419972940038,
+      "opponent_x1": -0.09859312781373489,
+      "time_ms": 43.0
+    },
+    {
+      "excitatory_x1": 0.7766585913496407,
+      "opponent_x1": -0.09793032356445494,
+      "time_ms": 43.5
+    },
+    {
+      "excitatory_x1": 0.7803071362814648,
+      "opponent_x1": -0.09715419156428508,
+      "time_ms": 44.0
+    },
+    {
+      "excitatory_x1": 0.7839870525282826,
+      "opponent_x1": -0.09627141322448389,
+      "time_ms": 44.5
+    },
+    {
+      "excitatory_x1": 0.7876977972096103,
+      "opponent_x1": -0.09528850271658192,
+      "time_ms": 45.0
+    },
+    {
+      "excitatory_x1": 0.79143886219111,
+      "opponent_x1": -0.09421180544014399,
+      "time_ms": 45.5
+    },
+    {
+      "excitatory_x1": 0.7952097722536954,
+      "opponent_x1": -0.0930474968162764,
+      "time_ms": 46.0
+    },
+    {
+      "excitatory_x1": 0.7990100833607622,
+      "opponent_x1": -0.09180158139278698,
+      "time_ms": 46.5
+    },
+    {
+      "excitatory_x1": 0.8028393810182898,
+      "opponent_x1": -0.09047989224712881,
+      "time_ms": 47.0
+    },
+    {
+      "excitatory_x1": 0.8066972787228469,
+      "opponent_x1": -0.08908809067349312,
+      "time_ms": 47.5
+    },
+    {
+      "excitatory_x1": 0.8105834164927963,
+      "opponent_x1": -0.08763166614065829,
+      "time_ms": 48.0
+    },
+    {
+      "excitatory_x1": 0.8144974594782499,
+      "opponent_x1": -0.08611593650745308,
+      "time_ms": 48.5
+    },
+    {
+      "excitatory_x1": 0.8184390966455568,
+      "opponent_x1": -0.08454604848294904,
+      "time_ms": 49.0
+    },
+    {
+      "excitatory_x1": 0.8224080395323385,
+      "opponent_x1": -0.0829269783187628,
+      "time_ms": 49.5
+    },
+    {
+      "excitatory_x1": 0.8264040210692961,
+      "opponent_x1": -0.08126353272111769,
+      "time_ms": 50.0
+    },
+    {
+      "excitatory_x1": 0.8304267944652186,
+      "opponent_x1": -0.07956034997059103,
+      "time_ms": 50.5
+    },
+    {
+      "excitatory_x1": 0.8344761321518085,
+      "opponent_x1": -0.07782190123775233,
+      "time_ms": 51.0
+    },
+    {
+      "excitatory_x1": 0.8385518247851249,
+      "opponent_x1": -0.07605249208318197,
+      "time_ms": 51.5
+    },
+    {
+      "excitatory_x1": 0.842653680300615,
+      "opponent_x1": -0.07425626413064734,
+      "time_ms": 52.0
+    },
+    {
+      "excitatory_x1": 0.8467815230188701,
+      "opponent_x1": -0.07243719690250225,
+      "time_ms": 52.5
+    },
+    {
+      "excitatory_x1": 0.850935192799387,
+      "opponent_x1": -0.07059910980666888,
+      "time_ms": 53.0
+    },
+    {
+      "excitatory_x1": 0.8551145442397683,
+      "opponent_x1": -0.06874566426485351,
+      "time_ms": 53.5
+    },
+    {
+      "excitatory_x1": 0.8593194459179359,
+      "opponent_x1": -0.0668803659719433,
+      "time_ms": 54.0
+    },
+    {
+      "excitatory_x1": 0.8635497796750463,
+      "opponent_x1": -0.06500656727682534,
+      "time_ms": 54.5
+    },
+    {
+      "excitatory_x1": 0.8678054399369425,
+      "opponent_x1": -0.06312746967516544,
+      "time_ms": 55.0
+    },
+    {
+      "excitatory_x1": 0.8720863330720708,
+      "opponent_x1": -0.061246126404978764,
+      "time_ms": 55.5
+    },
+    {
+      "excitatory_x1": 0.8763923767839169,
+      "opponent_x1": -0.059365445136118494,
+      "time_ms": 56.0
+    },
+    {
+      "excitatory_x1": 0.8807234995361131,
+      "opponent_x1": -0.05748819074510219,
+      "time_ms": 56.5
+    },
+    {
+      "excitatory_x1": 0.8850796400084723,
+      "opponent_x1": -0.05561698816698674,
+      "time_ms": 57.0
+    },
+    {
+      "excitatory_x1": 0.8894607465822896,
+      "opponent_x1": -0.053754325316292366,
+      "time_ms": 57.5
+    },
+    {
+      "excitatory_x1": 0.8938667768533484,
+      "opponent_x1": -0.051902556069264145,
+      "time_ms": 58.0
+    },
+    {
+      "excitatory_x1": 0.8982976971711495,
+      "opponent_x1": -0.05006390330004396,
+      "time_ms": 58.5
+    },
+    {
+      "excitatory_x1": 0.9027534822029623,
+      "opponent_x1": -0.04824046196360748,
+      "time_ms": 59.0
+    },
+    {
+      "excitatory_x1": 0.907234114521366,
+      "opponent_x1": -0.046434202218600826,
+      "time_ms": 59.5
+    },
+    {
+      "excitatory_x1": 0.9117395842140281,
+      "opponent_x1": -0.044646972583485586,
+      "time_ms": 60.0
+    },
+    {
+      "excitatory_x1": 0.9162698885145314,
+      "opponent_x1": -0.04288050311967419,
+      "time_ms": 60.5
+    },
+    {
+      "excitatory_x1": 0.9208250314531194,
+      "opponent_x1": -0.04113640863560461,
+      "time_ms": 61.0
+    },
+    {
+      "excitatory_x1": 0.9254050235263028,
+      "opponent_x1": -0.03941619190596776,
+      "time_ms": 61.5
+    },
+    {
+      "excitatory_x1": 0.9300098813843104,
+      "opponent_x1": -0.03772124690056081,
+      "time_ms": 62.0
+    },
+    {
+      "excitatory_x1": 0.9346396275354352,
+      "opponent_x1": -0.03605286201749413,
+      "time_ms": 62.5
+    },
+    {
+      "excitatory_x1": 0.9392942900663692,
+      "opponent_x1": -0.03441222331573142,
+      "time_ms": 63.0
+    },
+    {
+      "excitatory_x1": 0.9439739023776796,
+      "opponent_x1": -0.03280041774218717,
+      "time_ms": 63.5
+    },
+    {
+      "excitatory_x1": 0.9486785029336046,
+      "opponent_x1": -0.031218436348847495,
+      "time_ms": 64.0
+    },
+    {
+      "excitatory_x1": 0.9534081350254139,
+      "opponent_x1": -0.029667177495616003,
+      "time_ms": 64.5
+    },
+    {
+      "excitatory_x1": 0.9581628465476033,
+      "opponent_x1": -0.02814745003481708,
+      "time_ms": 65.0
+    },
+    {
+      "excitatory_x1": 0.9629426897862425,
+      "opponent_x1": -0.02665997647351506,
+      "time_ms": 65.5
+    },
+    {
+      "excitatory_x1": 0.9677477212188187,
+      "opponent_x1": -0.025205396110027728,
+      "time_ms": 66.0
+    },
+    {
+      "excitatory_x1": 0.9725780013249699,
+      "opponent_x1": -0.023784268141227694,
+      "time_ms": 66.5
+    },
+    {
+      "excitatory_x1": 0.9774335944075181,
+      "opponent_x1": -0.022397074737435026,
+      "time_ms": 67.0
+    },
+    {
+      "excitatory_x1": 0.9823145684232656,
+      "opponent_x1": -0.021044224081907887,
+      "time_ms": 67.5
+    },
+    {
+      "excitatory_x1": 0.9872209948230103,
+      "opponent_x1": -0.019726053372137838,
+      "time_ms": 68.0
+    },
+    {
+      "excitatory_x1": 0.9921529484003107,
+      "opponent_x1": -0.018442831780348053,
+      "time_ms": 68.5
+    },
+    {
+      "excitatory_x1": 0.9971105071485228,
+      "opponent_x1": -0.017194763370781255,
+      "time_ms": 69.0
+    },
+    {
+      "excitatory_x1": 1.0020937521256619,
+      "opponent_x1": -0.015981989971546023,
+      "time_ms": 69.5
+    },
+    {
+      "excitatory_x1": 1.007102767326682,
+      "opponent_x1": -0.014804593998965889,
+      "time_ms": 70.0
+    },
+    {
+      "excitatory_x1": 1.0121376395627693,
+      "opponent_x1": -0.013662601232547455,
+      "time_ms": 70.5
+    },
+    {
+      "excitatory_x1": 1.017198458347285,
+      "opponent_x1": -0.012555983538848221,
+      "time_ms": 71.0
+    },
+    {
+      "excitatory_x1": 1.022285315787983,
+      "opponent_x1": -0.011484661542685532,
+      "time_ms": 71.5
+    },
+    {
+      "excitatory_x1": 1.0273983064851917,
+      "opponent_x1": -0.010448507244281447,
+      "time_ms": 72.0
+    },
+    {
+      "excitatory_x1": 1.0325375274356225,
+      "opponent_x1": -0.009447346581088046,
+      "time_ms": 72.5
+    },
+    {
+      "excitatory_x1": 1.0377030779415215,
+      "opponent_x1": -0.008480961933180757,
+      "time_ms": 73.0
+    },
+    {
+      "excitatory_x1": 1.0428950595248563,
+      "opponent_x1": -0.007549094571245879,
+      "time_ms": 73.5
+    },
+    {
+      "excitatory_x1": 1.0481135758463005,
+      "opponent_x1": -0.006651447046320561,
+      "time_ms": 74.0
+    },
+    {
+      "excitatory_x1": 1.0533587326287235,
+      "opponent_x1": -0.00578768552057252,
+      "time_ms": 74.5
+    },
+    {
+      "excitatory_x1": 1.058630637584988,
+      "opponent_x1": -0.004957442038527346,
+      "time_ms": 75.0
+    },
+    {
+      "excitatory_x1": 1.0639294003497795,
+      "opponent_x1": -0.004160316738270971,
+      "time_ms": 75.5
+    },
+    {
+      "excitatory_x1": 1.0692551324152937,
+      "opponent_x1": -0.0033958800022649335,
+      "time_ms": 76.0
+    },
+    {
+      "excitatory_x1": 1.0746079470705474,
+      "opponent_x1": -0.0026636745475214314,
+      "time_ms": 76.5
+    },
+    {
+      "excitatory_x1": 1.079987959344139,
+      "opponent_x1": -0.0019632174549863066,
+      "time_ms": 77.0
+    },
+    {
+      "excitatory_x1": 1.0853952859502607,
+      "opponent_x1": -0.001294002138076827,
+      "time_ms": 77.5
+    },
+    {
+      "excitatory_x1": 1.0908300452378037,
+      "opponent_x1": -0.0006555002504136927,
+      "time_ms": 78.0
+    },
+    {
+      "excitatory_x1": 1.0962923571423728,
+      "opponent_x1": -4.7163532875662584e-05,
+      "time_ms": 78.5
+    },
+    {
+      "excitatory_x1": 1.1017823431410794,
+      "opponent_x1": 0.0005315743998114213,
+      "time_ms": 79.0
+    },
+    {
+      "excitatory_x1": 1.1073001262099431,
+      "opponent_x1": 0.001081296332659208,
+      "time_ms": 79.5
+    },
+    {
+      "excitatory_x1": 1.1128458307837812,
+      "opponent_x1": 0.0016025997838082324,
+      "time_ms": 80.0
+    },
+    {
+      "excitatory_x1": 1.1184195827184347,
+      "opponent_x1": 0.002096095397287824,
+      "time_ms": 80.5
+    },
+    {
+      "excitatory_x1": 1.1240215092552295,
+      "opponent_x1": 0.002562405394639882,
+      "time_ms": 81.0
+    },
+    {
+      "excitatory_x1": 1.1296517389875356,
+      "opponent_x1": 0.003002162084838441,
+      "time_ms": 81.5
+    },
+    {
+      "excitatory_x1": 1.1353104018293216,
+      "opponent_x1": 0.0034160064318780126,
+      "time_ms": 82.0
+    },
+    {
+      "excitatory_x1": 1.1409976289855972,
+      "opponent_x1": 0.003804586679348946,
+      "time_ms": 82.5
+    },
+    {
+      "excitatory_x1": 1.1467135529246413,
+      "opponent_x1": 0.004168557031265751,
+      "time_ms": 83.0
+    },
+    {
+      "excitatory_x1": 1.152458307351929,
+      "opponent_x1": 0.004508576388367407,
+      "time_ms": 83.5
+    },
+    {
+      "excitatory_x1": 1.1582320271856574,
+      "opponent_x1": 0.004825307139063407,
+      "time_ms": 84.0
+    },
+    {
+      "excitatory_x1": 1.1640348485337897,
+      "opponent_x1": 0.005119414004158748,
+      "time_ms": 84.5
+    },
+    {
+      "excitatory_x1": 1.1698669086725422,
+      "opponent_x1": 0.005391562934453489,
+      "time_ms": 85.0
+    },
+    {
+      "excitatory_x1": 1.1757283460262298,
+      "opponent_x1": 0.005642420060277487,
+      "time_ms": 85.5
+    },
+    {
+      "excitatory_x1": 1.1816193001484043,
+      "opponent_x1": 0.005872650691989998,
+      "time_ms": 86.0
+    },
+    {
+      "excitatory_x1": 1.187539911704218,
+      "opponent_x1": 0.006082918370445038,
+      "time_ms": 86.5
+    },
+    {
+      "excitatory_x1": 1.1934903224539364,
+      "opponent_x1": 0.006273883966397798,
+      "time_ms": 87.0
+    },
+    {
+      "excitatory_x1": 1.1994706752375632,
+      "opponent_x1": 0.006446204827804989,
+      "time_ms": 87.5
+    },
+    {
+      "excitatory_x1": 1.2054811139604922,
+      "opponent_x1": 0.0066005339739511615,
+      "time_ms": 88.0
+    },
+    {
+      "excitatory_x1": 1.2115217835801502,
+      "opponent_x1": 0.006737519335316146,
+      "time_ms": 88.5
+    },
+    {
+      "excitatory_x1": 1.2175928300935726,
+      "opponent_x1": 0.0068578030380832215,
+      "time_ms": 89.0
+    },
+    {
+      "excitatory_x1": 1.2236944005258652,
+      "opponent_x1": 0.006962020732175022,
+      "time_ms": 89.5
+    },
+    {
+      "excitatory_x1": 1.2298266429195022,
+      "opponent_x1": 0.0070508009616937735,
+      "time_ms": 90.0
+    },
+    {
+      "excitatory_x1": 1.2359897063244207,
+      "opponent_x1": 0.007124764576634095,
+      "time_ms": 90.5
+    },
+    {
+      "excitatory_x1": 1.2421837407888652,
+      "opponent_x1": 0.007184524184730431,
+      "time_ms": 91.0
+    },
+    {
+      "excitatory_x1": 1.2484088973509542,
+      "opponent_x1": 0.007230683642297091,
+      "time_ms": 91.5
+    },
+    {
+      "excitatory_x1": 1.2546653280309148,
+      "opponent_x1": 0.007263837582916352,
+      "time_ms": 92.0
+    },
+    {
+      "excitatory_x1": 1.2609531858239644,
+      "opponent_x1": 0.007284570982829831,
+      "time_ms": 92.5
+    },
+    {
+      "excitatory_x1": 1.2672726246938006,
+      "opponent_x1": 0.007293458761889479,
+      "time_ms": 93.0
+    },
+    {
+      "excitatory_x1": 1.2736237995666668,
+      "opponent_x1": 0.007291065418927404,
+      "time_ms": 93.5
+    },
+    {
+      "excitatory_x1": 1.2800068663259654,
+      "opponent_x1": 0.007277944700408262,
+      "time_ms": 94.0
+    },
+    {
+      "excitatory_x1": 1.2864219818073943,
+      "opponent_x1": 0.007254639301233792,
+      "time_ms": 94.5
+    },
+    {
+      "excitatory_x1": 1.2928693037945724,
+      "opponent_x1": 0.007221680596576425,
+      "time_ms": 95.0
+    },
+    {
+      "excitatory_x1": 1.2993489910151288,
+      "opponent_x1": 0.007179588403627506,
+      "time_ms": 95.5
+    },
+    {
+      "excitatory_x1": 1.305861203137248,
+      "opponent_x1": 0.007128870772155563,
+      "time_ms": 96.0
+    },
+    {
+      "excitatory_x1": 1.3124061007666246,
+      "opponent_x1": 0.007070023802780964,
+      "time_ms": 96.5
+    },
+    {
+      "excitatory_x1": 1.318983845443821,
+      "opponent_x1": 0.0070035314918856055,
+      "time_ms": 97.0
+    },
+    {
+      "excitatory_x1": 1.3255945996420093,
+      "opponent_x1": 0.006929865602089204,
+      "time_ms": 97.5
+    },
+    {
+      "excitatory_x1": 1.332238526765066,
+      "opponent_x1": 0.006849485557238002,
+      "time_ms": 98.0
+    },
+    {
+      "excitatory_x1": 1.3389157911460157,
+      "opponent_x1": 0.006762838360866539,
+      "time_ms": 98.5
+    },
+    {
+      "excitatory_x1": 1.3456265580457971,
+      "opponent_x1": 0.006670358537108995,
+      "time_ms": 99.0
+    },
+    {
+      "excitatory_x1": 1.3523709936523358,
+      "opponent_x1": 0.0065724680930531075,
+      "time_ms": 99.5
+    },
+    {
+      "excitatory_x1": 1.3591492650799177,
+      "opponent_x1": 0.006469576501546866,
+      "time_ms": 100.0
+    }
+  ],
+  "series": {
+    "x": "time_ms",
+    "y": [
+      "excitatory_x1",
+      "opponent_x1"
+    ]
+  },
+  "source_kind": "synthetic_or_conditional",
+  "title": "One wiring diagram, two dynamics"
+}

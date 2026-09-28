@@ -1,0 +1,138 @@
+{
+  "mode": "Original application JS/DOM with injected fetch-to-Python-HTTP test harness",
+  "direct_browser_network": "blocked_by_environment_policy",
+  "real_http": "Separately tested; harness also calls the actual server from Python",
+  "csp_in_browser": "Not tested in injected harness; headers checked in HTTP tests",
+  "experiments": [
+    {
+      "experiment": "loop",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "nernst",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "delay",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "network",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "development",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "hh",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "release",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "detection",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "motor",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "body",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "attractor",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "td",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "sleep",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "cable",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "social",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "access",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "identify",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "energy",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "clamp",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "alias",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "mapping",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "revision",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "tournament",
+      "metrics_visible": true,
+      "error": ""
+    },
+    {
+      "experiment": "candidate",
+      "metrics_visible": true,
+      "error": ""
+    }
+  ],
+  "errors": [],
+  "browser": "144.0.7559.96",
+  "chapter_buttons": 18,
+  "chapter_route_correct": true,
+  "download_ok": true,
+  "fit_metrics": "false\nat_grid_boundary\n199.89097\ncapacitance_pF\n100.05455\nresistance_MOhm\n20\ntau_ms\n0.03343\ntest_rmse_mV\n41\ntest_rows\nfalse\ntest_used_for_fitting\n0.03352\ntrain_rmse_mV\n80\ntrain_rows",
+  "fit_download_visible": true,
+  "invalid_html_form_blocked": true,
+  "mobile_document_width": 390,
+  "mobile_viewport_width": 390
+}

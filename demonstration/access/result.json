@@ -1,0 +1,6033 @@
+{
+  "book_sections": [
+    "16.3",
+    "16.5",
+    "16.17"
+  ],
+  "experiment": "access",
+  "limitations": [
+    "Independent report gate creates a functional dissociation by construction.",
+    "No consciousness score, clinical consciousness diagnosis, IIT Phi or PCI is computed. Absence of report is not taken as absence of experience."
+  ],
+  "method": "A synthetic decision channel and independent report gate; no awareness score.",
+  "metrics": {
+    "accuracy_among_reports": 0.8,
+    "first_order_accuracy": 0.796,
+    "report_rate": 0.255
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "report_gate": 0.25,
+    "seed": 98,
+    "sensitivity": 0.8,
+    "trials": 1000
+  },
+  "question": "Can a system discriminate while its report channel is unavailable?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 0
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 1
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 2
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 3
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 4
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 5
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 6
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 7
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 8
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 9
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 10
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 11
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 12
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 13
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 14
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 15
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 16
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 17
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 18
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 19
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 20
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 21
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 22
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 23
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 24
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 25
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 26
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 27
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 28
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 29
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 30
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 31
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 32
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 33
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 34
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 35
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 36
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 37
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 38
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 39
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 40
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 41
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 42
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 43
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 44
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 45
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 46
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 47
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 48
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 49
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 50
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 51
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 52
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 53
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 54
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 55
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 56
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 57
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 58
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 59
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 60
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 61
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 62
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 63
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 64
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 65
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 66
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 67
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 68
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 69
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 70
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 71
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 72
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 73
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 74
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 75
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 76
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 77
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 78
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 79
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 80
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 81
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 82
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 83
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 84
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 85
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 86
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 87
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 88
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 89
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 90
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 91
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 92
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 93
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 94
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 95
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 96
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 97
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 98
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 99
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 100
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 101
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 102
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 103
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 104
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 105
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 106
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 107
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 108
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 109
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 110
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 111
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 112
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 113
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 114
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 115
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 116
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 117
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 118
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 119
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 120
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 121
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 122
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 123
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 124
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 125
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 126
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 127
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 128
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 129
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 130
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 131
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 132
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 133
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 134
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 135
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 136
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 137
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 138
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 139
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 140
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 141
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 142
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 143
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 144
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 145
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 146
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 147
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 148
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 149
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 150
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 151
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 152
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 153
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 154
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 155
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 156
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 157
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 158
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 159
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 160
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 161
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 162
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 163
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 164
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 165
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 166
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 167
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 168
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 169
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 170
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 171
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 172
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 173
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 174
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 175
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 176
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 177
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 178
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 179
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 180
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 181
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 182
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 183
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 184
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 185
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 186
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 187
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 188
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 189
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 190
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 191
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 192
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 193
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 194
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 195
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 196
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 197
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 198
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 199
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 200
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 201
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 202
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 203
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 204
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 205
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 206
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 207
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 208
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 209
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 210
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 211
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 212
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 213
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 214
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 215
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 216
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 217
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 218
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 219
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 220
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 221
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 222
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 223
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 224
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 225
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 226
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 227
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 228
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 229
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 230
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 231
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 232
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 233
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 234
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 235
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 236
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 237
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 238
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 239
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 240
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 241
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 242
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 243
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 244
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 245
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 246
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 247
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 248
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 249
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 250
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 251
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 252
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 253
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 254
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 255
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 256
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 257
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 258
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 259
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 260
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 261
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 262
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 263
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 264
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 265
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 266
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 267
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 268
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 269
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 270
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 271
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 272
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 273
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 274
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 275
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 276
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 277
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 278
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 279
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 280
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 281
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 282
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 283
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 284
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 285
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 286
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 287
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 288
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 289
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 290
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 291
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 292
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 293
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 294
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 295
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 296
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 297
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 298
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 299
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 300
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 301
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 302
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 303
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 304
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 305
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 306
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 307
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 308
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 309
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 310
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 311
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 312
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 313
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 314
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 315
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 316
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 317
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 318
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 319
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 320
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 321
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 322
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 323
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 324
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 325
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 326
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 327
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 328
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 329
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 330
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 331
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 332
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 333
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 334
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 335
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 336
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 337
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 338
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 339
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 340
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 341
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 342
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 343
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 344
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 345
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 346
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 347
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 348
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 349
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 350
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 351
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 352
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 353
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 354
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 355
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 356
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 357
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 358
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 359
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 360
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 361
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 362
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 363
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 364
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 365
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 366
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 367
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 368
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 369
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 370
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 371
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 372
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 373
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 374
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 375
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 376
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 377
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 378
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 379
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 380
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 381
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 382
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 383
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 384
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 385
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 386
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 387
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 388
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 389
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 390
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 391
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 392
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 393
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 394
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 395
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 396
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 397
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 398
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 399
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 400
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 401
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 402
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 403
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 404
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 405
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 406
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 407
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 408
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 409
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 410
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 411
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 412
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 413
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 414
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 415
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 416
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 417
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 418
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 419
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 420
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 421
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 422
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 423
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 424
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 425
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 426
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 427
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 428
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 429
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 430
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 431
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 432
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 433
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 434
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 435
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 436
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 437
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 438
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 439
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 440
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 441
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 442
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 443
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 444
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 445
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 446
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 447
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 448
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 449
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 450
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 451
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 452
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 453
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 454
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 455
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 456
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 457
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 458
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 459
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 460
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 461
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 462
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 463
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 464
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 465
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 466
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 467
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 468
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 469
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 470
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 471
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 472
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 473
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 474
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 475
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 476
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 477
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 478
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 479
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 480
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 481
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 482
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 483
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 484
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 485
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 486
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 487
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 488
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 489
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 490
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 491
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 492
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 493
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 494
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 495
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 496
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 497
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 498
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 499
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 500
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 501
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 502
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 503
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 504
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 505
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 506
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 507
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 508
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 509
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 510
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 511
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 512
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 513
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 514
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 515
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 516
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 517
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 518
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 519
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 520
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 521
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 522
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 523
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 524
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 525
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 526
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 527
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 528
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 529
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 530
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 531
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 532
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 533
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 534
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 535
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 536
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 537
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 538
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 539
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 540
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 541
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 542
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 543
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 544
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 545
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 546
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 547
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 548
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 549
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 550
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 551
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 552
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 553
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 554
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 555
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 556
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 557
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 558
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 559
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 560
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 561
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 562
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 563
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 564
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 565
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 566
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 567
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 568
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 569
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 570
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 571
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 572
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 573
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 574
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 575
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 576
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 577
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 578
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 579
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 580
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 581
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 582
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 583
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 584
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 585
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 586
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 587
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 588
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 589
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 590
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 591
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 592
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 593
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 594
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 595
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 596
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 597
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 598
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 599
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 600
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 601
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 602
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 603
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 604
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 605
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 606
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 607
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 608
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 609
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 610
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 611
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 612
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 613
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 614
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 615
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 616
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 617
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 618
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 619
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 620
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 621
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 622
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 623
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 624
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 625
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 626
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 627
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 628
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 629
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 630
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 631
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 632
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 633
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 634
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 635
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 636
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 637
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 638
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 639
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 640
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 641
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 642
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 643
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 644
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 645
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 646
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 647
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 648
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 649
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 650
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 651
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 652
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 653
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 654
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 655
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 656
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 657
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 658
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 659
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 660
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 661
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 662
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 663
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 664
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 665
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 666
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 667
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 668
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 669
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 670
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 671
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 672
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 673
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 674
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 675
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 676
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 677
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 678
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 679
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 680
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 681
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 682
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 683
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 684
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 685
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 686
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 687
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 688
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 689
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 690
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 691
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 692
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 693
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 694
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 695
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 696
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 697
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 698
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 699
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 700
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 701
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 702
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 703
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 704
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 705
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 706
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 707
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 708
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 709
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 710
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 711
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 712
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 713
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 714
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 715
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 716
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 717
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 718
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 719
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 720
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 721
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 722
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 723
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 724
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 725
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 726
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 727
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 728
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 729
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 730
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 731
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 732
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 733
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 734
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 735
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 736
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 737
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 738
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 739
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 740
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 741
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 742
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 743
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 744
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 745
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 746
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 747
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 748
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 749
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 750
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 751
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 752
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 753
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 754
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 755
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 756
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 757
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 758
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 759
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 760
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 761
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 762
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 763
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 764
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 765
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 766
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 767
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 768
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 769
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 770
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 771
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 772
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 773
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 774
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 775
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 776
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 777
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 778
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 779
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 780
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 781
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 782
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 783
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 784
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 785
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 786
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 787
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 788
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 789
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 790
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 791
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 792
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 793
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 794
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 795
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 796
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 797
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 798
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 799
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 800
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 801
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 802
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 803
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 804
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 805
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 806
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 807
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 808
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 809
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 810
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 811
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 812
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 813
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 814
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 815
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 816
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 817
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 818
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 819
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 820
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 821
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 822
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 823
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 824
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 825
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 826
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 827
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 828
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 829
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 830
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 831
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 832
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 833
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 834
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 835
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 836
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 837
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 838
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 839
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 840
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 841
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 842
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 843
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 844
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 845
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 846
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 847
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 848
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 849
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 850
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 851
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 852
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 853
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 854
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 855
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 856
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 857
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 858
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 859
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 860
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 861
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 862
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 863
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 864
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 865
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 866
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 867
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 868
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 869
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 870
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 871
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 872
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 873
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 874
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 875
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 876
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 877
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 878
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 879
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 880
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 881
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 882
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 883
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 884
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 885
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 886
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 887
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 888
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 889
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 890
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 891
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 892
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 893
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 894
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 895
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 896
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 897
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 898
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 899
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 900
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 901
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 902
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 903
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 904
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 905
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 906
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 907
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 908
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 909
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 910
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 911
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 912
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 913
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 914
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 915
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 916
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 917
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 918
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 919
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 920
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 921
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 922
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 923
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 924
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 925
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 926
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 927
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 928
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 929
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 930
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 931
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 932
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 933
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 934
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 935
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 936
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 937
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 938
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 939
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 940
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 941
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 942
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 943
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 944
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 945
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 946
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 947
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 0,
+      "trial": 948
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 949
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 950
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 951
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 952
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 953
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 954
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 955
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 956
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 957
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 958
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 959
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 960
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 961
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 962
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 963
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 964
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 965
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 966
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 967
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 968
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 969
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 970
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 971
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 972
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 973
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 974
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 975
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 976
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 977
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 1,
+      "trial": 978
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 979
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 980
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 981
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 982
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 983
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 984
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 985
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 986
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 987
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 988
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 989
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 990
+    },
+    {
+      "decision": 0,
+      "reported": 0,
+      "target": 0,
+      "trial": 991
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 1,
+      "trial": 992
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 993
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 994
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 995
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 1,
+      "trial": 996
+    },
+    {
+      "decision": 0,
+      "reported": null,
+      "target": 0,
+      "trial": 997
+    },
+    {
+      "decision": 1,
+      "reported": 1,
+      "target": 1,
+      "trial": 998
+    },
+    {
+      "decision": 1,
+      "reported": null,
+      "target": 0,
+      "trial": 999
+    }
+  ],
+  "source_kind": "synthetic_or_conditional",
+  "title": "Task access and report dissociation"
+}

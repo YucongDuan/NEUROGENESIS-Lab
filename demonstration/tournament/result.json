@@ -1,0 +1,3287 @@
+{
+  "book_sections": [
+    "17.10",
+    "17.12",
+    "18.16"
+  ],
+  "experiment": "tournament",
+  "limitations": [
+    "Known synthetic generating mechanism; richer models are not guaranteed to win when history_gain is zero.",
+    "The history variable is observed in the synthetic data; applying this model to research recordings requires a justified measurement or independently validated estimator.",
+    "Nested models use different feature subsets of the same table. Their measurement costs are not assumed equal.",
+    "Normal-equation OLS is limited to small well-conditioned designs; a pivot guard rejects singular cases."
+  ],
+  "method": "Nested OLS models; training 60%, validation 20%, final test 20%; selection uses validation only.",
+  "metrics": {
+    "selected_by_validation": "history",
+    "test_samples": 80,
+    "test_used_for_selection": false,
+    "train_samples": 240,
+    "validation_samples": 80
+  },
+  "model_version": "1.0.0",
+  "models": [
+    {
+      "model": "activity",
+      "parameters": 2,
+      "test_rmse": 0.581766682740188,
+      "train_rmse": 0.610429862757277,
+      "validation_rmse": 0.5488961345713381,
+      "weights": [
+        0.02282975561766397,
+        0.6625161157571784
+      ]
+    },
+    {
+      "model": "structure",
+      "parameters": 3,
+      "test_rmse": 0.3122937134899231,
+      "train_rmse": 0.29390688404095844,
+      "validation_rmse": 0.28735037210928327,
+      "weights": [
+        0.03835920299198608,
+        0.6199920233048655,
+        0.7455093890567401
+      ]
+    },
+    {
+      "model": "history",
+      "parameters": 4,
+      "test_rmse": 0.09356317594054792,
+      "train_rmse": 0.10355099977463171,
+      "validation_rmse": 0.11594603913465168,
+      "weights": [
+        0.013636976373958751,
+        0.4898514145362888,
+        0.7192839253254831,
+        1.5086977033549909
+      ]
+    }
+  ],
+  "parameters": {
+    "history_gain": 1.5,
+    "noise": 0.1,
+    "samples": 400,
+    "seed": 98
+  },
+  "question": "Do structure and historical state add held-out predictive value?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "activity": -0.20953271830578352,
+      "history": 0.7475888657493128,
+      "observed": 0.6846846550867094,
+      "sample": 0,
+      "split": "train",
+      "structure": 0.7871132785218303
+    },
+    {
+      "activity": 0.20328025717856424,
+      "history": 0.630998954074429,
+      "observed": 0.6339757630006251,
+      "sample": 1,
+      "split": "train",
+      "structure": 0.7135676737205449
+    },
+    {
+      "activity": 0.23700743175833372,
+      "history": 0.8566918604334828,
+      "observed": 0.7623723876434801,
+      "sample": 2,
+      "split": "train",
+      "structure": 0.9276919626107667
+    },
+    {
+      "activity": 0.38280478790815287,
+      "history": 1.4348456479065328,
+      "observed": 1.45709752004502,
+      "sample": 3,
+      "split": "train",
+      "structure": 1.5101909492447625
+    },
+    {
+      "activity": 0.42663284256381423,
+      "history": 0.9749572067598947,
+      "observed": 0.9806883340220648,
+      "sample": 4,
+      "split": "train",
+      "structure": 0.9964187536993173
+    },
+    {
+      "activity": 0.21465137967728437,
+      "history": 1.090872297534348,
+      "observed": 1.0622267745166785,
+      "sample": 5,
+      "split": "train",
+      "structure": 1.0633343732104412
+    },
+    {
+      "activity": 0.6042499996733048,
+      "history": 1.320082881596961,
+      "observed": 1.2899177198307372,
+      "sample": 6,
+      "split": "train",
+      "structure": 1.3045169357047235
+    },
+    {
+      "activity": 0.26695415549610174,
+      "history": 0.7549097818969156,
+      "observed": 0.7513233364886757,
+      "sample": 7,
+      "split": "train",
+      "structure": 0.6420870447096197
+    },
+    {
+      "activity": 0.489222835734858,
+      "history": 1.1697103179167918,
+      "observed": 0.9806341648478479,
+      "sample": 8,
+      "split": "train",
+      "structure": 1.0649375432260115
+    },
+    {
+      "activity": 0.5247630355098417,
+      "history": 1.2289698113687353,
+      "observed": 1.3256071100525817,
+      "sample": 9,
+      "split": "train",
+      "structure": 1.0856808095113304
+    },
+    {
+      "activity": 0.8249571279346437,
+      "history": 1.643131590451742,
+      "observed": 1.5844978096810454,
+      "sample": 10,
+      "split": "train",
+      "structure": 1.486026985803305
+    },
+    {
+      "activity": 0.4075820093160574,
+      "history": 1.4353547608132298,
+      "observed": 1.5296980792268098,
+      "sample": 11,
+      "split": "train",
+      "structure": 1.173392946176447
+    },
+    {
+      "activity": 0.5765665366869739,
+      "history": 1.0630261472949765,
+      "observed": 1.2540960130670225,
+      "sample": 12,
+      "split": "train",
+      "structure": 0.7709662025971505
+    },
+    {
+      "activity": 1.0568823087845456,
+      "history": 1.6513634380865356,
+      "observed": 1.6437378232621156,
+      "sample": 13,
+      "split": "train",
+      "structure": 1.3625695598532241
+    },
+    {
+      "activity": 0.3072221785534896,
+      "history": 1.2066715062678335,
+      "observed": 1.26864374131182,
+      "sample": 14,
+      "split": "train",
+      "structure": 0.7684766244949097
+    },
+    {
+      "activity": -0.23658840559835942,
+      "history": 0.841599793768709,
+      "observed": 0.7219693377447578,
+      "sample": 15,
+      "split": "train",
+      "structure": 0.3562768289902911
+    },
+    {
+      "activity": -0.09873419059208728,
+      "history": 0.6431574315218955,
+      "observed": 0.6094382728620679,
+      "sample": 16,
+      "split": "train",
+      "structure": 0.21312157988830555
+    },
+    {
+      "activity": -0.06282632545059741,
+      "history": 0.7801842802610982,
+      "observed": 0.7976392114078621,
+      "sample": 17,
+      "split": "train",
+      "structure": 0.39419393854991674
+    },
+    {
+      "activity": -0.4420387062199091,
+      "history": 0.5987957066489563,
+      "observed": 0.5489132899469956,
+      "sample": 18,
+      "split": "train",
+      "structure": 0.21799215573778968
+    },
+    {
+      "activity": -0.3306245578003947,
+      "history": 0.15924505193512953,
+      "observed": 0.11850258818159422,
+      "sample": 19,
+      "split": "train",
+      "structure": -0.1595868216715568
+    },
+    {
+      "activity": -0.08661398792014148,
+      "history": 0.23722578774277212,
+      "observed": 0.23823462401963907,
+      "sample": 20,
+      "split": "train",
+      "structure": -0.010045206794652428
+    },
+    {
+      "activity": -0.6577770854761739,
+      "history": -0.04047188092645479,
+      "observed": -0.04049432014730907,
+      "sample": 21,
+      "split": "train",
+      "structure": -0.30126605258192074
+    },
+    {
+      "activity": -0.620666913255666,
+      "history": -0.494132740826919,
+      "observed": -0.4610343975009713,
+      "sample": 22,
+      "split": "train",
+      "structure": -0.6808277427284587
+    },
+    {
+      "activity": -0.22329264616044586,
+      "history": -0.27031193825128247,
+      "observed": -0.14962853813782404,
+      "sample": 23,
+      "split": "train",
+      "structure": -0.34826315350249004
+    },
+    {
+      "activity": -0.4072100007101369,
+      "history": -0.5396568974962913,
+      "observed": -0.41240397481793295,
+      "sample": 24,
+      "split": "train",
+      "structure": -0.6053175215328969
+    },
+    {
+      "activity": -0.36538947928822635,
+      "history": -0.18288378409435857,
+      "observed": -0.2393442723016338,
+      "sample": 25,
+      "split": "train",
+      "structure": -0.1827675257996694
+    },
+    {
+      "activity": -0.662098524338017,
+      "history": -0.8692241447809287,
+      "observed": -0.7392548426810535,
+      "sample": 26,
+      "split": "train",
+      "structure": -0.866004630851149
+    },
+    {
+      "activity": -0.4032482252014305,
+      "history": -0.4915721275357692,
+      "observed": -0.3765846919139147,
+      "sample": 27,
+      "split": "train",
+      "structure": -0.3867700813413417
+    },
+    {
+      "activity": -0.4824446891944252,
+      "history": -0.7093115688204263,
+      "observed": -0.6983056795366288,
+      "sample": 28,
+      "split": "train",
+      "structure": -0.5747770090078665
+    },
+    {
+      "activity": -0.15123211697672323,
+      "history": -0.735936774653801,
+      "observed": -0.8112914413373434,
+      "sample": 29,
+      "split": "train",
+      "structure": -0.5367891608102332
+    },
+    {
+      "activity": -0.5681638353592205,
+      "history": -1.0692090447793596,
+      "observed": -1.2170039133766584,
+      "sample": 30,
+      "split": "train",
+      "structure": -0.8946905058189502
+    },
+    {
+      "activity": -0.5679835943463193,
+      "history": -1.2074676977264716,
+      "observed": -1.2062656456487397,
+      "sample": 31,
+      "split": "train",
+      "structure": -0.9827079714233581
+    },
+    {
+      "activity": 0.1631043277990883,
+      "history": -0.757847961663957,
+      "observed": -0.6840301279029576,
+      "sample": 32,
+      "split": "train",
+      "structure": -0.42658181920628485
+    },
+    {
+      "activity": 0.2748553568145389,
+      "history": -0.12555370878415212,
+      "observed": -0.03864364681265482,
+      "sample": 33,
+      "split": "train",
+      "structure": 0.20241810679032227
+    },
+    {
+      "activity": 0.12467850919788688,
+      "history": -0.44260224035234674,
+      "observed": -0.5310009971730564,
+      "sample": 34,
+      "split": "train",
+      "structure": -0.17694156037281408
+    },
+    {
+      "activity": 0.4723336791780308,
+      "history": -0.7673604760560445,
+      "observed": -0.8362652976379252,
+      "sample": 35,
+      "split": "train",
+      "structure": -0.51968431267127
+    },
+    {
+      "activity": 0.008705050786220992,
+      "history": -0.7157144904805652,
+      "observed": -0.8061093020827023,
+      "sample": 36,
+      "split": "train",
+      "structure": -0.551824649754615
+    },
+    {
+      "activity": 0.46934172946770336,
+      "history": -0.35531022358590186,
+      "observed": -0.39188129349970047,
+      "sample": 37,
+      "split": "train",
+      "structure": -0.16131489667427468
+    },
+    {
+      "activity": 0.631180004045741,
+      "history": -0.102343698537692,
+      "observed": -0.2229637224170366,
+      "sample": 38,
+      "split": "train",
+      "structure": 0.05115693931250869
+    },
+    {
+      "activity": 0.5996995187149952,
+      "history": -0.1859622995516328,
+      "observed": -0.16283723396947486,
+      "sample": 39,
+      "split": "train",
+      "structure": -0.11041887085768104
+    },
+    {
+      "activity": 0.5906011664137243,
+      "history": -0.14095645523452033,
+      "observed": -0.38078729366308384,
+      "sample": 40,
+      "split": "train",
+      "structure": -0.13033491121178248
+    },
+    {
+      "activity": 0.5570842068669888,
+      "history": -0.10477956180752951,
+      "observed": -0.13968972027977586,
+      "sample": 41,
+      "split": "train",
+      "structure": -0.15633370210494557
+    },
+    {
+      "activity": 0.5509760124925138,
+      "history": -0.18659797060114958,
+      "observed": -0.13463437074177373,
+      "sample": 42,
+      "split": "train",
+      "structure": -0.2963732813360598
+    },
+    {
+      "activity": 0.38869165114249454,
+      "history": -0.2873614368865702,
+      "observed": -0.2239496169475845,
+      "sample": 43,
+      "split": "train",
+      "structure": -0.46065497875854344
+    },
+    {
+      "activity": 0.7678924403403644,
+      "history": 0.323965576408652,
+      "observed": 0.34879375122258516,
+      "sample": 44,
+      "split": "train",
+      "structure": 0.1617521233937838
+    },
+    {
+      "activity": 0.8261976659442917,
+      "history": 0.402743493370945,
+      "observed": 0.38959320878440556,
+      "sample": 45,
+      "split": "train",
+      "structure": 0.1747020904291529
+    },
+    {
+      "activity": 0.2819694857031146,
+      "history": -0.30203807062846,
+      "observed": -0.5745943767361543,
+      "sample": 46,
+      "split": "train",
+      "structure": -0.6584362839497541
+    },
+    {
+      "activity": 0.22595836067646569,
+      "history": 0.013799886679475407,
+      "observed": 0.029055903283253734,
+      "sample": 47,
+      "split": "train",
+      "structure": -0.3438705471078919
+    },
+    {
+      "activity": 0.43260663631428586,
+      "history": 0.2738453604611378,
+      "observed": 0.22549691536827224,
+      "sample": 48,
+      "split": "train",
+      "structure": -0.0668394788405886
+    },
+    {
+      "activity": -0.2217619780482158,
+      "history": -0.4763479730816632,
+      "observed": -0.47886193153421486,
+      "sample": 49,
+      "split": "train",
+      "structure": -0.9042028201463772
+    },
+    {
+      "activity": 0.16077369996687357,
+      "history": -0.10274816696085429,
+      "observed": -0.053393724556847155,
+      "sample": 50,
+      "split": "train",
+      "structure": -0.4487670247039608
+    },
+    {
+      "activity": -0.19023900795668702,
+      "history": -0.29069463096013737,
+      "observed": -0.05969672481032676,
+      "sample": 51,
+      "split": "train",
+      "structure": -0.6584156363187417
+    },
+    {
+      "activity": -0.5507038862020958,
+      "history": -0.7144165564662821,
+      "observed": -0.7910029771776599,
+      "sample": 52,
+      "split": "train",
+      "structure": -1.0737306333384886
+    },
+    {
+      "activity": -0.7769311690180407,
+      "history": -0.9454713018172848,
+      "observed": -1.1614947147208645,
+      "sample": 53,
+      "split": "train",
+      "structure": -1.2441533204363688
+    },
+    {
+      "activity": -0.8464941369012619,
+      "history": -0.790735394571797,
+      "observed": -0.7400700294531414,
+      "sample": 54,
+      "split": "train",
+      "structure": -0.9853289490789038
+    },
+    {
+      "activity": -0.6845102423594004,
+      "history": -1.050339593125766,
+      "observed": -1.007656477877768,
+      "sample": 55,
+      "split": "train",
+      "structure": -1.1413381199812778
+    },
+    {
+      "activity": -0.4960624472048939,
+      "history": -0.8518695907217535,
+      "observed": -0.8157648590680778,
+      "sample": 56,
+      "split": "train",
+      "structure": -0.8446061030414141
+    },
+    {
+      "activity": -0.4372075889716717,
+      "history": -1.0964476823095282,
+      "observed": -1.0040385523010706,
+      "sample": 57,
+      "split": "train",
+      "structure": -1.0389388308523486
+    },
+    {
+      "activity": -0.6628862699102587,
+      "history": -1.1788710193189222,
+      "observed": -1.063221407572415,
+      "sample": 58,
+      "split": "train",
+      "structure": -1.0892525531907968
+    },
+    {
+      "activity": -0.5072078961295087,
+      "history": -1.1429230584481833,
+      "observed": -1.3163837165678411,
+      "sample": 59,
+      "split": "train",
+      "structure": -0.9742884605466676
+    },
+    {
+      "activity": -0.8712262538251497,
+      "history": -1.5029599102287925,
+      "observed": -1.3597830883136341,
+      "sample": 60,
+      "split": "train",
+      "structure": -1.3174302692749087
+    },
+    {
+      "activity": -0.32923487745535224,
+      "history": -0.8630221588492404,
+      "observed": -0.881335129844579,
+      "sample": 61,
+      "split": "train",
+      "structure": -0.5391388213116981
+    },
+    {
+      "activity": -0.4357599185221618,
+      "history": -0.6163145972834727,
+      "observed": -0.5959149342750433,
+      "sample": 62,
+      "split": "train",
+      "structure": -0.2669097454221284
+    },
+    {
+      "activity": -0.10157337218065081,
+      "history": -0.566690040326466,
+      "observed": -0.5596968282471682,
+      "sample": 63,
+      "split": "train",
+      "structure": -0.16542675429571216
+    },
+    {
+      "activity": -0.37880787591667536,
+      "history": -0.5527807056160402,
+      "observed": -0.5412367499114683,
+      "sample": 64,
+      "split": "train",
+      "structure": -0.17153563527756333
+    },
+    {
+      "activity": 0.10762587736542448,
+      "history": -0.24494576694314155,
+      "observed": -0.2844695772613883,
+      "sample": 65,
+      "split": "train",
+      "structure": 0.19769267661440748
+    },
+    {
+      "activity": 0.40103242329800914,
+      "history": 0.17401814122823528,
+      "observed": 0.11834374765706418,
+      "sample": 66,
+      "split": "train",
+      "structure": 0.6163761334988078
+    },
+    {
+      "activity": 0.14336707461397358,
+      "history": -0.13832923535912697,
+      "observed": -0.1441518967139139,
+      "sample": 67,
+      "split": "train",
+      "structure": 0.2173628690101684
+    },
+    {
+      "activity": 0.16022697915711848,
+      "history": -0.0876086826152214,
+      "observed": -0.21411574791711507,
+      "sample": 68,
+      "split": "train",
+      "structure": 0.2407713282762223
+    },
+    {
+      "activity": 0.47797613987351495,
+      "history": 0.13182657836969083,
+      "observed": -0.033912247981245924,
+      "sample": 69,
+      "split": "train",
+      "structure": 0.4541418516687767
+    },
+    {
+      "activity": 0.5663120993219226,
+      "history": 0.5901225266464928,
+      "observed": 0.5260153278368314,
+      "sample": 70,
+      "split": "train",
+      "structure": 0.8691731374326436
+    },
+    {
+      "activity": 0.645136598458543,
+      "history": 0.4999334658055792,
+      "observed": 0.4984062823391702,
+      "sample": 71,
+      "split": "train",
+      "structure": 0.7085543764726778
+    },
+    {
+      "activity": 0.7536480499505925,
+      "history": 0.7190352083786592,
+      "observed": 0.7651477770486255,
+      "sample": 72,
+      "split": "train",
+      "structure": 0.8647538243723585
+    },
+    {
+      "activity": 1.032729880083599,
+      "history": 1.2280000737954149,
+      "observed": 1.0914831106562424,
+      "sample": 73,
+      "split": "train",
+      "structure": 1.3218213464661792
+    },
+    {
+      "activity": 0.9913891876521095,
+      "history": 1.2339748658444134,
+      "observed": 1.1329551489138834,
+      "sample": 74,
+      "split": "train",
+      "structure": 1.2140220174101226
+    },
+    {
+      "activity": 1.046758882435475,
+      "history": 1.5948329067637779,
+      "observed": 1.6232296614670274,
+      "sample": 75,
+      "split": "train",
+      "structure": 1.489250185045512
+    },
+    {
+      "activity": 0.4011530839475508,
+      "history": 0.9794661018918764,
+      "observed": 0.8667222011807008,
+      "sample": 76,
+      "split": "train",
+      "structure": 0.7154597288581708
+    },
+    {
+      "activity": 0.2546358211422808,
+      "history": 0.9847195645573142,
+      "observed": 0.8665643929409307,
+      "sample": 77,
+      "split": "train",
+      "structure": 0.6881205663935033
+    },
+    {
+      "activity": 0.8504998421882839,
+      "history": 1.544787647116963,
+      "observed": 1.4868486064404718,
+      "sample": 78,
+      "split": "train",
+      "structure": 1.2917185915462492
+    },
+    {
+      "activity": 0.25735727259770086,
+      "history": 1.244399325201857,
+      "observed": 1.4042940478098074,
+      "sample": 79,
+      "split": "train",
+      "structure": 0.8758718886657408
+    },
+    {
+      "activity": 0.08751016143884081,
+      "history": 0.9648125527251858,
+      "observed": 1.0679021431141618,
+      "sample": 80,
+      "split": "train",
+      "structure": 0.5735667067776788
+    },
+    {
+      "activity": 0.292980205081351,
+      "history": 1.2461064860944218,
+      "observed": 1.1284380858897927,
+      "sample": 81,
+      "split": "train",
+      "structure": 0.891138278532361
+    },
+    {
+      "activity": -0.28462155755057966,
+      "history": 0.7771245124089525,
+      "observed": 0.6032672602882283,
+      "sample": 82,
+      "split": "train",
+      "structure": 0.36697121010352884
+    },
+    {
+      "activity": -0.24972322303135397,
+      "history": 0.8334822051869893,
+      "observed": 0.9740125076541779,
+      "sample": 83,
+      "split": "train",
+      "structure": 0.4839932087990631
+    },
+    {
+      "activity": 0.2174363633570912,
+      "history": 1.2655975175666943,
+      "observed": 1.2441483599626142,
+      "sample": 84,
+      "split": "train",
+      "structure": 1.005965424321993
+    },
+    {
+      "activity": -0.07956130572093288,
+      "history": 1.0461420167290516,
+      "observed": 1.179234326416775,
+      "sample": 85,
+      "split": "train",
+      "structure": 0.7584071458196259
+    },
+    {
+      "activity": -0.02398049632734609,
+      "history": 0.9247507809683959,
+      "observed": 0.9553374772889159,
+      "sample": 86,
+      "split": "train",
+      "structure": 0.6641712188284532
+    },
+    {
+      "activity": -0.3037833817281031,
+      "history": 0.7670306710846682,
+      "observed": 0.8604600337518895,
+      "sample": 87,
+      "split": "train",
+      "structure": 0.5073546605045592
+    },
+    {
+      "activity": -0.5295439986299291,
+      "history": 0.7012271101880522,
+      "observed": 0.6907926584240115,
+      "sample": 88,
+      "split": "train",
+      "structure": 0.4789037397025397
+    },
+    {
+      "activity": -0.28290603033446127,
+      "history": 0.4273330928804154,
+      "observed": 0.3071221400329745,
+      "sample": 89,
+      "split": "train",
+      "structure": 0.2818283113187904
+    },
+    {
+      "activity": -0.6531720003059389,
+      "history": 0.27541303926505084,
+      "observed": 0.22311253438350442,
+      "sample": 90,
+      "split": "train",
+      "structure": 0.14806964106270787
+    },
+    {
+      "activity": -0.4894063003680327,
+      "history": 0.327982606498564,
+      "observed": 0.1591069771514649,
+      "sample": 91,
+      "split": "train",
+      "structure": 0.29311277141813746
+    },
+    {
+      "activity": -0.7120822088169498,
+      "history": 0.19126903368444237,
+      "observed": 0.09997595435385105,
+      "sample": 92,
+      "split": "train",
+      "structure": 0.1996173900198151
+    },
+    {
+      "activity": -0.5337902165170443,
+      "history": 0.3735876039223962,
+      "observed": 0.31149455363566136,
+      "sample": 93,
+      "split": "train",
+      "structure": 0.479402779035145
+    },
+    {
+      "activity": -0.47595457111674233,
+      "history": 0.049772145065161005,
+      "observed": 0.000728093632268275,
+      "sample": 94,
+      "split": "train",
+      "structure": 0.20433030948104447
+    },
+    {
+      "activity": -0.3446562758227727,
+      "history": 0.048662170891385303,
+      "observed": -0.06973259335138103,
+      "sample": 95,
+      "split": "train",
+      "structure": 0.25814722043393906
+    },
+    {
+      "activity": -0.6057891756031409,
+      "history": -0.14738344125828148,
+      "observed": -0.1311923328519074,
+      "sample": 96,
+      "split": "train",
+      "structure": 0.07259470364092041
+    },
+    {
+      "activity": -0.23558331222814016,
+      "history": 0.2164180727561805,
+      "observed": 0.223218468306963,
+      "sample": 97,
+      "split": "train",
+      "structure": 0.5275143899179515
+    },
+    {
+      "activity": 0.004308961444896901,
+      "history": 0.018133672210345883,
+      "observed": 0.04840162520004722,
+      "sample": 98,
+      "split": "train",
+      "structure": 0.34870326718886924
+    },
+    {
+      "activity": 0.01473863515485044,
+      "history": 0.1913185984377567,
+      "observed": 0.27898533807257986,
+      "sample": 99,
+      "split": "train",
+      "structure": 0.5154839239508444
+    },
+    {
+      "activity": 0.242671557351053,
+      "history": 0.6701446912712495,
+      "observed": 0.6862034263333417,
+      "sample": 100,
+      "split": "train",
+      "structure": 1.0097364399515614
+    },
+    {
+      "activity": 0.06409627837975157,
+      "history": 0.0743030347829697,
+      "observed": 0.10101466755096894,
+      "sample": 101,
+      "split": "train",
+      "structure": 0.344352195694588
+    },
+    {
+      "activity": 0.425776982037198,
+      "history": 0.6154851510726965,
+      "observed": 0.7425439170946327,
+      "sample": 102,
+      "split": "train",
+      "structure": 0.9072032410936968
+    },
+    {
+      "activity": 0.5658639918910414,
+      "history": 0.6302300933192989,
+      "observed": 0.5667869122658263,
+      "sample": 103,
+      "split": "train",
+      "structure": 0.873304105800392
+    },
+    {
+      "activity": 0.6268728712602707,
+      "history": 0.7241075960139385,
+      "observed": 0.7162302578166868,
+      "sample": 104,
+      "split": "train",
+      "structure": 0.9044672567142734
+    },
+    {
+      "activity": 0.26999451753893555,
+      "history": 0.664983530084824,
+      "observed": 0.7026209965168783,
+      "sample": 105,
+      "split": "train",
+      "structure": 0.7521685911016947
+    },
+    {
+      "activity": 0.692972617590513,
+      "history": 0.8273562985818473,
+      "observed": 0.9335581257531662,
+      "sample": 106,
+      "split": "train",
+      "structure": 0.9132194263762861
+    },
+    {
+      "activity": 1.0022259530774464,
+      "history": 1.0651415348398943,
+      "observed": 1.1491977290281938,
+      "sample": 107,
+      "split": "train",
+      "structure": 1.100609251593034
+    },
+    {
+      "activity": 0.44287738698002277,
+      "history": 0.7213753660756045,
+      "observed": 0.737295380572614,
+      "sample": 108,
+      "split": "train",
+      "structure": 0.609621113864613
+    },
+    {
+      "activity": 0.36976037242091186,
+      "history": 0.7583884175871081,
+      "observed": 0.8533951242253122,
+      "sample": 109,
+      "split": "train",
+      "structure": 0.6063233663347758
+    },
+    {
+      "activity": 0.7615657546569868,
+      "history": 0.9385415575952485,
+      "observed": 0.7988953113952727,
+      "sample": 110,
+      "split": "train",
+      "structure": 0.7854031587745911
+    },
+    {
+      "activity": 0.5400709853346027,
+      "history": 0.6813394189514123,
+      "observed": 0.6275351403048532,
+      "sample": 111,
+      "split": "train",
+      "structure": 0.4370833587036448
+    },
+    {
+      "activity": 0.6053087107071116,
+      "history": 0.8732039387967754,
+      "observed": 1.0398129929629798,
+      "sample": 112,
+      "split": "train",
+      "structure": 0.5973088271790304
+    },
+    {
+      "activity": 0.48216093537424726,
+      "history": 0.6899259242775394,
+      "observed": 0.6208497364321687,
+      "sample": 113,
+      "split": "train",
+      "structure": 0.3538046404858092
+    },
+    {
+      "activity": 0.23667999294079722,
+      "history": 0.37714631180278874,
+      "observed": 0.2936858936475001,
+      "sample": 114,
+      "split": "train",
+      "structure": -0.01405182072513076
+    },
+    {
+      "activity": 0.1199530347835718,
+      "history": 0.4457960301514456,
+      "observed": 0.48103787565496764,
+      "sample": 115,
+      "split": "train",
+      "structure": 0.049127571026023574
+    },
+    {
+      "activity": -0.42656067131741066,
+      "history": -0.19710878336603155,
+      "observed": -0.22083758770953082,
+      "sample": 116,
+      "split": "train",
+      "structure": -0.6341245427301226
+    },
+    {
+      "activity": 0.06741279303954573,
+      "history": 0.26233397124445257,
+      "observed": 0.3873231174060975,
+      "sample": 117,
+      "split": "train",
+      "structure": -0.060580471653446155
+    },
+    {
+      "activity": -0.40600449783646453,
+      "history": -0.40996633692975837,
+      "observed": -0.34011260062666604,
+      "sample": 118,
+      "split": "train",
+      "structure": -0.7688050498998087
+    },
+    {
+      "activity": -0.5856922063339212,
+      "history": -0.5735419036884719,
+      "observed": -0.7069723940764618,
+      "sample": 119,
+      "split": "train",
+      "structure": -0.8822121186505693
+    },
+    {
+      "activity": -0.3392247107526669,
+      "history": -0.3189182242132695,
+      "observed": -0.321087851966013,
+      "sample": 120,
+      "split": "train",
+      "structure": -0.5233647787250768
+    },
+    {
+      "activity": -0.44071554124929857,
+      "history": -0.6720655297509728,
+      "observed": -0.6492305836634055,
+      "sample": 121,
+      "split": "train",
+      "structure": -0.8440998275855012
+    },
+    {
+      "activity": -0.43922387775970956,
+      "history": -0.7528147628189096,
+      "observed": -1.0013250435032068,
+      "sample": 122,
+      "split": "train",
+      "structure": -0.8683524567254358
+    },
+    {
+      "activity": -0.5672224980953108,
+      "history": -0.948156741566358,
+      "observed": -0.7940577973239846,
+      "sample": 123,
+      "split": "train",
+      "structure": -1.0211753391104257
+    },
+    {
+      "activity": -0.6049858027505269,
+      "history": -1.19950674756213,
+      "observed": -1.1617255837139238,
+      "sample": 124,
+      "split": "train",
+      "structure": -1.2158657918471316
+    },
+    {
+      "activity": -0.5287908764515759,
+      "history": -1.033042958116422,
+      "observed": -0.9380829862625112,
+      "sample": 125,
+      "split": "train",
+      "structure": -0.9707987510649329
+    },
+    {
+      "activity": -0.5749334219539105,
+      "history": -1.1314269078403385,
+      "observed": -0.9708907912258256,
+      "sample": 126,
+      "split": "train",
+      "structure": -1.0185047933466531
+    },
+    {
+      "activity": -0.4162758210433322,
+      "history": -0.9485215112867792,
+      "observed": -1.1360012846519842,
+      "sample": 127,
+      "split": "train",
+      "structure": -0.7617847463244016
+    },
+    {
+      "activity": -0.5985014515757595,
+      "history": -1.4804281375407153,
+      "observed": -1.28588459169365,
+      "sample": 128,
+      "split": "train",
+      "structure": -1.2842184894225035
+    },
+    {
+      "activity": -0.3541194545240733,
+      "history": -1.2667433195151323,
+      "observed": -1.440571590257647,
+      "sample": 129,
+      "split": "train",
+      "structure": -0.9934041491400789
+    },
+    {
+      "activity": -0.19192996794903083,
+      "history": -0.9770116553249191,
+      "observed": -1.0385096144827874,
+      "sample": 130,
+      "split": "train",
+      "structure": -0.6582363808038403
+    },
+    {
+      "activity": -0.13390809033907108,
+      "history": -1.307054350497422,
+      "observed": -1.3429376413991285,
+      "sample": 131,
+      "split": "train",
+      "structure": -0.9903107157970996
+    },
+    {
+      "activity": 0.23187318033391446,
+      "history": -0.6001862273494706,
+      "observed": -0.6801574033483512,
+      "sample": 132,
+      "split": "train",
+      "structure": -0.23868543911174883
+    },
+    {
+      "activity": 0.08034878335693939,
+      "history": -0.8781343160149665,
+      "observed": -0.7897338271185794,
+      "sample": 133,
+      "split": "train",
+      "structure": -0.5754218872785041
+    },
+    {
+      "activity": 0.18536133679014688,
+      "history": -0.7356881507962441,
+      "observed": -0.6553415268699999,
+      "sample": 134,
+      "split": "train",
+      "structure": -0.4442035971445501
+    },
+    {
+      "activity": 0.38951254669287344,
+      "history": -0.9506643059647345,
+      "observed": -0.8322054877807403,
+      "sample": 135,
+      "split": "train",
+      "structure": -0.6890193321957688
+    },
+    {
+      "activity": 0.35330774807098453,
+      "history": -0.5093277942188286,
+      "observed": -0.40614255809633437,
+      "sample": 136,
+      "split": "train",
+      "structure": -0.28722477126470897
+    },
+    {
+      "activity": 0.5453472504671685,
+      "history": -0.5642377135991212,
+      "observed": -0.6400933894453851,
+      "sample": 137,
+      "split": "train",
+      "structure": -0.38127639957425197
+    },
+    {
+      "activity": 0.5421561497854609,
+      "history": -0.1358992361487276,
+      "observed": 0.03762822209175554,
+      "sample": 138,
+      "split": "train",
+      "structure": -0.0036861102238548507
+    },
+    {
+      "activity": 0.723539766345169,
+      "history": 0.09050072758745677,
+      "observed": -0.21639314945295599,
+      "sample": 139,
+      "split": "train",
+      "structure": 0.17776948980137158
+    },
+    {
+      "activity": 0.5309855764720075,
+      "history": -0.2549746611476158,
+      "observed": -0.4931074621392664,
+      "sample": 140,
+      "split": "train",
+      "structure": -0.2699537134263449
+    },
+    {
+      "activity": 0.9725074796179257,
+      "history": 0.4888865590207829,
+      "observed": 0.503083281941209,
+      "sample": 141,
+      "split": "train",
+      "structure": 0.46958369801709104
+    },
+    {
+      "activity": 0.8940801273061768,
+      "history": 0.345003832954267,
+      "observed": 0.476951204114499,
+      "sample": 142,
+      "split": "train",
+      "structure": 0.21545985289675024
+    },
+    {
+      "activity": 0.532859742182398,
+      "history": 0.2849088121860734,
+      "observed": 0.31076649428728753,
+      "sample": 143,
+      "split": "train",
+      "structure": 0.047465864111224824
+    },
+    {
+      "activity": 0.6380410114541722,
+      "history": 0.551232965999017,
+      "observed": 0.7166657920631678,
+      "sample": 144,
+      "split": "train",
+      "structure": 0.2866479719861735
+    },
+    {
+      "activity": 0.624945487695338,
+      "history": 0.34774124600055556,
+      "observed": 0.44556739438238074,
+      "sample": 145,
+      "split": "train",
+      "structure": 0.023118774748989428
+    },
+    {
+      "activity": 0.49763953956840473,
+      "history": 0.7853781346291838,
+      "observed": 0.5902360639936485,
+      "sample": 146,
+      "split": "train",
+      "structure": 0.4222818230326777
+    },
+    {
+      "activity": 0.27862232757635724,
+      "history": 0.3958132165203475,
+      "observed": 0.4861633991092455,
+      "sample": 147,
+      "split": "train",
+      "structure": -0.02397041720112312
+    },
+    {
+      "activity": 0.0252216153820065,
+      "history": -0.11870323532722395,
+      "observed": -0.12832486484826264,
+      "sample": 148,
+      "split": "train",
+      "structure": -0.5753843927382113
+    },
+    {
+      "activity": -0.34692109676523947,
+      "history": -0.12808644808869038,
+      "observed": -0.07584729734819445,
+      "sample": 149,
+      "split": "train",
+      "structure": -0.5806944093309522
+    },
+    {
+      "activity": -0.05176081279935758,
+      "history": 0.1904533603333665,
+      "observed": 0.33868947153664075,
+      "sample": 150,
+      "split": "train",
+      "structure": -0.17124039799061375
+    },
+    {
+      "activity": -0.27615515024074555,
+      "history": 0.329319087471787,
+      "observed": 0.4881259396470172,
+      "sample": 151,
+      "split": "train",
+      "structure": -0.011045863194251777
+    },
+    {
+      "activity": -0.4721058039449007,
+      "history": -0.17962730343179822,
+      "observed": -0.2366727136831554,
+      "sample": 152,
+      "split": "train",
+      "structure": -0.49705259691204134
+    },
+    {
+      "activity": -0.8788436389160749,
+      "history": -0.5706831096520139,
+      "observed": -0.5946142884984937,
+      "sample": 153,
+      "split": "train",
+      "structure": -0.8523287369376054
+    },
+    {
+      "activity": -0.6473535300864417,
+      "history": -0.44566184977099127,
+      "observed": -0.5556025658518042,
+      "sample": 154,
+      "split": "train",
+      "structure": -0.5978145130500313
+    },
+    {
+      "activity": -0.5552528035558758,
+      "history": -0.4239877031208711,
+      "observed": -0.519964176296627,
+      "sample": 155,
+      "split": "train",
+      "structure": -0.4891927871388747
+    },
+    {
+      "activity": -1.041173392524186,
+      "history": -0.8746762601814196,
+      "observed": -0.798282373379362,
+      "sample": 156,
+      "split": "train",
+      "structure": -0.9142995621822649
+    },
+    {
+      "activity": -0.9492142511271551,
+      "history": -1.0993197770692795,
+      "observed": -1.156505796956393,
+      "sample": 157,
+      "split": "train",
+      "structure": -1.0242536483787972
+    },
+    {
+      "activity": -0.7588326641232662,
+      "history": -0.8273846377648959,
+      "observed": -0.8866877598984519,
+      "sample": 158,
+      "split": "train",
+      "structure": -0.6306755478770939
+    },
+    {
+      "activity": -0.30659518478754877,
+      "history": -0.21563604318344468,
+      "observed": -0.3009808985806298,
+      "sample": 159,
+      "split": "train",
+      "structure": 0.10214109654443554
+    },
+    {
+      "activity": -0.5253194193579562,
+      "history": -0.7872500265340193,
+      "observed": -0.8221939441067134,
+      "sample": 160,
+      "split": "train",
+      "structure": -0.48055632518453345
+    },
+    {
+      "activity": -0.507111047826398,
+      "history": -0.589632965887579,
+      "observed": -0.5319062035193449,
+      "sample": 161,
+      "split": "train",
+      "structure": -0.23031196078334015
+    },
+    {
+      "activity": -0.6111781037555938,
+      "history": -0.4425918855830132,
+      "observed": -0.25249175395700435,
+      "sample": 162,
+      "split": "train",
+      "structure": -0.04304589671676457
+    },
+    {
+      "activity": -0.5102698315466665,
+      "history": -0.29438460726659416,
+      "observed": -0.4136997571162379,
+      "sample": 163,
+      "split": "train",
+      "structure": 0.16563373629991507
+    },
+    {
+      "activity": -0.4428693363127,
+      "history": -0.4590067498770932,
+      "observed": -0.3947784074105227,
+      "sample": 164,
+      "split": "train",
+      "structure": 0.03454680460302533
+    },
+    {
+      "activity": -0.005686963576274316,
+      "history": -0.2740735630245101,
+      "observed": -0.18053484720105362,
+      "sample": 165,
+      "split": "train",
+      "structure": 0.27543042515239957
+    },
+    {
+      "activity": 0.20239592274682022,
+      "history": 0.15327852562048985,
+      "observed": 0.28808712682532056,
+      "sample": 166,
+      "split": "train",
+      "structure": 0.7054326667576135
+    },
+    {
+      "activity": 0.4316034393278778,
+      "history": 0.27952901780971834,
+      "observed": 0.2807395222031703,
+      "sample": 167,
+      "split": "train",
+      "structure": 0.8022955334013949
+    },
+    {
+      "activity": 0.2945043237115155,
+      "history": 0.36214129605637463,
+      "observed": 0.271705091420246,
+      "sample": 168,
+      "split": "train",
+      "structure": 0.8116702702971579
+    },
+    {
+      "activity": 0.19865557733430367,
+      "history": 0.3221102808676179,
+      "observed": 0.42539309212404053,
+      "sample": 169,
+      "split": "train",
+      "structure": 0.7148831077572587
+    },
+    {
+      "activity": 0.4438101566342712,
+      "history": 0.7377968185205379,
+      "observed": 0.747287961744146,
+      "sample": 170,
+      "split": "train",
+      "structure": 1.1212422555598478
+    },
+    {
+      "activity": 0.5154250044057617,
+      "history": 0.7648810783274235,
+      "observed": 0.6040138153384195,
+      "sample": 171,
+      "split": "train",
+      "structure": 1.090269826710262
+    },
+    {
+      "activity": 0.5808802044861725,
+      "history": 1.1413971976545656,
+      "observed": 1.1280191358852356,
+      "sample": 172,
+      "split": "train",
+      "structure": 1.4162603302228902
+    },
+    {
+      "activity": 0.8954007853570075,
+      "history": 1.5001725847152063,
+      "observed": 1.496382301646864,
+      "sample": 173,
+      "split": "train",
+      "structure": 1.732723717954884
+    },
+    {
+      "activity": 0.8753478899822692,
+      "history": 1.2093306050748225,
+      "observed": 1.1935669865215703,
+      "sample": 174,
+      "split": "train",
+      "structure": 1.3269836162786823
+    },
+    {
+      "activity": 0.7747928381217988,
+      "history": 1.4501742318985953,
+      "observed": 1.5801924925771424,
+      "sample": 175,
+      "split": "train",
+      "structure": 1.475583032471619
+    },
+    {
+      "activity": 0.8860773849255156,
+      "history": 1.8823231780413379,
+      "observed": 1.873329699705982,
+      "sample": 176,
+      "split": "train",
+      "structure": 1.849430729052746
+    },
+    {
+      "activity": 0.6913712766009633,
+      "history": 1.1955364718632717,
+      "observed": 1.0749998561580267,
+      "sample": 177,
+      "split": "train",
+      "structure": 1.0393114904681795
+    },
+    {
+      "activity": 0.3105581391712963,
+      "history": 1.4857412241142574,
+      "observed": 1.6064394354662626,
+      "sample": 178,
+      "split": "train",
+      "structure": 1.2584701728111103
+    },
+    {
+      "activity": 0.14934803746895758,
+      "history": 1.2814845249664595,
+      "observed": 1.2122339176037216,
+      "sample": 179,
+      "split": "train",
+      "structure": 1.022235715294391
+    },
+    {
+      "activity": 0.16127182693624104,
+      "history": 1.2554651972631117,
+      "observed": 1.277167485047423,
+      "sample": 180,
+      "split": "train",
+      "structure": 0.9985325459379402
+    },
+    {
+      "activity": 0.26813481332753336,
+      "history": 1.2380250611071333,
+      "observed": 1.0718508277146412,
+      "sample": 181,
+      "split": "train",
+      "structure": 0.9871378693561041
+    },
+    {
+      "activity": -0.1113582114484271,
+      "history": 0.8856500153037495,
+      "observed": 0.970756635040974,
+      "sample": 182,
+      "split": "train",
+      "structure": 0.5915273079426698
+    },
+    {
+      "activity": -0.09379862139246055,
+      "history": 0.9141828644262013,
+      "observed": 1.1059896669357976,
+      "sample": 183,
+      "split": "train",
+      "structure": 0.6542348955901626
+    },
+    {
+      "activity": -0.23643491342311845,
+      "history": 0.5167500429025834,
+      "observed": 0.7121908944154343,
+      "sample": 184,
+      "split": "train",
+      "structure": 0.2636215387545094
+    },
+    {
+      "activity": -0.06243023225571709,
+      "history": 1.3013814240199904,
+      "observed": 1.2444463092627978,
+      "sample": 185,
+      "split": "train",
+      "structure": 1.1290250768517622
+    },
+    {
+      "activity": -0.21530009570198194,
+      "history": 0.569690865143095,
+      "observed": 0.4048744501104471,
+      "sample": 186,
+      "split": "train",
+      "structure": 0.3843303563328621
+    },
+    {
+      "activity": -0.5080175961740341,
+      "history": 0.17722594170534778,
+      "observed": 0.19972688695781435,
+      "sample": 187,
+      "split": "train",
+      "structure": 9.413700300358457e-05
+    },
+    {
+      "activity": -1.0525721658203226,
+      "history": -0.24048957750925465,
+      "observed": -0.41162961380488394,
+      "sample": 188,
+      "split": "train",
+      "structure": -0.3923365958609227
+    },
+    {
+      "activity": -0.6678724227567495,
+      "history": -0.248266094098445,
+      "observed": -0.12450494547258992,
+      "sample": 189,
+      "split": "train",
+      "structure": -0.25443534454794614
+    },
+    {
+      "activity": -0.29960760867716874,
+      "history": 0.3823766704058791,
+      "observed": 0.45908290234321536,
+      "sample": 190,
+      "split": "train",
+      "structure": 0.494878856182786
+    },
+    {
+      "activity": -0.471337550673506,
+      "history": -0.023974865180850038,
+      "observed": 0.10332228062416263,
+      "sample": 191,
+      "split": "train",
+      "structure": 0.09647643481170054
+    },
+    {
+      "activity": -0.5816907453921822,
+      "history": -0.2929905871881948,
+      "observed": -0.24846441564425237,
+      "sample": 192,
+      "split": "train",
+      "structure": -0.13875134689986235
+    },
+    {
+      "activity": -0.6522121517838466,
+      "history": -0.491755445705865,
+      "observed": -0.5783598168423218,
+      "sample": 193,
+      "split": "train",
+      "structure": -0.28920887368973697
+    },
+    {
+      "activity": -0.16344187576249491,
+      "history": -0.32211047274919213,
+      "observed": -0.3749783556501118,
+      "sample": 194,
+      "split": "train",
+      "structure": -0.02409419172896076
+    },
+    {
+      "activity": 0.0467743654971039,
+      "history": -0.3075021728077151,
+      "observed": -0.22494663843445525,
+      "sample": 195,
+      "split": "train",
+      "structure": 0.007992304606441108
+    },
+    {
+      "activity": -0.49082828849817994,
+      "history": -0.4616554058027425,
+      "observed": -0.4329197625416241,
+      "sample": 196,
+      "split": "train",
+      "structure": -0.19719502428911992
+    },
+    {
+      "activity": -0.24386118288864228,
+      "history": -0.4602535090084274,
+      "observed": -0.4212961531266928,
+      "sample": 197,
+      "split": "train",
+      "structure": -0.13962019614447177
+    },
+    {
+      "activity": -0.013212350865819636,
+      "history": -0.5957588402471434,
+      "observed": -0.5990606082006333,
+      "sample": 198,
+      "split": "train",
+      "structure": -0.25464267888399117
+    },
+    {
+      "activity": 0.11668235702204051,
+      "history": -0.26112459717565517,
+      "observed": -0.11805813863527578,
+      "sample": 199,
+      "split": "train",
+      "structure": 0.08589464839664696
+    },
+    {
+      "activity": 0.3413042276407777,
+      "history": -0.1686330665200841,
+      "observed": -0.05522563854307286,
+      "sample": 200,
+      "split": "train",
+      "structure": 0.166421936668604
+    },
+    {
+      "activity": 0.4043042774784616,
+      "history": -0.08883475646620706,
+      "observed": 0.0664740251353079,
+      "sample": 201,
+      "split": "train",
+      "structure": 0.2016376553046554
+    },
+    {
+      "activity": 0.24669303104578127,
+      "history": -0.2511168577227295,
+      "observed": -0.28755361940051266,
+      "sample": 202,
+      "split": "train",
+      "structure": -0.02993309193087857
+    },
+    {
+      "activity": 1.1462145484687662,
+      "history": 0.7130059559509089,
+      "observed": 0.751102047387888,
+      "sample": 203,
+      "split": "train",
+      "structure": 0.9808067906197702
+    },
+    {
+      "activity": 0.5611466596132876,
+      "history": 0.14855982854184377,
+      "observed": 0.3024163902268424,
+      "sample": 204,
+      "split": "train",
+      "structure": 0.2317380393137478
+    },
+    {
+      "activity": 0.8364847412997447,
+      "history": 0.4626644418793679,
+      "observed": 0.5515933455152522,
+      "sample": 205,
+      "split": "train",
+      "structure": 0.5098213512808294
+    },
+    {
+      "activity": 0.6473063805112671,
+      "history": 0.5370622599678319,
+      "observed": 0.592180153036705,
+      "sample": 206,
+      "split": "train",
+      "structure": 0.48776607214134216
+    },
+    {
+      "activity": 0.9867343833892569,
+      "history": 0.6934596331287728,
+      "observed": 0.683750446660793,
+      "sample": 207,
+      "split": "train",
+      "structure": 0.6035844506857436
+    },
+    {
+      "activity": 0.7049158527716064,
+      "history": 0.2574065100754793,
+      "observed": 0.3353269285848397,
+      "sample": 208,
+      "split": "train",
+      "structure": 0.03851355589545174
+    },
+    {
+      "activity": 0.563704955831726,
+      "history": 0.5733469522735208,
+      "observed": 0.48616907498024575,
+      "sample": 209,
+      "split": "train",
+      "structure": 0.2966164302747168
+    },
+    {
+      "activity": 0.500118454111269,
+      "history": 0.39117320579099724,
+      "observed": 0.3381130039797847,
+      "sample": 210,
+      "split": "train",
+      "structure": 0.06137432941609316
+    },
+    {
+      "activity": 0.4401027190916086,
+      "history": 0.32217668109535186,
+      "observed": 0.3745473316754404,
+      "sample": 211,
+      "split": "train",
+      "structure": -0.0470937838261753
+    },
+    {
+      "activity": 0.48811853369914565,
+      "history": 0.3140109096456365,
+      "observed": 0.30701870085338945,
+      "sample": 212,
+      "split": "train",
+      "structure": -0.07853173892976462
+    },
+    {
+      "activity": 0.17313260269104092,
+      "history": -0.06284618999967324,
+      "observed": 0.11555011106732518,
+      "sample": 213,
+      "split": "train",
+      "structure": -0.5148957466650408
+    },
+    {
+      "activity": 0.0839240019912328,
+      "history": -0.2971417975557273,
+      "observed": -0.21344978433558964,
+      "sample": 214,
+      "split": "train",
+      "structure": -0.7550896833691257
+    },
+    {
+      "activity": -0.242989013867067,
+      "history": -0.07245426101166394,
+      "observed": -0.012261042564916447,
+      "sample": 215,
+      "split": "train",
+      "structure": -0.5221591068234486
+    },
+    {
+      "activity": -0.06592781786721198,
+      "history": -0.4269809661512253,
+      "observed": -0.33570425482235633,
+      "sample": 216,
+      "split": "train",
+      "structure": -0.8278180390082794
+    },
+    {
+      "activity": -0.26322504126962465,
+      "history": -0.5778553690434771,
+      "observed": -0.6398942806628981,
+      "sample": 217,
+      "split": "train",
+      "structure": -0.9641498047065054
+    },
+    {
+      "activity": -0.38254033559233686,
+      "history": -0.9422464195304999,
+      "observed": -1.127361726884498,
+      "sample": 218,
+      "split": "train",
+      "structure": -1.2971604247148756
+    },
+    {
+      "activity": -0.1943106823466847,
+      "history": -0.8333811246706874,
+      "observed": -0.8373120284566897,
+      "sample": 219,
+      "split": "train",
+      "structure": -1.112995984922841
+    },
+    {
+      "activity": -0.7319767508457937,
+      "history": -0.8575533581210246,
+      "observed": -0.7711235394782985,
+      "sample": 220,
+      "split": "train",
+      "structure": -1.1282614455772475
+    },
+    {
+      "activity": -0.6411677567096667,
+      "history": -0.922174123349952,
+      "observed": -0.9975653092378823,
+      "sample": 221,
+      "split": "train",
+      "structure": -1.0947010514646076
+    },
+    {
+      "activity": -0.8318052800515463,
+      "history": -1.2496538777440558,
+      "observed": -1.423099814438989,
+      "sample": 222,
+      "split": "train",
+      "structure": -1.363041691506705
+    },
+    {
+      "activity": -0.7295212991364817,
+      "history": -1.515261882958158,
+      "observed": -1.6128829841878245,
+      "sample": 223,
+      "split": "train",
+      "structure": -1.5348518179227402
+    },
+    {
+      "activity": -0.6216064780776391,
+      "history": -1.173937456642598,
+      "observed": -1.2615110743790328,
+      "sample": 224,
+      "split": "train",
+      "structure": -1.093688837547226
+    },
+    {
+      "activity": -0.8012615687971141,
+      "history": -1.4988531095613706,
+      "observed": -1.4110654805171454,
+      "sample": 225,
+      "split": "train",
+      "structure": -1.3740471669133332
+    },
+    {
+      "activity": -0.6578562042482186,
+      "history": -1.5028787203570695,
+      "observed": -1.520847724702423,
+      "sample": 226,
+      "split": "train",
+      "structure": -1.2883309460458392
+    },
+    {
+      "activity": -0.4276494402507484,
+      "history": -1.4453519560837311,
+      "observed": -1.2834332046983692,
+      "sample": 227,
+      "split": "train",
+      "structure": -1.1545539456887914
+    },
+    {
+      "activity": -0.5604706274469414,
+      "history": -1.4291584604023182,
+      "observed": -1.474788427689455,
+      "sample": 228,
+      "split": "train",
+      "structure": -1.111223993979407
+    },
+    {
+      "activity": -0.48854384026515685,
+      "history": -1.4659230207214111,
+      "observed": -1.4231364520455276,
+      "sample": 229,
+      "split": "train",
+      "structure": -1.0990242432501398
+    },
+    {
+      "activity": -0.4558755038583235,
+      "history": -1.387208240649134,
+      "observed": -1.415776433309445,
+      "sample": 230,
+      "split": "train",
+      "structure": -0.9795490915968795
+    },
+    {
+      "activity": 0.20208982713233437,
+      "history": -0.7626127176037465,
+      "observed": -0.6401576109687748,
+      "sample": 231,
+      "split": "train",
+      "structure": -0.2675833909914219
+    },
+    {
+      "activity": 0.1781712113712553,
+      "history": -0.9060228316256164,
+      "observed": -0.9818372649387815,
+      "sample": 232,
+      "split": "train",
+      "structure": -0.4620196590693746
+    },
+    {
+      "activity": -0.10666970343919936,
+      "history": -0.8177722138709999,
+      "observed": -0.8107053028477479,
+      "sample": 233,
+      "split": "train",
+      "structure": -0.4248666945596492
+    },
+    {
+      "activity": 0.4775212602134505,
+      "history": -0.495775978076062,
+      "observed": -0.4249960459173236,
+      "sample": 234,
+      "split": "train",
+      "structure": -0.06680568873013348
+    },
+    {
+      "activity": 0.39671698321440496,
+      "history": -0.21588022669257897,
+      "observed": -0.18732702907360066,
+      "sample": 235,
+      "split": "train",
+      "structure": 0.148189306623032
+    },
+    {
+      "activity": 0.3275919214293291,
+      "history": -0.03241270696477326,
+      "observed": -0.09839048197267605,
+      "sample": 236,
+      "split": "train",
+      "structure": 0.2764477986037673
+    },
+    {
+      "activity": 0.5032972517392241,
+      "history": -0.12879059754507685,
+      "observed": -0.10318057854565985,
+      "sample": 237,
+      "split": "train",
+      "structure": 0.13792408607584616
+    },
+    {
+      "activity": 0.059491059413999625,
+      "history": -0.503227504535898,
+      "observed": -0.7074979035273775,
+      "sample": 238,
+      "split": "train",
+      "structure": -0.33799373440496144
+    },
+    {
+      "activity": 0.8205245317498618,
+      "history": 0.27366029953381393,
+      "observed": 0.0662032988347252,
+      "sample": 239,
+      "split": "train",
+      "structure": 0.49440122410669113
+    },
+    {
+      "activity": 0.18432824420303812,
+      "history": -0.2985740459809179,
+      "observed": -0.335782130203675,
+      "sample": 240,
+      "split": "validation",
+      "structure": -0.22814315971628066
+    },
+    {
+      "activity": 0.43887581622014404,
+      "history": 0.19430705539196594,
+      "observed": 0.3409261092629128,
+      "sample": 241,
+      "split": "validation",
+      "structure": 0.27526347068536
+    },
+    {
+      "activity": 0.4534396364117066,
+      "history": 0.29416742480362157,
+      "observed": 0.17752378659823548,
+      "sample": 242,
+      "split": "validation",
+      "structure": 0.3314587439777307
+    },
+    {
+      "activity": 0.4323047195940737,
+      "history": 0.4358186886688201,
+      "observed": 0.491448334840614,
+      "sample": 243,
+      "split": "validation",
+      "structure": 0.42990146238143406
+    },
+    {
+      "activity": 0.36568595618434074,
+      "history": 0.2994760556602301,
+      "observed": -0.011682634683451654,
+      "sample": 244,
+      "split": "validation",
+      "structure": 0.24260750167171408
+    },
+    {
+      "activity": 0.39280724429643177,
+      "history": 0.46453968590918276,
+      "observed": 0.6221552506422341,
+      "sample": 245,
+      "split": "validation",
+      "structure": 0.38212973411517503
+    },
+    {
+      "activity": 0.3515276873888904,
+      "history": 0.35310711894066543,
+      "observed": 0.3844387377151199,
+      "sample": 246,
+      "split": "validation",
+      "structure": 0.23016160980460357
+    },
+    {
+      "activity": 0.17758591339148277,
+      "history": 0.6419714764655156,
+      "observed": 0.46046594491801796,
+      "sample": 247,
+      "split": "validation",
+      "structure": 0.4926035909926254
+    },
+    {
+      "activity": 0.21318369642313295,
+      "history": 0.4399032907099556,
+      "observed": 0.3728102830219607,
+      "sample": 248,
+      "split": "validation",
+      "structure": 0.27789802705482536
+    },
+    {
+      "activity": 0.364153238163884,
+      "history": 0.6066569905309848,
+      "observed": 0.5996295796875942,
+      "sample": 249,
+      "split": "validation",
+      "structure": 0.4477633193851147
+    },
+    {
+      "activity": -0.43462987853310153,
+      "history": 0.2305936852738937,
+      "observed": 0.1885186258444327,
+      "sample": 250,
+      "split": "validation",
+      "structure": -0.010245555482948927
+    },
+    {
+      "activity": -0.0838869590970303,
+      "history": 0.5952815063403667,
+      "observed": 0.6747921287560401,
+      "sample": 251,
+      "split": "validation",
+      "structure": 0.4495724675296781
+    },
+    {
+      "activity": -0.528026243041432,
+      "history": 0.4971189263101289,
+      "observed": 0.5336921661519434,
+      "sample": 252,
+      "split": "validation",
+      "structure": 0.34624561544015114
+    },
+    {
+      "activity": -0.43225141342166823,
+      "history": 0.26794336221881543,
+      "observed": 0.2965853439438392,
+      "sample": 253,
+      "split": "validation",
+      "structure": 0.18364437186235266
+    },
+    {
+      "activity": -0.3981518801478015,
+      "history": 0.10154867706944275,
+      "observed": -0.042515900884677105,
+      "sample": 254,
+      "split": "validation",
+      "structure": 0.06870145747141204
+    },
+    {
+      "activity": -0.7212534174480602,
+      "history": -0.001759519165041714,
+      "observed": -0.008225169609395296,
+      "sample": 255,
+      "split": "validation",
+      "structure": -0.005848609163955083
+    },
+    {
+      "activity": -0.8967682218276833,
+      "history": -0.18364851647905733,
+      "observed": -0.3730733981781263,
+      "sample": 256,
+      "split": "validation",
+      "structure": -0.1204833769308446
+    },
+    {
+      "activity": -0.8160067081181616,
+      "history": -0.42792812049899176,
+      "observed": -0.3137184227157455,
+      "sample": 257,
+      "split": "validation",
+      "structure": -0.2710633948164578
+    },
+    {
+      "activity": -0.6799095810105293,
+      "history": -0.23464183358247895,
+      "observed": -0.3553369367760011,
+      "sample": 258,
+      "split": "validation",
+      "structure": 0.02074726400301235
+    },
+    {
+      "activity": -0.38861779110379335,
+      "history": 0.03410831677444007,
+      "observed": 0.16522686509670306,
+      "sample": 259,
+      "split": "validation",
+      "structure": 0.3792782496308714
+    },
+    {
+      "activity": -0.19498735393121291,
+      "history": 0.21296532637809162,
+      "observed": 0.3059312416046856,
+      "sample": 260,
+      "split": "validation",
+      "structure": 0.6037057196003365
+    },
+    {
+      "activity": -0.4744911568847517,
+      "history": -0.09452056251011068,
+      "observed": -0.035639985665650895,
+      "sample": 261,
+      "split": "validation",
+      "structure": 0.2765465317840562
+    },
+    {
+      "activity": -0.21241428927433825,
+      "history": -0.0608052336473599,
+      "observed": -0.008808784819546292,
+      "sample": 262,
+      "split": "validation",
+      "structure": 0.361939960572419
+    },
+    {
+      "activity": -0.3837139291825637,
+      "history": 0.008389031492354568,
+      "observed": -0.14472150595858108,
+      "sample": 263,
+      "split": "validation",
+      "structure": 0.4305729908201229
+    },
+    {
+      "activity": -0.20485441057696618,
+      "history": -0.03003580094302288,
+      "observed": -0.1176107459033503,
+      "sample": 264,
+      "split": "validation",
+      "structure": 0.4246015024092249
+    },
+    {
+      "activity": 0.032562447714946006,
+      "history": 0.1925909776174404,
+      "observed": 0.3426565089551159,
+      "sample": 265,
+      "split": "validation",
+      "structure": 0.6709284555451556
+    },
+    {
+      "activity": 0.08834985632194241,
+      "history": 0.26826397272188846,
+      "observed": 0.09672778748886746,
+      "sample": 266,
+      "split": "validation",
+      "structure": 0.7288108839567533
+    },
+    {
+      "activity": 0.25849586043982087,
+      "history": 0.5471237791248958,
+      "observed": 0.28627826670291967,
+      "sample": 267,
+      "split": "validation",
+      "structure": 0.9980902536378197
+    },
+    {
+      "activity": 0.4829269322077592,
+      "history": 0.8404885998403846,
+      "observed": 0.7151398994998674,
+      "sample": 268,
+      "split": "validation",
+      "structure": 1.2675469633142842
+    },
+    {
+      "activity": 0.8683451161197648,
+      "history": 1.022306041691349,
+      "observed": 0.985814943589946,
+      "sample": 269,
+      "split": "validation",
+      "structure": 1.4068203980980212
+    },
+    {
+      "activity": 0.5558665050522846,
+      "history": 1.0165579948751597,
+      "observed": 1.0465084236449194,
+      "sample": 270,
+      "split": "validation",
+      "structure": 1.2760141083117214
+    },
+    {
+      "activity": 0.7306511433261856,
+      "history": 1.1859134914011813,
+      "observed": 1.2342950339904766,
+      "sample": 271,
+      "split": "validation",
+      "structure": 1.3922427601144098
+    },
+    {
+      "activity": 0.30438718825919636,
+      "history": 0.7331065260002285,
+      "observed": 0.6579207275135066,
+      "sample": 272,
+      "split": "validation",
+      "structure": 0.8165121689350155
+    },
+    {
+      "activity": 0.8124929624714793,
+      "history": 1.3886554991209994,
+      "observed": 1.5502890591373841,
+      "sample": 273,
+      "split": "validation",
+      "structure": 1.4896474239008473
+    },
+    {
+      "activity": 0.8043796888971672,
+      "history": 1.4731168534374175,
+      "observed": 1.4044340651964675,
+      "sample": 274,
+      "split": "validation",
+      "structure": 1.4889651494357687
+    },
+    {
+      "activity": 0.6854889244023794,
+      "history": 1.4075372453820743,
+      "observed": 1.3522576898010863,
+      "sample": 275,
+      "split": "validation",
+      "structure": 1.3323702706081537
+    },
+    {
+      "activity": 0.7942006226119555,
+      "history": 1.3854863687858874,
+      "observed": 1.395604264934129,
+      "sample": 276,
+      "split": "validation",
+      "structure": 1.2500586870454962
+    },
+    {
+      "activity": 0.19373587973409584,
+      "history": 0.8386943081241724,
+      "observed": 0.7789463942060446,
+      "sample": 277,
+      "split": "validation",
+      "structure": 0.578441889849255
+    },
+    {
+      "activity": 0.4551961553409575,
+      "history": 1.1990051776807389,
+      "observed": 1.3848839745997323,
+      "sample": 278,
+      "split": "validation",
+      "structure": 0.9623773911301792
+    },
+    {
+      "activity": 0.09221877497893213,
+      "history": 0.7130349195447591,
+      "observed": 0.7247278216781466,
+      "sample": 279,
+      "split": "validation",
+      "structure": 0.407876021083485
+    },
+    {
+      "activity": 0.2546747507863465,
+      "history": 0.9300898705020959,
+      "observed": 0.897804276888361,
+      "sample": 280,
+      "split": "validation",
+      "structure": 0.6513736685811576
+    },
+    {
+      "activity": 0.13372246701335277,
+      "history": 0.9238786673289372,
+      "observed": 1.0170706129763643,
+      "sample": 281,
+      "split": "validation",
+      "structure": 0.6301580313871944
+    },
+    {
+      "activity": -0.034019240291467016,
+      "history": 0.581249873724846,
+      "observed": 0.6863815604147653,
+      "sample": 282,
+      "split": "validation",
+      "structure": 0.27183879261813126
+    },
+    {
+      "activity": -0.14093851062150448,
+      "history": 0.40621965788410325,
+      "observed": 0.22629975083693998,
+      "sample": 283,
+      "split": "validation",
+      "structure": 0.1088931067101522
+    },
+    {
+      "activity": -0.47581978654282586,
+      "history": 0.3322397570477854,
+      "observed": 0.3053681284396768,
+      "sample": 284,
+      "split": "validation",
+      "structure": 0.049738968975135626
+    },
+    {
+      "activity": -0.27942644190923643,
+      "history": -0.0481254879007289,
+      "observed": -0.07736876143411259,
+      "sample": 285,
+      "split": "validation",
+      "structure": -0.26382411574910747
+    },
+    {
+      "activity": -0.6753896240582542,
+      "history": -0.39662914095577145,
+      "observed": -0.48319795940906746,
+      "sample": 286,
+      "split": "validation",
+      "structure": -0.600394612862939
+    },
+    {
+      "activity": -0.6377072713369053,
+      "history": -0.4244989006960927,
+      "observed": -0.3892554357380846,
+      "sample": 287,
+      "split": "validation",
+      "structure": -0.5401826545321912
+    },
+    {
+      "activity": -0.8299319353388106,
+      "history": -0.5870659602922658,
+      "observed": -0.7429417874369936,
+      "sample": 288,
+      "split": "validation",
+      "structure": -0.6399934183091619
+    },
+    {
+      "activity": -0.4609719514843927,
+      "history": -0.44363944141526046,
+      "observed": -0.5811052952547339,
+      "sample": 289,
+      "split": "validation",
+      "structure": -0.37615175976260756
+    },
+    {
+      "activity": -0.726769735487919,
+      "history": -0.6617382441233454,
+      "observed": -0.7598519274371036,
+      "sample": 290,
+      "split": "validation",
+      "structure": -0.565858130377153
+    },
+    {
+      "activity": -0.858797769278706,
+      "history": -0.7538268830856901,
+      "observed": -0.8157390247424589,
+      "sample": 291,
+      "split": "validation",
+      "structure": -0.5907777781828736
+    },
+    {
+      "activity": -0.5484627917458903,
+      "history": -1.1715140844741088,
+      "observed": -1.2719268767982415,
+      "sample": 292,
+      "split": "validation",
+      "structure": -0.9194662642150699
+    },
+    {
+      "activity": -0.4057846040229764,
+      "history": -1.2209716858992081,
+      "observed": -1.2258630551968777,
+      "sample": 293,
+      "split": "validation",
+      "structure": -0.9143325673190639
+    },
+    {
+      "activity": -0.3582202445797197,
+      "history": -1.0633856666017465,
+      "observed": -1.2297390266295398,
+      "sample": 294,
+      "split": "validation",
+      "structure": -0.7179497126743097
+    },
+    {
+      "activity": -0.02797618473474061,
+      "history": -0.5612947070181685,
+      "observed": -0.6260545062931121,
+      "sample": 295,
+      "split": "validation",
+      "structure": -0.15681623719610993
+    },
+    {
+      "activity": -0.2130880038424811,
+      "history": -0.7708791164638948,
+      "observed": -0.7679594936041465,
+      "sample": 296,
+      "split": "validation",
+      "structure": -0.3980393219573516
+    },
+    {
+      "activity": 0.1657505372837218,
+      "history": -0.6728412906724145,
+      "observed": -0.79858868831809,
+      "sample": 297,
+      "split": "validation",
+      "structure": -0.269924712221816
+    },
+    {
+      "activity": 0.08602538102559633,
+      "history": -0.6503833263856232,
+      "observed": -0.6587044931839585,
+      "sample": 298,
+      "split": "validation",
+      "structure": -0.2865673828038376
+    },
+    {
+      "activity": 0.4156948001279884,
+      "history": -0.4555757206783868,
+      "observed": -0.4525624924223915,
+      "sample": 299,
+      "split": "validation",
+      "structure": -0.09277878973736092
+    },
+    {
+      "activity": 0.5779824201888809,
+      "history": -0.31135253619129466,
+      "observed": -0.2674407580017783,
+      "sample": 300,
+      "split": "validation",
+      "structure": 0.004261548763348326
+    },
+    {
+      "activity": 0.46177157075650455,
+      "history": -0.3018773549035066,
+      "observed": -0.27626463581476673,
+      "sample": 301,
+      "split": "validation",
+      "structure": -0.06784621180566319
+    },
+    {
+      "activity": 0.4002611709426659,
+      "history": -0.4293840377373824,
+      "observed": -0.48117187075347967,
+      "sample": 302,
+      "split": "validation",
+      "structure": -0.26228918988180355
+    },
+    {
+      "activity": 0.45962458826039204,
+      "history": -0.3517339659436663,
+      "observed": -0.2900622247254339,
+      "sample": 303,
+      "split": "validation",
+      "structure": -0.2280226120196029
+    },
+    {
+      "activity": 0.4545431226147789,
+      "history": -0.3700684566160171,
+      "observed": -0.33451142694844893,
+      "sample": 304,
+      "split": "validation",
+      "structure": -0.3007486413298252
+    },
+    {
+      "activity": 0.7580574633483487,
+      "history": -0.10575610965389472,
+      "observed": -0.07425522839391349,
+      "sample": 305,
+      "split": "validation",
+      "structure": -0.0613983344403169
+    },
+    {
+      "activity": 0.35370628263826664,
+      "history": -0.3485644405491133,
+      "observed": -0.02024824031158251,
+      "sample": 306,
+      "split": "validation",
+      "structure": -0.41560416388019605
+    },
+    {
+      "activity": 0.7936909965866348,
+      "history": 0.2416607216884082,
+      "observed": 0.23534786254205,
+      "sample": 307,
+      "split": "validation",
+      "structure": 0.1864678201959405
+    },
+    {
+      "activity": 0.7785574276697533,
+      "history": 0.04577533129831121,
+      "observed": 0.0259644775964989,
+      "sample": 308,
+      "split": "validation",
+      "structure": -0.09736628580348555
+    },
+    {
+      "activity": 0.6353860267370249,
+      "history": -0.2359426988697583,
+      "observed": -0.20853851077530222,
+      "sample": 309,
+      "split": "validation",
+      "structure": -0.47105370440819433
+    },
+    {
+      "activity": 0.34606379407176013,
+      "history": -0.016477627370663796,
+      "observed": -0.008496053031471194,
+      "sample": 310,
+      "split": "validation",
+      "structure": -0.3130382698726753
+    },
+    {
+      "activity": 0.4610386021865526,
+      "history": -0.08130686021372266,
+      "observed": -0.03877631303256794,
+      "sample": 311,
+      "split": "validation",
+      "structure": -0.39371170198885386
+    },
+    {
+      "activity": 0.17112033253714942,
+      "history": -0.08172172315077847,
+      "observed": -0.15397973547078558,
+      "sample": 312,
+      "split": "validation",
+      "structure": -0.44037939640131235
+    },
+    {
+      "activity": 0.10834762809905117,
+      "history": -0.10493690141716637,
+      "observed": -0.3602188432037638,
+      "sample": 313,
+      "split": "validation",
+      "structure": -0.4649199136559998
+    },
+    {
+      "activity": -0.11041562764652259,
+      "history": -0.38646314237653606,
+      "observed": -0.5803617415694058,
+      "sample": 314,
+      "split": "validation",
+      "structure": -0.7583174006562464
+    },
+    {
+      "activity": 0.007238970607277455,
+      "history": -0.21740759598854376,
+      "observed": -0.3584400848487945,
+      "sample": 315,
+      "split": "validation",
+      "structure": -0.5433481593973825
+    },
+    {
+      "activity": -0.3780822412796689,
+      "history": -0.4352100022630063,
+      "observed": -0.34631594915427816,
+      "sample": 316,
+      "split": "validation",
+      "structure": -0.7701018185402029
+    },
+    {
+      "activity": -0.3541782380352749,
+      "history": -0.43982693637761694,
+      "observed": -0.6724361133259074,
+      "sample": 317,
+      "split": "validation",
+      "structure": -0.7125790293668984
+    },
+    {
+      "activity": -0.4339275716186356,
+      "history": -0.761591454711248,
+      "observed": -0.852647746453228,
+      "sample": 318,
+      "split": "validation",
+      "structure": -0.9948353252900471
+    },
+    {
+      "activity": -0.8426188079789556,
+      "history": -1.0859067827789182,
+      "observed": -1.1256636422717186,
+      "sample": 319,
+      "split": "validation",
+      "structure": -1.2904901297618452
+    },
+    {
+      "activity": -0.6226087720691078,
+      "history": -1.0535438379350748,
+      "observed": -1.2162515114649852,
+      "sample": 320,
+      "split": "test",
+      "structure": -1.1413637972661952
+    },
+    {
+      "activity": -0.5366798567256422,
+      "history": -0.831702565041755,
+      "observed": -1.0369389407836926,
+      "sample": 321,
+      "split": "test",
+      "structure": -0.8326297007885911
+    },
+    {
+      "activity": -0.688850825182672,
+      "history": -1.1085404181977383,
+      "observed": -1.063365672746353,
+      "sample": 322,
+      "split": "test",
+      "structure": -1.0663629471636287
+    },
+    {
+      "activity": -0.7285022395544938,
+      "history": -1.200474828572966,
+      "observed": -1.1560917119394385,
+      "sample": 323,
+      "split": "test",
+      "structure": -1.0886517555940924
+    },
+    {
+      "activity": -0.4912797216707486,
+      "history": -0.998259541601388,
+      "observed": -0.9130292489205881,
+      "sample": 324,
+      "split": "test",
+      "structure": -0.7911237506956909
+    },
+    {
+      "activity": -1.02092653141488,
+      "history": -1.5472550114318178,
+      "observed": -1.4934004533785308,
+      "sample": 325,
+      "split": "test",
+      "structure": -1.3420435383274907
+    },
+    {
+      "activity": -0.42587910157935466,
+      "history": -1.0176874714105224,
+      "observed": -1.1623991507188647,
+      "sample": 326,
+      "split": "test",
+      "structure": -0.6600828755791526
+    },
+    {
+      "activity": -0.620455217281425,
+      "history": -1.2531122477157581,
+      "observed": -1.182180981774371,
+      "sample": 327,
+      "split": "test",
+      "structure": -0.8834780311793838
+    },
+    {
+      "activity": -0.4307621174157113,
+      "history": -1.1092634210925056,
+      "observed": -1.1218771961548812,
+      "sample": 328,
+      "split": "test",
+      "structure": -0.6737124306758348
+    },
+    {
+      "activity": -0.06392524143238824,
+      "history": -0.8055026881414089,
+      "observed": -1.0060258759397984,
+      "sample": 329,
+      "split": "test",
+      "structure": -0.31290046083275314
+    },
+    {
+      "activity": 0.18113691177410474,
+      "history": -0.4953231647678389,
+      "observed": -0.5147297654268743,
+      "sample": 330,
+      "split": "test",
+      "structure": 0.005815742365641745
+    },
+    {
+      "activity": -0.15599993880891394,
+      "history": -0.8096961900364085,
+      "observed": -0.9338979966719616,
+      "sample": 331,
+      "split": "test",
+      "structure": -0.37945904016423526
+    },
+    {
+      "activity": 0.1530106869190852,
+      "history": -0.1717019389208371,
+      "observed": -0.1783841436024988,
+      "sample": 332,
+      "split": "test",
+      "structure": 0.29551153454510626
+    },
+    {
+      "activity": 0.08857641947401217,
+      "history": -0.21422018457137362,
+      "observed": -0.10494327705440545,
+      "sample": 333,
+      "split": "test",
+      "structure": 0.211404757387686
+    },
+    {
+      "activity": 0.4110251925372147,
+      "history": 0.20317706961572973,
+      "observed": 0.2064186108084948,
+      "sample": 334,
+      "split": "test",
+      "structure": 0.6329523851012812
+    },
+    {
+      "activity": 0.1674106542850789,
+      "history": 0.151179010313822,
+      "observed": -0.06715792656352709,
+      "sample": 335,
+      "split": "test",
+      "structure": 0.5040917007441053
+    },
+    {
+      "activity": 0.5541519431012787,
+      "history": 0.1633770952347629,
+      "observed": 0.14271657530185763,
+      "sample": 336,
+      "split": "test",
+      "structure": 0.5046414086678992
+    },
+    {
+      "activity": 0.9381897158669599,
+      "history": 0.990402356306352,
+      "observed": 1.0185424493408093,
+      "sample": 337,
+      "split": "test",
+      "structure": 1.3078296372141973
+    },
+    {
+      "activity": 0.5784061010414183,
+      "history": 0.4097840031087751,
+      "observed": 0.3251511570545826,
+      "sample": 338,
+      "split": "test",
+      "structure": 0.574404007798462
+    },
+    {
+      "activity": 0.7404765430368468,
+      "history": 0.7124649256575496,
+      "observed": 0.7358731918311232,
+      "sample": 339,
+      "split": "test",
+      "structure": 0.8293315674641213
+    },
+    {
+      "activity": 0.7416375352473766,
+      "history": 0.9681024123499955,
+      "observed": 0.8110248438208068,
+      "sample": 340,
+      "split": "test",
+      "structure": 1.0124060254427365
+    },
+    {
+      "activity": 0.8551747464776527,
+      "history": 1.0698895981319423,
+      "observed": 1.0840464723646441,
+      "sample": 341,
+      "split": "test",
+      "structure": 1.0457709542027678
+    },
+    {
+      "activity": 0.7568722714968297,
+      "history": 1.2188446426802642,
+      "observed": 1.2490926211754687,
+      "sample": 342,
+      "split": "test",
+      "structure": 1.1082915287446717
+    },
+    {
+      "activity": 0.2756381112525459,
+      "history": 0.9611118232985393,
+      "observed": 1.0699897296948668,
+      "sample": 343,
+      "split": "test",
+      "structure": 0.7449505748872163
+    },
+    {
+      "activity": 0.4771272778071035,
+      "history": 1.0711864887100886,
+      "observed": 1.0744772415140755,
+      "sample": 344,
+      "split": "test",
+      "structure": 0.8554869696842003
+    },
+    {
+      "activity": -0.1253522621971962,
+      "history": 0.6257691599650143,
+      "observed": 0.6436913149420753,
+      "sample": 345,
+      "split": "test",
+      "structure": 0.32700986039293184
+    },
+    {
+      "activity": 0.3977808192719712,
+      "history": 1.3944566531084566,
+      "observed": 1.3385140802391189,
+      "sample": 346,
+      "split": "test",
+      "structure": 1.184167813933534
+    },
+    {
+      "activity": -0.18037360774020533,
+      "history": 0.7479231095147921,
+      "observed": 0.6961563162929943,
+      "sample": 347,
+      "split": "test",
+      "structure": 0.45750384953481904
+    },
+    {
+      "activity": -0.3418128004106014,
+      "history": 0.9413526301577154,
+      "observed": 0.9436835178302899,
+      "sample": 348,
+      "split": "test",
+      "structure": 0.6890321210918245
+    },
+    {
+      "activity": -0.44433564375384926,
+      "history": 0.40164918748479617,
+      "observed": 0.3721568924000915,
+      "sample": 349,
+      "split": "test",
+      "structure": 0.17986059184792585
+    },
+    {
+      "activity": -0.37029858668265503,
+      "history": 0.5056222516820856,
+      "observed": 0.5193885062195333,
+      "sample": 350,
+      "split": "test",
+      "structure": 0.3556404033397027
+    },
+    {
+      "activity": -0.6664188601787487,
+      "history": 0.18754230419485593,
+      "observed": 0.08784342140547731,
+      "sample": 351,
+      "split": "test",
+      "structure": 0.06341878415650054
+    },
+    {
+      "activity": -0.6919075600049778,
+      "history": 0.1309981184362058,
+      "observed": 0.05015346308152333,
+      "sample": 352,
+      "split": "test",
+      "structure": 0.08676007249606271
+    },
+    {
+      "activity": -0.2844492323039575,
+      "history": 0.46955890801008243,
+      "observed": 0.43148431756518746,
+      "sample": 353,
+      "split": "test",
+      "structure": 0.540587485659112
+    },
+    {
+      "activity": -0.5256178948561699,
+      "history": 0.37159717181858,
+      "observed": 0.5725110190019425,
+      "sample": 354,
+      "split": "test",
+      "structure": 0.45881757215765057
+    },
+    {
+      "activity": -0.7477913115304708,
+      "history": -0.07688995206869512,
+      "observed": 0.03304751244891441,
+      "sample": 355,
+      "split": "test",
+      "structure": 0.04014865016829721
+    },
+    {
+      "activity": -0.3776671659928665,
+      "history": 0.22595470363680728,
+      "observed": 0.2611280513773915,
+      "sample": 356,
+      "split": "test",
+      "structure": 0.4527149950916819
+    },
+    {
+      "activity": -0.4744944624228878,
+      "history": 0.11754925029878391,
+      "observed": -0.10380253420040556,
+      "sample": 357,
+      "split": "test",
+      "structure": 0.3695291304459595
+    },
+    {
+      "activity": -0.21157877154672988,
+      "history": 0.18460234200169887,
+      "observed": 0.13092680338508456,
+      "sample": 358,
+      "split": "test",
+      "structure": 0.49586033407753194
+    },
+    {
+      "activity": -0.2205636677124712,
+      "history": 0.34718979367002273,
+      "observed": 0.4051624932196493,
+      "sample": 359,
+      "split": "test",
+      "structure": 0.6755751475477962
+    },
+    {
+      "activity": -0.2816613374962791,
+      "history": -0.14971384412254424,
+      "observed": -0.2474392482206988,
+      "sample": 360,
+      "split": "test",
+      "structure": 0.16949583215125463
+    },
+    {
+      "activity": -0.4230667509817233,
+      "history": -0.17662982279150988,
+      "observed": -0.3064298994611692,
+      "sample": 361,
+      "split": "test",
+      "structure": 0.1526527732355361
+    },
+    {
+      "activity": -0.5799302431786397,
+      "history": -0.38063119219373226,
+      "observed": -0.3840081797673971,
+      "sample": 362,
+      "split": "test",
+      "structure": -0.033591147439346
+    },
+    {
+      "activity": -0.03937793835705091,
+      "history": 0.01912961233181343,
+      "observed": 0.012894446722987892,
+      "sample": 363,
+      "split": "test",
+      "structure": 0.4577545995768689
+    },
+    {
+      "activity": 0.10266604981995915,
+      "history": 0.256192097655238,
+      "observed": 0.31946412713084343,
+      "sample": 364,
+      "split": "test",
+      "structure": 0.696899556200695
+    },
+    {
+      "activity": 0.004482624333086126,
+      "history": -0.13841151467260837,
+      "observed": -0.21522093115128146,
+      "sample": 365,
+      "split": "test",
+      "structure": 0.25375342054285227
+    },
+    {
+      "activity": 0.19655270998672492,
+      "history": 0.26153839634779613,
+      "observed": 0.193172214097216,
+      "sample": 366,
+      "split": "test",
+      "structure": 0.661530622553466
+    },
+    {
+      "activity": 0.4007752294829679,
+      "history": 0.33530372041905654,
+      "observed": 0.24116463118260317,
+      "sample": 367,
+      "split": "test",
+      "structure": 0.7111543959975718
+    },
+    {
+      "activity": 0.43148759640207673,
+      "history": 0.5796060057314073,
+      "observed": 0.6374799159069622,
+      "sample": 368,
+      "split": "test",
+      "structure": 0.907574887870419
+    },
+    {
+      "activity": 0.06503905831080886,
+      "history": 0.24770208464456253,
+      "observed": 0.18660449717712096,
+      "sample": 369,
+      "split": "test",
+      "structure": 0.4858165512689288
+    },
+    {
+      "activity": 0.9630054142465903,
+      "history": 0.9951548033860276,
+      "observed": 0.9268088790896205,
+      "sample": 370,
+      "split": "test",
+      "structure": 1.2918673961353537
+    },
+    {
+      "activity": 0.8439427909306453,
+      "history": 0.9813170409961868,
+      "observed": 0.9374492663866852,
+      "sample": 371,
+      "split": "test",
+      "structure": 1.1566018195767007
+    },
+    {
+      "activity": 0.8650516690470489,
+      "history": 0.9384754600292811,
+      "observed": 1.065494047455693,
+      "sample": 372,
+      "split": "test",
+      "structure": 1.0175767300939798
+    },
+    {
+      "activity": 0.3801550461497129,
+      "history": 0.5689739818542258,
+      "observed": 0.5116684699184227,
+      "sample": 373,
+      "split": "test",
+      "structure": 0.5163598053344344
+    },
+    {
+      "activity": 0.8141402563295983,
+      "history": 0.8604302441389239,
+      "observed": 0.7209786462230746,
+      "sample": 374,
+      "split": "test",
+      "structure": 0.8065151196868873
+    },
+    {
+      "activity": 0.7859044594752039,
+      "history": 0.9457512740158238,
+      "observed": 0.9957339048609433,
+      "sample": 375,
+      "split": "test",
+      "structure": 0.8122902402656305
+    },
+    {
+      "activity": 0.39761159655712713,
+      "history": 0.6046662121725322,
+      "observed": 0.5745622816471482,
+      "sample": 376,
+      "split": "test",
+      "structure": 0.36480840662363373
+    },
+    {
+      "activity": 0.598437889386727,
+      "history": 0.7308617630369814,
+      "observed": 0.7019755007521397,
+      "sample": 377,
+      "split": "test",
+      "structure": 0.47919353070536935
+    },
+    {
+      "activity": 0.2163358032838038,
+      "history": 0.4713276202606564,
+      "observed": 0.5292292886227982,
+      "sample": 378,
+      "split": "test",
+      "structure": 0.14260808654653911
+    },
+    {
+      "activity": 0.14335839192458716,
+      "history": 0.4820577646832347,
+      "observed": 0.43616999372832443,
+      "sample": 379,
+      "split": "test",
+      "structure": 0.1472838558164371
+    },
+    {
+      "activity": 0.27647166471227536,
+      "history": 0.35176756086438377,
+      "observed": 0.3110141534614461,
+      "sample": 380,
+      "split": "test",
+      "structure": 0.024719797715506996
+    },
+    {
+      "activity": 0.4193115758570397,
+      "history": 0.491658815456772,
+      "observed": 0.3949159313150311,
+      "sample": 381,
+      "split": "test",
+      "structure": 0.16748380991125889
+    },
+    {
+      "activity": 0.007066503500868942,
+      "history": 0.20960160998883356,
+      "observed": 0.16175366367353386,
+      "sample": 382,
+      "split": "test",
+      "structure": -0.17118659107746872
+    },
+    {
+      "activity": -0.5334366700888624,
+      "history": -0.4483396679122925,
+      "observed": -0.409386367108983,
+      "sample": 383,
+      "split": "test",
+      "structure": -0.8585732254659043
+    },
+    {
+      "activity": -0.12075705536560886,
+      "history": -0.005022715922198075,
+      "observed": 0.06427579739349443,
+      "sample": 384,
+      "split": "test",
+      "structure": -0.2960165758856989
+    },
+    {
+      "activity": -0.4969648549917307,
+      "history": -0.5533491646175088,
+      "observed": -0.4090281389783691,
+      "sample": 385,
+      "split": "test",
+      "structure": -0.8522159640093773
+    },
+    {
+      "activity": -0.510169129356648,
+      "history": -0.8114582621017811,
+      "observed": -0.6465098260064955,
+      "sample": 386,
+      "split": "test",
+      "structure": -1.0483318536312725
+    },
+    {
+      "activity": -0.7234766537626464,
+      "history": -0.9517252087464178,
+      "observed": -1.0041843973784232,
+      "sample": 387,
+      "split": "test",
+      "structure": -1.1347307468608425
+    },
+    {
+      "activity": -0.700097661919851,
+      "history": -0.9434558827726203,
+      "observed": -0.9321239998872013,
+      "sample": 388,
+      "split": "test",
+      "structure": -1.0345807001467489
+    },
+    {
+      "activity": -0.4548636346948477,
+      "history": -1.0551554731380566,
+      "observed": -1.0935533975405893,
+      "sample": 389,
+      "split": "test",
+      "structure": -1.0544962330755705
+    },
+    {
+      "activity": -0.5779556466974167,
+      "history": -1.3703265626488166,
+      "observed": -1.191735370915354,
+      "sample": 390,
+      "split": "test",
+      "structure": -1.3359126090170497
+    },
+    {
+      "activity": -0.616888250461334,
+      "history": -1.0921544367001932,
+      "observed": -1.1662942743477964,
+      "sample": 391,
+      "split": "test",
+      "structure": -0.9868000120125912
+    },
+    {
+      "activity": -0.2795657854098387,
+      "history": -1.246708919603647,
+      "observed": -1.3182490606608623,
+      "sample": 392,
+      "split": "test",
+      "structure": -1.0656035057739552
+    },
+    {
+      "activity": -0.45014550520569835,
+      "history": -1.1878271069289936,
+      "observed": -1.3608909346304487,
+      "sample": 393,
+      "split": "test",
+      "structure": -0.9903461216396097
+    },
+    {
+      "activity": -0.16739234262318342,
+      "history": -1.2800677061079246,
+      "observed": -1.2130369707247912,
+      "sample": 394,
+      "split": "test",
+      "structure": -1.0304175897772951
+    },
+    {
+      "activity": -0.40011785946760164,
+      "history": -1.4488484791959022,
+      "observed": -1.5698514135295143,
+      "sample": 395,
+      "split": "test",
+      "structure": -1.2100970988952708
+    },
+    {
+      "activity": 0.011032034401706215,
+      "history": -0.9866855981799134,
+      "observed": -0.917328432149574,
+      "sample": 396,
+      "split": "test",
+      "structure": -0.6769629031829436
+    },
+    {
+      "activity": -0.208026337487844,
+      "history": -1.1051824564671027,
+      "observed": -1.0346683194022028,
+      "sample": 397,
+      "split": "test",
+      "structure": -0.8258349561490462
+    },
+    {
+      "activity": 0.06696494032529968,
+      "history": -0.9681598173933239,
+      "observed": -1.0233786880204265,
+      "sample": 398,
+      "split": "test",
+      "structure": -0.6591477005728111
+    },
+    {
+      "activity": 0.19343779966834823,
+      "history": -1.0686271280211608,
+      "observed": -1.1494705790756643,
+      "sample": 399,
+      "split": "test",
+      "structure": -0.7776082768998209
+    }
+  ],
+  "selection_record": {
+    "selected_model": "history",
+    "training_digest": "c80e5605aff5aa7c2ca76a5411f35b077ced55f03834a1f1cb326b27f0181079",
+    "validation_digest": "8c2e04e1028cf8f64c2656a612f0a1f221e97fe573c77c41444d3e0d199e76c3"
+  },
+  "series": {
+    "x": "sample",
+    "y": [
+      "observed",
+      "history"
+    ]
+  },
+  "source_kind": "synthetic_or_conditional",
+  "title": "Programme III: does another scale help prediction?"
+}

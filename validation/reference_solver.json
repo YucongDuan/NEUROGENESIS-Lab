@@ -1,0 +1,32 @@
+{
+  "brian2_executed": false,
+  "checks": [
+    {
+      "charge_residual_nC_cm2": 5.852207607404125e-12,
+      "dt_ms": 0.025,
+      "max_voltage_error_mV": 0.005999639300270587,
+      "rms_voltage_error_mV": 0.0003151003738875127,
+      "spike_count": 2
+    },
+    {
+      "charge_residual_nC_cm2": 8.910205906431656e-12,
+      "dt_ms": 0.0125,
+      "max_voltage_error_mV": 0.0003051941912417533,
+      "rms_voltage_error_mV": 1.6330770458573664e-05,
+      "spike_count": 2
+    },
+    {
+      "charge_residual_nC_cm2": 1.1709744285326451e-11,
+      "dt_ms": 0.00625,
+      "max_voltage_error_mV": 1.7173201349862666e-05,
+      "rms_voltage_error_mV": 9.314283007261331e-07,
+      "spike_count": 2
+    }
+  ],
+  "external_biological_validation": false,
+  "method": "Independent relative-voltage RHS + SciPy DOP853 versus release absolute-voltage RK4",
+  "passed": true,
+  "reference_atol": 1e-12,
+  "reference_rtol": 1e-10,
+  "scipy_version": "1.17.0"
+}

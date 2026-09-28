@@ -1,0 +1,4581 @@
+{
+  "book_sections": [
+    "18.7",
+    "18.9",
+    "18.16"
+  ],
+  "experiment": "mapping",
+  "limitations": [
+    "Synthetic binary reversal task; no neural or clinical validation.",
+    "Action and sensing counts/cost coefficients match; adaptive update cost is additional and reported.",
+    "The permuted arm is an offline shuffle control, not a deployable causal sensor.",
+    "Intervals use a normal approximation across paired seeds, not population-level biological inference.",
+    "Frozen and adaptive receive the same noisy cue and post-action feedback; neither sees current truth before acting."
+  ],
+  "method": "Paired-seed reversal experiment, shared cues, post-action feedback and disaggregated cost ledger.",
+  "metrics": {
+    "normal_approx_95_high": 0.6935760850575603,
+    "normal_approx_95_low": 0.6610905816091064,
+    "paired_post_shift_accuracy_delta": 0.6773333333333333,
+    "seeds": 24
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "action_nJ": 0.8,
+    "delay_trials": 5,
+    "learning_rate": 0.08,
+    "noise": 0.15,
+    "seed": 98,
+    "seeds": 24,
+    "sensor_nJ": 0.2,
+    "trials": 500,
+    "update_nJ": 0.05
+  },
+  "policies": [
+    {
+      "actions_per_seed": 500,
+      "conditional_cost_nJ": 500.0,
+      "mean_post_shift_accuracy": 0.1485,
+      "observations_per_seed": 500,
+      "policy": "frozen"
+    },
+    {
+      "actions_per_seed": 500,
+      "conditional_cost_nJ": 500.0,
+      "mean_post_shift_accuracy": 0.5,
+      "observations_per_seed": 500,
+      "policy": "delayed"
+    },
+    {
+      "actions_per_seed": 500,
+      "conditional_cost_nJ": 500.0,
+      "mean_post_shift_accuracy": 0.4968333333333333,
+      "observations_per_seed": 500,
+      "policy": "permuted"
+    },
+    {
+      "actions_per_seed": 500,
+      "conditional_cost_nJ": 525.0,
+      "mean_post_shift_accuracy": 0.8258333333333333,
+      "observations_per_seed": 500,
+      "policy": "adaptive"
+    }
+  ],
+  "question": "Does adaptive remapping recover after a change with the same cues and action budget?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "adaptive": 0.0,
+      "delayed": 0.0,
+      "frozen": 0.0,
+      "mapping_estimate": 0.8400000000000001,
+      "permuted": 0.0,
+      "phase": 0,
+      "trial": 1
+    },
+    {
+      "adaptive": 0.0,
+      "delayed": 0.5,
+      "frozen": 0.0,
+      "mapping_estimate": 0.6928000000000002,
+      "permuted": 0.0,
+      "phase": 0,
+      "trial": 2
+    },
+    {
+      "adaptive": 0.3333333333333333,
+      "delayed": 0.3333333333333333,
+      "frozen": 0.3333333333333333,
+      "mapping_estimate": 0.7173760000000001,
+      "permuted": 0.3333333333333333,
+      "phase": 0,
+      "trial": 3
+    },
+    {
+      "adaptive": 0.5,
+      "delayed": 0.25,
+      "frozen": 0.5,
+      "mapping_estimate": 0.7399859200000001,
+      "permuted": 0.25,
+      "phase": 0,
+      "trial": 4
+    },
+    {
+      "adaptive": 0.6,
+      "delayed": 0.4,
+      "frozen": 0.6,
+      "mapping_estimate": 0.7607870464,
+      "permuted": 0.4,
+      "phase": 0,
+      "trial": 5
+    },
+    {
+      "adaptive": 0.6666666666666666,
+      "delayed": 0.3333333333333333,
+      "frozen": 0.6666666666666666,
+      "mapping_estimate": 0.7799240826880001,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 6
+    },
+    {
+      "adaptive": 0.7142857142857143,
+      "delayed": 0.42857142857142855,
+      "frozen": 0.7142857142857143,
+      "mapping_estimate": 0.7975301560729601,
+      "permuted": 0.42857142857142855,
+      "phase": 0,
+      "trial": 7
+    },
+    {
+      "adaptive": 0.75,
+      "delayed": 0.375,
+      "frozen": 0.75,
+      "mapping_estimate": 0.8137277435871233,
+      "permuted": 0.375,
+      "phase": 0,
+      "trial": 8
+    },
+    {
+      "adaptive": 0.7777777777777778,
+      "delayed": 0.4444444444444444,
+      "frozen": 0.7777777777777778,
+      "mapping_estimate": 0.8286295241001534,
+      "permuted": 0.3333333333333333,
+      "phase": 0,
+      "trial": 9
+    },
+    {
+      "adaptive": 0.8,
+      "delayed": 0.5,
+      "frozen": 0.8,
+      "mapping_estimate": 0.8423391621721411,
+      "permuted": 0.4,
+      "phase": 0,
+      "trial": 10
+    },
+    {
+      "adaptive": 0.8181818181818182,
+      "delayed": 0.5454545454545454,
+      "frozen": 0.8181818181818182,
+      "mapping_estimate": 0.8549520291983698,
+      "permuted": 0.45454545454545453,
+      "phase": 0,
+      "trial": 11
+    },
+    {
+      "adaptive": 0.8333333333333334,
+      "delayed": 0.5,
+      "frozen": 0.8333333333333334,
+      "mapping_estimate": 0.8665558668625002,
+      "permuted": 0.4166666666666667,
+      "phase": 0,
+      "trial": 12
+    },
+    {
+      "adaptive": 0.7692307692307693,
+      "delayed": 0.46153846153846156,
+      "frozen": 0.7692307692307693,
+      "mapping_estimate": 0.7172313975135003,
+      "permuted": 0.46153846153846156,
+      "phase": 0,
+      "trial": 13
+    },
+    {
+      "adaptive": 0.7857142857142857,
+      "delayed": 0.42857142857142855,
+      "frozen": 0.7857142857142857,
+      "mapping_estimate": 0.7398528857124202,
+      "permuted": 0.42857142857142855,
+      "phase": 0,
+      "trial": 14
+    },
+    {
+      "adaptive": 0.7333333333333333,
+      "delayed": 0.4666666666666667,
+      "frozen": 0.7333333333333333,
+      "mapping_estimate": 0.6006646548554267,
+      "permuted": 0.4666666666666667,
+      "phase": 0,
+      "trial": 15
+    },
+    {
+      "adaptive": 0.75,
+      "delayed": 0.5,
+      "frozen": 0.75,
+      "mapping_estimate": 0.6326114824669926,
+      "permuted": 0.4375,
+      "phase": 0,
+      "trial": 16
+    },
+    {
+      "adaptive": 0.7647058823529411,
+      "delayed": 0.47058823529411764,
+      "frozen": 0.7647058823529411,
+      "mapping_estimate": 0.6620025638696332,
+      "permuted": 0.4117647058823529,
+      "phase": 0,
+      "trial": 17
+    },
+    {
+      "adaptive": 0.7777777777777778,
+      "delayed": 0.4444444444444444,
+      "frozen": 0.7777777777777778,
+      "mapping_estimate": 0.6890423587600625,
+      "permuted": 0.3888888888888889,
+      "phase": 0,
+      "trial": 18
+    },
+    {
+      "adaptive": 0.7894736842105263,
+      "delayed": 0.47368421052631576,
+      "frozen": 0.7894736842105263,
+      "mapping_estimate": 0.7139189700592574,
+      "permuted": 0.3684210526315789,
+      "phase": 0,
+      "trial": 19
+    },
+    {
+      "adaptive": 0.8,
+      "delayed": 0.5,
+      "frozen": 0.8,
+      "mapping_estimate": 0.7368054524545168,
+      "permuted": 0.35,
+      "phase": 0,
+      "trial": 20
+    },
+    {
+      "adaptive": 0.8095238095238095,
+      "delayed": 0.47619047619047616,
+      "frozen": 0.8095238095238095,
+      "mapping_estimate": 0.7578610162581554,
+      "permuted": 0.3333333333333333,
+      "phase": 0,
+      "trial": 21
+    },
+    {
+      "adaptive": 0.7727272727272727,
+      "delayed": 0.45454545454545453,
+      "frozen": 0.7727272727272727,
+      "mapping_estimate": 0.6172321349575031,
+      "permuted": 0.3181818181818182,
+      "phase": 0,
+      "trial": 22
+    },
+    {
+      "adaptive": 0.782608695652174,
+      "delayed": 0.4782608695652174,
+      "frozen": 0.782608695652174,
+      "mapping_estimate": 0.6478535641609028,
+      "permuted": 0.30434782608695654,
+      "phase": 0,
+      "trial": 23
+    },
+    {
+      "adaptive": 0.7916666666666666,
+      "delayed": 0.5,
+      "frozen": 0.7916666666666666,
+      "mapping_estimate": 0.6760252790280306,
+      "permuted": 0.2916666666666667,
+      "phase": 0,
+      "trial": 24
+    },
+    {
+      "adaptive": 0.8,
+      "delayed": 0.48,
+      "frozen": 0.8,
+      "mapping_estimate": 0.701943256705788,
+      "permuted": 0.28,
+      "phase": 0,
+      "trial": 25
+    },
+    {
+      "adaptive": 0.8076923076923077,
+      "delayed": 0.46153846153846156,
+      "frozen": 0.8076923076923077,
+      "mapping_estimate": 0.725787796169325,
+      "permuted": 0.2692307692307692,
+      "phase": 0,
+      "trial": 26
+    },
+    {
+      "adaptive": 0.7777777777777778,
+      "delayed": 0.4444444444444444,
+      "frozen": 0.7777777777777778,
+      "mapping_estimate": 0.587724772475779,
+      "permuted": 0.2962962962962963,
+      "phase": 0,
+      "trial": 27
+    },
+    {
+      "adaptive": 0.7857142857142857,
+      "delayed": 0.42857142857142855,
+      "frozen": 0.7857142857142857,
+      "mapping_estimate": 0.6207067906777167,
+      "permuted": 0.32142857142857145,
+      "phase": 0,
+      "trial": 28
+    },
+    {
+      "adaptive": 0.7931034482758621,
+      "delayed": 0.4482758620689655,
+      "frozen": 0.7931034482758621,
+      "mapping_estimate": 0.6510502474234994,
+      "permuted": 0.3103448275862069,
+      "phase": 0,
+      "trial": 29
+    },
+    {
+      "adaptive": 0.7666666666666667,
+      "delayed": 0.43333333333333335,
+      "frozen": 0.7666666666666667,
+      "mapping_estimate": 0.5189662276296195,
+      "permuted": 0.3,
+      "phase": 0,
+      "trial": 30
+    },
+    {
+      "adaptive": 0.7741935483870968,
+      "delayed": 0.41935483870967744,
+      "frozen": 0.7741935483870968,
+      "mapping_estimate": 0.55744892941925,
+      "permuted": 0.3225806451612903,
+      "phase": 0,
+      "trial": 31
+    },
+    {
+      "adaptive": 0.78125,
+      "delayed": 0.40625,
+      "frozen": 0.78125,
+      "mapping_estimate": 0.59285301506571,
+      "permuted": 0.34375,
+      "phase": 0,
+      "trial": 32
+    },
+    {
+      "adaptive": 0.7878787878787878,
+      "delayed": 0.3939393939393939,
+      "frozen": 0.7878787878787878,
+      "mapping_estimate": 0.6254247738604531,
+      "permuted": 0.36363636363636365,
+      "phase": 0,
+      "trial": 33
+    },
+    {
+      "adaptive": 0.7941176470588235,
+      "delayed": 0.4117647058823529,
+      "frozen": 0.7941176470588235,
+      "mapping_estimate": 0.6553907919516169,
+      "permuted": 0.35294117647058826,
+      "phase": 0,
+      "trial": 34
+    },
+    {
+      "adaptive": 0.8,
+      "delayed": 0.4,
+      "frozen": 0.8,
+      "mapping_estimate": 0.6829595285954875,
+      "permuted": 0.34285714285714286,
+      "phase": 0,
+      "trial": 35
+    },
+    {
+      "adaptive": 0.8055555555555556,
+      "delayed": 0.3888888888888889,
+      "frozen": 0.8055555555555556,
+      "mapping_estimate": 0.7083227663078485,
+      "permuted": 0.3611111111111111,
+      "phase": 0,
+      "trial": 36
+    },
+    {
+      "adaptive": 0.8108108108108109,
+      "delayed": 0.40540540540540543,
+      "frozen": 0.8108108108108109,
+      "mapping_estimate": 0.7316569450032206,
+      "permuted": 0.3783783783783784,
+      "phase": 0,
+      "trial": 37
+    },
+    {
+      "adaptive": 0.8157894736842105,
+      "delayed": 0.42105263157894735,
+      "frozen": 0.8157894736842105,
+      "mapping_estimate": 0.753124389402963,
+      "permuted": 0.39473684210526316,
+      "phase": 0,
+      "trial": 38
+    },
+    {
+      "adaptive": 0.8205128205128205,
+      "delayed": 0.4358974358974359,
+      "frozen": 0.8205128205128205,
+      "mapping_estimate": 0.772874438250726,
+      "permuted": 0.38461538461538464,
+      "phase": 0,
+      "trial": 39
+    },
+    {
+      "adaptive": 0.825,
+      "delayed": 0.425,
+      "frozen": 0.825,
+      "mapping_estimate": 0.7910444831906679,
+      "permuted": 0.4,
+      "phase": 0,
+      "trial": 40
+    },
+    {
+      "adaptive": 0.8292682926829268,
+      "delayed": 0.4146341463414634,
+      "frozen": 0.8292682926829268,
+      "mapping_estimate": 0.8077609245354145,
+      "permuted": 0.3902439024390244,
+      "phase": 0,
+      "trial": 41
+    },
+    {
+      "adaptive": 0.8333333333333334,
+      "delayed": 0.40476190476190477,
+      "frozen": 0.8333333333333334,
+      "mapping_estimate": 0.8231400505725813,
+      "permuted": 0.40476190476190477,
+      "phase": 0,
+      "trial": 42
+    },
+    {
+      "adaptive": 0.8372093023255814,
+      "delayed": 0.4186046511627907,
+      "frozen": 0.8372093023255814,
+      "mapping_estimate": 0.8372888465267748,
+      "permuted": 0.4186046511627907,
+      "phase": 0,
+      "trial": 43
+    },
+    {
+      "adaptive": 0.8181818181818182,
+      "delayed": 0.4090909090909091,
+      "frozen": 0.8181818181818182,
+      "mapping_estimate": 0.6903057388046329,
+      "permuted": 0.4090909090909091,
+      "phase": 0,
+      "trial": 44
+    },
+    {
+      "adaptive": 0.8222222222222222,
+      "delayed": 0.4222222222222222,
+      "frozen": 0.8222222222222222,
+      "mapping_estimate": 0.7150812797002623,
+      "permuted": 0.4222222222222222,
+      "phase": 0,
+      "trial": 45
+    },
+    {
+      "adaptive": 0.8260869565217391,
+      "delayed": 0.43478260869565216,
+      "frozen": 0.8260869565217391,
+      "mapping_estimate": 0.7378747773242412,
+      "permuted": 0.43478260869565216,
+      "phase": 0,
+      "trial": 46
+    },
+    {
+      "adaptive": 0.8297872340425532,
+      "delayed": 0.425531914893617,
+      "frozen": 0.8297872340425532,
+      "mapping_estimate": 0.7588447951383019,
+      "permuted": 0.44680851063829785,
+      "phase": 0,
+      "trial": 47
+    },
+    {
+      "adaptive": 0.8333333333333334,
+      "delayed": 0.4375,
+      "frozen": 0.8333333333333334,
+      "mapping_estimate": 0.7781372115272378,
+      "permuted": 0.4583333333333333,
+      "phase": 0,
+      "trial": 48
+    },
+    {
+      "adaptive": 0.8367346938775511,
+      "delayed": 0.42857142857142855,
+      "frozen": 0.8367346938775511,
+      "mapping_estimate": 0.7958862346050588,
+      "permuted": 0.46938775510204084,
+      "phase": 0,
+      "trial": 49
+    },
+    {
+      "adaptive": 0.82,
+      "delayed": 0.44,
+      "frozen": 0.82,
+      "mapping_estimate": 0.6522153358366541,
+      "permuted": 0.48,
+      "phase": 0,
+      "trial": 50
+    },
+    {
+      "adaptive": 0.8235294117647058,
+      "delayed": 0.43137254901960786,
+      "frozen": 0.8235294117647058,
+      "mapping_estimate": 0.6800381089697218,
+      "permuted": 0.49019607843137253,
+      "phase": 0,
+      "trial": 51
+    },
+    {
+      "adaptive": 0.8269230769230769,
+      "delayed": 0.4423076923076923,
+      "frozen": 0.8269230769230769,
+      "mapping_estimate": 0.7056350602521441,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 52
+    },
+    {
+      "adaptive": 0.8301886792452831,
+      "delayed": 0.4339622641509434,
+      "frozen": 0.8301886792452831,
+      "mapping_estimate": 0.7291842554319725,
+      "permuted": 0.49056603773584906,
+      "phase": 0,
+      "trial": 53
+    },
+    {
+      "adaptive": 0.8333333333333334,
+      "delayed": 0.42592592592592593,
+      "frozen": 0.8333333333333334,
+      "mapping_estimate": 0.7508495149974147,
+      "permuted": 0.48148148148148145,
+      "phase": 0,
+      "trial": 54
+    },
+    {
+      "adaptive": 0.8363636363636363,
+      "delayed": 0.43636363636363634,
+      "frozen": 0.8363636363636363,
+      "mapping_estimate": 0.7707815537976215,
+      "permuted": 0.4727272727272727,
+      "phase": 0,
+      "trial": 55
+    },
+    {
+      "adaptive": 0.8214285714285714,
+      "delayed": 0.44642857142857145,
+      "frozen": 0.8214285714285714,
+      "mapping_estimate": 0.6291190294938118,
+      "permuted": 0.4642857142857143,
+      "phase": 0,
+      "trial": 56
+    },
+    {
+      "adaptive": 0.8245614035087719,
+      "delayed": 0.43859649122807015,
+      "frozen": 0.8245614035087719,
+      "mapping_estimate": 0.6587895071343068,
+      "permuted": 0.47368421052631576,
+      "phase": 0,
+      "trial": 57
+    },
+    {
+      "adaptive": 0.8275862068965517,
+      "delayed": 0.43103448275862066,
+      "frozen": 0.8275862068965517,
+      "mapping_estimate": 0.6860863465635623,
+      "permuted": 0.4827586206896552,
+      "phase": 0,
+      "trial": 58
+    },
+    {
+      "adaptive": 0.8305084745762712,
+      "delayed": 0.423728813559322,
+      "frozen": 0.8305084745762712,
+      "mapping_estimate": 0.7111994388384772,
+      "permuted": 0.4745762711864407,
+      "phase": 0,
+      "trial": 59
+    },
+    {
+      "adaptive": 0.8333333333333334,
+      "delayed": 0.4166666666666667,
+      "frozen": 0.8333333333333334,
+      "mapping_estimate": 0.7343034837313991,
+      "permuted": 0.4666666666666667,
+      "phase": 0,
+      "trial": 60
+    },
+    {
+      "adaptive": 0.8360655737704918,
+      "delayed": 0.4098360655737705,
+      "frozen": 0.8360655737704918,
+      "mapping_estimate": 0.7555592050328872,
+      "permuted": 0.45901639344262296,
+      "phase": 0,
+      "trial": 61
+    },
+    {
+      "adaptive": 0.8387096774193549,
+      "delayed": 0.41935483870967744,
+      "frozen": 0.8387096774193549,
+      "mapping_estimate": 0.7751144686302562,
+      "permuted": 0.45161290322580644,
+      "phase": 0,
+      "trial": 62
+    },
+    {
+      "adaptive": 0.8412698412698413,
+      "delayed": 0.42857142857142855,
+      "frozen": 0.8412698412698413,
+      "mapping_estimate": 0.7931053111398357,
+      "permuted": 0.4603174603174603,
+      "phase": 0,
+      "trial": 63
+    },
+    {
+      "adaptive": 0.84375,
+      "delayed": 0.4375,
+      "frozen": 0.84375,
+      "mapping_estimate": 0.8096568862486488,
+      "permuted": 0.453125,
+      "phase": 0,
+      "trial": 64
+    },
+    {
+      "adaptive": 0.8461538461538461,
+      "delayed": 0.4461538461538462,
+      "frozen": 0.8461538461538461,
+      "mapping_estimate": 0.8248843353487569,
+      "permuted": 0.4461538461538462,
+      "phase": 0,
+      "trial": 65
+    },
+    {
+      "adaptive": 0.8484848484848485,
+      "delayed": 0.4393939393939394,
+      "frozen": 0.8484848484848485,
+      "mapping_estimate": 0.8388935885208564,
+      "permuted": 0.4393939393939394,
+      "phase": 0,
+      "trial": 66
+    },
+    {
+      "adaptive": 0.8507462686567164,
+      "delayed": 0.44776119402985076,
+      "frozen": 0.8507462686567164,
+      "mapping_estimate": 0.8517821014391879,
+      "permuted": 0.44776119402985076,
+      "phase": 0,
+      "trial": 67
+    },
+    {
+      "adaptive": 0.8529411764705882,
+      "delayed": 0.4411764705882353,
+      "frozen": 0.8529411764705882,
+      "mapping_estimate": 0.8636395333240529,
+      "permuted": 0.45588235294117646,
+      "phase": 0,
+      "trial": 68
+    },
+    {
+      "adaptive": 0.855072463768116,
+      "delayed": 0.4492753623188406,
+      "frozen": 0.855072463768116,
+      "mapping_estimate": 0.8745483706581286,
+      "permuted": 0.463768115942029,
+      "phase": 0,
+      "trial": 69
+    },
+    {
+      "adaptive": 0.8571428571428571,
+      "delayed": 0.45714285714285713,
+      "frozen": 0.8571428571428571,
+      "mapping_estimate": 0.8845845010054784,
+      "permuted": 0.45714285714285713,
+      "phase": 0,
+      "trial": 70
+    },
+    {
+      "adaptive": 0.8591549295774648,
+      "delayed": 0.4507042253521127,
+      "frozen": 0.8591549295774648,
+      "mapping_estimate": 0.8938177409250401,
+      "permuted": 0.4647887323943662,
+      "phase": 0,
+      "trial": 71
+    },
+    {
+      "adaptive": 0.8472222222222222,
+      "delayed": 0.4444444444444444,
+      "frozen": 0.8472222222222222,
+      "mapping_estimate": 0.7423123216510369,
+      "permuted": 0.4722222222222222,
+      "phase": 0,
+      "trial": 72
+    },
+    {
+      "adaptive": 0.8493150684931506,
+      "delayed": 0.4383561643835616,
+      "frozen": 0.8493150684931506,
+      "mapping_estimate": 0.7629273359189539,
+      "permuted": 0.4794520547945205,
+      "phase": 0,
+      "trial": 73
+    },
+    {
+      "adaptive": 0.8378378378378378,
+      "delayed": 0.43243243243243246,
+      "frozen": 0.8378378378378378,
+      "mapping_estimate": 0.6218931490454377,
+      "permuted": 0.47297297297297297,
+      "phase": 0,
+      "trial": 74
+    },
+    {
+      "adaptive": 0.84,
+      "delayed": 0.44,
+      "frozen": 0.84,
+      "mapping_estimate": 0.6521416971218027,
+      "permuted": 0.48,
+      "phase": 0,
+      "trial": 75
+    },
+    {
+      "adaptive": 0.8421052631578947,
+      "delayed": 0.4342105263157895,
+      "frozen": 0.8421052631578947,
+      "mapping_estimate": 0.6799703613520585,
+      "permuted": 0.4868421052631579,
+      "phase": 0,
+      "trial": 76
+    },
+    {
+      "adaptive": 0.8441558441558441,
+      "delayed": 0.44155844155844154,
+      "frozen": 0.8441558441558441,
+      "mapping_estimate": 0.7055727324438937,
+      "permuted": 0.4935064935064935,
+      "phase": 0,
+      "trial": 77
+    },
+    {
+      "adaptive": 0.8461538461538461,
+      "delayed": 0.44871794871794873,
+      "frozen": 0.8461538461538461,
+      "mapping_estimate": 0.7291269138483822,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 78
+    },
+    {
+      "adaptive": 0.8354430379746836,
+      "delayed": 0.4430379746835443,
+      "frozen": 0.8354430379746836,
+      "mapping_estimate": 0.5907967607405117,
+      "permuted": 0.4936708860759494,
+      "phase": 0,
+      "trial": 79
+    },
+    {
+      "adaptive": 0.8375,
+      "delayed": 0.4375,
+      "frozen": 0.8375,
+      "mapping_estimate": 0.6235330198812707,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 80
+    },
+    {
+      "adaptive": 0.8395061728395061,
+      "delayed": 0.4444444444444444,
+      "frozen": 0.8395061728395061,
+      "mapping_estimate": 0.6536503782907691,
+      "permuted": 0.49382716049382713,
+      "phase": 0,
+      "trial": 81
+    },
+    {
+      "adaptive": 0.8414634146341463,
+      "delayed": 0.45121951219512196,
+      "frozen": 0.8414634146341463,
+      "mapping_estimate": 0.6813583480275076,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 82
+    },
+    {
+      "adaptive": 0.8313253012048193,
+      "delayed": 0.4578313253012048,
+      "frozen": 0.8313253012048193,
+      "mapping_estimate": 0.5468496801853071,
+      "permuted": 0.5060240963855421,
+      "phase": 0,
+      "trial": 83
+    },
+    {
+      "adaptive": 0.8333333333333334,
+      "delayed": 0.4642857142857143,
+      "frozen": 0.8333333333333334,
+      "mapping_estimate": 0.5831017057704825,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 84
+    },
+    {
+      "adaptive": 0.8352941176470589,
+      "delayed": 0.47058823529411764,
+      "frozen": 0.8352941176470589,
+      "mapping_estimate": 0.6164535693088439,
+      "permuted": 0.49411764705882355,
+      "phase": 0,
+      "trial": 85
+    },
+    {
+      "adaptive": 0.8372093023255814,
+      "delayed": 0.46511627906976744,
+      "frozen": 0.8372093023255814,
+      "mapping_estimate": 0.6471372837641364,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 86
+    },
+    {
+      "adaptive": 0.8390804597701149,
+      "delayed": 0.47126436781609193,
+      "frozen": 0.8390804597701149,
+      "mapping_estimate": 0.6753663010630054,
+      "permuted": 0.5057471264367817,
+      "phase": 0,
+      "trial": 87
+    },
+    {
+      "adaptive": 0.8409090909090909,
+      "delayed": 0.4659090909090909,
+      "frozen": 0.8409090909090909,
+      "mapping_estimate": 0.701336996977965,
+      "permuted": 0.5113636363636364,
+      "phase": 0,
+      "trial": 88
+    },
+    {
+      "adaptive": 0.8426966292134831,
+      "delayed": 0.47191011235955055,
+      "frozen": 0.8426966292134831,
+      "mapping_estimate": 0.7252300372197278,
+      "permuted": 0.5056179775280899,
+      "phase": 0,
+      "trial": 89
+    },
+    {
+      "adaptive": 0.8444444444444444,
+      "delayed": 0.4777777777777778,
+      "frozen": 0.8444444444444444,
+      "mapping_estimate": 0.7472116342421495,
+      "permuted": 0.5111111111111111,
+      "phase": 0,
+      "trial": 90
+    },
+    {
+      "adaptive": 0.8461538461538461,
+      "delayed": 0.4725274725274725,
+      "frozen": 0.8461538461538461,
+      "mapping_estimate": 0.7674347035027775,
+      "permuted": 0.5054945054945055,
+      "phase": 0,
+      "trial": 91
+    },
+    {
+      "adaptive": 0.8478260869565217,
+      "delayed": 0.4782608695652174,
+      "frozen": 0.8478260869565217,
+      "mapping_estimate": 0.7860399272225553,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 92
+    },
+    {
+      "adaptive": 0.8494623655913979,
+      "delayed": 0.4731182795698925,
+      "frozen": 0.8494623655913979,
+      "mapping_estimate": 0.8031567330447509,
+      "permuted": 0.4946236559139785,
+      "phase": 0,
+      "trial": 93
+    },
+    {
+      "adaptive": 0.851063829787234,
+      "delayed": 0.46808510638297873,
+      "frozen": 0.851063829787234,
+      "mapping_estimate": 0.8189041944011708,
+      "permuted": 0.48936170212765956,
+      "phase": 0,
+      "trial": 94
+    },
+    {
+      "adaptive": 0.8526315789473684,
+      "delayed": 0.4631578947368421,
+      "frozen": 0.8526315789473684,
+      "mapping_estimate": 0.8333918588490771,
+      "permuted": 0.4842105263157895,
+      "phase": 0,
+      "trial": 95
+    },
+    {
+      "adaptive": 0.8541666666666666,
+      "delayed": 0.46875,
+      "frozen": 0.8541666666666666,
+      "mapping_estimate": 0.8467205101411509,
+      "permuted": 0.4791666666666667,
+      "phase": 0,
+      "trial": 96
+    },
+    {
+      "adaptive": 0.8556701030927835,
+      "delayed": 0.4742268041237113,
+      "frozen": 0.8556701030927835,
+      "mapping_estimate": 0.8589828693298588,
+      "permuted": 0.4742268041237113,
+      "phase": 0,
+      "trial": 97
+    },
+    {
+      "adaptive": 0.8571428571428571,
+      "delayed": 0.46938775510204084,
+      "frozen": 0.8571428571428571,
+      "mapping_estimate": 0.8702642397834701,
+      "permuted": 0.47959183673469385,
+      "phase": 0,
+      "trial": 98
+    },
+    {
+      "adaptive": 0.8484848484848485,
+      "delayed": 0.46464646464646464,
+      "frozen": 0.8484848484848485,
+      "mapping_estimate": 0.7206431006007926,
+      "permuted": 0.48484848484848486,
+      "phase": 0,
+      "trial": 99
+    },
+    {
+      "adaptive": 0.85,
+      "delayed": 0.47,
+      "frozen": 0.85,
+      "mapping_estimate": 0.7429916525527291,
+      "permuted": 0.49,
+      "phase": 0,
+      "trial": 100
+    },
+    {
+      "adaptive": 0.8514851485148515,
+      "delayed": 0.4752475247524752,
+      "frozen": 0.8514851485148515,
+      "mapping_estimate": 0.7635523203485108,
+      "permuted": 0.48514851485148514,
+      "phase": 0,
+      "trial": 101
+    },
+    {
+      "adaptive": 0.8529411764705882,
+      "delayed": 0.4803921568627451,
+      "frozen": 0.8529411764705882,
+      "mapping_estimate": 0.7824681347206299,
+      "permuted": 0.4803921568627451,
+      "phase": 0,
+      "trial": 102
+    },
+    {
+      "adaptive": 0.8543689320388349,
+      "delayed": 0.4854368932038835,
+      "frozen": 0.8543689320388349,
+      "mapping_estimate": 0.7998706839429796,
+      "permuted": 0.4854368932038835,
+      "phase": 0,
+      "trial": 103
+    },
+    {
+      "adaptive": 0.8461538461538461,
+      "delayed": 0.4807692307692308,
+      "frozen": 0.8461538461538461,
+      "mapping_estimate": 0.6558810292275412,
+      "permuted": 0.4807692307692308,
+      "phase": 0,
+      "trial": 104
+    },
+    {
+      "adaptive": 0.8476190476190476,
+      "delayed": 0.4857142857142857,
+      "frozen": 0.8476190476190476,
+      "mapping_estimate": 0.6834105468893379,
+      "permuted": 0.47619047619047616,
+      "phase": 0,
+      "trial": 105
+    },
+    {
+      "adaptive": 0.8490566037735849,
+      "delayed": 0.4811320754716981,
+      "frozen": 0.8490566037735849,
+      "mapping_estimate": 0.7087377031381908,
+      "permuted": 0.4716981132075472,
+      "phase": 0,
+      "trial": 106
+    },
+    {
+      "adaptive": 0.8504672897196262,
+      "delayed": 0.4766355140186916,
+      "frozen": 0.8504672897196262,
+      "mapping_estimate": 0.7320386868871356,
+      "permuted": 0.4672897196261682,
+      "phase": 0,
+      "trial": 107
+    },
+    {
+      "adaptive": 0.8518518518518519,
+      "delayed": 0.48148148148148145,
+      "frozen": 0.8518518518518519,
+      "mapping_estimate": 0.7534755919361648,
+      "permuted": 0.4722222222222222,
+      "phase": 0,
+      "trial": 108
+    },
+    {
+      "adaptive": 0.8532110091743119,
+      "delayed": 0.47706422018348627,
+      "frozen": 0.8532110091743119,
+      "mapping_estimate": 0.7731975445812715,
+      "permuted": 0.46788990825688076,
+      "phase": 0,
+      "trial": 109
+    },
+    {
+      "adaptive": 0.8545454545454545,
+      "delayed": 0.4818181818181818,
+      "frozen": 0.8545454545454545,
+      "mapping_estimate": 0.7913417410147698,
+      "permuted": 0.4636363636363636,
+      "phase": 0,
+      "trial": 110
+    },
+    {
+      "adaptive": 0.8558558558558559,
+      "delayed": 0.4774774774774775,
+      "frozen": 0.8558558558558559,
+      "mapping_estimate": 0.8080344017335882,
+      "permuted": 0.46846846846846846,
+      "phase": 0,
+      "trial": 111
+    },
+    {
+      "adaptive": 0.8482142857142857,
+      "delayed": 0.48214285714285715,
+      "frozen": 0.8482142857142857,
+      "mapping_estimate": 0.6633916495949013,
+      "permuted": 0.4642857142857143,
+      "phase": 0,
+      "trial": 112
+    },
+    {
+      "adaptive": 0.8495575221238938,
+      "delayed": 0.48672566371681414,
+      "frozen": 0.8495575221238938,
+      "mapping_estimate": 0.6903203176273092,
+      "permuted": 0.4690265486725664,
+      "phase": 0,
+      "trial": 113
+    },
+    {
+      "adaptive": 0.8508771929824561,
+      "delayed": 0.49122807017543857,
+      "frozen": 0.8508771929824561,
+      "mapping_estimate": 0.7150946922171244,
+      "permuted": 0.47368421052631576,
+      "phase": 0,
+      "trial": 114
+    },
+    {
+      "adaptive": 0.8434782608695652,
+      "delayed": 0.48695652173913045,
+      "frozen": 0.8434782608695652,
+      "mapping_estimate": 0.5778871168397545,
+      "permuted": 0.46956521739130436,
+      "phase": 0,
+      "trial": 115
+    },
+    {
+      "adaptive": 0.8362068965517241,
+      "delayed": 0.49137931034482757,
+      "frozen": 0.8362068965517241,
+      "mapping_estimate": 0.45165614749257416,
+      "permuted": 0.46551724137931033,
+      "phase": 0,
+      "trial": 116
+    },
+    {
+      "adaptive": 0.8376068376068376,
+      "delayed": 0.49572649572649574,
+      "frozen": 0.8376068376068376,
+      "mapping_estimate": 0.49552365569316825,
+      "permuted": 0.4700854700854701,
+      "phase": 0,
+      "trial": 117
+    },
+    {
+      "adaptive": 0.8389830508474576,
+      "delayed": 0.4915254237288136,
+      "frozen": 0.8389830508474576,
+      "mapping_estimate": 0.5358817632377147,
+      "permuted": 0.4745762711864407,
+      "phase": 0,
+      "trial": 118
+    },
+    {
+      "adaptive": 0.8403361344537815,
+      "delayed": 0.48739495798319327,
+      "frozen": 0.8403361344537815,
+      "mapping_estimate": 0.5730112221786976,
+      "permuted": 0.47058823529411764,
+      "phase": 0,
+      "trial": 119
+    },
+    {
+      "adaptive": 0.8416666666666667,
+      "delayed": 0.49166666666666664,
+      "frozen": 0.8416666666666667,
+      "mapping_estimate": 0.6071703244044018,
+      "permuted": 0.4666666666666667,
+      "phase": 0,
+      "trial": 120
+    },
+    {
+      "adaptive": 0.8429752066115702,
+      "delayed": 0.49586776859504134,
+      "frozen": 0.8429752066115702,
+      "mapping_estimate": 0.6385966984520496,
+      "permuted": 0.47107438016528924,
+      "phase": 0,
+      "trial": 121
+    },
+    {
+      "adaptive": 0.8442622950819673,
+      "delayed": 0.4918032786885246,
+      "frozen": 0.8442622950819673,
+      "mapping_estimate": 0.6675089625758857,
+      "permuted": 0.47540983606557374,
+      "phase": 0,
+      "trial": 122
+    },
+    {
+      "adaptive": 0.8455284552845529,
+      "delayed": 0.4878048780487805,
+      "frozen": 0.8455284552845529,
+      "mapping_estimate": 0.6941082455698148,
+      "permuted": 0.4796747967479675,
+      "phase": 0,
+      "trial": 123
+    },
+    {
+      "adaptive": 0.8467741935483871,
+      "delayed": 0.49193548387096775,
+      "frozen": 0.8467741935483871,
+      "mapping_estimate": 0.7185795859242295,
+      "permuted": 0.4838709677419355,
+      "phase": 0,
+      "trial": 124
+    },
+    {
+      "adaptive": 0.84,
+      "delayed": 0.488,
+      "frozen": 0.84,
+      "mapping_estimate": 0.5810932190502912,
+      "permuted": 0.48,
+      "phase": 0,
+      "trial": 125
+    },
+    {
+      "adaptive": 0.8412698412698413,
+      "delayed": 0.48412698412698413,
+      "frozen": 0.8412698412698413,
+      "mapping_estimate": 0.6146057615262679,
+      "permuted": 0.48412698412698413,
+      "phase": 0,
+      "trial": 126
+    },
+    {
+      "adaptive": 0.84251968503937,
+      "delayed": 0.4881889763779528,
+      "frozen": 0.84251968503937,
+      "mapping_estimate": 0.6454373006041665,
+      "permuted": 0.48031496062992124,
+      "phase": 0,
+      "trial": 127
+    },
+    {
+      "adaptive": 0.84375,
+      "delayed": 0.484375,
+      "frozen": 0.84375,
+      "mapping_estimate": 0.6738023165558331,
+      "permuted": 0.4765625,
+      "phase": 0,
+      "trial": 128
+    },
+    {
+      "adaptive": 0.8449612403100775,
+      "delayed": 0.4883720930232558,
+      "frozen": 0.8449612403100775,
+      "mapping_estimate": 0.6998981312313665,
+      "permuted": 0.4806201550387597,
+      "phase": 0,
+      "trial": 129
+    },
+    {
+      "adaptive": 0.8461538461538461,
+      "delayed": 0.4846153846153846,
+      "frozen": 0.8461538461538461,
+      "mapping_estimate": 0.7239062807328571,
+      "permuted": 0.47692307692307695,
+      "phase": 0,
+      "trial": 130
+    },
+    {
+      "adaptive": 0.8473282442748091,
+      "delayed": 0.48091603053435117,
+      "frozen": 0.8473282442748091,
+      "mapping_estimate": 0.7459937782742285,
+      "permuted": 0.4732824427480916,
+      "phase": 0,
+      "trial": 131
+    },
+    {
+      "adaptive": 0.8484848484848485,
+      "delayed": 0.4772727272727273,
+      "frozen": 0.8484848484848485,
+      "mapping_estimate": 0.7663142760122902,
+      "permuted": 0.4772727272727273,
+      "phase": 0,
+      "trial": 132
+    },
+    {
+      "adaptive": 0.849624060150376,
+      "delayed": 0.48120300751879697,
+      "frozen": 0.849624060150376,
+      "mapping_estimate": 0.785009133931307,
+      "permuted": 0.48120300751879697,
+      "phase": 0,
+      "trial": 133
+    },
+    {
+      "adaptive": 0.8507462686567164,
+      "delayed": 0.48507462686567165,
+      "frozen": 0.8507462686567164,
+      "mapping_estimate": 0.8022084032168024,
+      "permuted": 0.47761194029850745,
+      "phase": 0,
+      "trial": 134
+    },
+    {
+      "adaptive": 0.8518518518518519,
+      "delayed": 0.48148148148148145,
+      "frozen": 0.8518518518518519,
+      "mapping_estimate": 0.8180317309594582,
+      "permuted": 0.4740740740740741,
+      "phase": 0,
+      "trial": 135
+    },
+    {
+      "adaptive": 0.8455882352941176,
+      "delayed": 0.47794117647058826,
+      "frozen": 0.8455882352941176,
+      "mapping_estimate": 0.6725891924827017,
+      "permuted": 0.47058823529411764,
+      "phase": 0,
+      "trial": 136
+    },
+    {
+      "adaptive": 0.8467153284671532,
+      "delayed": 0.48175182481751827,
+      "frozen": 0.8467153284671532,
+      "mapping_estimate": 0.6987820570840855,
+      "permuted": 0.4744525547445255,
+      "phase": 0,
+      "trial": 137
+    },
+    {
+      "adaptive": 0.8405797101449275,
+      "delayed": 0.4855072463768116,
+      "frozen": 0.8405797101449275,
+      "mapping_estimate": 0.5628794925173587,
+      "permuted": 0.4782608695652174,
+      "phase": 0,
+      "trial": 138
+    },
+    {
+      "adaptive": 0.841726618705036,
+      "delayed": 0.4892086330935252,
+      "frozen": 0.841726618705036,
+      "mapping_estimate": 0.59784913311597,
+      "permuted": 0.48201438848920863,
+      "phase": 0,
+      "trial": 139
+    },
+    {
+      "adaptive": 0.8428571428571429,
+      "delayed": 0.4857142857142857,
+      "frozen": 0.8428571428571429,
+      "mapping_estimate": 0.6300212024666924,
+      "permuted": 0.4785714285714286,
+      "phase": 0,
+      "trial": 140
+    },
+    {
+      "adaptive": 0.8368794326241135,
+      "delayed": 0.48936170212765956,
+      "frozen": 0.8368794326241135,
+      "mapping_estimate": 0.49961950626935697,
+      "permuted": 0.48226950354609927,
+      "phase": 0,
+      "trial": 141
+    },
+    {
+      "adaptive": 0.8380281690140845,
+      "delayed": 0.4859154929577465,
+      "frozen": 0.8380281690140845,
+      "mapping_estimate": 0.5396499457678084,
+      "permuted": 0.4859154929577465,
+      "phase": 0,
+      "trial": 142
+    },
+    {
+      "adaptive": 0.8391608391608392,
+      "delayed": 0.4825174825174825,
+      "frozen": 0.8391608391608392,
+      "mapping_estimate": 0.5764779501063838,
+      "permuted": 0.48951048951048953,
+      "phase": 0,
+      "trial": 143
+    },
+    {
+      "adaptive": 0.8402777777777778,
+      "delayed": 0.4861111111111111,
+      "frozen": 0.8402777777777778,
+      "mapping_estimate": 0.610359714097873,
+      "permuted": 0.4861111111111111,
+      "phase": 0,
+      "trial": 144
+    },
+    {
+      "adaptive": 0.8413793103448276,
+      "delayed": 0.4827586206896552,
+      "frozen": 0.8413793103448276,
+      "mapping_estimate": 0.6415309369700432,
+      "permuted": 0.4896551724137931,
+      "phase": 0,
+      "trial": 145
+    },
+    {
+      "adaptive": 0.8424657534246576,
+      "delayed": 0.4794520547945205,
+      "frozen": 0.8424657534246576,
+      "mapping_estimate": 0.6702084620124397,
+      "permuted": 0.4863013698630137,
+      "phase": 0,
+      "trial": 146
+    },
+    {
+      "adaptive": 0.8435374149659864,
+      "delayed": 0.48299319727891155,
+      "frozen": 0.8435374149659864,
+      "mapping_estimate": 0.6965917850514445,
+      "permuted": 0.48299319727891155,
+      "phase": 0,
+      "trial": 147
+    },
+    {
+      "adaptive": 0.8378378378378378,
+      "delayed": 0.4797297297297297,
+      "frozen": 0.8378378378378378,
+      "mapping_estimate": 0.560864442247329,
+      "permuted": 0.4864864864864865,
+      "phase": 0,
+      "trial": 148
+    },
+    {
+      "adaptive": 0.8389261744966443,
+      "delayed": 0.48322147651006714,
+      "frozen": 0.8389261744966443,
+      "mapping_estimate": 0.5959952868675427,
+      "permuted": 0.4899328859060403,
+      "phase": 0,
+      "trial": 149
+    },
+    {
+      "adaptive": 0.84,
+      "delayed": 0.48,
+      "frozen": 0.84,
+      "mapping_estimate": 0.6283156639181392,
+      "permuted": 0.49333333333333335,
+      "phase": 0,
+      "trial": 150
+    },
+    {
+      "adaptive": 0.8410596026490066,
+      "delayed": 0.48344370860927155,
+      "frozen": 0.8410596026490066,
+      "mapping_estimate": 0.6580504108046881,
+      "permuted": 0.4900662251655629,
+      "phase": 0,
+      "trial": 151
+    },
+    {
+      "adaptive": 0.8421052631578947,
+      "delayed": 0.4868421052631579,
+      "frozen": 0.8421052631578947,
+      "mapping_estimate": 0.685406377940313,
+      "permuted": 0.4934210526315789,
+      "phase": 0,
+      "trial": 152
+    },
+    {
+      "adaptive": 0.8431372549019608,
+      "delayed": 0.49019607843137253,
+      "frozen": 0.8431372549019608,
+      "mapping_estimate": 0.7105738677050879,
+      "permuted": 0.49673202614379086,
+      "phase": 0,
+      "trial": 153
+    },
+    {
+      "adaptive": 0.8441558441558441,
+      "delayed": 0.487012987012987,
+      "frozen": 0.8441558441558441,
+      "mapping_estimate": 0.7337279582886809,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 154
+    },
+    {
+      "adaptive": 0.8451612903225807,
+      "delayed": 0.49032258064516127,
+      "frozen": 0.8451612903225807,
+      "mapping_estimate": 0.7550297216255863,
+      "permuted": 0.5032258064516129,
+      "phase": 0,
+      "trial": 155
+    },
+    {
+      "adaptive": 0.8461538461538461,
+      "delayed": 0.4935897435897436,
+      "frozen": 0.8461538461538461,
+      "mapping_estimate": 0.7746273438955394,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 156
+    },
+    {
+      "adaptive": 0.8471337579617835,
+      "delayed": 0.4968152866242038,
+      "frozen": 0.8471337579617835,
+      "mapping_estimate": 0.7926571563838963,
+      "permuted": 0.5031847133757962,
+      "phase": 0,
+      "trial": 157
+    },
+    {
+      "adaptive": 0.8481012658227848,
+      "delayed": 0.5,
+      "frozen": 0.8481012658227848,
+      "mapping_estimate": 0.8092445838731847,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 158
+    },
+    {
+      "adaptive": 0.8490566037735849,
+      "delayed": 0.5031446540880503,
+      "frozen": 0.8490566037735849,
+      "mapping_estimate": 0.8245050171633299,
+      "permuted": 0.4968553459119497,
+      "phase": 0,
+      "trial": 159
+    },
+    {
+      "adaptive": 0.85,
+      "delayed": 0.5,
+      "frozen": 0.85,
+      "mapping_estimate": 0.8385446157902635,
+      "permuted": 0.49375,
+      "phase": 0,
+      "trial": 160
+    },
+    {
+      "adaptive": 0.8509316770186336,
+      "delayed": 0.4968944099378882,
+      "frozen": 0.8509316770186336,
+      "mapping_estimate": 0.8514610465270425,
+      "permuted": 0.4906832298136646,
+      "phase": 0,
+      "trial": 161
+    },
+    {
+      "adaptive": 0.8518518518518519,
+      "delayed": 0.5,
+      "frozen": 0.8518518518518519,
+      "mapping_estimate": 0.863344162804879,
+      "permuted": 0.49382716049382713,
+      "phase": 0,
+      "trial": 162
+    },
+    {
+      "adaptive": 0.852760736196319,
+      "delayed": 0.49693251533742333,
+      "frozen": 0.852760736196319,
+      "mapping_estimate": 0.8742766297804887,
+      "permuted": 0.49079754601226994,
+      "phase": 0,
+      "trial": 163
+    },
+    {
+      "adaptive": 0.8536585365853658,
+      "delayed": 0.49390243902439024,
+      "frozen": 0.8536585365853658,
+      "mapping_estimate": 0.8843344993980496,
+      "permuted": 0.49390243902439024,
+      "phase": 0,
+      "trial": 164
+    },
+    {
+      "adaptive": 0.8545454545454545,
+      "delayed": 0.4909090909090909,
+      "frozen": 0.8545454545454545,
+      "mapping_estimate": 0.8935877394462056,
+      "permuted": 0.49696969696969695,
+      "phase": 0,
+      "trial": 165
+    },
+    {
+      "adaptive": 0.8554216867469879,
+      "delayed": 0.4879518072289157,
+      "frozen": 0.8554216867469879,
+      "mapping_estimate": 0.9021007202905091,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 166
+    },
+    {
+      "adaptive": 0.8562874251497006,
+      "delayed": 0.48502994011976047,
+      "frozen": 0.8562874251497006,
+      "mapping_estimate": 0.9099326626672684,
+      "permuted": 0.49700598802395207,
+      "phase": 0,
+      "trial": 167
+    },
+    {
+      "adaptive": 0.8571428571428571,
+      "delayed": 0.48214285714285715,
+      "frozen": 0.8571428571428571,
+      "mapping_estimate": 0.9171380496538869,
+      "permuted": 0.49404761904761907,
+      "phase": 0,
+      "trial": 168
+    },
+    {
+      "adaptive": 0.8579881656804734,
+      "delayed": 0.47928994082840237,
+      "frozen": 0.8579881656804734,
+      "mapping_estimate": 0.923767005681576,
+      "permuted": 0.4970414201183432,
+      "phase": 0,
+      "trial": 169
+    },
+    {
+      "adaptive": 0.8588235294117647,
+      "delayed": 0.4764705882352941,
+      "frozen": 0.8588235294117647,
+      "mapping_estimate": 0.92986564522705,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 170
+    },
+    {
+      "adaptive": 0.8596491228070176,
+      "delayed": 0.47953216374269003,
+      "frozen": 0.8596491228070176,
+      "mapping_estimate": 0.9354763936088859,
+      "permuted": 0.49707602339181284,
+      "phase": 0,
+      "trial": 171
+    },
+    {
+      "adaptive": 0.8604651162790697,
+      "delayed": 0.48255813953488375,
+      "frozen": 0.8604651162790697,
+      "mapping_estimate": 0.940638282120175,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 172
+    },
+    {
+      "adaptive": 0.861271676300578,
+      "delayed": 0.48554913294797686,
+      "frozen": 0.861271676300578,
+      "mapping_estimate": 0.9453872195505609,
+      "permuted": 0.5028901734104047,
+      "phase": 0,
+      "trial": 173
+    },
+    {
+      "adaptive": 0.8620689655172413,
+      "delayed": 0.4827586206896552,
+      "frozen": 0.8620689655172413,
+      "mapping_estimate": 0.9497562419865161,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 174
+    },
+    {
+      "adaptive": 0.8628571428571429,
+      "delayed": 0.48,
+      "frozen": 0.8628571428571429,
+      "mapping_estimate": 0.9537757426275948,
+      "permuted": 0.49714285714285716,
+      "phase": 0,
+      "trial": 175
+    },
+    {
+      "adaptive": 0.8636363636363636,
+      "delayed": 0.4772727272727273,
+      "frozen": 0.8636363636363636,
+      "mapping_estimate": 0.9574736832173872,
+      "permuted": 0.4943181818181818,
+      "phase": 0,
+      "trial": 176
+    },
+    {
+      "adaptive": 0.864406779661017,
+      "delayed": 0.4745762711864407,
+      "frozen": 0.864406779661017,
+      "mapping_estimate": 0.9608757885599962,
+      "permuted": 0.4971751412429379,
+      "phase": 0,
+      "trial": 177
+    },
+    {
+      "adaptive": 0.8651685393258427,
+      "delayed": 0.47752808988764045,
+      "frozen": 0.8651685393258427,
+      "mapping_estimate": 0.9640057254751965,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 178
+    },
+    {
+      "adaptive": 0.8659217877094972,
+      "delayed": 0.4748603351955307,
+      "frozen": 0.8659217877094972,
+      "mapping_estimate": 0.9668852674371807,
+      "permuted": 0.5027932960893855,
+      "phase": 0,
+      "trial": 179
+    },
+    {
+      "adaptive": 0.8666666666666667,
+      "delayed": 0.4722222222222222,
+      "frozen": 0.8666666666666667,
+      "mapping_estimate": 0.9695344460422063,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 180
+    },
+    {
+      "adaptive": 0.861878453038674,
+      "delayed": 0.47513812154696133,
+      "frozen": 0.861878453038674,
+      "mapping_estimate": 0.8119716903588299,
+      "permuted": 0.5027624309392266,
+      "phase": 0,
+      "trial": 181
+    },
+    {
+      "adaptive": 0.8626373626373627,
+      "delayed": 0.47802197802197804,
+      "frozen": 0.8626373626373627,
+      "mapping_estimate": 0.8270139551301234,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 182
+    },
+    {
+      "adaptive": 0.8579234972677595,
+      "delayed": 0.47540983606557374,
+      "frozen": 0.8579234972677595,
+      "mapping_estimate": 0.6808528387197136,
+      "permuted": 0.4972677595628415,
+      "phase": 0,
+      "trial": 183
+    },
+    {
+      "adaptive": 0.8586956521739131,
+      "delayed": 0.47282608695652173,
+      "frozen": 0.8586956521739131,
+      "mapping_estimate": 0.7063846116221365,
+      "permuted": 0.4945652173913043,
+      "phase": 0,
+      "trial": 184
+    },
+    {
+      "adaptive": 0.8594594594594595,
+      "delayed": 0.4702702702702703,
+      "frozen": 0.8594594594594595,
+      "mapping_estimate": 0.7298738426923655,
+      "permuted": 0.4918918918918919,
+      "phase": 0,
+      "trial": 185
+    },
+    {
+      "adaptive": 0.8602150537634409,
+      "delayed": 0.46774193548387094,
+      "frozen": 0.8602150537634409,
+      "mapping_estimate": 0.7514839352769763,
+      "permuted": 0.489247311827957,
+      "phase": 0,
+      "trial": 186
+    },
+    {
+      "adaptive": 0.8609625668449198,
+      "delayed": 0.46524064171123,
+      "frozen": 0.8609625668449198,
+      "mapping_estimate": 0.7713652204548183,
+      "permuted": 0.4919786096256685,
+      "phase": 0,
+      "trial": 187
+    },
+    {
+      "adaptive": 0.8617021276595744,
+      "delayed": 0.46808510638297873,
+      "frozen": 0.8617021276595744,
+      "mapping_estimate": 0.7896560028184327,
+      "permuted": 0.4946808510638298,
+      "phase": 0,
+      "trial": 188
+    },
+    {
+      "adaptive": 0.8624338624338624,
+      "delayed": 0.4656084656084656,
+      "frozen": 0.8624338624338624,
+      "mapping_estimate": 0.8064835225929581,
+      "permuted": 0.4973544973544973,
+      "phase": 0,
+      "trial": 189
+    },
+    {
+      "adaptive": 0.8631578947368421,
+      "delayed": 0.46842105263157896,
+      "frozen": 0.8631578947368421,
+      "mapping_estimate": 0.8219648407855215,
+      "permuted": 0.5,
+      "phase": 0,
+      "trial": 190
+    },
+    {
+      "adaptive": 0.8586387434554974,
+      "delayed": 0.4712041884816754,
+      "frozen": 0.8586387434554974,
+      "mapping_estimate": 0.6762076535226799,
+      "permuted": 0.4973821989528796,
+      "phase": 0,
+      "trial": 191
+    },
+    {
+      "adaptive": 0.859375,
+      "delayed": 0.4739583333333333,
+      "frozen": 0.859375,
+      "mapping_estimate": 0.7021110412408654,
+      "permuted": 0.4947916666666667,
+      "phase": 0,
+      "trial": 192
+    },
+    {
+      "adaptive": 0.8601036269430051,
+      "delayed": 0.47668393782383417,
+      "frozen": 0.8601036269430051,
+      "mapping_estimate": 0.7259421579415962,
+      "permuted": 0.49222797927461137,
+      "phase": 0,
+      "trial": 193
+    },
+    {
+      "adaptive": 0.8608247422680413,
+      "delayed": 0.4793814432989691,
+      "frozen": 0.8608247422680413,
+      "mapping_estimate": 0.7478667853062685,
+      "permuted": 0.4896907216494845,
+      "phase": 0,
+      "trial": 194
+    },
+    {
+      "adaptive": 0.8615384615384616,
+      "delayed": 0.48205128205128206,
+      "frozen": 0.8615384615384616,
+      "mapping_estimate": 0.768037442481767,
+      "permuted": 0.49230769230769234,
+      "phase": 0,
+      "trial": 195
+    },
+    {
+      "adaptive": 0.8622448979591837,
+      "delayed": 0.47959183673469385,
+      "frozen": 0.8622448979591837,
+      "mapping_estimate": 0.7865944470832256,
+      "permuted": 0.49489795918367346,
+      "phase": 0,
+      "trial": 196
+    },
+    {
+      "adaptive": 0.8629441624365483,
+      "delayed": 0.47715736040609136,
+      "frozen": 0.8629441624365483,
+      "mapping_estimate": 0.8036668913165675,
+      "permuted": 0.49238578680203043,
+      "phase": 0,
+      "trial": 197
+    },
+    {
+      "adaptive": 0.8636363636363636,
+      "delayed": 0.4797979797979798,
+      "frozen": 0.8636363636363636,
+      "mapping_estimate": 0.8193735400112422,
+      "permuted": 0.4898989898989899,
+      "phase": 0,
+      "trial": 198
+    },
+    {
+      "adaptive": 0.864321608040201,
+      "delayed": 0.47738693467336685,
+      "frozen": 0.864321608040201,
+      "mapping_estimate": 0.8338236568103428,
+      "permuted": 0.48743718592964824,
+      "phase": 0,
+      "trial": 199
+    },
+    {
+      "adaptive": 0.865,
+      "delayed": 0.475,
+      "frozen": 0.865,
+      "mapping_estimate": 0.8471177642655153,
+      "permuted": 0.485,
+      "phase": 0,
+      "trial": 200
+    },
+    {
+      "adaptive": 0.8656716417910447,
+      "delayed": 0.47761194029850745,
+      "frozen": 0.8656716417910447,
+      "mapping_estimate": 0.8593483431242741,
+      "permuted": 0.48258706467661694,
+      "phase": 0,
+      "trial": 201
+    },
+    {
+      "adaptive": 0.8613861386138614,
+      "delayed": 0.4752475247524752,
+      "frozen": 0.8613861386138614,
+      "mapping_estimate": 0.7106004756743323,
+      "permuted": 0.4801980198019802,
+      "phase": 0,
+      "trial": 202
+    },
+    {
+      "adaptive": 0.8620689655172413,
+      "delayed": 0.47783251231527096,
+      "frozen": 0.8620689655172413,
+      "mapping_estimate": 0.7337524376203857,
+      "permuted": 0.47783251231527096,
+      "phase": 0,
+      "trial": 203
+    },
+    {
+      "adaptive": 0.8627450980392157,
+      "delayed": 0.47549019607843135,
+      "frozen": 0.8627450980392157,
+      "mapping_estimate": 0.7550522426107548,
+      "permuted": 0.4803921568627451,
+      "phase": 0,
+      "trial": 204
+    },
+    {
+      "adaptive": 0.8634146341463415,
+      "delayed": 0.47317073170731705,
+      "frozen": 0.8634146341463415,
+      "mapping_estimate": 0.7746480632018944,
+      "permuted": 0.48292682926829267,
+      "phase": 0,
+      "trial": 205
+    },
+    {
+      "adaptive": 0.8640776699029126,
+      "delayed": 0.47572815533980584,
+      "frozen": 0.8640776699029126,
+      "mapping_estimate": 0.7926762181457429,
+      "permuted": 0.48058252427184467,
+      "phase": 0,
+      "trial": 206
+    },
+    {
+      "adaptive": 0.8647342995169082,
+      "delayed": 0.47342995169082125,
+      "frozen": 0.8647342995169082,
+      "mapping_estimate": 0.8092621206940834,
+      "permuted": 0.4830917874396135,
+      "phase": 0,
+      "trial": 207
+    },
+    {
+      "adaptive": 0.8605769230769231,
+      "delayed": 0.47115384615384615,
+      "frozen": 0.8605769230769231,
+      "mapping_estimate": 0.6645211510385568,
+      "permuted": 0.4807692307692308,
+      "phase": 0,
+      "trial": 208
+    },
+    {
+      "adaptive": 0.861244019138756,
+      "delayed": 0.4688995215311005,
+      "frozen": 0.861244019138756,
+      "mapping_estimate": 0.6913594589554722,
+      "permuted": 0.4784688995215311,
+      "phase": 0,
+      "trial": 209
+    },
+    {
+      "adaptive": 0.861904761904762,
+      "delayed": 0.4714285714285714,
+      "frozen": 0.861904761904762,
+      "mapping_estimate": 0.7160507022390344,
+      "permuted": 0.48095238095238096,
+      "phase": 0,
+      "trial": 210
+    },
+    {
+      "adaptive": 0.8625592417061612,
+      "delayed": 0.47393364928909953,
+      "frozen": 0.8625592417061612,
+      "mapping_estimate": 0.7387666460599117,
+      "permuted": 0.4834123222748815,
+      "phase": 0,
+      "trial": 211
+    },
+    {
+      "adaptive": 0.8632075471698113,
+      "delayed": 0.4716981132075472,
+      "frozen": 0.8632075471698113,
+      "mapping_estimate": 0.7596653143751187,
+      "permuted": 0.4811320754716981,
+      "phase": 0,
+      "trial": 212
+    },
+    {
+      "adaptive": 0.863849765258216,
+      "delayed": 0.4694835680751174,
+      "frozen": 0.863849765258216,
+      "mapping_estimate": 0.7788920892251092,
+      "permuted": 0.4835680751173709,
+      "phase": 0,
+      "trial": 213
+    },
+    {
+      "adaptive": 0.8644859813084113,
+      "delayed": 0.4672897196261682,
+      "frozen": 0.8644859813084113,
+      "mapping_estimate": 0.7965807220871005,
+      "permuted": 0.48598130841121495,
+      "phase": 0,
+      "trial": 214
+    },
+    {
+      "adaptive": 0.8604651162790697,
+      "delayed": 0.4697674418604651,
+      "frozen": 0.8604651162790697,
+      "mapping_estimate": 0.6528542643201325,
+      "permuted": 0.4883720930232558,
+      "phase": 0,
+      "trial": 215
+    },
+    {
+      "adaptive": 0.8611111111111112,
+      "delayed": 0.4675925925925926,
+      "frozen": 0.8611111111111112,
+      "mapping_estimate": 0.6806259231745219,
+      "permuted": 0.4861111111111111,
+      "phase": 0,
+      "trial": 216
+    },
+    {
+      "adaptive": 0.8617511520737328,
+      "delayed": 0.4700460829493088,
+      "frozen": 0.8617511520737328,
+      "mapping_estimate": 0.7061758493205601,
+      "permuted": 0.48847926267281105,
+      "phase": 0,
+      "trial": 217
+    },
+    {
+      "adaptive": 0.8623853211009175,
+      "delayed": 0.4724770642201835,
+      "frozen": 0.8623853211009175,
+      "mapping_estimate": 0.7296817813749152,
+      "permuted": 0.4908256880733945,
+      "phase": 0,
+      "trial": 218
+    },
+    {
+      "adaptive": 0.863013698630137,
+      "delayed": 0.4748858447488584,
+      "frozen": 0.863013698630137,
+      "mapping_estimate": 0.751307238864922,
+      "permuted": 0.4931506849315068,
+      "phase": 0,
+      "trial": 219
+    },
+    {
+      "adaptive": 0.8636363636363636,
+      "delayed": 0.4772727272727273,
+      "frozen": 0.8636363636363636,
+      "mapping_estimate": 0.7712026597557282,
+      "permuted": 0.4909090909090909,
+      "phase": 0,
+      "trial": 220
+    },
+    {
+      "adaptive": 0.8642533936651584,
+      "delayed": 0.4751131221719457,
+      "frozen": 0.8642533936651584,
+      "mapping_estimate": 0.78950644697527,
+      "permuted": 0.49321266968325794,
+      "phase": 0,
+      "trial": 221
+    },
+    {
+      "adaptive": 0.8648648648648649,
+      "delayed": 0.47297297297297297,
+      "frozen": 0.8648648648648649,
+      "mapping_estimate": 0.8063459312172483,
+      "permuted": 0.4954954954954955,
+      "phase": 0,
+      "trial": 222
+    },
+    {
+      "adaptive": 0.8654708520179372,
+      "delayed": 0.47533632286995514,
+      "frozen": 0.8654708520179372,
+      "mapping_estimate": 0.8218382567198684,
+      "permuted": 0.4977578475336323,
+      "phase": 0,
+      "trial": 223
+    },
+    {
+      "adaptive": 0.8660714285714286,
+      "delayed": 0.4732142857142857,
+      "frozen": 0.8660714285714286,
+      "mapping_estimate": 0.8360911961822789,
+      "permuted": 0.4955357142857143,
+      "phase": 0,
+      "trial": 224
+    },
+    {
+      "adaptive": 0.8666666666666667,
+      "delayed": 0.47555555555555556,
+      "frozen": 0.8666666666666667,
+      "mapping_estimate": 0.8492039004876966,
+      "permuted": 0.49333333333333335,
+      "phase": 0,
+      "trial": 225
+    },
+    {
+      "adaptive": 0.8672566371681416,
+      "delayed": 0.4778761061946903,
+      "frozen": 0.8672566371681416,
+      "mapping_estimate": 0.8612675884486808,
+      "permuted": 0.4911504424778761,
+      "phase": 0,
+      "trial": 226
+    },
+    {
+      "adaptive": 0.8678414096916299,
+      "delayed": 0.47577092511013214,
+      "frozen": 0.8678414096916299,
+      "mapping_estimate": 0.8723661813727863,
+      "permuted": 0.4933920704845815,
+      "phase": 0,
+      "trial": 227
+    },
+    {
+      "adaptive": 0.868421052631579,
+      "delayed": 0.4780701754385965,
+      "frozen": 0.868421052631579,
+      "mapping_estimate": 0.8825768868629634,
+      "permuted": 0.49122807017543857,
+      "phase": 0,
+      "trial": 228
+    },
+    {
+      "adaptive": 0.868995633187773,
+      "delayed": 0.48034934497816595,
+      "frozen": 0.868995633187773,
+      "mapping_estimate": 0.8919707359139264,
+      "permuted": 0.4890829694323144,
+      "phase": 0,
+      "trial": 229
+    },
+    {
+      "adaptive": 0.8695652173913043,
+      "delayed": 0.4826086956521739,
+      "frozen": 0.8695652173913043,
+      "mapping_estimate": 0.9006130770408123,
+      "permuted": 0.48695652173913045,
+      "phase": 0,
+      "trial": 230
+    },
+    {
+      "adaptive": 0.8701298701298701,
+      "delayed": 0.4805194805194805,
+      "frozen": 0.8701298701298701,
+      "mapping_estimate": 0.9085640308775473,
+      "permuted": 0.48917748917748916,
+      "phase": 0,
+      "trial": 231
+    },
+    {
+      "adaptive": 0.8706896551724138,
+      "delayed": 0.47844827586206895,
+      "frozen": 0.8706896551724138,
+      "mapping_estimate": 0.9158789084073435,
+      "permuted": 0.4870689655172414,
+      "phase": 0,
+      "trial": 232
+    },
+    {
+      "adaptive": 0.871244635193133,
+      "delayed": 0.48068669527896996,
+      "frozen": 0.871244635193133,
+      "mapping_estimate": 0.9226085957347561,
+      "permuted": 0.4892703862660944,
+      "phase": 0,
+      "trial": 233
+    },
+    {
+      "adaptive": 0.8717948717948718,
+      "delayed": 0.47863247863247865,
+      "frozen": 0.8717948717948718,
+      "mapping_estimate": 0.9287999080759756,
+      "permuted": 0.48717948717948717,
+      "phase": 0,
+      "trial": 234
+    },
+    {
+      "adaptive": 0.8723404255319149,
+      "delayed": 0.4808510638297872,
+      "frozen": 0.8723404255319149,
+      "mapping_estimate": 0.9344959154298975,
+      "permuted": 0.4851063829787234,
+      "phase": 0,
+      "trial": 235
+    },
+    {
+      "adaptive": 0.8728813559322034,
+      "delayed": 0.4830508474576271,
+      "frozen": 0.8728813559322034,
+      "mapping_estimate": 0.9397362421955057,
+      "permuted": 0.4830508474576271,
+      "phase": 0,
+      "trial": 236
+    },
+    {
+      "adaptive": 0.8734177215189873,
+      "delayed": 0.48523206751054854,
+      "frozen": 0.8734177215189873,
+      "mapping_estimate": 0.9445573428198653,
+      "permuted": 0.4810126582278481,
+      "phase": 0,
+      "trial": 237
+    },
+    {
+      "adaptive": 0.8739495798319328,
+      "delayed": 0.4831932773109244,
+      "frozen": 0.8739495798319328,
+      "mapping_estimate": 0.9489927553942761,
+      "permuted": 0.4831932773109244,
+      "phase": 0,
+      "trial": 238
+    },
+    {
+      "adaptive": 0.8744769874476988,
+      "delayed": 0.48535564853556484,
+      "frozen": 0.8744769874476988,
+      "mapping_estimate": 0.9530733349627339,
+      "permuted": 0.4811715481171548,
+      "phase": 0,
+      "trial": 239
+    },
+    {
+      "adaptive": 0.875,
+      "delayed": 0.4875,
+      "frozen": 0.875,
+      "mapping_estimate": 0.9568274681657152,
+      "permuted": 0.48333333333333334,
+      "phase": 0,
+      "trial": 240
+    },
+    {
+      "adaptive": 0.8755186721991701,
+      "delayed": 0.4896265560165975,
+      "frozen": 0.8755186721991701,
+      "mapping_estimate": 0.960281270712458,
+      "permuted": 0.48132780082987553,
+      "phase": 0,
+      "trial": 241
+    },
+    {
+      "adaptive": 0.871900826446281,
+      "delayed": 0.49173553719008267,
+      "frozen": 0.871900826446281,
+      "mapping_estimate": 0.8034587690554614,
+      "permuted": 0.4793388429752066,
+      "phase": 0,
+      "trial": 242
+    },
+    {
+      "adaptive": 0.8683127572016461,
+      "delayed": 0.4897119341563786,
+      "frozen": 0.8683127572016461,
+      "mapping_estimate": 0.6591820675310246,
+      "permuted": 0.48148148148148145,
+      "phase": 0,
+      "trial": 243
+    },
+    {
+      "adaptive": 0.8688524590163934,
+      "delayed": 0.4918032786885246,
+      "frozen": 0.8688524590163934,
+      "mapping_estimate": 0.6864475021285427,
+      "permuted": 0.47950819672131145,
+      "phase": 0,
+      "trial": 244
+    },
+    {
+      "adaptive": 0.8693877551020408,
+      "delayed": 0.4897959183673469,
+      "frozen": 0.8693877551020408,
+      "mapping_estimate": 0.7115317019582592,
+      "permuted": 0.4816326530612245,
+      "phase": 0,
+      "trial": 245
+    },
+    {
+      "adaptive": 0.8699186991869918,
+      "delayed": 0.4878048780487805,
+      "frozen": 0.8699186991869918,
+      "mapping_estimate": 0.7346091658015984,
+      "permuted": 0.483739837398374,
+      "phase": 0,
+      "trial": 246
+    },
+    {
+      "adaptive": 0.8704453441295547,
+      "delayed": 0.48582995951417,
+      "frozen": 0.8704453441295547,
+      "mapping_estimate": 0.7558404325374706,
+      "permuted": 0.4817813765182186,
+      "phase": 0,
+      "trial": 247
+    },
+    {
+      "adaptive": 0.8709677419354839,
+      "delayed": 0.4879032258064516,
+      "frozen": 0.8709677419354839,
+      "mapping_estimate": 0.7753731979344729,
+      "permuted": 0.4798387096774194,
+      "phase": 0,
+      "trial": 248
+    },
+    {
+      "adaptive": 0.8714859437751004,
+      "delayed": 0.4859437751004016,
+      "frozen": 0.8714859437751004,
+      "mapping_estimate": 0.793343342099715,
+      "permuted": 0.4819277108433735,
+      "phase": 0,
+      "trial": 249
+    },
+    {
+      "adaptive": 0.872,
+      "delayed": 0.484,
+      "frozen": 0.872,
+      "mapping_estimate": 0.8098758747317378,
+      "permuted": 0.484,
+      "phase": 0,
+      "trial": 250
+    },
+    {
+      "adaptive": 0.8685258964143426,
+      "delayed": 0.4820717131474104,
+      "frozen": 0.8685258964143426,
+      "mapping_estimate": 0.6650858047531989,
+      "permuted": 0.4860557768924303,
+      "phase": 1,
+      "trial": 251
+    },
+    {
+      "adaptive": 0.8650793650793651,
+      "delayed": 0.4801587301587302,
+      "frozen": 0.8650793650793651,
+      "mapping_estimate": 0.531878940372943,
+      "permuted": 0.4880952380952381,
+      "phase": 1,
+      "trial": 252
+    },
+    {
+      "adaptive": 0.8616600790513834,
+      "delayed": 0.48221343873517786,
+      "frozen": 0.8616600790513834,
+      "mapping_estimate": 0.4093286251431076,
+      "permuted": 0.48616600790513836,
+      "phase": 1,
+      "trial": 253
+    },
+    {
+      "adaptive": 0.8582677165354331,
+      "delayed": 0.484251968503937,
+      "frozen": 0.8582677165354331,
+      "mapping_estimate": 0.296582335131659,
+      "permuted": 0.484251968503937,
+      "phase": 1,
+      "trial": 254
+    },
+    {
+      "adaptive": 0.8549019607843137,
+      "delayed": 0.48627450980392156,
+      "frozen": 0.8549019607843137,
+      "mapping_estimate": 0.19285574832112629,
+      "permuted": 0.48627450980392156,
+      "phase": 1,
+      "trial": 255
+    },
+    {
+      "adaptive": 0.85546875,
+      "delayed": 0.484375,
+      "frozen": 0.85546875,
+      "mapping_estimate": 0.25742728845543617,
+      "permuted": 0.484375,
+      "phase": 1,
+      "trial": 256
+    },
+    {
+      "adaptive": 0.8521400778210116,
+      "delayed": 0.48249027237354086,
+      "frozen": 0.8521400778210116,
+      "mapping_estimate": 0.1568331053790013,
+      "permuted": 0.48638132295719844,
+      "phase": 1,
+      "trial": 257
+    },
+    {
+      "adaptive": 0.8488372093023255,
+      "delayed": 0.4806201550387597,
+      "frozen": 0.8488372093023255,
+      "mapping_estimate": 0.0642864569486812,
+      "permuted": 0.4844961240310077,
+      "phase": 1,
+      "trial": 258
+    },
+    {
+      "adaptive": 0.8455598455598455,
+      "delayed": 0.47876447876447875,
+      "frozen": 0.8455598455598455,
+      "mapping_estimate": -0.0208564596072133,
+      "permuted": 0.4864864864864865,
+      "phase": 1,
+      "trial": 259
+    },
+    {
+      "adaptive": 0.8423076923076923,
+      "delayed": 0.4807692307692308,
+      "frozen": 0.8461538461538461,
+      "mapping_estimate": 0.060812057161363765,
+      "permuted": 0.4846153846153846,
+      "phase": 1,
+      "trial": 260
+    },
+    {
+      "adaptive": 0.8390804597701149,
+      "delayed": 0.4827586206896552,
+      "frozen": 0.842911877394636,
+      "mapping_estimate": -0.024052907411545338,
+      "permuted": 0.4827586206896552,
+      "phase": 1,
+      "trial": 261
+    },
+    {
+      "adaptive": 0.8358778625954199,
+      "delayed": 0.48091603053435117,
+      "frozen": 0.8435114503816794,
+      "mapping_estimate": 0.05787132518137829,
+      "permuted": 0.48091603053435117,
+      "phase": 1,
+      "trial": 262
+    },
+    {
+      "adaptive": 0.8326996197718631,
+      "delayed": 0.4828897338403042,
+      "frozen": 0.8403041825095057,
+      "mapping_estimate": -0.02675838083313197,
+      "permuted": 0.4790874524714829,
+      "phase": 1,
+      "trial": 263
+    },
+    {
+      "adaptive": 0.8333333333333334,
+      "delayed": 0.4810606060606061,
+      "frozen": 0.8371212121212122,
+      "mapping_estimate": -0.10461771036648142,
+      "permuted": 0.4810606060606061,
+      "phase": 1,
+      "trial": 264
+    },
+    {
+      "adaptive": 0.8339622641509434,
+      "delayed": 0.4830188679245283,
+      "frozen": 0.8339622641509434,
+      "mapping_estimate": -0.17624829353716293,
+      "permuted": 0.47924528301886793,
+      "phase": 1,
+      "trial": 265
+    },
+    {
+      "adaptive": 0.8345864661654135,
+      "delayed": 0.48120300751879697,
+      "frozen": 0.8308270676691729,
+      "mapping_estimate": -0.2421484300541899,
+      "permuted": 0.48120300751879697,
+      "phase": 1,
+      "trial": 266
+    },
+    {
+      "adaptive": 0.8352059925093633,
+      "delayed": 0.4794007490636704,
+      "frozen": 0.8277153558052435,
+      "mapping_estimate": -0.30277655564985473,
+      "permuted": 0.48314606741573035,
+      "phase": 1,
+      "trial": 267
+    },
+    {
+      "adaptive": 0.832089552238806,
+      "delayed": 0.47761194029850745,
+      "frozen": 0.8283582089552238,
+      "mapping_estimate": -0.19855443119786637,
+      "permuted": 0.48134328358208955,
+      "phase": 1,
+      "trial": 268
+    },
+    {
+      "adaptive": 0.8327137546468402,
+      "delayed": 0.4795539033457249,
+      "frozen": 0.8252788104089219,
+      "mapping_estimate": -0.26267007670203707,
+      "permuted": 0.4795539033457249,
+      "phase": 1,
+      "trial": 269
+    },
+    {
+      "adaptive": 0.8333333333333334,
+      "delayed": 0.48148148148148145,
+      "frozen": 0.8222222222222222,
+      "mapping_estimate": -0.3216564705658741,
+      "permuted": 0.4777777777777778,
+      "phase": 1,
+      "trial": 270
+    },
+    {
+      "adaptive": 0.8339483394833949,
+      "delayed": 0.4797047970479705,
+      "frozen": 0.8191881918819188,
+      "mapping_estimate": -0.3759239529206042,
+      "permuted": 0.4797047970479705,
+      "phase": 1,
+      "trial": 271
+    },
+    {
+      "adaptive": 0.8345588235294118,
+      "delayed": 0.48161764705882354,
+      "frozen": 0.8161764705882353,
+      "mapping_estimate": -0.4258500366869559,
+      "permuted": 0.48161764705882354,
+      "phase": 1,
+      "trial": 272
+    },
+    {
+      "adaptive": 0.8351648351648352,
+      "delayed": 0.4835164835164835,
+      "frozen": 0.8131868131868132,
+      "mapping_estimate": -0.4717820337519995,
+      "permuted": 0.47985347985347987,
+      "phase": 1,
+      "trial": 273
+    },
+    {
+      "adaptive": 0.8357664233576643,
+      "delayed": 0.48175182481751827,
+      "frozen": 0.8102189781021898,
+      "mapping_estimate": -0.5140394710518396,
+      "permuted": 0.48175182481751827,
+      "phase": 1,
+      "trial": 274
+    },
+    {
+      "adaptive": 0.8363636363636363,
+      "delayed": 0.48,
+      "frozen": 0.8072727272727273,
+      "mapping_estimate": -0.5529163133676924,
+      "permuted": 0.48,
+      "phase": 1,
+      "trial": 275
+    },
+    {
+      "adaptive": 0.8369565217391305,
+      "delayed": 0.4782608695652174,
+      "frozen": 0.8043478260869565,
+      "mapping_estimate": -0.588683008298277,
+      "permuted": 0.4782608695652174,
+      "phase": 1,
+      "trial": 276
+    },
+    {
+      "adaptive": 0.8339350180505415,
+      "delayed": 0.47653429602888087,
+      "frozen": 0.8050541516245487,
+      "mapping_estimate": -0.46158836763441485,
+      "permuted": 0.47653429602888087,
+      "phase": 1,
+      "trial": 277
+    },
+    {
+      "adaptive": 0.8345323741007195,
+      "delayed": 0.4784172661870504,
+      "frozen": 0.802158273381295,
+      "mapping_estimate": -0.5046612982236617,
+      "permuted": 0.4784172661870504,
+      "phase": 1,
+      "trial": 278
+    },
+    {
+      "adaptive": 0.8351254480286738,
+      "delayed": 0.4767025089605735,
+      "frozen": 0.7992831541218638,
+      "mapping_estimate": -0.5442883943657687,
+      "permuted": 0.4767025089605735,
+      "phase": 1,
+      "trial": 279
+    },
+    {
+      "adaptive": 0.8357142857142857,
+      "delayed": 0.475,
+      "frozen": 0.7964285714285714,
+      "mapping_estimate": -0.5807453228165071,
+      "permuted": 0.4785714285714286,
+      "phase": 1,
+      "trial": 280
+    },
+    {
+      "adaptive": 0.8362989323843416,
+      "delayed": 0.47686832740213525,
+      "frozen": 0.7935943060498221,
+      "mapping_estimate": -0.6142856969911865,
+      "permuted": 0.4804270462633452,
+      "phase": 1,
+      "trial": 281
+    },
+    {
+      "adaptive": 0.8333333333333334,
+      "delayed": 0.4787234042553192,
+      "frozen": 0.7943262411347518,
+      "mapping_estimate": -0.4851428412318916,
+      "permuted": 0.4787234042553192,
+      "phase": 1,
+      "trial": 282
+    },
+    {
+      "adaptive": 0.833922261484099,
+      "delayed": 0.47703180212014135,
+      "frozen": 0.7915194346289752,
+      "mapping_estimate": -0.5263314139333403,
+      "permuted": 0.48056537102473496,
+      "phase": 1,
+      "trial": 283
+    },
+    {
+      "adaptive": 0.8345070422535211,
+      "delayed": 0.4788732394366197,
+      "frozen": 0.7887323943661971,
+      "mapping_estimate": -0.564224900818673,
+      "permuted": 0.4823943661971831,
+      "phase": 1,
+      "trial": 284
+    },
+    {
+      "adaptive": 0.8350877192982457,
+      "delayed": 0.4807017543859649,
+      "frozen": 0.7859649122807018,
+      "mapping_estimate": -0.5990869087531792,
+      "permuted": 0.4807017543859649,
+      "phase": 1,
+      "trial": 285
+    },
+    {
+      "adaptive": 0.8356643356643356,
+      "delayed": 0.4825174825174825,
+      "frozen": 0.7832167832167832,
+      "mapping_estimate": -0.6311599560529249,
+      "permuted": 0.4825174825174825,
+      "phase": 1,
+      "trial": 286
+    },
+    {
+      "adaptive": 0.8362369337979094,
+      "delayed": 0.4843205574912892,
+      "frozen": 0.7804878048780488,
+      "mapping_estimate": -0.6606671595686908,
+      "permuted": 0.4808362369337979,
+      "phase": 1,
+      "trial": 287
+    },
+    {
+      "adaptive": 0.8368055555555556,
+      "delayed": 0.4826388888888889,
+      "frozen": 0.7777777777777778,
+      "mapping_estimate": -0.6878137868031955,
+      "permuted": 0.4791666666666667,
+      "phase": 1,
+      "trial": 288
+    },
+    {
+      "adaptive": 0.8373702422145328,
+      "delayed": 0.4844290657439446,
+      "frozen": 0.7750865051903114,
+      "mapping_estimate": -0.7127886838589398,
+      "permuted": 0.4809688581314879,
+      "phase": 1,
+      "trial": 289
+    },
+    {
+      "adaptive": 0.8379310344827586,
+      "delayed": 0.4862068965517241,
+      "frozen": 0.7724137931034483,
+      "mapping_estimate": -0.7357655891502246,
+      "permuted": 0.4827586206896552,
+      "phase": 1,
+      "trial": 290
+    },
+    {
+      "adaptive": 0.8384879725085911,
+      "delayed": 0.4845360824742268,
+      "frozen": 0.7697594501718213,
+      "mapping_estimate": -0.7569043420182067,
+      "permuted": 0.4845360824742268,
+      "phase": 1,
+      "trial": 291
+    },
+    {
+      "adaptive": 0.839041095890411,
+      "delayed": 0.4828767123287671,
+      "frozen": 0.7671232876712328,
+      "mapping_estimate": -0.7763519946567501,
+      "permuted": 0.4863013698630137,
+      "phase": 1,
+      "trial": 292
+    },
+    {
+      "adaptive": 0.8395904436860068,
+      "delayed": 0.48464163822525597,
+      "frozen": 0.764505119453925,
+      "mapping_estimate": -0.79424383508421,
+      "permuted": 0.4880546075085324,
+      "phase": 1,
+      "trial": 293
+    },
+    {
+      "adaptive": 0.8401360544217688,
+      "delayed": 0.48299319727891155,
+      "frozen": 0.7619047619047619,
+      "mapping_estimate": -0.8107043282774732,
+      "permuted": 0.48639455782312924,
+      "phase": 1,
+      "trial": 294
+    },
+    {
+      "adaptive": 0.8406779661016949,
+      "delayed": 0.4847457627118644,
+      "frozen": 0.7593220338983051,
+      "mapping_estimate": -0.8258479820152753,
+      "permuted": 0.488135593220339,
+      "phase": 1,
+      "trial": 295
+    },
+    {
+      "adaptive": 0.8412162162162162,
+      "delayed": 0.4831081081081081,
+      "frozen": 0.7567567567567568,
+      "mapping_estimate": -0.8397801434540533,
+      "permuted": 0.48986486486486486,
+      "phase": 1,
+      "trial": 296
+    },
+    {
+      "adaptive": 0.8417508417508418,
+      "delayed": 0.48148148148148145,
+      "frozen": 0.7542087542087542,
+      "mapping_estimate": -0.852597731977729,
+      "permuted": 0.49158249158249157,
+      "phase": 1,
+      "trial": 297
+    },
+    {
+      "adaptive": 0.8422818791946308,
+      "delayed": 0.48322147651006714,
+      "frozen": 0.7516778523489933,
+      "mapping_estimate": -0.8643899134195107,
+      "permuted": 0.49328859060402686,
+      "phase": 1,
+      "trial": 298
+    },
+    {
+      "adaptive": 0.842809364548495,
+      "delayed": 0.48494983277591974,
+      "frozen": 0.7491638795986622,
+      "mapping_estimate": -0.8752387203459498,
+      "permuted": 0.4916387959866221,
+      "phase": 1,
+      "trial": 299
+    },
+    {
+      "adaptive": 0.8433333333333334,
+      "delayed": 0.4866666666666667,
+      "frozen": 0.7466666666666667,
+      "mapping_estimate": -0.8852196227182738,
+      "permuted": 0.49333333333333335,
+      "phase": 1,
+      "trial": 300
+    },
+    {
+      "adaptive": 0.8438538205980066,
+      "delayed": 0.4883720930232558,
+      "frozen": 0.7441860465116279,
+      "mapping_estimate": -0.8944020529008119,
+      "permuted": 0.4950166112956811,
+      "phase": 1,
+      "trial": 301
+    },
+    {
+      "adaptive": 0.8443708609271523,
+      "delayed": 0.4867549668874172,
+      "frozen": 0.7417218543046358,
+      "mapping_estimate": -0.9028498886687469,
+      "permuted": 0.4966887417218543,
+      "phase": 1,
+      "trial": 302
+    },
+    {
+      "adaptive": 0.8448844884488449,
+      "delayed": 0.48514851485148514,
+      "frozen": 0.7392739273927392,
+      "mapping_estimate": -0.9106218975752471,
+      "permuted": 0.49834983498349833,
+      "phase": 1,
+      "trial": 303
+    },
+    {
+      "adaptive": 0.8453947368421053,
+      "delayed": 0.48355263157894735,
+      "frozen": 0.7368421052631579,
+      "mapping_estimate": -0.9177721457692274,
+      "permuted": 0.4967105263157895,
+      "phase": 1,
+      "trial": 304
+    },
+    {
+      "adaptive": 0.8459016393442623,
+      "delayed": 0.4852459016393443,
+      "frozen": 0.7344262295081967,
+      "mapping_estimate": -0.9243503741076892,
+      "permuted": 0.49508196721311476,
+      "phase": 1,
+      "trial": 305
+    },
+    {
+      "adaptive": 0.8464052287581699,
+      "delayed": 0.48366013071895425,
+      "frozen": 0.7320261437908496,
+      "mapping_estimate": -0.9304023441790741,
+      "permuted": 0.49673202614379086,
+      "phase": 1,
+      "trial": 306
+    },
+    {
+      "adaptive": 0.8436482084690554,
+      "delayed": 0.48534201954397393,
+      "frozen": 0.7328990228013029,
+      "mapping_estimate": -0.7759701566447482,
+      "permuted": 0.495114006514658,
+      "phase": 1,
+      "trial": 307
+    },
+    {
+      "adaptive": 0.8441558441558441,
+      "delayed": 0.4837662337662338,
+      "frozen": 0.7305194805194806,
+      "mapping_estimate": -0.7938925441131683,
+      "permuted": 0.4967532467532468,
+      "phase": 1,
+      "trial": 308
+    },
+    {
+      "adaptive": 0.8446601941747572,
+      "delayed": 0.48220064724919093,
+      "frozen": 0.7281553398058253,
+      "mapping_estimate": -0.8103811405841148,
+      "permuted": 0.49514563106796117,
+      "phase": 1,
+      "trial": 309
+    },
+    {
+      "adaptive": 0.8451612903225807,
+      "delayed": 0.4806451612903226,
+      "frozen": 0.7258064516129032,
+      "mapping_estimate": -0.8255506493373856,
+      "permuted": 0.4935483870967742,
+      "phase": 1,
+      "trial": 310
+    },
+    {
+      "adaptive": 0.8456591639871383,
+      "delayed": 0.4790996784565916,
+      "frozen": 0.7234726688102894,
+      "mapping_estimate": -0.8395065973903948,
+      "permuted": 0.49517684887459806,
+      "phase": 1,
+      "trial": 311
+    },
+    {
+      "adaptive": 0.8461538461538461,
+      "delayed": 0.4775641025641026,
+      "frozen": 0.7211538461538461,
+      "mapping_estimate": -0.8523460695991633,
+      "permuted": 0.4967948717948718,
+      "phase": 1,
+      "trial": 312
+    },
+    {
+      "adaptive": 0.8434504792332268,
+      "delayed": 0.476038338658147,
+      "frozen": 0.7220447284345048,
+      "mapping_estimate": -0.7041583840312303,
+      "permuted": 0.4984025559105431,
+      "phase": 1,
+      "trial": 313
+    },
+    {
+      "adaptive": 0.8407643312101911,
+      "delayed": 0.47770700636942676,
+      "frozen": 0.7229299363057324,
+      "mapping_estimate": -0.567825713308732,
+      "permuted": 0.5,
+      "phase": 1,
+      "trial": 314
+    },
+    {
+      "adaptive": 0.8412698412698413,
+      "delayed": 0.47619047619047616,
+      "frozen": 0.7206349206349206,
+      "mapping_estimate": -0.6023996562440335,
+      "permuted": 0.4984126984126984,
+      "phase": 1,
+      "trial": 315
+    },
+    {
+      "adaptive": 0.8417721518987342,
+      "delayed": 0.4778481012658228,
+      "frozen": 0.7183544303797469,
+      "mapping_estimate": -0.6342076837445108,
+      "permuted": 0.5,
+      "phase": 1,
+      "trial": 316
+    },
+    {
+      "adaptive": 0.8422712933753943,
+      "delayed": 0.4794952681388013,
+      "frozen": 0.7160883280757098,
+      "mapping_estimate": -0.6634710690449499,
+      "permuted": 0.501577287066246,
+      "phase": 1,
+      "trial": 317
+    },
+    {
+      "adaptive": 0.8427672955974843,
+      "delayed": 0.4811320754716981,
+      "frozen": 0.7138364779874213,
+      "mapping_estimate": -0.6903933835213539,
+      "permuted": 0.5,
+      "phase": 1,
+      "trial": 318
+    },
+    {
+      "adaptive": 0.8432601880877743,
+      "delayed": 0.47962382445141066,
+      "frozen": 0.7115987460815048,
+      "mapping_estimate": -0.7151619128396456,
+      "permuted": 0.5015673981191222,
+      "phase": 1,
+      "trial": 319
+    },
+    {
+      "adaptive": 0.84375,
+      "delayed": 0.478125,
+      "frozen": 0.709375,
+      "mapping_estimate": -0.7379489598124739,
+      "permuted": 0.503125,
+      "phase": 1,
+      "trial": 320
+    },
+    {
+      "adaptive": 0.8442367601246106,
+      "delayed": 0.4797507788161994,
+      "frozen": 0.7071651090342679,
+      "mapping_estimate": -0.758913043027476,
+      "permuted": 0.5046728971962616,
+      "phase": 1,
+      "trial": 321
+    },
+    {
+      "adaptive": 0.84472049689441,
+      "delayed": 0.4813664596273292,
+      "frozen": 0.7049689440993789,
+      "mapping_estimate": -0.7781999995852779,
+      "permuted": 0.5062111801242236,
+      "phase": 1,
+      "trial": 322
+    },
+    {
+      "adaptive": 0.8452012383900929,
+      "delayed": 0.48297213622291024,
+      "frozen": 0.7027863777089783,
+      "mapping_estimate": -0.7959439996184556,
+      "permuted": 0.5077399380804953,
+      "phase": 1,
+      "trial": 323
+    },
+    {
+      "adaptive": 0.8425925925925926,
+      "delayed": 0.48148148148148145,
+      "frozen": 0.7037037037037037,
+      "mapping_estimate": -0.6522684796489793,
+      "permuted": 0.5092592592592593,
+      "phase": 1,
+      "trial": 324
+    },
+    {
+      "adaptive": 0.8430769230769231,
+      "delayed": 0.48,
+      "frozen": 0.7015384615384616,
+      "mapping_estimate": -0.6800870012770609,
+      "permuted": 0.5076923076923077,
+      "phase": 1,
+      "trial": 325
+    },
+    {
+      "adaptive": 0.843558282208589,
+      "delayed": 0.4815950920245399,
+      "frozen": 0.6993865030674846,
+      "mapping_estimate": -0.705680041174896,
+      "permuted": 0.50920245398773,
+      "phase": 1,
+      "trial": 326
+    },
+    {
+      "adaptive": 0.8409785932721713,
+      "delayed": 0.4831804281345566,
+      "frozen": 0.7003058103975535,
+      "mapping_estimate": -0.5692256378809044,
+      "permuted": 0.5076452599388379,
+      "phase": 1,
+      "trial": 327
+    },
+    {
+      "adaptive": 0.8414634146341463,
+      "delayed": 0.4817073170731707,
+      "frozen": 0.698170731707317,
+      "mapping_estimate": -0.603687586850432,
+      "permuted": 0.5091463414634146,
+      "phase": 1,
+      "trial": 328
+    },
+    {
+      "adaptive": 0.8419452887537994,
+      "delayed": 0.48328267477203646,
+      "frozen": 0.6960486322188449,
+      "mapping_estimate": -0.6353925799023974,
+      "permuted": 0.5075987841945289,
+      "phase": 1,
+      "trial": 329
+    },
+    {
+      "adaptive": 0.8424242424242424,
+      "delayed": 0.48484848484848486,
+      "frozen": 0.693939393939394,
+      "mapping_estimate": -0.6645611735102056,
+      "permuted": 0.509090909090909,
+      "phase": 1,
+      "trial": 330
+    },
+    {
+      "adaptive": 0.8429003021148036,
+      "delayed": 0.486404833836858,
+      "frozen": 0.6918429003021148,
+      "mapping_estimate": -0.6913962796293891,
+      "permuted": 0.5075528700906344,
+      "phase": 1,
+      "trial": 331
+    },
+    {
+      "adaptive": 0.8433734939759037,
+      "delayed": 0.4879518072289157,
+      "frozen": 0.6897590361445783,
+      "mapping_estimate": -0.716084577259038,
+      "permuted": 0.5060240963855421,
+      "phase": 1,
+      "trial": 332
+    },
+    {
+      "adaptive": 0.8438438438438438,
+      "delayed": 0.4864864864864865,
+      "frozen": 0.6876876876876877,
+      "mapping_estimate": -0.7387978110783149,
+      "permuted": 0.5075075075075075,
+      "phase": 1,
+      "trial": 333
+    },
+    {
+      "adaptive": 0.844311377245509,
+      "delayed": 0.48502994011976047,
+      "frozen": 0.6856287425149701,
+      "mapping_estimate": -0.7596939861920496,
+      "permuted": 0.5059880239520959,
+      "phase": 1,
+      "trial": 334
+    },
+    {
+      "adaptive": 0.844776119402985,
+      "delayed": 0.4835820895522388,
+      "frozen": 0.6835820895522388,
+      "mapping_estimate": -0.7789184672966857,
+      "permuted": 0.5044776119402985,
+      "phase": 1,
+      "trial": 335
+    },
+    {
+      "adaptive": 0.8422619047619048,
+      "delayed": 0.48214285714285715,
+      "frozen": 0.6845238095238095,
+      "mapping_estimate": -0.6366049899129509,
+      "permuted": 0.5029761904761905,
+      "phase": 1,
+      "trial": 336
+    },
+    {
+      "adaptive": 0.8397626112759644,
+      "delayed": 0.4807121661721068,
+      "frozen": 0.685459940652819,
+      "mapping_estimate": -0.5056765907199149,
+      "permuted": 0.5014836795252225,
+      "phase": 1,
+      "trial": 337
+    },
+    {
+      "adaptive": 0.8402366863905325,
+      "delayed": 0.4822485207100592,
+      "frozen": 0.6834319526627219,
+      "mapping_estimate": -0.5452224634623217,
+      "permuted": 0.5029585798816568,
+      "phase": 1,
+      "trial": 338
+    },
+    {
+      "adaptive": 0.8407079646017699,
+      "delayed": 0.4837758112094395,
+      "frozen": 0.6814159292035398,
+      "mapping_estimate": -0.5816046663853359,
+      "permuted": 0.504424778761062,
+      "phase": 1,
+      "trial": 339
+    },
+    {
+      "adaptive": 0.8411764705882353,
+      "delayed": 0.4852941176470588,
+      "frozen": 0.6794117647058824,
+      "mapping_estimate": -0.6150762930745091,
+      "permuted": 0.5029411764705882,
+      "phase": 1,
+      "trial": 340
+    },
+    {
+      "adaptive": 0.841642228739003,
+      "delayed": 0.4838709677419355,
+      "frozen": 0.6774193548387096,
+      "mapping_estimate": -0.6458701896285484,
+      "permuted": 0.5043988269794721,
+      "phase": 1,
+      "trial": 341
+    },
+    {
+      "adaptive": 0.8391812865497076,
+      "delayed": 0.4824561403508772,
+      "frozen": 0.6783625730994152,
+      "mapping_estimate": -0.5142005744582646,
+      "permuted": 0.5029239766081871,
+      "phase": 1,
+      "trial": 342
+    },
+    {
+      "adaptive": 0.8367346938775511,
+      "delayed": 0.4839650145772595,
+      "frozen": 0.6793002915451894,
+      "mapping_estimate": -0.39306452850160345,
+      "permuted": 0.5043731778425656,
+      "phase": 1,
+      "trial": 343
+    },
+    {
+      "adaptive": 0.8372093023255814,
+      "delayed": 0.48255813953488375,
+      "frozen": 0.6773255813953488,
+      "mapping_estimate": -0.4416193662214752,
+      "permuted": 0.502906976744186,
+      "phase": 1,
+      "trial": 344
+    },
+    {
+      "adaptive": 0.8347826086956521,
+      "delayed": 0.4811594202898551,
+      "frozen": 0.6782608695652174,
+      "mapping_estimate": -0.3262898169237572,
+      "permuted": 0.5014492753623189,
+      "phase": 1,
+      "trial": 345
+    },
+    {
+      "adaptive": 0.8323699421965318,
+      "delayed": 0.48265895953757226,
+      "frozen": 0.6791907514450867,
+      "mapping_estimate": -0.22018663156985663,
+      "permuted": 0.5,
+      "phase": 1,
+      "trial": 346
+    },
+    {
+      "adaptive": 0.8328530259365994,
+      "delayed": 0.4812680115273775,
+      "frozen": 0.6772334293948127,
+      "mapping_estimate": -0.2825717010442681,
+      "permuted": 0.49855907780979825,
+      "phase": 1,
+      "trial": 347
+    },
+    {
+      "adaptive": 0.8333333333333334,
+      "delayed": 0.4827586206896552,
+      "frozen": 0.6752873563218391,
+      "mapping_estimate": -0.3399659649607267,
+      "permuted": 0.5,
+      "phase": 1,
+      "trial": 348
+    },
+    {
+      "adaptive": 0.830945558739255,
+      "delayed": 0.4813753581661891,
+      "frozen": 0.6762177650429799,
+      "mapping_estimate": -0.23276868776386855,
+      "permuted": 0.498567335243553,
+      "phase": 1,
+      "trial": 349
+    },
+    {
+      "adaptive": 0.8285714285714286,
+      "delayed": 0.48,
+      "frozen": 0.6771428571428572,
+      "mapping_estimate": -0.1341471927427591,
+      "permuted": 0.49714285714285716,
+      "phase": 1,
+      "trial": 350
+    },
+    {
+      "adaptive": 0.8290598290598291,
+      "delayed": 0.48148148148148145,
+      "frozen": 0.6752136752136753,
+      "mapping_estimate": -0.2034154173233384,
+      "permuted": 0.49572649572649574,
+      "phase": 1,
+      "trial": 351
+    },
+    {
+      "adaptive": 0.8295454545454546,
+      "delayed": 0.48295454545454547,
+      "frozen": 0.6732954545454546,
+      "mapping_estimate": -0.26714218393747136,
+      "permuted": 0.4971590909090909,
+      "phase": 1,
+      "trial": 352
+    },
+    {
+      "adaptive": 0.830028328611898,
+      "delayed": 0.48158640226628896,
+      "frozen": 0.6713881019830028,
+      "mapping_estimate": -0.32577080922247365,
+      "permuted": 0.49575070821529743,
+      "phase": 1,
+      "trial": 353
+    },
+    {
+      "adaptive": 0.8305084745762712,
+      "delayed": 0.4830508474576271,
+      "frozen": 0.6694915254237288,
+      "mapping_estimate": -0.3797091444846758,
+      "permuted": 0.4943502824858757,
+      "phase": 1,
+      "trial": 354
+    },
+    {
+      "adaptive": 0.8309859154929577,
+      "delayed": 0.48450704225352115,
+      "frozen": 0.6676056338028169,
+      "mapping_estimate": -0.42933241292590174,
+      "permuted": 0.49295774647887325,
+      "phase": 1,
+      "trial": 355
+    },
+    {
+      "adaptive": 0.8314606741573034,
+      "delayed": 0.48314606741573035,
+      "frozen": 0.6657303370786517,
+      "mapping_estimate": -0.47498581989182964,
+      "permuted": 0.4943820224719101,
+      "phase": 1,
+      "trial": 356
+    },
+    {
+      "adaptive": 0.8319327731092437,
+      "delayed": 0.484593837535014,
+      "frozen": 0.6638655462184874,
+      "mapping_estimate": -0.5169869543004832,
+      "permuted": 0.4957983193277311,
+      "phase": 1,
+      "trial": 357
+    },
+    {
+      "adaptive": 0.8324022346368715,
+      "delayed": 0.4860335195530726,
+      "frozen": 0.6620111731843575,
+      "mapping_estimate": -0.5556279979564446,
+      "permuted": 0.49441340782122906,
+      "phase": 1,
+      "trial": 358
+    },
+    {
+      "adaptive": 0.8328690807799443,
+      "delayed": 0.48746518105849584,
+      "frozen": 0.6601671309192201,
+      "mapping_estimate": -0.591177758119929,
+      "permuted": 0.49303621169916434,
+      "phase": 1,
+      "trial": 359
+    },
+    {
+      "adaptive": 0.8333333333333334,
+      "delayed": 0.4861111111111111,
+      "frozen": 0.6583333333333333,
+      "mapping_estimate": -0.6238835374703346,
+      "permuted": 0.49166666666666664,
+      "phase": 1,
+      "trial": 360
+    },
+    {
+      "adaptive": 0.8337950138504155,
+      "delayed": 0.48476454293628807,
+      "frozen": 0.6565096952908587,
+      "mapping_estimate": -0.6539728544727078,
+      "permuted": 0.4903047091412742,
+      "phase": 1,
+      "trial": 361
+    },
+    {
+      "adaptive": 0.8342541436464088,
+      "delayed": 0.48342541436464087,
+      "frozen": 0.6546961325966851,
+      "mapping_estimate": -0.6816550261148911,
+      "permuted": 0.4889502762430939,
+      "phase": 1,
+      "trial": 362
+    },
+    {
+      "adaptive": 0.8347107438016529,
+      "delayed": 0.4820936639118457,
+      "frozen": 0.6528925619834711,
+      "mapping_estimate": -0.7071226240256998,
+      "permuted": 0.4903581267217631,
+      "phase": 1,
+      "trial": 363
+    },
+    {
+      "adaptive": 0.8351648351648352,
+      "delayed": 0.4807692307692308,
+      "frozen": 0.6510989010989011,
+      "mapping_estimate": -0.7305528141036438,
+      "permuted": 0.489010989010989,
+      "phase": 1,
+      "trial": 364
+    },
+    {
+      "adaptive": 0.8356164383561644,
+      "delayed": 0.4794520547945205,
+      "frozen": 0.6493150684931507,
+      "mapping_estimate": -0.7521085889753523,
+      "permuted": 0.4904109589041096,
+      "phase": 1,
+      "trial": 365
+    },
+    {
+      "adaptive": 0.8360655737704918,
+      "delayed": 0.4781420765027322,
+      "frozen": 0.6475409836065574,
+      "mapping_estimate": -0.7719399018573241,
+      "permuted": 0.4890710382513661,
+      "phase": 1,
+      "trial": 366
+    },
+    {
+      "adaptive": 0.8365122615803815,
+      "delayed": 0.4768392370572207,
+      "frozen": 0.6457765667574932,
+      "mapping_estimate": -0.7901847097087381,
+      "permuted": 0.4904632152588556,
+      "phase": 1,
+      "trial": 367
+    },
+    {
+      "adaptive": 0.8369565217391305,
+      "delayed": 0.4782608695652174,
+      "frozen": 0.6440217391304348,
+      "mapping_estimate": -0.806969932932039,
+      "permuted": 0.49184782608695654,
+      "phase": 1,
+      "trial": 368
+    },
+    {
+      "adaptive": 0.8373983739837398,
+      "delayed": 0.4796747967479675,
+      "frozen": 0.6422764227642277,
+      "mapping_estimate": -0.8224123382974758,
+      "permuted": 0.4932249322493225,
+      "phase": 1,
+      "trial": 369
+    },
+    {
+      "adaptive": 0.8378378378378378,
+      "delayed": 0.4783783783783784,
+      "frozen": 0.6405405405405405,
+      "mapping_estimate": -0.8366193512336778,
+      "permuted": 0.4918918918918919,
+      "phase": 1,
+      "trial": 370
+    },
+    {
+      "adaptive": 0.8382749326145552,
+      "delayed": 0.477088948787062,
+      "frozen": 0.6388140161725068,
+      "mapping_estimate": -0.8496898031349835,
+      "permuted": 0.49056603773584906,
+      "phase": 1,
+      "trial": 371
+    },
+    {
+      "adaptive": 0.8387096774193549,
+      "delayed": 0.478494623655914,
+      "frozen": 0.6370967741935484,
+      "mapping_estimate": -0.8617146188841849,
+      "permuted": 0.49193548387096775,
+      "phase": 1,
+      "trial": 372
+    },
+    {
+      "adaptive": 0.839142091152815,
+      "delayed": 0.47989276139410186,
+      "frozen": 0.6353887399463807,
+      "mapping_estimate": -0.87277744937345,
+      "permuted": 0.4906166219839142,
+      "phase": 1,
+      "trial": 373
+    },
+    {
+      "adaptive": 0.839572192513369,
+      "delayed": 0.48128342245989303,
+      "frozen": 0.6336898395721925,
+      "mapping_estimate": -0.8829552534235741,
+      "permuted": 0.4893048128342246,
+      "phase": 1,
+      "trial": 374
+    },
+    {
+      "adaptive": 0.84,
+      "delayed": 0.48,
+      "frozen": 0.632,
+      "mapping_estimate": -0.8923188331496882,
+      "permuted": 0.488,
+      "phase": 1,
+      "trial": 375
+    },
+    {
+      "adaptive": 0.8404255319148937,
+      "delayed": 0.4787234042553192,
+      "frozen": 0.6303191489361702,
+      "mapping_estimate": -0.9009333264977131,
+      "permuted": 0.4867021276595745,
+      "phase": 1,
+      "trial": 376
+    },
+    {
+      "adaptive": 0.8408488063660478,
+      "delayed": 0.47745358090185674,
+      "frozen": 0.6286472148541115,
+      "mapping_estimate": -0.908858660377896,
+      "permuted": 0.4854111405835544,
+      "phase": 1,
+      "trial": 377
+    },
+    {
+      "adaptive": 0.8412698412698413,
+      "delayed": 0.47619047619047616,
+      "frozen": 0.626984126984127,
+      "mapping_estimate": -0.9161499675476643,
+      "permuted": 0.48412698412698413,
+      "phase": 1,
+      "trial": 378
+    },
+    {
+      "adaptive": 0.841688654353562,
+      "delayed": 0.47757255936675463,
+      "frozen": 0.6253298153034301,
+      "mapping_estimate": -0.9228579701438512,
+      "permuted": 0.48548812664907653,
+      "phase": 1,
+      "trial": 379
+    },
+    {
+      "adaptive": 0.8421052631578947,
+      "delayed": 0.4763157894736842,
+      "frozen": 0.6236842105263158,
+      "mapping_estimate": -0.9290293325323431,
+      "permuted": 0.4842105263157895,
+      "phase": 1,
+      "trial": 380
+    },
+    {
+      "adaptive": 0.84251968503937,
+      "delayed": 0.4776902887139108,
+      "frozen": 0.6220472440944882,
+      "mapping_estimate": -0.9347069859297557,
+      "permuted": 0.48293963254593175,
+      "phase": 1,
+      "trial": 381
+    },
+    {
+      "adaptive": 0.8429319371727748,
+      "delayed": 0.47643979057591623,
+      "frozen": 0.6204188481675392,
+      "mapping_estimate": -0.9399304270553752,
+      "permuted": 0.4816753926701571,
+      "phase": 1,
+      "trial": 382
+    },
+    {
+      "adaptive": 0.8433420365535248,
+      "delayed": 0.4751958224543081,
+      "frozen": 0.618798955613577,
+      "mapping_estimate": -0.9447359928909452,
+      "permuted": 0.4830287206266319,
+      "phase": 1,
+      "trial": 383
+    },
+    {
+      "adaptive": 0.84375,
+      "delayed": 0.4765625,
+      "frozen": 0.6171875,
+      "mapping_estimate": -0.9491571134596696,
+      "permuted": 0.484375,
+      "phase": 1,
+      "trial": 384
+    },
+    {
+      "adaptive": 0.8415584415584415,
+      "delayed": 0.4779220779220779,
+      "frozen": 0.6181818181818182,
+      "mapping_estimate": -0.7932245443828961,
+      "permuted": 0.4831168831168831,
+      "phase": 1,
+      "trial": 385
+    },
+    {
+      "adaptive": 0.8419689119170984,
+      "delayed": 0.4792746113989637,
+      "frozen": 0.616580310880829,
+      "mapping_estimate": -0.8097665808322644,
+      "permuted": 0.4844559585492228,
+      "phase": 1,
+      "trial": 386
+    },
+    {
+      "adaptive": 0.8423772609819121,
+      "delayed": 0.4780361757105943,
+      "frozen": 0.6149870801033591,
+      "mapping_estimate": -0.8249852543656833,
+      "permuted": 0.48578811369509045,
+      "phase": 1,
+      "trial": 387
+    },
+    {
+      "adaptive": 0.8427835051546392,
+      "delayed": 0.47680412371134023,
+      "frozen": 0.6134020618556701,
+      "mapping_estimate": -0.8389864340164286,
+      "permuted": 0.4845360824742268,
+      "phase": 1,
+      "trial": 388
+    },
+    {
+      "adaptive": 0.8431876606683805,
+      "delayed": 0.4755784061696658,
+      "frozen": 0.6118251928020566,
+      "mapping_estimate": -0.8518675192951143,
+      "permuted": 0.4832904884318766,
+      "phase": 1,
+      "trial": 389
+    },
+    {
+      "adaptive": 0.8435897435897436,
+      "delayed": 0.47435897435897434,
+      "frozen": 0.6102564102564103,
+      "mapping_estimate": -0.8637181177515051,
+      "permuted": 0.48205128205128206,
+      "phase": 1,
+      "trial": 390
+    },
+    {
+      "adaptive": 0.8439897698209718,
+      "delayed": 0.4731457800511509,
+      "frozen": 0.6086956521739131,
+      "mapping_estimate": -0.8746206683313846,
+      "permuted": 0.4833759590792839,
+      "phase": 1,
+      "trial": 391
+    },
+    {
+      "adaptive": 0.8443877551020408,
+      "delayed": 0.4719387755102041,
+      "frozen": 0.6071428571428571,
+      "mapping_estimate": -0.8846510148648739,
+      "permuted": 0.4846938775510204,
+      "phase": 1,
+      "trial": 392
+    },
+    {
+      "adaptive": 0.8447837150127226,
+      "delayed": 0.4707379134860051,
+      "frozen": 0.6055979643765903,
+      "mapping_estimate": -0.8938789336756839,
+      "permuted": 0.48346055979643765,
+      "phase": 1,
+      "trial": 393
+    },
+    {
+      "adaptive": 0.8451776649746193,
+      "delayed": 0.4720812182741117,
+      "frozen": 0.6040609137055838,
+      "mapping_estimate": -0.9023686189816292,
+      "permuted": 0.4847715736040609,
+      "phase": 1,
+      "trial": 394
+    },
+    {
+      "adaptive": 0.8455696202531645,
+      "delayed": 0.47341772151898737,
+      "frozen": 0.6025316455696202,
+      "mapping_estimate": -0.9101791294630989,
+      "permuted": 0.4835443037974684,
+      "phase": 1,
+      "trial": 395
+    },
+    {
+      "adaptive": 0.8459595959595959,
+      "delayed": 0.4722222222222222,
+      "frozen": 0.601010101010101,
+      "mapping_estimate": -0.917364799106051,
+      "permuted": 0.4823232323232323,
+      "phase": 1,
+      "trial": 396
+    },
+    {
+      "adaptive": 0.8463476070528967,
+      "delayed": 0.473551637279597,
+      "frozen": 0.5994962216624685,
+      "mapping_estimate": -0.9239756151775669,
+      "permuted": 0.4836272040302267,
+      "phase": 1,
+      "trial": 397
+    },
+    {
+      "adaptive": 0.8467336683417085,
+      "delayed": 0.4748743718592965,
+      "frozen": 0.5979899497487438,
+      "mapping_estimate": -0.9300575659633615,
+      "permuted": 0.4824120603015075,
+      "phase": 1,
+      "trial": 398
+    },
+    {
+      "adaptive": 0.8471177944862155,
+      "delayed": 0.47619047619047616,
+      "frozen": 0.5964912280701754,
+      "mapping_estimate": -0.9356529606862926,
+      "permuted": 0.48120300751879697,
+      "phase": 1,
+      "trial": 399
+    },
+    {
+      "adaptive": 0.8475,
+      "delayed": 0.4775,
+      "frozen": 0.595,
+      "mapping_estimate": -0.9408007238313891,
+      "permuted": 0.4825,
+      "phase": 1,
+      "trial": 400
+    },
+    {
+      "adaptive": 0.8453865336658354,
+      "delayed": 0.47880299251870323,
+      "frozen": 0.5960099750623441,
+      "mapping_estimate": -0.785536665924878,
+      "permuted": 0.48129675810473815,
+      "phase": 1,
+      "trial": 401
+    },
+    {
+      "adaptive": 0.8432835820895522,
+      "delayed": 0.47761194029850745,
+      "frozen": 0.5970149253731343,
+      "mapping_estimate": -0.6426937326508878,
+      "permuted": 0.48258706467661694,
+      "phase": 1,
+      "trial": 402
+    },
+    {
+      "adaptive": 0.8436724565756824,
+      "delayed": 0.47890818858560796,
+      "frozen": 0.5955334987593052,
+      "mapping_estimate": -0.6712782340388168,
+      "permuted": 0.4838709677419355,
+      "phase": 1,
+      "trial": 403
+    },
+    {
+      "adaptive": 0.8415841584158416,
+      "delayed": 0.4777227722772277,
+      "frozen": 0.5965346534653465,
+      "mapping_estimate": -0.5375759753157116,
+      "permuted": 0.48514851485148514,
+      "phase": 1,
+      "trial": 404
+    },
+    {
+      "adaptive": 0.8395061728395061,
+      "delayed": 0.47901234567901235,
+      "frozen": 0.5975308641975309,
+      "mapping_estimate": -0.4145698972904546,
+      "permuted": 0.48641975308641977,
+      "phase": 1,
+      "trial": 405
+    },
+    {
+      "adaptive": 0.8374384236453202,
+      "delayed": 0.47783251231527096,
+      "frozen": 0.5985221674876847,
+      "mapping_estimate": -0.30140430550721825,
+      "permuted": 0.4876847290640394,
+      "phase": 1,
+      "trial": 406
+    },
+    {
+      "adaptive": 0.8378378378378378,
+      "delayed": 0.47911547911547914,
+      "frozen": 0.597051597051597,
+      "mapping_estimate": -0.3572919610666408,
+      "permuted": 0.48894348894348894,
+      "phase": 1,
+      "trial": 407
+    },
+    {
+      "adaptive": 0.8382352941176471,
+      "delayed": 0.4803921568627451,
+      "frozen": 0.5955882352941176,
+      "mapping_estimate": -0.40870860418130955,
+      "permuted": 0.49019607843137253,
+      "phase": 1,
+      "trial": 408
+    },
+    {
+      "adaptive": 0.8386308068459658,
+      "delayed": 0.48166259168704156,
+      "frozen": 0.5941320293398533,
+      "mapping_estimate": -0.45601191584680484,
+      "permuted": 0.49144254278728605,
+      "phase": 1,
+      "trial": 409
+    },
+    {
+      "adaptive": 0.8390243902439024,
+      "delayed": 0.48292682926829267,
+      "frozen": 0.5926829268292683,
+      "mapping_estimate": -0.4995309625790605,
+      "permuted": 0.4902439024390244,
+      "phase": 1,
+      "trial": 410
+    },
+    {
+      "adaptive": 0.8394160583941606,
+      "delayed": 0.48175182481751827,
+      "frozen": 0.5912408759124088,
+      "mapping_estimate": -0.5395684855727356,
+      "permuted": 0.48905109489051096,
+      "phase": 1,
+      "trial": 411
+    },
+    {
+      "adaptive": 0.8398058252427184,
+      "delayed": 0.48058252427184467,
+      "frozen": 0.5898058252427184,
+      "mapping_estimate": -0.5764030067269168,
+      "permuted": 0.49029126213592233,
+      "phase": 1,
+      "trial": 412
+    },
+    {
+      "adaptive": 0.837772397094431,
+      "delayed": 0.48184019370460046,
+      "frozen": 0.5907990314769975,
+      "mapping_estimate": -0.45029076618876346,
+      "permuted": 0.4891041162227603,
+      "phase": 1,
+      "trial": 413
+    },
+    {
+      "adaptive": 0.8381642512077294,
+      "delayed": 0.4806763285024155,
+      "frozen": 0.5893719806763285,
+      "mapping_estimate": -0.4942675048936624,
+      "permuted": 0.49033816425120774,
+      "phase": 1,
+      "trial": 414
+    },
+    {
+      "adaptive": 0.8385542168674699,
+      "delayed": 0.4795180722891566,
+      "frozen": 0.5879518072289157,
+      "mapping_estimate": -0.5347261045021694,
+      "permuted": 0.4891566265060241,
+      "phase": 1,
+      "trial": 415
+    },
+    {
+      "adaptive": 0.8389423076923077,
+      "delayed": 0.47836538461538464,
+      "frozen": 0.5865384615384616,
+      "mapping_estimate": -0.5719480161419959,
+      "permuted": 0.49038461538461536,
+      "phase": 1,
+      "trial": 416
+    },
+    {
+      "adaptive": 0.8369304556354916,
+      "delayed": 0.47961630695443647,
+      "frozen": 0.5875299760191847,
+      "mapping_estimate": -0.44619217485063617,
+      "permuted": 0.49160671462829736,
+      "phase": 1,
+      "trial": 417
+    },
+    {
+      "adaptive": 0.8373205741626795,
+      "delayed": 0.48086124401913877,
+      "frozen": 0.5861244019138756,
+      "mapping_estimate": -0.4904968008625853,
+      "permuted": 0.49282296650717705,
+      "phase": 1,
+      "trial": 418
+    },
+    {
+      "adaptive": 0.837708830548926,
+      "delayed": 0.4821002386634845,
+      "frozen": 0.5847255369928401,
+      "mapping_estimate": -0.5312570567935785,
+      "permuted": 0.49403341288782815,
+      "phase": 1,
+      "trial": 419
+    },
+    {
+      "adaptive": 0.8380952380952381,
+      "delayed": 0.48095238095238096,
+      "frozen": 0.5833333333333334,
+      "mapping_estimate": -0.5687564922500922,
+      "permuted": 0.4928571428571429,
+      "phase": 1,
+      "trial": 420
+    },
+    {
+      "adaptive": 0.838479809976247,
+      "delayed": 0.47980997624703087,
+      "frozen": 0.5819477434679335,
+      "mapping_estimate": -0.6032559728700848,
+      "permuted": 0.49406175771971494,
+      "phase": 1,
+      "trial": 421
+    },
+    {
+      "adaptive": 0.8364928909952607,
+      "delayed": 0.4786729857819905,
+      "frozen": 0.5829383886255924,
+      "mapping_estimate": -0.47499549504047806,
+      "permuted": 0.4928909952606635,
+      "phase": 1,
+      "trial": 422
+    },
+    {
+      "adaptive": 0.8368794326241135,
+      "delayed": 0.47754137115839246,
+      "frozen": 0.5815602836879432,
+      "mapping_estimate": -0.5169958554372398,
+      "permuted": 0.4940898345153664,
+      "phase": 1,
+      "trial": 423
+    },
+    {
+      "adaptive": 0.8372641509433962,
+      "delayed": 0.47641509433962265,
+      "frozen": 0.5801886792452831,
+      "mapping_estimate": -0.5556361870022606,
+      "permuted": 0.49528301886792453,
+      "phase": 1,
+      "trial": 424
+    },
+    {
+      "adaptive": 0.8376470588235294,
+      "delayed": 0.4752941176470588,
+      "frozen": 0.5788235294117647,
+      "mapping_estimate": -0.5911852920420797,
+      "permuted": 0.49411764705882355,
+      "phase": 1,
+      "trial": 425
+    },
+    {
+      "adaptive": 0.8380281690140845,
+      "delayed": 0.4765258215962441,
+      "frozen": 0.5774647887323944,
+      "mapping_estimate": -0.6238904686787133,
+      "permuted": 0.4953051643192488,
+      "phase": 1,
+      "trial": 426
+    },
+    {
+      "adaptive": 0.8384074941451991,
+      "delayed": 0.477751756440281,
+      "frozen": 0.5761124121779859,
+      "mapping_estimate": -0.6539792311844163,
+      "permuted": 0.4964871194379391,
+      "phase": 1,
+      "trial": 427
+    },
+    {
+      "adaptive": 0.8387850467289719,
+      "delayed": 0.47897196261682246,
+      "frozen": 0.5747663551401869,
+      "mapping_estimate": -0.6816608926896629,
+      "permuted": 0.4976635514018692,
+      "phase": 1,
+      "trial": 428
+    },
+    {
+      "adaptive": 0.8368298368298368,
+      "delayed": 0.4801864801864802,
+      "frozen": 0.5757575757575758,
+      "mapping_estimate": -0.5471280212744899,
+      "permuted": 0.4988344988344988,
+      "phase": 1,
+      "trial": 429
+    },
+    {
+      "adaptive": 0.8372093023255814,
+      "delayed": 0.4790697674418605,
+      "frozen": 0.5744186046511628,
+      "mapping_estimate": -0.5833577795725307,
+      "permuted": 0.49767441860465117,
+      "phase": 1,
+      "trial": 430
+    },
+    {
+      "adaptive": 0.8375870069605569,
+      "delayed": 0.4802784222737819,
+      "frozen": 0.5730858468677494,
+      "mapping_estimate": -0.6166891572067282,
+      "permuted": 0.4988399071925754,
+      "phase": 1,
+      "trial": 431
+    },
+    {
+      "adaptive": 0.8379629629629629,
+      "delayed": 0.4791666666666667,
+      "frozen": 0.5717592592592593,
+      "mapping_estimate": -0.64735402463019,
+      "permuted": 0.4976851851851852,
+      "phase": 1,
+      "trial": 432
+    },
+    {
+      "adaptive": 0.8383371824480369,
+      "delayed": 0.48036951501154734,
+      "frozen": 0.5704387990762124,
+      "mapping_estimate": -0.6755657026597748,
+      "permuted": 0.49653579676674364,
+      "phase": 1,
+      "trial": 433
+    },
+    {
+      "adaptive": 0.8387096774193549,
+      "delayed": 0.4792626728110599,
+      "frozen": 0.5691244239631337,
+      "mapping_estimate": -0.7015204464469927,
+      "permuted": 0.4976958525345622,
+      "phase": 1,
+      "trial": 434
+    },
+    {
+      "adaptive": 0.8367816091954023,
+      "delayed": 0.4804597701149425,
+      "frozen": 0.5701149425287356,
+      "mapping_estimate": -0.5653988107312334,
+      "permuted": 0.496551724137931,
+      "phase": 1,
+      "trial": 435
+    },
+    {
+      "adaptive": 0.8371559633027523,
+      "delayed": 0.481651376146789,
+      "frozen": 0.5688073394495413,
+      "mapping_estimate": -0.6001669058727347,
+      "permuted": 0.49770642201834864,
+      "phase": 1,
+      "trial": 436
+    },
+    {
+      "adaptive": 0.8375286041189931,
+      "delayed": 0.482837528604119,
+      "frozen": 0.5675057208237986,
+      "mapping_estimate": -0.6321535534029159,
+      "permuted": 0.4988558352402746,
+      "phase": 1,
+      "trial": 437
+    },
+    {
+      "adaptive": 0.8378995433789954,
+      "delayed": 0.4817351598173516,
+      "frozen": 0.5662100456621004,
+      "mapping_estimate": -0.6615812691306826,
+      "permuted": 0.5,
+      "phase": 1,
+      "trial": 438
+    },
+    {
+      "adaptive": 0.8382687927107062,
+      "delayed": 0.48291571753986334,
+      "frozen": 0.5649202733485194,
+      "mapping_estimate": -0.688654767600228,
+      "permuted": 0.4988610478359909,
+      "phase": 1,
+      "trial": 439
+    },
+    {
+      "adaptive": 0.8386363636363636,
+      "delayed": 0.48409090909090907,
+      "frozen": 0.5636363636363636,
+      "mapping_estimate": -0.7135623861922098,
+      "permuted": 0.5,
+      "phase": 1,
+      "trial": 440
+    },
+    {
+      "adaptive": 0.8390022675736961,
+      "delayed": 0.4852607709750567,
+      "frozen": 0.562358276643991,
+      "mapping_estimate": -0.736477395296833,
+      "permuted": 0.4988662131519274,
+      "phase": 1,
+      "trial": 441
+    },
+    {
+      "adaptive": 0.8393665158371041,
+      "delayed": 0.48642533936651583,
+      "frozen": 0.5610859728506787,
+      "mapping_estimate": -0.7575592036730864,
+      "permuted": 0.497737556561086,
+      "phase": 1,
+      "trial": 442
+    },
+    {
+      "adaptive": 0.8397291196388262,
+      "delayed": 0.48758465011286684,
+      "frozen": 0.5598194130925508,
+      "mapping_estimate": -0.7769544673792395,
+      "permuted": 0.4966139954853273,
+      "phase": 1,
+      "trial": 443
+    },
+    {
+      "adaptive": 0.8400900900900901,
+      "delayed": 0.4864864864864865,
+      "frozen": 0.5585585585585585,
+      "mapping_estimate": -0.7947981099889003,
+      "permuted": 0.49774774774774777,
+      "phase": 1,
+      "trial": 444
+    },
+    {
+      "adaptive": 0.8404494382022472,
+      "delayed": 0.48764044943820223,
+      "frozen": 0.5573033707865168,
+      "mapping_estimate": -0.8112142611897883,
+      "permuted": 0.4966292134831461,
+      "phase": 1,
+      "trial": 445
+    },
+    {
+      "adaptive": 0.8408071748878924,
+      "delayed": 0.48878923766816146,
+      "frozen": 0.5560538116591929,
+      "mapping_estimate": -0.8263171202946052,
+      "permuted": 0.49551569506726456,
+      "phase": 1,
+      "trial": 446
+    },
+    {
+      "adaptive": 0.8411633109619687,
+      "delayed": 0.48769574944071586,
+      "frozen": 0.5548098434004475,
+      "mapping_estimate": -0.8402117506710368,
+      "permuted": 0.4966442953020134,
+      "phase": 1,
+      "trial": 447
+    },
+    {
+      "adaptive": 0.8415178571428571,
+      "delayed": 0.4888392857142857,
+      "frozen": 0.5535714285714286,
+      "mapping_estimate": -0.8529948106173538,
+      "permuted": 0.49776785714285715,
+      "phase": 1,
+      "trial": 448
+    },
+    {
+      "adaptive": 0.8418708240534521,
+      "delayed": 0.48997772828507796,
+      "frozen": 0.5523385300668151,
+      "mapping_estimate": -0.8647552257679655,
+      "permuted": 0.49665924276169265,
+      "phase": 1,
+      "trial": 449
+    },
+    {
+      "adaptive": 0.8422222222222222,
+      "delayed": 0.4911111111111111,
+      "frozen": 0.5511111111111111,
+      "mapping_estimate": -0.8755748077065283,
+      "permuted": 0.4955555555555556,
+      "phase": 1,
+      "trial": 450
+    },
+    {
+      "adaptive": 0.8425720620842572,
+      "delayed": 0.49002217294900224,
+      "frozen": 0.549889135254989,
+      "mapping_estimate": -0.885528823090006,
+      "permuted": 0.49667405764966743,
+      "phase": 1,
+      "trial": 451
+    },
+    {
+      "adaptive": 0.8429203539823009,
+      "delayed": 0.4911504424778761,
+      "frozen": 0.5486725663716814,
+      "mapping_estimate": -0.8946865172428056,
+      "permuted": 0.497787610619469,
+      "phase": 1,
+      "trial": 452
+    },
+    {
+      "adaptive": 0.8432671081677704,
+      "delayed": 0.4922737306843267,
+      "frozen": 0.5474613686534217,
+      "mapping_estimate": -0.9031115958633811,
+      "permuted": 0.4966887417218543,
+      "phase": 1,
+      "trial": 453
+    },
+    {
+      "adaptive": 0.8436123348017621,
+      "delayed": 0.4933920704845815,
+      "frozen": 0.5462555066079295,
+      "mapping_estimate": -0.9108626681943106,
+      "permuted": 0.4955947136563877,
+      "phase": 1,
+      "trial": 454
+    },
+    {
+      "adaptive": 0.843956043956044,
+      "delayed": 0.49230769230769234,
+      "frozen": 0.545054945054945,
+      "mapping_estimate": -0.9179936547387657,
+      "permuted": 0.4967032967032967,
+      "phase": 1,
+      "trial": 455
+    },
+    {
+      "adaptive": 0.8442982456140351,
+      "delayed": 0.49122807017543857,
+      "frozen": 0.543859649122807,
+      "mapping_estimate": -0.9245541623596645,
+      "permuted": 0.4956140350877193,
+      "phase": 1,
+      "trial": 456
+    },
+    {
+      "adaptive": 0.8424507658643327,
+      "delayed": 0.4923413566739606,
+      "frozen": 0.5448577680525164,
+      "mapping_estimate": -0.7705898293708914,
+      "permuted": 0.49452954048140046,
+      "phase": 1,
+      "trial": 457
+    },
+    {
+      "adaptive": 0.8427947598253275,
+      "delayed": 0.4912663755458515,
+      "frozen": 0.5436681222707423,
+      "mapping_estimate": -0.7889426430212201,
+      "permuted": 0.49563318777292575,
+      "phase": 1,
+      "trial": 458
+    },
+    {
+      "adaptive": 0.8431372549019608,
+      "delayed": 0.4923747276688453,
+      "frozen": 0.5424836601307189,
+      "mapping_estimate": -0.8058272315795225,
+      "permuted": 0.49455337690631807,
+      "phase": 1,
+      "trial": 459
+    },
+    {
+      "adaptive": 0.8434782608695652,
+      "delayed": 0.49130434782608695,
+      "frozen": 0.5413043478260869,
+      "mapping_estimate": -0.8213610530531608,
+      "permuted": 0.4934782608695652,
+      "phase": 1,
+      "trial": 460
+    },
+    {
+      "adaptive": 0.841648590021692,
+      "delayed": 0.4924078091106291,
+      "frozen": 0.5422993492407809,
+      "mapping_estimate": -0.675652168808908,
+      "permuted": 0.4945770065075922,
+      "phase": 1,
+      "trial": 461
+    },
+    {
+      "adaptive": 0.841991341991342,
+      "delayed": 0.4935064935064935,
+      "frozen": 0.5411255411255411,
+      "mapping_estimate": -0.7015999953041954,
+      "permuted": 0.4935064935064935,
+      "phase": 1,
+      "trial": 462
+    },
+    {
+      "adaptive": 0.8401727861771058,
+      "delayed": 0.4946004319654428,
+      "frozen": 0.5421166306695464,
+      "mapping_estimate": -0.5654719956798598,
+      "permuted": 0.4946004319654428,
+      "phase": 1,
+      "trial": 463
+    },
+    {
+      "adaptive": 0.8405172413793104,
+      "delayed": 0.4956896551724138,
+      "frozen": 0.540948275862069,
+      "mapping_estimate": -0.600234236025471,
+      "permuted": 0.4956896551724138,
+      "phase": 1,
+      "trial": 464
+    },
+    {
+      "adaptive": 0.8408602150537634,
+      "delayed": 0.4946236559139785,
+      "frozen": 0.5397849462365591,
+      "mapping_estimate": -0.6322154971434333,
+      "permuted": 0.4946236559139785,
+      "phase": 1,
+      "trial": 465
+    },
+    {
+      "adaptive": 0.8412017167381974,
+      "delayed": 0.4957081545064378,
+      "frozen": 0.5386266094420601,
+      "mapping_estimate": -0.6616382573719586,
+      "permuted": 0.49356223175965663,
+      "phase": 1,
+      "trial": 466
+    },
+    {
+      "adaptive": 0.841541755888651,
+      "delayed": 0.49678800856531047,
+      "frozen": 0.5374732334047109,
+      "mapping_estimate": -0.6887071967822019,
+      "permuted": 0.49464668094218417,
+      "phase": 1,
+      "trial": 467
+    },
+    {
+      "adaptive": 0.8418803418803419,
+      "delayed": 0.49572649572649574,
+      "frozen": 0.5363247863247863,
+      "mapping_estimate": -0.7136106210396258,
+      "permuted": 0.49572649572649574,
+      "phase": 1,
+      "trial": 468
+    },
+    {
+      "adaptive": 0.8400852878464818,
+      "delayed": 0.4968017057569296,
+      "frozen": 0.5373134328358209,
+      "mapping_estimate": -0.5765217713564558,
+      "permuted": 0.4946695095948827,
+      "phase": 1,
+      "trial": 469
+    },
+    {
+      "adaptive": 0.8404255319148937,
+      "delayed": 0.4978723404255319,
+      "frozen": 0.5361702127659574,
+      "mapping_estimate": -0.6104000296479393,
+      "permuted": 0.4957446808510638,
+      "phase": 1,
+      "trial": 470
+    },
+    {
+      "adaptive": 0.8407643312101911,
+      "delayed": 0.4968152866242038,
+      "frozen": 0.535031847133758,
+      "mapping_estimate": -0.6415680272761041,
+      "permuted": 0.49469214437367304,
+      "phase": 1,
+      "trial": 471
+    },
+    {
+      "adaptive": 0.8411016949152542,
+      "delayed": 0.4957627118644068,
+      "frozen": 0.5338983050847458,
+      "mapping_estimate": -0.6702425850940157,
+      "permuted": 0.4936440677966102,
+      "phase": 1,
+      "trial": 472
+    },
+    {
+      "adaptive": 0.8414376321353065,
+      "delayed": 0.49471458773784355,
+      "frozen": 0.53276955602537,
+      "mapping_estimate": -0.6966231782864944,
+      "permuted": 0.49471458773784355,
+      "phase": 1,
+      "trial": 473
+    },
+    {
+      "adaptive": 0.8396624472573839,
+      "delayed": 0.4936708860759494,
+      "frozen": 0.5337552742616034,
+      "mapping_estimate": -0.560893324023575,
+      "permuted": 0.4957805907172996,
+      "phase": 1,
+      "trial": 474
+    },
+    {
+      "adaptive": 0.84,
+      "delayed": 0.4926315789473684,
+      "frozen": 0.5326315789473685,
+      "mapping_estimate": -0.596021858101689,
+      "permuted": 0.4968421052631579,
+      "phase": 1,
+      "trial": 475
+    },
+    {
+      "adaptive": 0.8403361344537815,
+      "delayed": 0.49369747899159666,
+      "frozen": 0.5315126050420168,
+      "mapping_estimate": -0.6283401094535538,
+      "permuted": 0.4957983193277311,
+      "phase": 1,
+      "trial": 476
+    },
+    {
+      "adaptive": 0.8406708595387841,
+      "delayed": 0.4947589098532495,
+      "frozen": 0.5303983228511531,
+      "mapping_estimate": -0.6580729006972694,
+      "permuted": 0.4947589098532495,
+      "phase": 1,
+      "trial": 477
+    },
+    {
+      "adaptive": 0.8410041841004184,
+      "delayed": 0.49581589958158995,
+      "frozen": 0.5292887029288703,
+      "mapping_estimate": -0.6854270686414878,
+      "permuted": 0.49372384937238495,
+      "phase": 1,
+      "trial": 478
+    },
+    {
+      "adaptive": 0.8413361169102297,
+      "delayed": 0.49478079331941544,
+      "frozen": 0.5281837160751566,
+      "mapping_estimate": -0.7105929031501688,
+      "permuted": 0.49478079331941544,
+      "phase": 1,
+      "trial": 479
+    },
+    {
+      "adaptive": 0.8395833333333333,
+      "delayed": 0.49583333333333335,
+      "frozen": 0.5291666666666667,
+      "mapping_estimate": -0.5737454708981553,
+      "permuted": 0.49375,
+      "phase": 1,
+      "trial": 480
+    },
+    {
+      "adaptive": 0.8378378378378378,
+      "delayed": 0.49480249480249483,
+      "frozen": 0.5301455301455301,
+      "mapping_estimate": -0.44784583322630284,
+      "permuted": 0.49272349272349275,
+      "phase": 1,
+      "trial": 481
+    },
+    {
+      "adaptive": 0.8381742738589212,
+      "delayed": 0.495850622406639,
+      "frozen": 0.529045643153527,
+      "mapping_estimate": -0.49201816656819863,
+      "permuted": 0.491701244813278,
+      "phase": 1,
+      "trial": 482
+    },
+    {
+      "adaptive": 0.8385093167701864,
+      "delayed": 0.494824016563147,
+      "frozen": 0.5279503105590062,
+      "mapping_estimate": -0.5326567132427428,
+      "permuted": 0.4927536231884058,
+      "phase": 1,
+      "trial": 483
+    },
+    {
+      "adaptive": 0.8388429752066116,
+      "delayed": 0.49586776859504134,
+      "frozen": 0.5268595041322314,
+      "mapping_estimate": -0.5700441761833234,
+      "permuted": 0.493801652892562,
+      "phase": 1,
+      "trial": 484
+    },
+    {
+      "adaptive": 0.8391752577319588,
+      "delayed": 0.4948453608247423,
+      "frozen": 0.5257731958762887,
+      "mapping_estimate": -0.6044406420886574,
+      "permuted": 0.4948453608247423,
+      "phase": 1,
+      "trial": 485
+    },
+    {
+      "adaptive": 0.8395061728395061,
+      "delayed": 0.49382716049382713,
+      "frozen": 0.5246913580246914,
+      "mapping_estimate": -0.6360853907215648,
+      "permuted": 0.49588477366255146,
+      "phase": 1,
+      "trial": 486
+    },
+    {
+      "adaptive": 0.839835728952772,
+      "delayed": 0.4948665297741273,
+      "frozen": 0.5236139630390144,
+      "mapping_estimate": -0.6651985594638395,
+      "permuted": 0.4948665297741273,
+      "phase": 1,
+      "trial": 487
+    },
+    {
+      "adaptive": 0.8401639344262295,
+      "delayed": 0.49385245901639346,
+      "frozen": 0.5225409836065574,
+      "mapping_estimate": -0.6919826747067324,
+      "permuted": 0.4959016393442623,
+      "phase": 1,
+      "trial": 488
+    },
+    {
+      "adaptive": 0.8404907975460123,
+      "delayed": 0.49284253578732107,
+      "frozen": 0.5214723926380368,
+      "mapping_estimate": -0.7166240607301938,
+      "permuted": 0.49693251533742333,
+      "phase": 1,
+      "trial": 489
+    },
+    {
+      "adaptive": 0.8408163265306122,
+      "delayed": 0.49387755102040815,
+      "frozen": 0.5204081632653061,
+      "mapping_estimate": -0.7392941358717783,
+      "permuted": 0.4959183673469388,
+      "phase": 1,
+      "trial": 490
+    },
+    {
+      "adaptive": 0.8411405295315683,
+      "delayed": 0.49490835030549896,
+      "frozen": 0.5193482688391039,
+      "mapping_estimate": -0.760150605002036,
+      "permuted": 0.4969450101832994,
+      "phase": 1,
+      "trial": 491
+    },
+    {
+      "adaptive": 0.8414634146341463,
+      "delayed": 0.4959349593495935,
+      "frozen": 0.5182926829268293,
+      "mapping_estimate": -0.7793385566018731,
+      "permuted": 0.49796747967479676,
+      "phase": 1,
+      "trial": 492
+    },
+    {
+      "adaptive": 0.8417849898580122,
+      "delayed": 0.4949290060851927,
+      "frozen": 0.5172413793103449,
+      "mapping_estimate": -0.7969914720737232,
+      "permuted": 0.4969574036511156,
+      "phase": 1,
+      "trial": 493
+    },
+    {
+      "adaptive": 0.8421052631578947,
+      "delayed": 0.4959514170040486,
+      "frozen": 0.5161943319838057,
+      "mapping_estimate": -0.8132321543078254,
+      "permuted": 0.4959514170040486,
+      "phase": 1,
+      "trial": 494
+    },
+    {
+      "adaptive": 0.8424242424242424,
+      "delayed": 0.49696969696969695,
+      "frozen": 0.5151515151515151,
+      "mapping_estimate": -0.8281735819631993,
+      "permuted": 0.49696969696969695,
+      "phase": 1,
+      "trial": 495
+    },
+    {
+      "adaptive": 0.842741935483871,
+      "delayed": 0.4959677419354839,
+      "frozen": 0.5141129032258065,
+      "mapping_estimate": -0.8419196954061434,
+      "permuted": 0.49798387096774194,
+      "phase": 1,
+      "trial": 496
+    },
+    {
+      "adaptive": 0.8430583501006036,
+      "delayed": 0.4969818913480885,
+      "frozen": 0.5130784708249497,
+      "mapping_estimate": -0.8545661197736519,
+      "permuted": 0.4969818913480885,
+      "phase": 1,
+      "trial": 497
+    },
+    {
+      "adaptive": 0.8433734939759037,
+      "delayed": 0.4959839357429719,
+      "frozen": 0.5120481927710844,
+      "mapping_estimate": -0.8662008301917598,
+      "permuted": 0.4959839357429719,
+      "phase": 1,
+      "trial": 498
+    },
+    {
+      "adaptive": 0.843687374749499,
+      "delayed": 0.4969939879759519,
+      "frozen": 0.5110220440881763,
+      "mapping_estimate": -0.876904763776419,
+      "permuted": 0.49498997995991983,
+      "phase": 1,
+      "trial": 499
+    },
+    {
+      "adaptive": 0.844,
+      "delayed": 0.498,
+      "frozen": 0.51,
+      "mapping_estimate": -0.8867523826743055,
+      "permuted": 0.494,
+      "phase": 1,
+      "trial": 500
+    }
+  ],
+  "series": {
+    "x": "trial",
+    "y": [
+      "frozen",
+      "delayed",
+      "permuted",
+      "adaptive"
+    ]
+  },
+  "source_kind": "synthetic_or_conditional",
+  "title": "Programme I: matched cues and remapping"
+}

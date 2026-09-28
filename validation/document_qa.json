@@ -1,0 +1,8 @@
+{
+  "handbook_pages": 21,
+  "rendered": true,
+  "all_pages_visually_inspected": true,
+  "issues": "No clipping, missing glyphs, split table rows or overlapping content found in the delivered rendering.",
+  "page_sizes": "A4 portrait; page count depends on font/rendering environment",
+  "engine_source_or_math_changes_during_document_qa": false
+}

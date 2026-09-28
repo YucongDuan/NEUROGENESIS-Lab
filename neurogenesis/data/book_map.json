@@ -1,0 +1,205 @@
+{
+  "book_title": "A Brief History of the Nervous System: From Life Sensing to Consciousness and Civilization",
+  "author": "Yucong Duan",
+  "source_docx_sha256": "14eacc81ee1ed7c71529bb006203ccc847f91fedb299014741f9f35a6aa9bdb1",
+  "chapters": [
+    {
+      "chapter": 1,
+      "english_title": "The problem of an actionable world",
+      "primary_experiment": "loop",
+      "section_anchors": [
+        "1.8",
+        "1.16"
+      ],
+      "source_chapter_sha256": "2d64a0c693e1ebb5bcec3831a7b81e5a09aea9b65e8121e02c4407e164b8567b",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 2,
+      "english_title": "The physical prehistory of neural systems",
+      "primary_experiment": "nernst",
+      "section_anchors": [
+        "2.7"
+      ],
+      "source_chapter_sha256": "aed2e4f53ded2685826826342a05726616f118960661a7141be2239fd752eb0d",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 3,
+      "english_title": "Communication before the first neural nets",
+      "primary_experiment": "delay",
+      "section_anchors": [
+        "3.1",
+        "3.18"
+      ],
+      "source_chapter_sha256": "09a37c6a23c53f3374f4b15758e4d099aaa709c82589c9eec8a4cd8664a37f17",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 4,
+      "english_title": "Evolutionary branches of centralization",
+      "primary_experiment": "network",
+      "section_anchors": [
+        "4.10"
+      ],
+      "source_chapter_sha256": "39728789be2b14fe6370483480b1419e730bb5e9bb616a1f044c27d889d5ff85",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 5,
+      "english_title": "Development, connections and experience",
+      "primary_experiment": "development",
+      "section_anchors": [
+        "5.11",
+        "5.16"
+      ],
+      "source_chapter_sha256": "46513691763a97ea118d97665fe2f043e044414e299fe4e127e133769a2503ce",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 6,
+      "english_title": "Electrical neurons and propagation",
+      "primary_experiment": "hh",
+      "section_anchors": [
+        "6.4",
+        "6.6",
+        "6.7"
+      ],
+      "source_chapter_sha256": "5f362995dedd7263c4a97dd3070b6531369f9e8b18a4bc09102635ac7ac7848c",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 7,
+      "english_title": "Synapses, glia and the cellular community",
+      "primary_experiment": "release",
+      "section_anchors": [
+        "7.2",
+        "7.3"
+      ],
+      "source_chapter_sha256": "3c07ec4bf674b81b5cf49759924be21c408923a0b2782edf1cbc6f5d070397a8",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 8,
+      "english_title": "Sensation and active perception",
+      "primary_experiment": "detection",
+      "section_anchors": [
+        "8.15"
+      ],
+      "source_chapter_sha256": "b242c2d9537703a7d447cd2a8fd5f6aad1ebc1fed8c7f5bd14335214a81e059c",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 9,
+      "english_title": "Movement and feedback control",
+      "primary_experiment": "motor",
+      "section_anchors": [
+        "9.7",
+        "9.15"
+      ],
+      "source_chapter_sha256": "4f13230dd812c2cd56690c74131699d67fc6975d0294f808cfcfbccd5a310a94",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 10,
+      "english_title": "Interoception and bodily regulation",
+      "primary_experiment": "body",
+      "section_anchors": [
+        "10.1",
+        "10.15"
+      ],
+      "source_chapter_sha256": "25f75045c06558da9f5d6dc01fc4b6d0ecf3f31d7119180409412ab509376fc4",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 11,
+      "english_title": "Learning, reconstruction and forgetting",
+      "primary_experiment": "attractor",
+      "section_anchors": [
+        "11.9",
+        "11.17"
+      ],
+      "source_chapter_sha256": "39ebaf784b81a6e13334688b4295296412e1c7edfe61935210d987be881db09f",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 12,
+      "english_title": "Value, affect and choice",
+      "primary_experiment": "td",
+      "section_anchors": [
+        "12.3",
+        "12.5"
+      ],
+      "source_chapter_sha256": "dbdf66208918a3c64601fea30c4bf984ff7c04f97d7ccb3c2e9601478cab6589",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 13,
+      "english_title": "Sleep, rhythms and a lifetime",
+      "primary_experiment": "sleep",
+      "section_anchors": [
+        "13.2",
+        "13.3"
+      ],
+      "source_chapter_sha256": "b89ae1332116f058a4efb506f1d4f22e48a5f930a1e5c14c5c7ce9341a5830ca",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 14,
+      "english_title": "Damage and functional repair",
+      "primary_experiment": "cable",
+      "section_anchors": [
+        "14.7"
+      ],
+      "source_chapter_sha256": "9088881caa5015c74eb469b0e839d6f40e04792c0c95a8e13382fd58a284fdb9",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 15,
+      "english_title": "Language, other people and culture",
+      "primary_experiment": "social",
+      "section_anchors": [
+        "15.10",
+        "15.14"
+      ],
+      "source_chapter_sha256": "43936df8bac76fbc3cf106441216763e114936815c0f77e040c6d51f1128271c",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 16,
+      "english_title": "Consciousness, self and testable distinctions",
+      "primary_experiment": "access",
+      "section_anchors": [
+        "16.3",
+        "16.5",
+        "16.17"
+      ],
+      "source_chapter_sha256": "9dfdb61cc0053cd08e85939efee25381aa2840964f024a0814b61233adc44cde",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 17,
+      "english_title": "Connectomes, causal models and neural engineering",
+      "primary_experiment": "identify",
+      "section_anchors": [
+        "17.7",
+        "17.8",
+        "17.9"
+      ],
+      "source_chapter_sha256": "03e14e1469ae14cf69668874c5640c07331ff40ebf8f00a5efb6aa0e759d0623",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    },
+    {
+      "chapter": 18,
+      "english_title": "Energy, information and possible minds",
+      "primary_experiment": "energy",
+      "section_anchors": [
+        "18.4",
+        "18.8",
+        "18.11"
+      ],
+      "source_chapter_sha256": "938afa6711a394f00f3f0efb0c590a50d7c3669689afa261e5213f4be6daa431",
+      "relationship": "Original executable interpretation, not a reproduction or validation of the entire chapter."
+    }
+  ]
+}

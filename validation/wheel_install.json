@@ -1,0 +1,32 @@
+{
+  "installed_from_local_wheel": true,
+  "no_runtime_dependencies_installed": true,
+  "module_loaded_from_site_packages": true,
+  "experiments_run": 24,
+  "source_capsules_replayed_with_installed_wheel": 25,
+  "all_exact": true,
+  "engine_digest": "a6a69af7325df8c12ffd8b0f6b4ac8acc18b5070732559eb8c9da3fee72696c5",
+  "http_packaged_assets": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 3613
+    },
+    {
+      "path": "/app.js",
+      "status": 200,
+      "bytes": 7288
+    },
+    {
+      "path": "/style.css",
+      "status": 200,
+      "bytes": 4520
+    },
+    {
+      "path": "/api/catalog",
+      "status": 200,
+      "bytes": 14651
+    }
+  ],
+  "python": "3.13.5"
+}

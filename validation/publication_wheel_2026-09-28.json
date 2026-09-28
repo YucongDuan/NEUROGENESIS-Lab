@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-28",
+  "wheel": "neurogenesis_lab-1.0.0-py3-none-any.whl",
+  "sha256": "24c581983182e94b114667a48036fd81f6ed234716d184be8bc4e19b766d4096",
+  "clean_venv_install": true,
+  "checks": [
+    {
+      "command": [
+        "-m",
+        "neurogenesis",
+        "list"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "0e1fce85c3664942cc9db0c804e829c766d1e13a54123a92907873b0437174b8"
+    },
+    {
+      "command": [
+        "-m",
+        "neurogenesis",
+        "run",
+        "hh"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "d1b51c3e7f711345362f1066f501a5ac3a2de070e2a820518f4721365e015498"
+    },
+    {
+      "command": [
+        "-m",
+        "neurogenesis",
+        "replay",
+        "/tmp/tmp9woioqmc/run"
+      ],
+      "returncode": 0,
+      "stdout_sha256": "922fc0b8147083615b0eb96e4596fc2845e383abfdaedf648bf7d1159343e6d2"
+    }
+  ]
+}

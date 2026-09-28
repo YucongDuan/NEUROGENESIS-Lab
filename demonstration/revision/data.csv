@@ -1,0 +1,4 @@
+architecture,passed_tasks,tasks,serialized_bytes,within_shared_budget,raw_event_retained,withdrawal_identified,current_interpretation_updated,past_goal_recoverable
+summary_only,1,4,175,True,False,False,True,False
+current_dag,3,4,860,True,True,True,True,False
+versioned_dag,4,4,3218,True,True,True,True,True

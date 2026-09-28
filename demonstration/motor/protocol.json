@@ -1,0 +1,15 @@
+{
+  "engine_digest": "a6a69af7325df8c12ffd8b0f6b4ac8acc18b5070732559eb8c9da3fee72696c5",
+  "experiment": "motor",
+  "format": "neurogenesis-protocol-v1",
+  "parameters": {
+    "delay_steps": 6,
+    "gain": 2.0,
+    "noise": 0.02,
+    "seed": 98,
+    "steps": 200
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "software_version": "1.0.0"
+}

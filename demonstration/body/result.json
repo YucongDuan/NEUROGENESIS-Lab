@@ -1,0 +1,1322 @@
+{
+  "book_sections": [
+    "10.1",
+    "10.15"
+  ],
+  "experiment": "body",
+  "limitations": [
+    "Resource units are explicitly arbitrary, not blood glucose, hydration, pain or survival predictions.",
+    "Actuator saturation is part of the model; negative resource states raise failure instead of being clipped."
+  ],
+  "method": "A bounded acquisition policy with exact resource inflow/outflow accounting.",
+  "metrics": {
+    "balance_residual": 9.947598300641403e-14,
+    "lowest_resource": 7.97318
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "basal_cost": 0.2,
+    "delay_steps": 4,
+    "extra_cost": 0.2,
+    "gain": 0.1,
+    "initial_resource": 10.0,
+    "max_intake": 0.8,
+    "steps": 160,
+    "target": 10.0
+  },
+  "question": "Can a delayed internal estimate maintain the same resource pool?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 0
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 1
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 2
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 3
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 4
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 5
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 6
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 7
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 8
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 9
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 10
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 11
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 12
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 13
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 14
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 15
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 16
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 17
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 18
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 19
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 20
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 21
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 22
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 23
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 24
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 25
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 26
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 27
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 28
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 29
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 30
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 31
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 32
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 33
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 34
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 35
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 36
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 37
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 38
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 39
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 40
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 41
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 42
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 43
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 44
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 45
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 46
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 47
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 48
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 49
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 50
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 51
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 10.0,
+      "resource": 10.0,
+      "step": 52
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 1.7763568394002505e-15,
+      "expenditure": 0.4,
+      "perceived": 10.0,
+      "resource": 9.8,
+      "step": 53
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 3.552713678800501e-15,
+      "expenditure": 0.4,
+      "perceived": 10.0,
+      "resource": 9.600000000000001,
+      "step": 54
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 5.329070518200751e-15,
+      "expenditure": 0.4,
+      "perceived": 10.0,
+      "resource": 9.400000000000002,
+      "step": 55
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 7.105427357601002e-15,
+      "expenditure": 0.4,
+      "perceived": 10.0,
+      "resource": 9.200000000000003,
+      "step": 56
+    },
+    {
+      "acquisition": 0.2,
+      "balance_residual": 8.881784197001252e-15,
+      "expenditure": 0.4,
+      "perceived": 10.0,
+      "resource": 9.000000000000004,
+      "step": 57
+    },
+    {
+      "acquisition": 0.21999999999999995,
+      "balance_residual": 8.881784197001252e-15,
+      "expenditure": 0.4,
+      "perceived": 9.8,
+      "resource": 8.820000000000004,
+      "step": 58
+    },
+    {
+      "acquisition": 0.23999999999999988,
+      "balance_residual": 8.881784197001252e-15,
+      "expenditure": 0.4,
+      "perceived": 9.600000000000001,
+      "resource": 8.660000000000004,
+      "step": 59
+    },
+    {
+      "acquisition": 0.2599999999999998,
+      "balance_residual": 8.881784197001252e-15,
+      "expenditure": 0.4,
+      "perceived": 9.400000000000002,
+      "resource": 8.520000000000003,
+      "step": 60
+    },
+    {
+      "acquisition": 0.27999999999999975,
+      "balance_residual": 8.881784197001252e-15,
+      "expenditure": 0.4,
+      "perceived": 9.200000000000003,
+      "resource": 8.400000000000002,
+      "step": 61
+    },
+    {
+      "acquisition": 0.29999999999999966,
+      "balance_residual": 1.0658141036401503e-14,
+      "expenditure": 0.4,
+      "perceived": 9.000000000000004,
+      "resource": 8.300000000000002,
+      "step": 62
+    },
+    {
+      "acquisition": 0.3179999999999996,
+      "balance_residual": 1.0658141036401503e-14,
+      "expenditure": 0.4,
+      "perceived": 8.820000000000004,
+      "resource": 8.218000000000002,
+      "step": 63
+    },
+    {
+      "acquisition": 0.33399999999999963,
+      "balance_residual": 1.0658141036401503e-14,
+      "expenditure": 0.4,
+      "perceived": 8.660000000000004,
+      "resource": 8.152000000000001,
+      "step": 64
+    },
+    {
+      "acquisition": 0.3479999999999997,
+      "balance_residual": 1.2434497875801753e-14,
+      "expenditure": 0.4,
+      "perceived": 8.520000000000003,
+      "resource": 8.100000000000001,
+      "step": 65
+    },
+    {
+      "acquisition": 0.3599999999999998,
+      "balance_residual": 1.0658141036401503e-14,
+      "expenditure": 0.4,
+      "perceived": 8.400000000000002,
+      "resource": 8.06,
+      "step": 66
+    },
+    {
+      "acquisition": 0.3699999999999998,
+      "balance_residual": 1.0658141036401503e-14,
+      "expenditure": 0.4,
+      "perceived": 8.300000000000002,
+      "resource": 8.030000000000001,
+      "step": 67
+    },
+    {
+      "acquisition": 0.37819999999999987,
+      "balance_residual": 1.0658141036401503e-14,
+      "expenditure": 0.4,
+      "perceived": 8.218000000000002,
+      "resource": 8.0082,
+      "step": 68
+    },
+    {
+      "acquisition": 0.3847999999999999,
+      "balance_residual": 1.0658141036401503e-14,
+      "expenditure": 0.4,
+      "perceived": 8.152000000000001,
+      "resource": 7.993,
+      "step": 69
+    },
+    {
+      "acquisition": 0.3899999999999999,
+      "balance_residual": 7.105427357601002e-15,
+      "expenditure": 0.4,
+      "perceived": 8.100000000000001,
+      "resource": 7.9830000000000005,
+      "step": 70
+    },
+    {
+      "acquisition": 0.39399999999999996,
+      "balance_residual": 7.105427357601002e-15,
+      "expenditure": 0.4,
+      "perceived": 8.06,
+      "resource": 7.977,
+      "step": 71
+    },
+    {
+      "acquisition": 0.3969999999999999,
+      "balance_residual": 7.105427357601002e-15,
+      "expenditure": 0.4,
+      "perceived": 8.030000000000001,
+      "resource": 7.974,
+      "step": 72
+    },
+    {
+      "acquisition": 0.39918,
+      "balance_residual": 3.552713678800501e-15,
+      "expenditure": 0.4,
+      "perceived": 8.0082,
+      "resource": 7.97318,
+      "step": 73
+    },
+    {
+      "acquisition": 0.4007,
+      "balance_residual": 3.552713678800501e-15,
+      "expenditure": 0.4,
+      "perceived": 7.993,
+      "resource": 7.97388,
+      "step": 74
+    },
+    {
+      "acquisition": 0.40169999999999995,
+      "balance_residual": 3.552713678800501e-15,
+      "expenditure": 0.4,
+      "perceived": 7.9830000000000005,
+      "resource": 7.97558,
+      "step": 75
+    },
+    {
+      "acquisition": 0.4023,
+      "balance_residual": 0.0,
+      "expenditure": 0.4,
+      "perceived": 7.977,
+      "resource": 7.97788,
+      "step": 76
+    },
+    {
+      "acquisition": 0.4026,
+      "balance_residual": 0.0,
+      "expenditure": 0.4,
+      "perceived": 7.974,
+      "resource": 7.98048,
+      "step": 77
+    },
+    {
+      "acquisition": 0.402682,
+      "balance_residual": 0.0,
+      "expenditure": 0.4,
+      "perceived": 7.97318,
+      "resource": 7.983162,
+      "step": 78
+    },
+    {
+      "acquisition": 0.40261199999999997,
+      "balance_residual": -3.552713678800501e-15,
+      "expenditure": 0.4,
+      "perceived": 7.97388,
+      "resource": 7.985774,
+      "step": 79
+    },
+    {
+      "acquisition": 0.402442,
+      "balance_residual": -3.552713678800501e-15,
+      "expenditure": 0.4,
+      "perceived": 7.97558,
+      "resource": 7.988216,
+      "step": 80
+    },
+    {
+      "acquisition": 0.402212,
+      "balance_residual": -3.552713678800501e-15,
+      "expenditure": 0.4,
+      "perceived": 7.97788,
+      "resource": 7.9904280000000005,
+      "step": 81
+    },
+    {
+      "acquisition": 0.40195200000000003,
+      "balance_residual": -7.105427357601002e-15,
+      "expenditure": 0.4,
+      "perceived": 7.98048,
+      "resource": 7.992380000000001,
+      "step": 82
+    },
+    {
+      "acquisition": 0.40168380000000004,
+      "balance_residual": -1.0658141036401503e-14,
+      "expenditure": 0.4,
+      "perceived": 7.983162,
+      "resource": 7.994063800000001,
+      "step": 83
+    },
+    {
+      "acquisition": 0.4014226,
+      "balance_residual": -1.0658141036401503e-14,
+      "expenditure": 0.4,
+      "perceived": 7.985774,
+      "resource": 7.995486400000001,
+      "step": 84
+    },
+    {
+      "acquisition": 0.4011784,
+      "balance_residual": -1.0658141036401503e-14,
+      "expenditure": 0.4,
+      "perceived": 7.988216,
+      "resource": 7.9966648000000005,
+      "step": 85
+    },
+    {
+      "acquisition": 0.40095719999999996,
+      "balance_residual": -1.4210854715202004e-14,
+      "expenditure": 0.4,
+      "perceived": 7.9904280000000005,
+      "resource": 7.997622000000001,
+      "step": 86
+    },
+    {
+      "acquisition": 0.40076199999999995,
+      "balance_residual": -1.4210854715202004e-14,
+      "expenditure": 0.4,
+      "perceived": 7.992380000000001,
+      "resource": 7.998384000000001,
+      "step": 87
+    },
+    {
+      "acquisition": 0.40059361999999993,
+      "balance_residual": -1.4210854715202004e-14,
+      "expenditure": 0.4,
+      "perceived": 7.994063800000001,
+      "resource": 7.998977620000001,
+      "step": 88
+    },
+    {
+      "acquisition": 0.4004513599999999,
+      "balance_residual": -1.4210854715202004e-14,
+      "expenditure": 0.4,
+      "perceived": 7.995486400000001,
+      "resource": 7.99942898,
+      "step": 89
+    },
+    {
+      "acquisition": 0.40033352,
+      "balance_residual": -1.7763568394002505e-14,
+      "expenditure": 0.4,
+      "perceived": 7.9966648000000005,
+      "resource": 7.9997625,
+      "step": 90
+    },
+    {
+      "acquisition": 0.4002378,
+      "balance_residual": -1.7763568394002505e-14,
+      "expenditure": 0.4,
+      "perceived": 7.997622000000001,
+      "resource": 8.0000003,
+      "step": 91
+    },
+    {
+      "acquisition": 0.40016159999999995,
+      "balance_residual": -1.7763568394002505e-14,
+      "expenditure": 0.4,
+      "perceived": 7.998384000000001,
+      "resource": 8.0001619,
+      "step": 92
+    },
+    {
+      "acquisition": 0.40010223799999994,
+      "balance_residual": -1.7763568394002505e-14,
+      "expenditure": 0.4,
+      "perceived": 7.998977620000001,
+      "resource": 8.000264138,
+      "step": 93
+    },
+    {
+      "acquisition": 0.400057102,
+      "balance_residual": -2.4868995751603507e-14,
+      "expenditure": 0.4,
+      "perceived": 7.99942898,
+      "resource": 8.00032124,
+      "step": 94
+    },
+    {
+      "acquisition": 0.40002375,
+      "balance_residual": -2.4868995751603507e-14,
+      "expenditure": 0.4,
+      "perceived": 7.9997625,
+      "resource": 8.00034499,
+      "step": 95
+    },
+    {
+      "acquisition": 0.39999997000000004,
+      "balance_residual": -2.4868995751603507e-14,
+      "expenditure": 0.4,
+      "perceived": 8.0000003,
+      "resource": 8.00034496,
+      "step": 96
+    },
+    {
+      "acquisition": 0.39998381,
+      "balance_residual": -2.4868995751603507e-14,
+      "expenditure": 0.4,
+      "perceived": 8.0001619,
+      "resource": 8.00032877,
+      "step": 97
+    },
+    {
+      "acquisition": 0.3999735862,
+      "balance_residual": -2.842170943040401e-14,
+      "expenditure": 0.4,
+      "perceived": 8.000264138,
+      "resource": 8.000302356199999,
+      "step": 98
+    },
+    {
+      "acquisition": 0.39996787600000006,
+      "balance_residual": -3.197442310920451e-14,
+      "expenditure": 0.4,
+      "perceived": 8.00032124,
+      "resource": 8.000270232199998,
+      "step": 99
+    },
+    {
+      "acquisition": 0.399965501,
+      "balance_residual": -3.197442310920451e-14,
+      "expenditure": 0.4,
+      "perceived": 8.00034499,
+      "resource": 8.000235733199998,
+      "step": 100
+    },
+    {
+      "acquisition": 0.3999655040000001,
+      "balance_residual": -3.552713678800501e-14,
+      "expenditure": 0.4,
+      "perceived": 8.00034496,
+      "resource": 8.000201237199999,
+      "step": 101
+    },
+    {
+      "acquisition": 0.3999671230000001,
+      "balance_residual": -3.907985046680551e-14,
+      "expenditure": 0.4,
+      "perceived": 8.00032877,
+      "resource": 8.000168360199998,
+      "step": 102
+    },
+    {
+      "acquisition": 0.39996976438000015,
+      "balance_residual": -3.907985046680551e-14,
+      "expenditure": 0.4,
+      "perceived": 8.000302356199999,
+      "resource": 8.000138124579998,
+      "step": 103
+    },
+    {
+      "acquisition": 0.3999729767800002,
+      "balance_residual": -3.907985046680551e-14,
+      "expenditure": 0.4,
+      "perceived": 8.000270232199998,
+      "resource": 8.000111101359998,
+      "step": 104
+    },
+    {
+      "acquisition": 0.39997642668000016,
+      "balance_residual": -3.907985046680551e-14,
+      "expenditure": 0.4,
+      "perceived": 8.000235733199998,
+      "resource": 8.000087528039998,
+      "step": 105
+    },
+    {
+      "acquisition": 0.39997987628000015,
+      "balance_residual": -3.907985046680551e-14,
+      "expenditure": 0.2,
+      "perceived": 8.000201237199999,
+      "resource": 8.200067404319999,
+      "step": 106
+    },
+    {
+      "acquisition": 0.3999831639800002,
+      "balance_residual": -3.552713678800501e-14,
+      "expenditure": 0.2,
+      "perceived": 8.000168360199998,
+      "resource": 8.4000505683,
+      "step": 107
+    },
+    {
+      "acquisition": 0.39998618754200027,
+      "balance_residual": -3.552713678800501e-14,
+      "expenditure": 0.2,
+      "perceived": 8.000138124579998,
+      "resource": 8.600036755842,
+      "step": 108
+    },
+    {
+      "acquisition": 0.3999888898640002,
+      "balance_residual": -2.842170943040401e-14,
+      "expenditure": 0.2,
+      "perceived": 8.000111101359998,
+      "resource": 8.800025645706,
+      "step": 109
+    },
+    {
+      "acquisition": 0.3999912471960002,
+      "balance_residual": -2.842170943040401e-14,
+      "expenditure": 0.2,
+      "perceived": 8.000087528039998,
+      "resource": 9.000016892902,
+      "step": 110
+    },
+    {
+      "acquisition": 0.3799932595680002,
+      "balance_residual": -2.842170943040401e-14,
+      "expenditure": 0.2,
+      "perceived": 8.200067404319999,
+      "resource": 9.18001015247,
+      "step": 111
+    },
+    {
+      "acquisition": 0.3599949431700001,
+      "balance_residual": -2.1316282072803006e-14,
+      "expenditure": 0.2,
+      "perceived": 8.4000505683,
+      "resource": 9.34000509564,
+      "step": 112
+    },
+    {
+      "acquisition": 0.3399963244158,
+      "balance_residual": -2.1316282072803006e-14,
+      "expenditure": 0.2,
+      "perceived": 8.600036755842,
+      "resource": 9.4800014200558,
+      "step": 113
+    },
+    {
+      "acquisition": 0.31999743542939996,
+      "balance_residual": -1.4210854715202004e-14,
+      "expenditure": 0.2,
+      "perceived": 8.800025645706,
+      "resource": 9.5999988554852,
+      "step": 114
+    },
+    {
+      "acquisition": 0.29999831070980004,
+      "balance_residual": -1.4210854715202004e-14,
+      "expenditure": 0.2,
+      "perceived": 9.000016892902,
+      "resource": 9.699997166195,
+      "step": 115
+    },
+    {
+      "acquisition": 0.281998984753,
+      "balance_residual": -1.4210854715202004e-14,
+      "expenditure": 0.2,
+      "perceived": 9.18001015247,
+      "resource": 9.781996150948,
+      "step": 116
+    },
+    {
+      "acquisition": 0.26599949043599996,
+      "balance_residual": -1.4210854715202004e-14,
+      "expenditure": 0.2,
+      "perceived": 9.34000509564,
+      "resource": 9.847995641384,
+      "step": 117
+    },
+    {
+      "acquisition": 0.25199985799442004,
+      "balance_residual": -1.4210854715202004e-14,
+      "expenditure": 0.2,
+      "perceived": 9.4800014200558,
+      "resource": 9.89999549937842,
+      "step": 118
+    },
+    {
+      "acquisition": 0.24000011445147998,
+      "balance_residual": -1.4210854715202004e-14,
+      "expenditure": 0.2,
+      "perceived": 9.5999988554852,
+      "resource": 9.9399956138299,
+      "step": 119
+    },
+    {
+      "acquisition": 0.23000028338049994,
+      "balance_residual": -7.105427357601002e-15,
+      "expenditure": 0.2,
+      "perceived": 9.699997166195,
+      "resource": 9.969995897210401,
+      "step": 120
+    },
+    {
+      "acquisition": 0.2218003849052,
+      "balance_residual": -7.105427357601002e-15,
+      "expenditure": 0.2,
+      "perceived": 9.781996150948,
+      "resource": 9.991796282115601,
+      "step": 121
+    },
+    {
+      "acquisition": 0.2152004358616001,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 9.847995641384,
+      "resource": 10.0069967179772,
+      "step": 122
+    },
+    {
+      "acquisition": 0.210000450062158,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 9.89999549937842,
+      "resource": 10.016997168039358,
+      "step": 123
+    },
+    {
+      "acquisition": 0.20600043861700998,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 9.9399956138299,
+      "resource": 10.022997606656368,
+      "step": 124
+    },
+    {
+      "acquisition": 0.2030004102789599,
+      "balance_residual": 0.0,
+      "expenditure": 0.2,
+      "perceived": 9.969995897210401,
+      "resource": 10.025998016935327,
+      "step": 125
+    },
+    {
+      "acquisition": 0.20082037178843992,
+      "balance_residual": 7.105427357601002e-15,
+      "expenditure": 0.2,
+      "perceived": 9.991796282115601,
+      "resource": 10.026818388723767,
+      "step": 126
+    },
+    {
+      "acquisition": 0.19930032820227997,
+      "balance_residual": 1.4210854715202004e-14,
+      "expenditure": 0.2,
+      "perceived": 10.0069967179772,
+      "resource": 10.026118716926046,
+      "step": 127
+    },
+    {
+      "acquisition": 0.1983002831960642,
+      "balance_residual": 1.4210854715202004e-14,
+      "expenditure": 0.2,
+      "perceived": 10.016997168039358,
+      "resource": 10.02441900012211,
+      "step": 128
+    },
+    {
+      "acquisition": 0.1977002393343632,
+      "balance_residual": 1.4210854715202004e-14,
+      "expenditure": 0.2,
+      "perceived": 10.022997606656368,
+      "resource": 10.022119239456474,
+      "step": 129
+    },
+    {
+      "acquisition": 0.19740019830646727,
+      "balance_residual": 1.4210854715202004e-14,
+      "expenditure": 0.2,
+      "perceived": 10.025998016935327,
+      "resource": 10.019519437762941,
+      "step": 130
+    },
+    {
+      "acquisition": 0.19731816112762335,
+      "balance_residual": 1.4210854715202004e-14,
+      "expenditure": 0.2,
+      "perceived": 10.026818388723767,
+      "resource": 10.016837598890564,
+      "step": 131
+    },
+    {
+      "acquisition": 0.1973881283073954,
+      "balance_residual": 2.1316282072803006e-14,
+      "expenditure": 0.2,
+      "perceived": 10.026118716926046,
+      "resource": 10.01422572719796,
+      "step": 132
+    },
+    {
+      "acquisition": 0.19755809998778898,
+      "balance_residual": 2.842170943040401e-14,
+      "expenditure": 0.2,
+      "perceived": 10.02441900012211,
+      "resource": 10.011783827185749,
+      "step": 133
+    },
+    {
+      "acquisition": 0.19778807605435259,
+      "balance_residual": 2.842170943040401e-14,
+      "expenditure": 0.2,
+      "perceived": 10.022119239456474,
+      "resource": 10.0095719032401,
+      "step": 134
+    },
+    {
+      "acquisition": 0.1980480562237059,
+      "balance_residual": 2.842170943040401e-14,
+      "expenditure": 0.2,
+      "perceived": 10.019519437762941,
+      "resource": 10.007619959463806,
+      "step": 135
+    },
+    {
+      "acquisition": 0.19831624011094356,
+      "balance_residual": 3.552713678800501e-14,
+      "expenditure": 0.2,
+      "perceived": 10.016837598890564,
+      "resource": 10.00593619957475,
+      "step": 136
+    },
+    {
+      "acquisition": 0.198577427280204,
+      "balance_residual": 3.552713678800501e-14,
+      "expenditure": 0.2,
+      "perceived": 10.01422572719796,
+      "resource": 10.004513626854953,
+      "step": 137
+    },
+    {
+      "acquisition": 0.19882161728142514,
+      "balance_residual": 4.263256414560601e-14,
+      "expenditure": 0.2,
+      "perceived": 10.011783827185749,
+      "resource": 10.003335244136379,
+      "step": 138
+    },
+    {
+      "acquisition": 0.19904280967598995,
+      "balance_residual": 4.263256414560601e-14,
+      "expenditure": 0.2,
+      "perceived": 10.0095719032401,
+      "resource": 10.002378053812368,
+      "step": 139
+    },
+    {
+      "acquisition": 0.19923800405361938,
+      "balance_residual": 4.973799150320701e-14,
+      "expenditure": 0.2,
+      "perceived": 10.007619959463806,
+      "resource": 10.001616057865988,
+      "step": 140
+    },
+    {
+      "acquisition": 0.19940638004252503,
+      "balance_residual": 5.684341886080802e-14,
+      "expenditure": 0.2,
+      "perceived": 10.00593619957475,
+      "resource": 10.001022437908514,
+      "step": 141
+    },
+    {
+      "acquisition": 0.1995486373145047,
+      "balance_residual": 5.684341886080802e-14,
+      "expenditure": 0.2,
+      "perceived": 10.004513626854953,
+      "resource": 10.000571075223018,
+      "step": 142
+    },
+    {
+      "acquisition": 0.19966647558636216,
+      "balance_residual": 5.684341886080802e-14,
+      "expenditure": 0.2,
+      "perceived": 10.003335244136379,
+      "resource": 10.00023755080938,
+      "step": 143
+    },
+    {
+      "acquisition": 0.1997621946187632,
+      "balance_residual": 5.684341886080802e-14,
+      "expenditure": 0.2,
+      "perceived": 10.002378053812368,
+      "resource": 9.999999745428143,
+      "step": 144
+    },
+    {
+      "acquisition": 0.19983839421340122,
+      "balance_residual": 6.394884621840902e-14,
+      "expenditure": 0.2,
+      "perceived": 10.001616057865988,
+      "resource": 9.999838139641545,
+      "step": 145
+    },
+    {
+      "acquisition": 0.19989775620914862,
+      "balance_residual": 7.105427357601002e-14,
+      "expenditure": 0.2,
+      "perceived": 10.001022437908514,
+      "resource": 9.999735895850694,
+      "step": 146
+    },
+    {
+      "acquisition": 0.19994289247769823,
+      "balance_residual": 7.105427357601002e-14,
+      "expenditure": 0.2,
+      "perceived": 10.000571075223018,
+      "resource": 9.999678788328392,
+      "step": 147
+    },
+    {
+      "acquisition": 0.19997624491906196,
+      "balance_residual": 7.105427357601002e-14,
+      "expenditure": 0.2,
+      "perceived": 10.00023755080938,
+      "resource": 9.999655033247453,
+      "step": 148
+    },
+    {
+      "acquisition": 0.2000000254571857,
+      "balance_residual": 7.105427357601002e-14,
+      "expenditure": 0.2,
+      "perceived": 9.999999745428143,
+      "resource": 9.99965505870464,
+      "step": 149
+    },
+    {
+      "acquisition": 0.2000161860358455,
+      "balance_residual": 7.105427357601002e-14,
+      "expenditure": 0.2,
+      "perceived": 9.999838139641545,
+      "resource": 9.999671244740485,
+      "step": 150
+    },
+    {
+      "acquisition": 0.20002641041493058,
+      "balance_residual": 7.815970093361102e-14,
+      "expenditure": 0.2,
+      "perceived": 9.999735895850694,
+      "resource": 9.999697655155416,
+      "step": 151
+    },
+    {
+      "acquisition": 0.2000321211671608,
+      "balance_residual": 7.815970093361102e-14,
+      "expenditure": 0.2,
+      "perceived": 9.999678788328392,
+      "resource": 9.999729776322576,
+      "step": 152
+    },
+    {
+      "acquisition": 0.20003449667525466,
+      "balance_residual": 7.815970093361102e-14,
+      "expenditure": 0.2,
+      "perceived": 9.999655033247453,
+      "resource": 9.999764272997831,
+      "step": 153
+    },
+    {
+      "acquisition": 0.200034494129536,
+      "balance_residual": 7.815970093361102e-14,
+      "expenditure": 0.2,
+      "perceived": 9.99965505870464,
+      "resource": 9.999798767127368,
+      "step": 154
+    },
+    {
+      "acquisition": 0.2000328755259515,
+      "balance_residual": 8.526512829121202e-14,
+      "expenditure": 0.2,
+      "perceived": 9.999671244740485,
+      "resource": 9.99983164265332,
+      "step": 155
+    },
+    {
+      "acquisition": 0.20003023448445845,
+      "balance_residual": 8.526512829121202e-14,
+      "expenditure": 0.2,
+      "perceived": 9.999697655155416,
+      "resource": 9.999861877137779,
+      "step": 156
+    },
+    {
+      "acquisition": 0.2000270223677424,
+      "balance_residual": 9.237055564881302e-14,
+      "expenditure": 0.2,
+      "perceived": 9.999729776322576,
+      "resource": 9.999888899505521,
+      "step": 157
+    },
+    {
+      "acquisition": 0.20002357270021687,
+      "balance_residual": 9.237055564881302e-14,
+      "expenditure": 0.2,
+      "perceived": 9.999764272997831,
+      "resource": 9.999912472205738,
+      "step": 158
+    },
+    {
+      "acquisition": 0.2000201232872632,
+      "balance_residual": 9.947598300641403e-14,
+      "expenditure": 0.2,
+      "perceived": 9.999798767127368,
+      "resource": 9.999932595493,
+      "step": 159
+    }
+  ],
+  "series": {
+    "x": "step",
+    "y": [
+      "resource",
+      "perceived"
+    ]
+  },
+  "source_kind": "synthetic_or_conditional",
+  "title": "Interoception and resource balance"
+}

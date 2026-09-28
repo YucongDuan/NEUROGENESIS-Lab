@@ -1,0 +1,21 @@
+NEUROGENESIS-Lab 1.0.0
+Copyright 2026 Yucong Duan and contributors.
+
+Prepared for Yucong Duan as an English open-source companion to
+A Brief History of the Nervous System: From Life Sensing to Consciousness
+and Civilization. Original software and documentation in this delivery were
+prepared with generative-AI assistance and remain open to author and peer review.
+
+The companion is inspired by the book's research requirements and by engineering
+patterns inspected in NEPHROGENESIS-Lab. The new Python modules are original
+implementations; no wholesale upstream source tree is redistributed. The example
+nephrogenesis_transport_result.json was generated from the supplied Apache-2.0
+NEPHROGENESIS-Lab 1.0.0 engine and retains its original result semantics.
+
+The book's full text, third-party articles, trademarks, and font files are NOT
+included or relicensed. Section identifiers and source hashes are provenance
+references. ResearchGate listing metadata is not a substitute for reviewed text.
+Apache-2.0 applies to this original software and accompanying original documents.
+Synthetic passive_step.csv is additionally offered under CC0-1.0.
+No DOI, institutional endorsement, medical clearance, or public GitHub publication
+is asserted by this local delivery.

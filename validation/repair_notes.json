@@ -1,0 +1,11 @@
+{
+  "issue": "An oversized-body test intermittently saw client BrokenPipeError when the server correctly rejected Content-Length before consuming the payload.",
+  "repair": "Test sends only oversized declared Content-Length and checks the early HTTP 400 response without racing body transmission.",
+  "production_code_changed": false,
+  "source_suite_rerun": {
+    "tests": 235,
+    "failures": 0,
+    "errors": 0
+  },
+  "scope": "Test-harness timing correction, not a claim about biological validation."
+}

@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-28",
+  "original_archive": "NEUROGENESIS_Lab_v1.0.0(1).zip",
+  "original_archive_sha256": "b5faca65af28ec88485d73d3cddb404dd2abd9d26ad886da079e63b39e7ccbe5",
+  "original_inventory_verified": true,
+  "python": "3.12.14",
+  "tests_passed": 235,
+  "reproduction": "25 saved experiment capsules recomputed with matching numerical results.",
+  "runtime_source_changes": false,
+  "scope": "Fresh local publication checks; original validation receipts retain their delivery dates. See GitHub Actions for remote platform results."
+}

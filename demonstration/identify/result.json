@@ -1,0 +1,750 @@
+{
+  "book_sections": [
+    "17.7",
+    "17.8",
+    "17.9"
+  ],
+  "experiment": "identify",
+  "limitations": [
+    "Two identical decay modes and an explicit observation map. A selective sensor adds information; it is not free.",
+    "A perfect output fit alone cannot identify the hidden split in this constructed model."
+  ],
+  "method": "Two equal decay modes and sum versus selective observation maps.",
+  "metrics": {
+    "hidden_split_difference": 0.6000000000000001,
+    "observability_rank_sum_sensor": 1,
+    "observability_rank_two_selective_sensors": 2,
+    "observation_max_difference": 1.1102230246251565e-16
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "duration_ms": 100.0,
+    "split_a": 0.2,
+    "split_b": 0.8,
+    "tau_ms": 20.0
+  },
+  "question": "Which measurement distinguishes two output-equivalent systems?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "observed_a": 1.0,
+      "observed_b": 1.0,
+      "selective_a": 0.2,
+      "selective_b": 0.8,
+      "time_ms": 0.0
+    },
+    {
+      "observed_a": 0.9512294245007141,
+      "observed_b": 0.951229424500714,
+      "selective_a": 0.19024588490014283,
+      "selective_b": 0.7609835396005713,
+      "time_ms": 1.0
+    },
+    {
+      "observed_a": 0.9048374180359596,
+      "observed_b": 0.9048374180359595,
+      "selective_a": 0.18096748360719192,
+      "selective_b": 0.7238699344287677,
+      "time_ms": 2.0
+    },
+    {
+      "observed_a": 0.8607079764250579,
+      "observed_b": 0.8607079764250578,
+      "selective_a": 0.17214159528501158,
+      "selective_b": 0.6885663811400463,
+      "time_ms": 3.0
+    },
+    {
+      "observed_a": 0.8187307530779819,
+      "observed_b": 0.8187307530779819,
+      "selective_a": 0.1637461506155964,
+      "selective_b": 0.6549846024623855,
+      "time_ms": 4.0
+    },
+    {
+      "observed_a": 0.778800783071405,
+      "observed_b": 0.778800783071405,
+      "selective_a": 0.155760156614281,
+      "selective_b": 0.623040626457124,
+      "time_ms": 5.0
+    },
+    {
+      "observed_a": 0.740818220681718,
+      "observed_b": 0.7408182206817179,
+      "selective_a": 0.1481636441363436,
+      "selective_b": 0.5926545765453743,
+      "time_ms": 6.0
+    },
+    {
+      "observed_a": 0.7046880897187134,
+      "observed_b": 0.7046880897187133,
+      "selective_a": 0.14093761794374268,
+      "selective_b": 0.5637504717749707,
+      "time_ms": 7.0
+    },
+    {
+      "observed_a": 0.6703200460356394,
+      "observed_b": 0.6703200460356393,
+      "selective_a": 0.13406400920712788,
+      "selective_b": 0.5362560368285115,
+      "time_ms": 8.0
+    },
+    {
+      "observed_a": 0.6376281516217734,
+      "observed_b": 0.6376281516217733,
+      "selective_a": 0.12752563032435468,
+      "selective_b": 0.5101025212974187,
+      "time_ms": 9.0
+    },
+    {
+      "observed_a": 0.6065306597126334,
+      "observed_b": 0.6065306597126334,
+      "selective_a": 0.1213061319425267,
+      "selective_b": 0.4852245277701068,
+      "time_ms": 10.0
+    },
+    {
+      "observed_a": 0.5769498103804866,
+      "observed_b": 0.5769498103804866,
+      "selective_a": 0.11538996207609734,
+      "selective_b": 0.46155984830438934,
+      "time_ms": 11.0
+    },
+    {
+      "observed_a": 0.5488116360940264,
+      "observed_b": 0.5488116360940264,
+      "selective_a": 0.10976232721880529,
+      "selective_b": 0.43904930887522114,
+      "time_ms": 12.0
+    },
+    {
+      "observed_a": 0.522045776761016,
+      "observed_b": 0.522045776761016,
+      "selective_a": 0.10440915535220321,
+      "selective_b": 0.41763662140881286,
+      "time_ms": 13.0
+    },
+    {
+      "observed_a": 0.4965853037914095,
+      "observed_b": 0.4965853037914095,
+      "selective_a": 0.09931706075828191,
+      "selective_b": 0.39726824303312763,
+      "time_ms": 14.0
+    },
+    {
+      "observed_a": 0.47236655274101474,
+      "observed_b": 0.4723665527410147,
+      "selective_a": 0.09447331054820295,
+      "selective_b": 0.3778932421928118,
+      "time_ms": 15.0
+    },
+    {
+      "observed_a": 0.44932896411722156,
+      "observed_b": 0.44932896411722156,
+      "selective_a": 0.08986579282344431,
+      "selective_b": 0.35946317129377725,
+      "time_ms": 16.0
+    },
+    {
+      "observed_a": 0.4274149319487267,
+      "observed_b": 0.4274149319487267,
+      "selective_a": 0.08548298638974534,
+      "selective_b": 0.3419319455589814,
+      "time_ms": 17.0
+    },
+    {
+      "observed_a": 0.4065696597405991,
+      "observed_b": 0.4065696597405991,
+      "selective_a": 0.08131393194811982,
+      "selective_b": 0.3252557277924793,
+      "time_ms": 18.0
+    },
+    {
+      "observed_a": 0.3867410234545013,
+      "observed_b": 0.38674102345450123,
+      "selective_a": 0.07734820469090026,
+      "selective_b": 0.30939281876360103,
+      "time_ms": 19.0
+    },
+    {
+      "observed_a": 0.36787944117144233,
+      "observed_b": 0.36787944117144233,
+      "selective_a": 0.07357588823428847,
+      "selective_b": 0.2943035529371539,
+      "time_ms": 20.0
+    },
+    {
+      "observed_a": 0.3499377491111554,
+      "observed_b": 0.3499377491111553,
+      "selective_a": 0.06998754982223107,
+      "selective_b": 0.2799501992889243,
+      "time_ms": 21.0
+    },
+    {
+      "observed_a": 0.3328710836980796,
+      "observed_b": 0.33287108369807955,
+      "selective_a": 0.06657421673961592,
+      "selective_b": 0.26629686695846366,
+      "time_ms": 22.0
+    },
+    {
+      "observed_a": 0.31663676937905333,
+      "observed_b": 0.3166367693790533,
+      "selective_a": 0.06332735387581066,
+      "selective_b": 0.25330941550324265,
+      "time_ms": 23.0
+    },
+    {
+      "observed_a": 0.30119421191220214,
+      "observed_b": 0.30119421191220214,
+      "selective_a": 0.06023884238244043,
+      "selective_b": 0.2409553695297617,
+      "time_ms": 24.0
+    },
+    {
+      "observed_a": 0.28650479686019015,
+      "observed_b": 0.2865047968601901,
+      "selective_a": 0.057300959372038024,
+      "selective_b": 0.2292038374881521,
+      "time_ms": 25.0
+    },
+    {
+      "observed_a": 0.2725317930340126,
+      "observed_b": 0.2725317930340126,
+      "selective_a": 0.05450635860680252,
+      "selective_b": 0.2180254344272101,
+      "time_ms": 26.0
+    },
+    {
+      "observed_a": 0.2592402606458915,
+      "observed_b": 0.2592402606458915,
+      "selective_a": 0.051848052129178306,
+      "selective_b": 0.20739220851671322,
+      "time_ms": 27.0
+    },
+    {
+      "observed_a": 0.24659696394160652,
+      "observed_b": 0.2465969639416065,
+      "selective_a": 0.0493193927883213,
+      "selective_b": 0.1972775711532852,
+      "time_ms": 28.0
+    },
+    {
+      "observed_a": 0.23457028809379765,
+      "observed_b": 0.23457028809379765,
+      "selective_a": 0.04691405761875953,
+      "selective_b": 0.18765623047503813,
+      "time_ms": 29.0
+    },
+    {
+      "observed_a": 0.22313016014842982,
+      "observed_b": 0.22313016014842982,
+      "selective_a": 0.044626032029685965,
+      "selective_b": 0.17850412811874386,
+      "time_ms": 30.0
+    },
+    {
+      "observed_a": 0.21224797382674304,
+      "observed_b": 0.21224797382674304,
+      "selective_a": 0.04244959476534861,
+      "selective_b": 0.16979837906139444,
+      "time_ms": 31.0
+    },
+    {
+      "observed_a": 0.20189651799465538,
+      "observed_b": 0.20189651799465538,
+      "selective_a": 0.04037930359893108,
+      "selective_b": 0.1615172143957243,
+      "time_ms": 32.0
+    },
+    {
+      "observed_a": 0.19204990862075416,
+      "observed_b": 0.19204990862075416,
+      "selective_a": 0.03840998172415083,
+      "selective_b": 0.15363992689660333,
+      "time_ms": 33.0
+    },
+    {
+      "observed_a": 0.18268352405273466,
+      "observed_b": 0.18268352405273464,
+      "selective_a": 0.03653670481054693,
+      "selective_b": 0.14614681924218773,
+      "time_ms": 34.0
+    },
+    {
+      "observed_a": 0.17377394345044514,
+      "observed_b": 0.17377394345044514,
+      "selective_a": 0.03475478869008903,
+      "selective_b": 0.13901915476035612,
+      "time_ms": 35.0
+    },
+    {
+      "observed_a": 0.16529888822158653,
+      "observed_b": 0.16529888822158653,
+      "selective_a": 0.033059777644317306,
+      "selective_b": 0.13223911057726923,
+      "time_ms": 36.0
+    },
+    {
+      "observed_a": 0.15723716631362764,
+      "observed_b": 0.1572371663136276,
+      "selective_a": 0.031447433262725526,
+      "selective_b": 0.1257897330509021,
+      "time_ms": 37.0
+    },
+    {
+      "observed_a": 0.14956861922263506,
+      "observed_b": 0.14956861922263506,
+      "selective_a": 0.029913723844527014,
+      "selective_b": 0.11965489537810806,
+      "time_ms": 38.0
+    },
+    {
+      "observed_a": 0.14227407158651362,
+      "observed_b": 0.1422740715865136,
+      "selective_a": 0.02845481431730272,
+      "selective_b": 0.11381925726921088,
+      "time_ms": 39.0
+    },
+    {
+      "observed_a": 0.1353352832366127,
+      "observed_b": 0.1353352832366127,
+      "selective_a": 0.027067056647322542,
+      "selective_b": 0.10826822658929017,
+      "time_ms": 40.0
+    },
+    {
+      "observed_a": 0.12873490358780423,
+      "observed_b": 0.12873490358780423,
+      "selective_a": 0.025746980717560847,
+      "selective_b": 0.10298792287024339,
+      "time_ms": 41.0
+    },
+    {
+      "observed_a": 0.12245642825298192,
+      "observed_b": 0.12245642825298192,
+      "selective_a": 0.024491285650596384,
+      "selective_b": 0.09796514260238554,
+      "time_ms": 42.0
+    },
+    {
+      "observed_a": 0.11648415777349697,
+      "observed_b": 0.11648415777349697,
+      "selective_a": 0.023296831554699395,
+      "selective_b": 0.09318732621879758,
+      "time_ms": 43.0
+    },
+    {
+      "observed_a": 0.11080315836233388,
+      "observed_b": 0.11080315836233387,
+      "selective_a": 0.022160631672466777,
+      "selective_b": 0.08864252668986711,
+      "time_ms": 44.0
+    },
+    {
+      "observed_a": 0.10539922456186435,
+      "observed_b": 0.10539922456186433,
+      "selective_a": 0.02107984491237287,
+      "selective_b": 0.08431937964949147,
+      "time_ms": 45.0
+    },
+    {
+      "observed_a": 0.10025884372280375,
+      "observed_b": 0.10025884372280375,
+      "selective_a": 0.02005176874456075,
+      "selective_b": 0.080207074978243,
+      "time_ms": 46.0
+    },
+    {
+      "observed_a": 0.09536916221554961,
+      "observed_b": 0.09536916221554961,
+      "selective_a": 0.019073832443109923,
+      "selective_b": 0.07629532977243969,
+      "time_ms": 47.0
+    },
+    {
+      "observed_a": 0.09071795328941251,
+      "observed_b": 0.09071795328941251,
+      "selective_a": 0.018143590657882503,
+      "selective_b": 0.07257436263153001,
+      "time_ms": 48.0
+    },
+    {
+      "observed_a": 0.08629358649937051,
+      "observed_b": 0.0862935864993705,
+      "selective_a": 0.0172587172998741,
+      "selective_b": 0.0690348691994964,
+      "time_ms": 49.0
+    },
+    {
+      "observed_a": 0.08208499862389881,
+      "observed_b": 0.0820849986238988,
+      "selective_a": 0.016416999724779762,
+      "selective_b": 0.06566799889911905,
+      "time_ms": 50.0
+    },
+    {
+      "observed_a": 0.07808166600115317,
+      "observed_b": 0.07808166600115317,
+      "selective_a": 0.015616333200230634,
+      "selective_b": 0.062465332800922535,
+      "time_ms": 51.0
+    },
+    {
+      "observed_a": 0.07427357821433388,
+      "observed_b": 0.07427357821433388,
+      "selective_a": 0.014854715642866776,
+      "selective_b": 0.059418862571467106,
+      "time_ms": 52.0
+    },
+    {
+      "observed_a": 0.0706512130604296,
+      "observed_b": 0.0706512130604296,
+      "selective_a": 0.01413024261208592,
+      "selective_b": 0.05652097044834368,
+      "time_ms": 53.0
+    },
+    {
+      "observed_a": 0.06720551273974976,
+      "observed_b": 0.06720551273974976,
+      "selective_a": 0.013441102547949953,
+      "selective_b": 0.05376441019179981,
+      "time_ms": 54.0
+    },
+    {
+      "observed_a": 0.06392786120670757,
+      "observed_b": 0.06392786120670757,
+      "selective_a": 0.012785572241341515,
+      "selective_b": 0.05114228896536606,
+      "time_ms": 55.0
+    },
+    {
+      "observed_a": 0.06081006262521797,
+      "observed_b": 0.06081006262521797,
+      "selective_a": 0.012162012525043595,
+      "selective_b": 0.04864805010017438,
+      "time_ms": 56.0
+    },
+    {
+      "observed_a": 0.057844320874838456,
+      "observed_b": 0.057844320874838456,
+      "selective_a": 0.011568864174967691,
+      "selective_b": 0.046275456699870765,
+      "time_ms": 57.0
+    },
+    {
+      "observed_a": 0.05502322005640724,
+      "observed_b": 0.05502322005640723,
+      "selective_a": 0.011004644011281447,
+      "selective_b": 0.04401857604512579,
+      "time_ms": 58.0
+    },
+    {
+      "observed_a": 0.05233970594843238,
+      "observed_b": 0.05233970594843238,
+      "selective_a": 0.010467941189686476,
+      "selective_b": 0.041871764758745905,
+      "time_ms": 59.0
+    },
+    {
+      "observed_a": 0.04978706836786395,
+      "observed_b": 0.049787068367863944,
+      "selective_a": 0.00995741367357279,
+      "selective_b": 0.03982965469429116,
+      "time_ms": 60.0
+    },
+    {
+      "observed_a": 0.047358924391140936,
+      "observed_b": 0.04735892439114093,
+      "selective_a": 0.009471784878228187,
+      "selective_b": 0.03788713951291275,
+      "time_ms": 61.0
+    },
+    {
+      "observed_a": 0.0450492023935578,
+      "observed_b": 0.045049202393557794,
+      "selective_a": 0.00900984047871156,
+      "selective_b": 0.03603936191484624,
+      "time_ms": 62.0
+    },
+    {
+      "observed_a": 0.042852126867040194,
+      "observed_b": 0.04285212686704019,
+      "selective_a": 0.008570425373408038,
+      "selective_b": 0.034281701493632154,
+      "time_ms": 63.0
+    },
+    {
+      "observed_a": 0.04076220397836622,
+      "observed_b": 0.04076220397836621,
+      "selective_a": 0.008152440795673243,
+      "selective_b": 0.03260976318269297,
+      "time_ms": 64.0
+    },
+    {
+      "observed_a": 0.03877420783172201,
+      "observed_b": 0.03877420783172201,
+      "selective_a": 0.007754841566344402,
+      "selective_b": 0.03101936626537761,
+      "time_ms": 65.0
+    },
+    {
+      "observed_a": 0.036883167401240015,
+      "observed_b": 0.036883167401240015,
+      "selective_a": 0.007376633480248003,
+      "selective_b": 0.029506533920992013,
+      "time_ms": 66.0
+    },
+    {
+      "observed_a": 0.035084354100845025,
+      "observed_b": 0.035084354100845025,
+      "selective_a": 0.007016870820169005,
+      "selective_b": 0.02806748328067602,
+      "time_ms": 67.0
+    },
+    {
+      "observed_a": 0.03337326996032608,
+      "observed_b": 0.03337326996032608,
+      "selective_a": 0.0066746539920652164,
+      "selective_b": 0.026698615968260866,
+      "time_ms": 68.0
+    },
+    {
+      "observed_a": 0.03174563637806794,
+      "observed_b": 0.03174563637806794,
+      "selective_a": 0.006349127275613588,
+      "selective_b": 0.02539650910245435,
+      "time_ms": 69.0
+    },
+    {
+      "observed_a": 0.0301973834223185,
+      "observed_b": 0.0301973834223185,
+      "selective_a": 0.0060394766844637,
+      "selective_b": 0.0241579067378548,
+      "time_ms": 70.0
+    },
+    {
+      "observed_a": 0.028724639654239437,
+      "observed_b": 0.028724639654239433,
+      "selective_a": 0.005744927930847887,
+      "selective_b": 0.022979711723391548,
+      "time_ms": 71.0
+    },
+    {
+      "observed_a": 0.027323722447292562,
+      "observed_b": 0.02732372244729256,
+      "selective_a": 0.0054647444894585125,
+      "selective_b": 0.02185897795783405,
+      "time_ms": 72.0
+    },
+    {
+      "observed_a": 0.02599112877875535,
+      "observed_b": 0.025991128778755347,
+      "selective_a": 0.00519822575575107,
+      "selective_b": 0.02079290302300428,
+      "time_ms": 73.0
+    },
+    {
+      "observed_a": 0.02472352647033939,
+      "observed_b": 0.024723526470339388,
+      "selective_a": 0.004944705294067878,
+      "selective_b": 0.019778821176271513,
+      "time_ms": 74.0
+    },
+    {
+      "observed_a": 0.023517745856009107,
+      "observed_b": 0.023517745856009107,
+      "selective_a": 0.004703549171201821,
+      "selective_b": 0.018814196684807286,
+      "time_ms": 75.0
+    },
+    {
+      "observed_a": 0.022370771856165605,
+      "observed_b": 0.0223707718561656,
+      "selective_a": 0.004474154371233121,
+      "selective_b": 0.017896617484932483,
+      "time_ms": 76.0
+    },
+    {
+      "observed_a": 0.021279736438377172,
+      "observed_b": 0.02127973643837717,
+      "selective_a": 0.004255947287675434,
+      "selective_b": 0.017023789150701737,
+      "time_ms": 77.0
+    },
+    {
+      "observed_a": 0.02024191144580439,
+      "observed_b": 0.020241911445804388,
+      "selective_a": 0.004048382289160878,
+      "selective_b": 0.016193529156643512,
+      "time_ms": 78.0
+    },
+    {
+      "observed_a": 0.01925470177538692,
+      "observed_b": 0.01925470177538692,
+      "selective_a": 0.0038509403550773843,
+      "selective_b": 0.015403761420309537,
+      "time_ms": 79.0
+    },
+    {
+      "observed_a": 0.01831563888873418,
+      "observed_b": 0.01831563888873418,
+      "selective_a": 0.003663127777746836,
+      "selective_b": 0.014652511110987344,
+      "time_ms": 80.0
+    },
+    {
+      "observed_a": 0.017422374639493515,
+      "observed_b": 0.017422374639493515,
+      "selective_a": 0.003484474927898703,
+      "selective_b": 0.013937899711594813,
+      "time_ms": 81.0
+    },
+    {
+      "observed_a": 0.016572675401761258,
+      "observed_b": 0.016572675401761255,
+      "selective_a": 0.0033145350803522513,
+      "selective_b": 0.013258140321409005,
+      "time_ms": 82.0
+    },
+    {
+      "observed_a": 0.015764416484854486,
+      "observed_b": 0.015764416484854486,
+      "selective_a": 0.0031528832969708975,
+      "selective_b": 0.01261153318788359,
+      "time_ms": 83.0
+    },
+    {
+      "observed_a": 0.014995576820477703,
+      "observed_b": 0.014995576820477703,
+      "selective_a": 0.0029991153640955407,
+      "selective_b": 0.011996461456382163,
+      "time_ms": 84.0
+    },
+    {
+      "observed_a": 0.014264233908999257,
+      "observed_b": 0.014264233908999256,
+      "selective_a": 0.0028528467817998514,
+      "selective_b": 0.011411387127199406,
+      "time_ms": 85.0
+    },
+    {
+      "observed_a": 0.013568559012200936,
+      "observed_b": 0.013568559012200934,
+      "selective_a": 0.002713711802440187,
+      "selective_b": 0.010854847209760748,
+      "time_ms": 86.0
+    },
+    {
+      "observed_a": 0.012906812580479874,
+      "observed_b": 0.012906812580479873,
+      "selective_a": 0.002581362516095975,
+      "selective_b": 0.0103254500643839,
+      "time_ms": 87.0
+    },
+    {
+      "observed_a": 0.012277339903068436,
+      "observed_b": 0.012277339903068436,
+      "selective_a": 0.0024554679806136873,
+      "selective_b": 0.009821871922454749,
+      "time_ms": 88.0
+    },
+    {
+      "observed_a": 0.011678566970395442,
+      "observed_b": 0.011678566970395442,
+      "selective_a": 0.0023357133940790885,
+      "selective_b": 0.009342853576316354,
+      "time_ms": 89.0
+    },
+    {
+      "observed_a": 0.011108996538242308,
+      "observed_b": 0.011108996538242306,
+      "selective_a": 0.0022217993076484614,
+      "selective_b": 0.008887197230593846,
+      "time_ms": 90.0
+    },
+    {
+      "observed_a": 0.010567204383852655,
+      "observed_b": 0.010567204383852655,
+      "selective_a": 0.002113440876770531,
+      "selective_b": 0.008453763507082124,
+      "time_ms": 91.0
+    },
+    {
+      "observed_a": 0.010051835744633586,
+      "observed_b": 0.010051835744633586,
+      "selective_a": 0.002010367148926717,
+      "selective_b": 0.008041468595706869,
+      "time_ms": 92.0
+    },
+    {
+      "observed_a": 0.009561601930543505,
+      "observed_b": 0.009561601930543505,
+      "selective_a": 0.001912320386108701,
+      "selective_b": 0.007649281544434804,
+      "time_ms": 93.0
+    },
+    {
+      "observed_a": 0.009095277101695816,
+      "observed_b": 0.009095277101695816,
+      "selective_a": 0.0018190554203391632,
+      "selective_b": 0.007276221681356653,
+      "time_ms": 94.0
+    },
+    {
+      "observed_a": 0.008651695203120634,
+      "observed_b": 0.008651695203120634,
+      "selective_a": 0.001730339040624127,
+      "selective_b": 0.006921356162496508,
+      "time_ms": 95.0
+    },
+    {
+      "observed_a": 0.00822974704902003,
+      "observed_b": 0.00822974704902003,
+      "selective_a": 0.0016459494098040061,
+      "selective_b": 0.0065837976392160245,
+      "time_ms": 96.0
+    },
+    {
+      "observed_a": 0.007828377549225773,
+      "observed_b": 0.007828377549225773,
+      "selective_a": 0.0015656755098451547,
+      "selective_b": 0.006262702039380619,
+      "time_ms": 97.0
+    },
+    {
+      "observed_a": 0.007446583070924339,
+      "observed_b": 0.007446583070924338,
+      "selective_a": 0.0014893166141848678,
+      "selective_b": 0.005957266456739471,
+      "time_ms": 98.0
+    },
+    {
+      "observed_a": 0.007083408929052119,
+      "observed_b": 0.0070834089290521185,
+      "selective_a": 0.0014166817858104238,
+      "selective_b": 0.005666727143241695,
+      "time_ms": 99.0
+    },
+    {
+      "observed_a": 0.006737946999085467,
+      "observed_b": 0.006737946999085467,
+      "selective_a": 0.0013475893998170934,
+      "selective_b": 0.005390357599268374,
+      "time_ms": 100.0
+    }
+  ],
+  "series": {
+    "x": "time_ms",
+    "y": [
+      "observed_a",
+      "observed_b",
+      "selective_a",
+      "selective_b"
+    ]
+  },
+  "source_kind": "synthetic_or_conditional",
+  "title": "Hidden state is not identified by a fit"
+}

@@ -1,0 +1,442 @@
+{
+  "book_sections": [
+    "8.15",
+    "16.3"
+  ],
+  "experiment": "detection",
+  "limitations": [
+    "Equal-variance Gaussian signal detection. Criterion and sensitivity are distinct; neither measures subjective experience."
+  ],
+  "method": "Equal-variance Gaussian signal-detection curves.",
+  "metrics": {
+    "balanced_accuracy": 0.763392861668092,
+    "d_prime": 1.5,
+    "false_alarm_rate": 0.14685905637589602,
+    "hit_rate": 0.6736447797120799
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "criterion": 0.3,
+    "d_prime": 1.5
+  },
+  "question": "Can reports change without a change in sensory sensitivity?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "criterion": -4.0,
+      "false_alarm_rate": 0.9994229749576092,
+      "hit_rate": 0.9999989829167575
+    },
+    {
+      "criterion": -3.9,
+      "false_alarm_rate": 0.9991836476871714,
+      "hit_rate": 0.9999983403248556
+    },
+    {
+      "criterion": -3.8,
+      "false_alarm_rate": 0.9988557931689773,
+      "hit_rate": 0.9999973177042203
+    },
+    {
+      "criterion": -3.7,
+      "false_alarm_rate": 0.9984111303526351,
+      "hit_rate": 0.99999570648553
+    },
+    {
+      "criterion": -3.6,
+      "false_alarm_rate": 0.9978140385450868,
+      "hit_rate": 0.9999931931234007
+    },
+    {
+      "criterion": -3.5,
+      "false_alarm_rate": 0.9970202367649454,
+      "hit_rate": 0.9999893114742251
+    },
+    {
+      "criterion": -3.4,
+      "false_alarm_rate": 0.9959754114572417,
+      "hit_rate": 0.9999833762362704
+    },
+    {
+      "criterion": -3.3,
+      "false_alarm_rate": 0.9946138540459333,
+      "hit_rate": 0.9999743911835259
+    },
+    {
+      "criterion": -3.2,
+      "false_alarm_rate": 0.9928571892647287,
+      "hit_rate": 0.9999609244034022
+    },
+    {
+      "criterion": -3.1,
+      "false_alarm_rate": 0.9906132944651614,
+      "hit_rate": 0.999940941087581
+    },
+    {
+      "criterion": -3.0,
+      "false_alarm_rate": 0.9877755273449553,
+      "hit_rate": 0.9999115827147992
+    },
+    {
+      "criterion": -2.9,
+      "false_alarm_rate": 0.9842223926089095,
+      "hit_rate": 0.9998688798455795
+    },
+    {
+      "criterion": -2.8,
+      "false_alarm_rate": 0.9798177845942956,
+      "hit_rate": 0.9998073844243643
+    },
+    {
+      "criterion": -2.7,
+      "false_alarm_rate": 0.9744119404783613,
+      "hit_rate": 0.9997197067231838
+    },
+    {
+      "criterion": -2.6,
+      "false_alarm_rate": 0.9678432252043863,
+      "hit_rate": 0.999595942198136
+    },
+    {
+      "criterion": -2.5,
+      "false_alarm_rate": 0.9599408431361829,
+      "hit_rate": 0.9994229749576092
+    },
+    {
+      "criterion": -2.4,
+      "false_alarm_rate": 0.9505285319663519,
+      "hit_rate": 0.9991836476871714
+    },
+    {
+      "criterion": -2.3,
+      "false_alarm_rate": 0.939429241997941,
+      "hit_rate": 0.9988557931689773
+    },
+    {
+      "criterion": -2.2,
+      "false_alarm_rate": 0.9264707403903516,
+      "hit_rate": 0.9984111303526351
+    },
+    {
+      "criterion": -2.1,
+      "false_alarm_rate": 0.9114920085625979,
+      "hit_rate": 0.9978140385450868
+    },
+    {
+      "criterion": -2.0,
+      "false_alarm_rate": 0.8943502263331446,
+      "hit_rate": 0.9970202367649454
+    },
+    {
+      "criterion": -1.9,
+      "false_alarm_rate": 0.8749280643628496,
+      "hit_rate": 0.9959754114572417
+    },
+    {
+      "criterion": -1.8,
+      "false_alarm_rate": 0.853140943624104,
+      "hit_rate": 0.9946138540459333
+    },
+    {
+      "criterion": -1.7,
+      "false_alarm_rate": 0.8289438736915182,
+      "hit_rate": 0.9928571892647287
+    },
+    {
+      "criterion": -1.6,
+      "false_alarm_rate": 0.8023374568773076,
+      "hit_rate": 0.9906132944651614
+    },
+    {
+      "criterion": -1.5,
+      "false_alarm_rate": 0.7733726476231317,
+      "hit_rate": 0.9877755273449553
+    },
+    {
+      "criterion": -1.4,
+      "false_alarm_rate": 0.7421538891941353,
+      "hit_rate": 0.9842223926089095
+    },
+    {
+      "criterion": -1.3,
+      "false_alarm_rate": 0.7088403132116536,
+      "hit_rate": 0.9798177845942956
+    },
+    {
+      "criterion": -1.2,
+      "false_alarm_rate": 0.6736447797120799,
+      "hit_rate": 0.9744119404783613
+    },
+    {
+      "criterion": -1.1,
+      "false_alarm_rate": 0.6368306511756191,
+      "hit_rate": 0.9678432252043863
+    },
+    {
+      "criterion": -1.0,
+      "false_alarm_rate": 0.5987063256829237,
+      "hit_rate": 0.9599408431361829
+    },
+    {
+      "criterion": -0.9,
+      "false_alarm_rate": 0.5596176923702425,
+      "hit_rate": 0.9505285319663519
+    },
+    {
+      "criterion": -0.8,
+      "false_alarm_rate": 0.5199388058383725,
+      "hit_rate": 0.939429241997941
+    },
+    {
+      "criterion": -0.7,
+      "false_alarm_rate": 0.4800611941616275,
+      "hit_rate": 0.9264707403903516
+    },
+    {
+      "criterion": -0.6,
+      "false_alarm_rate": 0.4403823076297575,
+      "hit_rate": 0.9114920085625979
+    },
+    {
+      "criterion": -0.5,
+      "false_alarm_rate": 0.4012936743170763,
+      "hit_rate": 0.8943502263331446
+    },
+    {
+      "criterion": -0.4,
+      "false_alarm_rate": 0.363169348824381,
+      "hit_rate": 0.8749280643628496
+    },
+    {
+      "criterion": -0.3,
+      "false_alarm_rate": 0.3263552202879201,
+      "hit_rate": 0.853140943624104
+    },
+    {
+      "criterion": -0.2,
+      "false_alarm_rate": 0.29115968678834636,
+      "hit_rate": 0.8289438736915182
+    },
+    {
+      "criterion": -0.1,
+      "false_alarm_rate": 0.2578461108058647,
+      "hit_rate": 0.8023374568773076
+    },
+    {
+      "criterion": 0.0,
+      "false_alarm_rate": 0.22662735237686826,
+      "hit_rate": 0.7733726476231317
+    },
+    {
+      "criterion": 0.1,
+      "false_alarm_rate": 0.19766254312269238,
+      "hit_rate": 0.7421538891941353
+    },
+    {
+      "criterion": 0.2,
+      "false_alarm_rate": 0.17105612630848177,
+      "hit_rate": 0.7088403132116536
+    },
+    {
+      "criterion": 0.3,
+      "false_alarm_rate": 0.14685905637589602,
+      "hit_rate": 0.6736447797120799
+    },
+    {
+      "criterion": 0.4,
+      "false_alarm_rate": 0.12507193563715036,
+      "hit_rate": 0.636830651175619
+    },
+    {
+      "criterion": 0.5,
+      "false_alarm_rate": 0.10564977366685535,
+      "hit_rate": 0.5987063256829237
+    },
+    {
+      "criterion": 0.6,
+      "false_alarm_rate": 0.08850799143740207,
+      "hit_rate": 0.5596176923702425
+    },
+    {
+      "criterion": 0.7,
+      "false_alarm_rate": 0.0735292596096484,
+      "hit_rate": 0.5199388058383725
+    },
+    {
+      "criterion": 0.8,
+      "false_alarm_rate": 0.06057075800205902,
+      "hit_rate": 0.4800611941616275
+    },
+    {
+      "criterion": 0.9,
+      "false_alarm_rate": 0.0494714680336481,
+      "hit_rate": 0.4403823076297575
+    },
+    {
+      "criterion": 1.0,
+      "false_alarm_rate": 0.040059156863817114,
+      "hit_rate": 0.4012936743170763
+    },
+    {
+      "criterion": 1.1,
+      "false_alarm_rate": 0.03215677479561374,
+      "hit_rate": 0.3631693488243809
+    },
+    {
+      "criterion": 1.2,
+      "false_alarm_rate": 0.025588059521638673,
+      "hit_rate": 0.3263552202879201
+    },
+    {
+      "criterion": 1.3,
+      "false_alarm_rate": 0.020182215405704418,
+      "hit_rate": 0.29115968678834636
+    },
+    {
+      "criterion": 1.4,
+      "false_alarm_rate": 0.015777607391090465,
+      "hit_rate": 0.2578461108058647
+    },
+    {
+      "criterion": 1.5,
+      "false_alarm_rate": 0.012224472655044671,
+      "hit_rate": 0.22662735237686826
+    },
+    {
+      "criterion": 1.6,
+      "false_alarm_rate": 0.009386705534838558,
+      "hit_rate": 0.19766254312269238
+    },
+    {
+      "criterion": 1.7,
+      "false_alarm_rate": 0.007142810735271343,
+      "hit_rate": 0.17105612630848177
+    },
+    {
+      "criterion": 1.8,
+      "false_alarm_rate": 0.005386145954066723,
+      "hit_rate": 0.14685905637589602
+    },
+    {
+      "criterion": 1.9,
+      "false_alarm_rate": 0.004024588542758334,
+      "hit_rate": 0.12507193563715036
+    },
+    {
+      "criterion": 2.0,
+      "false_alarm_rate": 0.0029797632350545555,
+      "hit_rate": 0.10564977366685535
+    },
+    {
+      "criterion": 2.1,
+      "false_alarm_rate": 0.0021859614549132322,
+      "hit_rate": 0.08850799143740207
+    },
+    {
+      "criterion": 2.2,
+      "false_alarm_rate": 0.0015888696473649322,
+      "hit_rate": 0.0735292596096484
+    },
+    {
+      "criterion": 2.3,
+      "false_alarm_rate": 0.001144206831022676,
+      "hit_rate": 0.06057075800205902
+    },
+    {
+      "criterion": 2.4,
+      "false_alarm_rate": 0.0008163523128286165,
+      "hit_rate": 0.0494714680336481
+    },
+    {
+      "criterion": 2.5,
+      "false_alarm_rate": 0.0005770250423907664,
+      "hit_rate": 0.040059156863817114
+    },
+    {
+      "criterion": 2.6,
+      "false_alarm_rate": 0.00040405780186403284,
+      "hit_rate": 0.03215677479561374
+    },
+    {
+      "criterion": 2.7,
+      "false_alarm_rate": 0.0002802932768162236,
+      "hit_rate": 0.025588059521638673
+    },
+    {
+      "criterion": 2.8,
+      "false_alarm_rate": 0.00019261557563565734,
+      "hit_rate": 0.020182215405704418
+    },
+    {
+      "criterion": 2.9,
+      "false_alarm_rate": 0.0001311201544205165,
+      "hit_rate": 0.015777607391090465
+    },
+    {
+      "criterion": 3.0,
+      "false_alarm_rate": 8.841728520081471e-05,
+      "hit_rate": 0.012224472655044671
+    },
+    {
+      "criterion": 3.1,
+      "false_alarm_rate": 5.905891241897443e-05,
+      "hit_rate": 0.009386705534838558
+    },
+    {
+      "criterion": 3.2,
+      "false_alarm_rate": 3.907559659777071e-05,
+      "hit_rate": 0.007142810735271343
+    },
+    {
+      "criterion": 3.3,
+      "false_alarm_rate": 2.560881647406532e-05,
+      "hit_rate": 0.005386145954066723
+    },
+    {
+      "criterion": 3.4,
+      "false_alarm_rate": 1.662376372957297e-05,
+      "hit_rate": 0.004024588542758334
+    },
+    {
+      "criterion": 3.5,
+      "false_alarm_rate": 1.0688525774904534e-05,
+      "hit_rate": 0.0029797632350545555
+    },
+    {
+      "criterion": 3.6,
+      "false_alarm_rate": 6.8068765992634894e-06,
+      "hit_rate": 0.0021859614549132322
+    },
+    {
+      "criterion": 3.7,
+      "false_alarm_rate": 4.293514469955184e-06,
+      "hit_rate": 0.0015888696473649322
+    },
+    {
+      "criterion": 3.8,
+      "false_alarm_rate": 2.682295779710131e-06,
+      "hit_rate": 0.001144206831022676
+    },
+    {
+      "criterion": 3.9,
+      "false_alarm_rate": 1.6596751444275526e-06,
+      "hit_rate": 0.0008163523128286165
+    },
+    {
+      "criterion": 4.0,
+      "false_alarm_rate": 1.017083242516037e-06,
+      "hit_rate": 0.0005770250423907664
+    }
+  ],
+  "series": {
+    "x": "criterion",
+    "y": [
+      "hit_rate",
+      "false_alarm_rate"
+    ]
+  },
+  "source_kind": "synthetic_or_conditional",
+  "title": "Sensitivity is not criterion"
+}

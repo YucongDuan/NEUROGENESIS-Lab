@@ -1,0 +1,18 @@
+{
+  "engine_digest": "a6a69af7325df8c12ffd8b0f6b4ac8acc18b5070732559eb8c9da3fee72696c5",
+  "experiment": "hh",
+  "format": "neurogenesis-protocol-v1",
+  "parameters": {
+    "capacitance_uF_cm2": 1.0,
+    "current_uA_cm2": 10.0,
+    "dt_ms": 0.025,
+    "duration_ms": 50.0,
+    "g_k_mS_cm2": 36.0,
+    "g_na_mS_cm2": 120.0,
+    "pulse_end_ms": 30.0,
+    "pulse_start_ms": 5.0
+  },
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5",
+  "software_version": "1.0.0"
+}

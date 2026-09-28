@@ -1,0 +1,1771 @@
+{
+  "book_sections": [
+    "13.2",
+    "13.3"
+  ],
+  "experiment": "sleep",
+  "limitations": [
+    "Assigned 16/8-hour schedule and two-process illustration; not a sleep prescription, diagnosis or individual clock estimate."
+  ],
+  "method": "Exact interval updates for two-process pressure under an assigned wake/sleep schedule.",
+  "metrics": {
+    "maximum_pressure": 0.6711101675942489,
+    "minimum_pressure": 0.08441263868073431
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "hours": 72,
+    "initial_pressure": 0.2,
+    "sleep_tau_h": 4.0,
+    "wake_tau_h": 18.0
+  },
+  "question": "How are a saturating pressure and an oscillating phase different?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "awake": true,
+      "circadian": 0.24999999999999978,
+      "homeostatic_pressure": 0.2,
+      "hour": 0.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.2222148834901989,
+      "homeostatic_pressure": 0.211034306604867,
+      "hour": 0.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.19561928549563956,
+      "homeostatic_pressure": 0.22191641830692121,
+      "hour": 0.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.17032709244996547,
+      "homeostatic_pressure": 0.23264843431268933,
+      "hour": 0.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.14644660940672605,
+      "homeostatic_pressure": 0.24323242487458752,
+      "hour": 1.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.12408009626051125,
+      "homeostatic_pressure": 0.2536704316902819,
+      "hour": 1.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.10332332985438242,
+      "homeostatic_pressure": 0.2639644682965412,
+      "hour": 1.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.08426519384872727,
+      "homeostatic_pressure": 0.27411652045765655,
+      "hour": 1.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.06698729810778059,
+      "homeostatic_pressure": 0.28412854654850395,
+      "hour": 2.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.05156362923365587,
+      "homeostatic_pressure": 0.29400247793232337,
+      "hour": 2.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.038060233744356575,
+      "homeostatic_pressure": 0.3037402193332872,
+      "hour": 2.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.026534935252447156,
+      "homeostatic_pressure": 0.31334364920392965,
+      "hour": 2.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.017037086855465844,
+      "homeostatic_pressure": 0.3228146200875084,
+      "hour": 3.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.00960735979838473,
+      "homeostatic_pressure": 0.33215495897536806,
+      "hour": 3.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.004277569313094809,
+      "homeostatic_pressure": 0.3413664676593753,
+      "hour": 3.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.0010705383806982605,
+      "homeostatic_pressure": 0.35045092307949155,
+      "hour": 3.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.0,
+      "homeostatic_pressure": 0.3594100776665531,
+      "hour": 4.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.0010705383806982605,
+      "homeostatic_pressure": 0.3682456596803221,
+      "hour": 4.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.004277569313094809,
+      "homeostatic_pressure": 0.37695937354287556,
+      "hour": 4.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.009607359798384785,
+      "homeostatic_pressure": 0.38555290016739596,
+      "hour": 4.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.0170370868554659,
+      "homeostatic_pressure": 0.39402789728242626,
+      "hour": 5.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.02653493525244721,
+      "homeostatic_pressure": 0.40238599975165334,
+      "hour": 5.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.03806023374435663,
+      "homeostatic_pressure": 0.41062881988928,
+      "hour": 5.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.05156362923365593,
+      "homeostatic_pressure": 0.41875794777104747,
+      "hour": 5.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.06698729810778065,
+      "homeostatic_pressure": 0.4267749515409679,
+      "hour": 6.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.0842651938487275,
+      "homeostatic_pressure": 0.4346813777138263,
+      "hour": 6.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.10332332985438247,
+      "homeostatic_pressure": 0.44247875147350957,
+      "hour": 6.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.12408009626051136,
+      "homeostatic_pressure": 0.45016857696722146,
+      "hour": 6.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.14644660940672627,
+      "homeostatic_pressure": 0.45775233759563894,
+      "hour": 7.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.17032709244996558,
+      "homeostatic_pressure": 0.46523149629906657,
+      "hour": 7.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.19561928549563967,
+      "homeostatic_pressure": 0.4726074958396441,
+      "hour": 7.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.22221488349019886,
+      "homeostatic_pressure": 0.4798817590796616,
+      "hour": 7.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.2500000000000001,
+      "homeostatic_pressure": 0.4870556892560355,
+      "hour": 8.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.27885565489049946,
+      "homeostatic_pressure": 0.4941306702509993,
+      "hour": 8.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.30865828381745525,
+      "homeostatic_pressure": 0.5011080668590606,
+      "hour": 8.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.3392802673484192,
+      "homeostatic_pressure": 0.5079892250502756,
+      "hour": 8.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.3705904774487397,
+      "homeostatic_pressure": 0.5147754722298924,
+      "hour": 9.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.4024548389919359,
+      "homeostatic_pressure": 0.5214681174944138,
+      "hour": 9.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.4347369038899742,
+      "homeostatic_pressure": 0.5280684518841273,
+      "hour": 9.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.46729843538492843,
+      "homeostatic_pressure": 0.5345777486321523,
+      "hour": 9.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.5,
+      "homeostatic_pressure": 0.5409972634100527,
+      "hour": 10.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.5327015646150717,
+      "homeostatic_pressure": 0.5473282345700607,
+      "hour": 10.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.5652630961100259,
+      "homeostatic_pressure": 0.5535718833839612,
+      "hour": 10.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.5975451610080642,
+      "homeostatic_pressure": 0.5597294142786796,
+      "hour": 10.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.6294095225512604,
+      "homeostatic_pressure": 0.5658020150686214,
+      "hour": 11.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.6607197326515808,
+      "homeostatic_pressure": 0.5717908571848067,
+      "hour": 11.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.6913417161825449,
+      "homeostatic_pressure": 0.5776970959008443,
+      "hour": 11.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.7211443451095007,
+      "homeostatic_pressure": 0.5835218705557891,
+      "hour": 11.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.75,
+      "homeostatic_pressure": 0.5892663047739253,
+      "hour": 12.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.7777851165098012,
+      "homeostatic_pressure": 0.5949315066815184,
+      "hour": 12.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.8043807145043603,
+      "homeostatic_pressure": 0.6005185691205779,
+      "hour": 12.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.8296729075500344,
+      "homeostatic_pressure": 0.606028569859671,
+      "hour": 12.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.8535533905932737,
+      "homeostatic_pressure": 0.611462571801829,
+      "hour": 13.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.8759199037394887,
+      "homeostatic_pressure": 0.6168216231895853,
+      "hour": 13.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.8966766701456176,
+      "homeostatic_pressure": 0.622106757807187,
+      "hour": 13.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.9157348061512727,
+      "homeostatic_pressure": 0.6273189951800155,
+      "hour": 13.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.9330127018922194,
+      "homeostatic_pressure": 0.6324593407712575,
+      "hour": 14.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.9484363707663441,
+      "homeostatic_pressure": 0.6375287861758636,
+      "hour": 14.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.9619397662556434,
+      "homeostatic_pressure": 0.6425283093118309,
+      "hour": 14.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.9734650647475529,
+      "homeostatic_pressure": 0.6474588746088477,
+      "hour": 14.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.9829629131445341,
+      "homeostatic_pressure": 0.6523214331943362,
+      "hour": 15.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.9903926402016152,
+      "homeostatic_pressure": 0.6571169230769293,
+      "hour": 15.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.9957224306869052,
+      "homeostatic_pressure": 0.661846269327416,
+      "hour": 15.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.9989294616193017,
+      "homeostatic_pressure": 0.6665103842571921,
+      "hour": 15.75
+    },
+    {
+      "awake": false,
+      "circadian": 1.0,
+      "homeostatic_pressure": 0.6711101675942489,
+      "hour": 16.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.9989294616193017,
+      "homeostatic_pressure": 0.6304496580249784,
+      "hour": 16.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.9957224306869052,
+      "homeostatic_pressure": 0.5922526441949534,
+      "hour": 16.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.9903926402016152,
+      "homeostatic_pressure": 0.5563698704425609,
+      "hour": 16.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.9829629131445341,
+      "homeostatic_pressure": 0.5226611240495829,
+      "hour": 17.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.9734650647475529,
+      "homeostatic_pressure": 0.4909946873569527,
+      "hour": 17.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.9619397662556434,
+      "homeostatic_pressure": 0.4612468230751399,
+      "hour": 17.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.9484363707663441,
+      "homeostatic_pressure": 0.43330129077800256,
+      "hour": 17.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.9330127018922194,
+      "homeostatic_pressure": 0.40704889269079586,
+      "hour": 18.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.9157348061512727,
+      "homeostatic_pressure": 0.3823870469974944,
+      "hour": 18.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.8966766701456176,
+      "homeostatic_pressure": 0.3592193870001167,
+      "hour": 18.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.8759199037394887,
+      "homeostatic_pressure": 0.3374553845637589,
+      "hour": 18.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.8535533905932737,
+      "homeostatic_pressure": 0.3170099963759401,
+      "hour": 19.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.8296729075500344,
+      "homeostatic_pressure": 0.2978033316380107,
+      "hour": 19.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.8043807145043603,
+      "homeostatic_pressure": 0.2797603398901209,
+      "hour": 19.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.7777851165098012,
+      "homeostatic_pressure": 0.2628105177499175,
+      "hour": 19.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.75,
+      "homeostatic_pressure": 0.24688763341904532,
+      "hour": 20.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.7211443451095007,
+      "homeostatic_pressure": 0.231929467880956,
+      "hour": 20.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.6913417161825449,
+      "homeostatic_pressure": 0.21787757177874853,
+      "hour": 20.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.6607197326515808,
+      "homeostatic_pressure": 0.20467703702303708,
+      "hour": 20.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.6294095225512604,
+      "homeostatic_pressure": 0.19227628223739845,
+      "hour": 21.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.5975451610080642,
+      "homeostatic_pressure": 0.1806268512030228,
+      "hour": 21.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.5652630961100259,
+      "homeostatic_pressure": 0.1696832235149856,
+      "hour": 21.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.5327015646150717,
+      "homeostatic_pressure": 0.1594026367102762,
+      "hour": 21.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.5,
+      "homeostatic_pressure": 0.14974491917254437,
+      "hour": 22.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.46729843538492843,
+      "homeostatic_pressure": 0.1406723331606363,
+      "hour": 22.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.4347369038899742,
+      "homeostatic_pressure": 0.13214942734755103,
+      "hour": 22.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.4024548389919359,
+      "homeostatic_pressure": 0.12414289829360982,
+      "hour": 22.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.3705904774487397,
+      "homeostatic_pressure": 0.11662146031254182,
+      "hour": 23.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.3392802673484192,
+      "homeostatic_pressure": 0.10955572322198513,
+      "hour": 23.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.30865828381745525,
+      "homeostatic_pressure": 0.10291807750071048,
+      "hour": 23.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.27885565489049946,
+      "homeostatic_pressure": 0.0966825864038171,
+      "hour": 23.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.2500000000000001,
+      "homeostatic_pressure": 0.09082488461433834,
+      "hour": 24.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.22221488349019886,
+      "homeostatic_pressure": 0.10336503084018922,
+      "hour": 24.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.19561928549563967,
+      "homeostatic_pressure": 0.11573221229313269,
+      "hour": 24.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.17032709244996558,
+      "homeostatic_pressure": 0.12792881465608896,
+      "hour": 24.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.14644660940672627,
+      "homeostatic_pressure": 0.13995719070653212,
+      "hour": 25.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.12408009626051136,
+      "homeostatic_pressure": 0.15181966077035125,
+      "hour": 25.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.10332332985438247,
+      "homeostatic_pressure": 0.16351851316945132,
+      "hour": 25.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.0842651938487275,
+      "homeostatic_pressure": 0.1750560046631804,
+      "hour": 25.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.06698729810778065,
+      "homeostatic_pressure": 0.18643436088366838,
+      "hour": 26.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.05156362923365593,
+      "homeostatic_pressure": 0.1976557767651611,
+      "hour": 26.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.03806023374435663,
+      "homeostatic_pressure": 0.20872241696743243,
+      "hour": 26.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.02653493525244721,
+      "homeostatic_pressure": 0.21963641629335673,
+      "hour": 26.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.0170370868554659,
+      "homeostatic_pressure": 0.23039988010072154,
+      "hour": 27.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.009607359798384785,
+      "homeostatic_pressure": 0.2410148847083603,
+      "hour": 27.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.004277569313094809,
+      "homeostatic_pressure": 0.2514834777966831,
+      "hour": 27.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.0010705383806982605,
+      "homeostatic_pressure": 0.2618076788026833,
+      "hour": 27.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.0,
+      "homeostatic_pressure": 0.27198947930949535,
+      "hour": 28.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.0010705383806982605,
+      "homeostatic_pressure": 0.28203084343058027,
+      "hour": 28.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.004277569313094809,
+      "homeostatic_pressure": 0.2919337081886112,
+      "hour": 28.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.00960735979838473,
+      "homeostatic_pressure": 0.30169998388913377,
+      "hour": 28.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.017037086855465844,
+      "homeostatic_pressure": 0.31133155448907235,
+      "hour": 29.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.026534935252447156,
+      "homeostatic_pressure": 0.3208302779601533,
+      "hour": 29.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.038060233744356575,
+      "homeostatic_pressure": 0.3301979866473157,
+      "hour": 29.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.05156362923365587,
+      "homeostatic_pressure": 0.33943648762217915,
+      "hour": 29.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.06698729810778059,
+      "homeostatic_pressure": 0.34854756303163503,
+      "hour": 30.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.08426519384872727,
+      "homeostatic_pressure": 0.3575329704416309,
+      "hour": 30.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.10332332985438242,
+      "homeostatic_pressure": 0.3663944431762124,
+      "hour": 30.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.12408009626051125,
+      "homeostatic_pressure": 0.37513369065188884,
+      "hour": 30.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.14644660940672605,
+      "homeostatic_pressure": 0.3837523987073872,
+      "hour": 31.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.17032709244996547,
+      "homeostatic_pressure": 0.3922522299288579,
+      "hour": 31.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.19561928549563956,
+      "homeostatic_pressure": 0.40063482397059436,
+      "hour": 31.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.2222148834901989,
+      "homeostatic_pressure": 0.4089017978713301,
+      "hour": 31.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.24999999999999978,
+      "homeostatic_pressure": 0.4170547463661718,
+      "hour": 32.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.27885565489049935,
+      "homeostatic_pressure": 0.42509524219423134,
+      "hour": 32.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.30865828381745525,
+      "homeostatic_pressure": 0.4330248364020134,
+      "hour": 32.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.3392802673484191,
+      "homeostatic_pressure": 0.44084505864261936,
+      "hour": 32.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.3705904774487397,
+      "homeostatic_pressure": 0.4485574174708241,
+      "hour": 33.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.4024548389919357,
+      "homeostatic_pressure": 0.45616340063408234,
+      "hour": 33.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.4347369038899742,
+      "homeostatic_pressure": 0.46366447535952204,
+      "hour": 33.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.46729843538492866,
+      "homeostatic_pressure": 0.4710620886369786,
+      "hour": 33.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.4999999999999999,
+      "homeostatic_pressure": 0.4783576674981256,
+      "hour": 34.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.5327015646150712,
+      "homeostatic_pressure": 0.4855526192917552,
+      "hour": 34.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.5652630961100257,
+      "homeostatic_pressure": 0.49264833195526203,
+      "hour": 34.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.5975451610080642,
+      "homeostatic_pressure": 0.49964617428238245,
+      "hour": 34.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.6294095225512601,
+      "homeostatic_pressure": 0.5065474961872405,
+      "hour": 35.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.6607197326515808,
+      "homeostatic_pressure": 0.5133536289647521,
+      "hour": 35.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.6913417161825446,
+      "homeostatic_pressure": 0.520065885547438,
+      "hour": 35.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.7211443451095005,
+      "homeostatic_pressure": 0.5266855607586942,
+      "hour": 35.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.75,
+      "homeostatic_pressure": 0.5332139315625684,
+      "hour": 36.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.7777851165098009,
+      "homeostatic_pressure": 0.5396522573100921,
+      "hour": 36.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.80438071450436,
+      "homeostatic_pressure": 0.5460017799822157,
+      "hour": 36.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.8296729075500345,
+      "homeostatic_pressure": 0.5522637244293908,
+      "hour": 36.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.8535533905932737,
+      "homeostatic_pressure": 0.5584392986078499,
+      "hour": 37.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.8759199037394887,
+      "homeostatic_pressure": 0.5645296938126263,
+      "hour": 37.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.8966766701456175,
+      "homeostatic_pressure": 0.5705360849073597,
+      "hour": 37.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.9157348061512725,
+      "homeostatic_pressure": 0.5764596305509332,
+      "hour": 37.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.9330127018922192,
+      "homeostatic_pressure": 0.5823014734209828,
+      "hour": 38.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.9484363707663441,
+      "homeostatic_pressure": 0.5880627404343254,
+      "hour": 38.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.9619397662556435,
+      "homeostatic_pressure": 0.5937445429643458,
+      "hour": 38.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.9734650647475528,
+      "homeostatic_pressure": 0.5993479770553856,
+      "hour": 38.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.9829629131445341,
+      "homeostatic_pressure": 0.6048741236341744,
+      "hour": 39.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.9903926402016152,
+      "homeostatic_pressure": 0.610324048718346,
+      "hour": 39.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.9957224306869052,
+      "homeostatic_pressure": 0.6156988036220772,
+      "hour": 39.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.9989294616193017,
+      "homeostatic_pressure": 0.6209994251588912,
+      "hour": 39.75
+    },
+    {
+      "awake": false,
+      "circadian": 1.0,
+      "homeostatic_pressure": 0.6262269358416632,
+      "hour": 40.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.9989294616193019,
+      "homeostatic_pressure": 0.5882857638153148,
+      "hour": 40.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.9957224306869052,
+      "homeostatic_pressure": 0.55264333119531,
+      "hour": 40.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.9903926402016152,
+      "homeostatic_pressure": 0.5191603644016283,
+      "hour": 40.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.9829629131445341,
+      "homeostatic_pressure": 0.4877060280138938,
+      "hour": 41.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.9734650647475529,
+      "homeostatic_pressure": 0.4581574135291268,
+      "hour": 41.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.9619397662556435,
+      "homeostatic_pressure": 0.4303990590940972,
+      "hour": 41.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.9484363707663442,
+      "homeostatic_pressure": 0.404322498335624,
+      "hour": 41.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.9330127018922193,
+      "homeostatic_pressure": 0.37982583652586505,
+      "hour": 42.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.9157348061512725,
+      "homeostatic_pressure": 0.35681335242645346,
+      "hour": 42.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.8966766701456177,
+      "homeostatic_pressure": 0.3351951242556788,
+      "hour": 42.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.8759199037394889,
+      "homeostatic_pressure": 0.3148866783171708,
+      "hour": 42.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.8535533905932738,
+      "homeostatic_pressure": 0.2958086589170951,
+      "hour": 43.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.8296729075500348,
+      "homeostatic_pressure": 0.2778865182800551,
+      "hour": 43.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.8043807145043602,
+      "homeostatic_pressure": 0.2610502252520395,
+      "hour": 43.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.7777851165098011,
+      "homeostatic_pressure": 0.24523399165216622,
+      "hour": 43.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.7500000000000002,
+      "homeostatic_pressure": 0.23037601520393583,
+      "hour": 44.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.7211443451095008,
+      "homeostatic_pressure": 0.21641823804149324,
+      "hour": 44.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.6913417161825453,
+      "homeostatic_pressure": 0.20330611984725505,
+      "hour": 44.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.6607197326515806,
+      "homeostatic_pressure": 0.19098842473443345,
+      "hour": 44.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.6294095225512604,
+      "homeostatic_pressure": 0.17941702104169513,
+      "hour": 45.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.5975451610080644,
+      "homeostatic_pressure": 0.16854669325764865,
+      "hour": 45.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.5652630961100259,
+      "homeostatic_pressure": 0.15833496534025113,
+      "hour": 45.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.5327015646150719,
+      "homeostatic_pressure": 0.14874193474075084,
+      "hour": 45.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.5000000000000006,
+      "homeostatic_pressure": 0.1397301164836109,
+      "hour": 46.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.46729843538492843,
+      "homeostatic_pressure": 0.13126429669315265,
+      "hour": 46.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.43473690388997444,
+      "homeostatic_pressure": 0.12331139499457133,
+      "hour": 46.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.40245483899193635,
+      "homeostatic_pressure": 0.11584033525165256,
+      "hour": 46.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.3705904774487399,
+      "homeostatic_pressure": 0.10882192413609479,
+      "hour": 47.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.3392802673484193,
+      "homeostatic_pressure": 0.10222873705394452,
+      "hour": 47.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.3086582838174551,
+      "homeostatic_pressure": 0.09603501098339948,
+      "hour": 47.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.2788556548904991,
+      "homeostatic_pressure": 0.09021654380524109,
+      "hour": 47.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.2500000000000004,
+      "homeostatic_pressure": 0.08475059973252765,
+      "hour": 48.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.22221488349019913,
+      "homeostatic_pressure": 0.09737452786061751,
+      "hour": 48.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.19561928549563973,
+      "homeostatic_pressure": 0.10982433562180349,
+      "hour": 48.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.17032709244996552,
+      "homeostatic_pressure": 0.12210242463797871,
+      "hour": 48.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.14644660940672605,
+      "homeostatic_pressure": 0.13421116340574601,
+      "hour": 49.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.12408009626051159,
+      "homeostatic_pressure": 0.14615288775331114,
+      "hour": 49.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.10332332985438258,
+      "homeostatic_pressure": 0.15792990129107398,
+      "hour": 49.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.08426519384872744,
+      "homeostatic_pressure": 0.16954447585600507,
+      "hour": 49.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.06698729810778059,
+      "homeostatic_pressure": 0.18099885194989307,
+      "hour": 50.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.051563629233655706,
+      "homeostatic_pressure": 0.19229523917154678,
+      "hour": 50.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.0380602337443568,
+      "homeostatic_pressure": 0.20343581664303667,
+      "hour": 50.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.02653493525244721,
+      "homeostatic_pressure": 0.2144227334300569,
+      "hour": 50.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.017037086855465844,
+      "homeostatic_pressure": 0.22525810895648957,
+      "hour": 51.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.009607359798384896,
+      "homeostatic_pressure": 0.2359440334132502,
+      "hour": 51.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.004277569313094753,
+      "homeostatic_pressure": 0.2464825681614955,
+      "hour": 51.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.0010705383806982605,
+      "homeostatic_pressure": 0.256875746130268,
+      "hour": 51.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.0,
+      "homeostatic_pressure": 0.2671255722086575,
+      "hour": 52.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.0010705383806982605,
+      "homeostatic_pressure": 0.2772340236325527,
+      "hour": 52.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.004277569313094698,
+      "homeostatic_pressure": 0.2872030503660583,
+      "hour": 52.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.00960735979838484,
+      "homeostatic_pressure": 0.2970345754776519,
+      "hour": 52.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.01703708685546579,
+      "homeostatic_pressure": 0.30673049551115195,
+      "hour": 53.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.0265349352524471,
+      "homeostatic_pressure": 0.3162926808515697,
+      "hour": 53.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.03806023374435663,
+      "homeostatic_pressure": 0.32572297608591394,
+      "hour": 53.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.05156362923365554,
+      "homeostatic_pressure": 0.33502320035902056,
+      "hour": 53.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.06698729810778042,
+      "homeostatic_pressure": 0.3441951477244728,
+      "hour": 54.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.08426519384872722,
+      "homeostatic_pressure": 0.35324058749068243,
+      "hour": 54.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.10332332985438236,
+      "homeostatic_pressure": 0.36216126456219677,
+      "hour": 54.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.12408009626051136,
+      "homeostatic_pressure": 0.3709588997762985,
+      "hour": 54.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.14644660940672577,
+      "homeostatic_pressure": 0.3796351902349625,
+      "hour": 55.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.17032709244996525,
+      "homeostatic_pressure": 0.3881918096322343,
+      "hour": 55.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.19561928549563945,
+      "homeostatic_pressure": 0.39663040857709275,
+      "hour": 55.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.2222148834901988,
+      "homeostatic_pressure": 0.40495261491185985,
+      "hour": 55.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.2500000000000001,
+      "homeostatic_pressure": 0.4131600340262185,
+      "hour": 56.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.2788556548904988,
+      "homeostatic_pressure": 0.421254249166899,
+      "hour": 56.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.30865828381745475,
+      "homeostatic_pressure": 0.4292368217430945,
+      "hour": 56.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.339280267348419,
+      "homeostatic_pressure": 0.4371092916276633,
+      "hour": 56.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.37059047744873874,
+      "homeostatic_pressure": 0.4448731774541772,
+      "hour": 57.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.4024548389919351,
+      "homeostatic_pressure": 0.4525299769098724,
+      "hour": 57.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.4347369038899745,
+      "homeostatic_pressure": 0.46008116702456003,
+      "hour": 57.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.46729843538492893,
+      "homeostatic_pressure": 0.4675282044555512,
+      "hour": 57.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.4999999999999998,
+      "homeostatic_pressure": 0.47487252576865313,
+      "hour": 58.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.5327015646150715,
+      "homeostatic_pressure": 0.4821155477152882,
+      "hour": 58.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.565263096110026,
+      "homeostatic_pressure": 0.48925866750579206,
+      "hour": 58.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.5975451610080635,
+      "homeostatic_pressure": 0.49630326307894135,
+      "hour": 58.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.62940952255126,
+      "homeostatic_pressure": 0.5032506933677638,
+      "hour": 59.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.6607197326515806,
+      "homeostatic_pressure": 0.5101022985616828,
+      "hour": 59.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.691341716182544,
+      "homeostatic_pressure": 0.5168594003650453,
+      "hour": 59.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.7211443451095,
+      "homeostatic_pressure": 0.5235233022520845,
+      "hour": 59.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.7499999999999996,
+      "homeostatic_pressure": 0.5300952897183658,
+      "hour": 60.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.7777851165098015,
+      "homeostatic_pressure": 0.5365766305287643,
+      "hour": 60.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.8043807145043602,
+      "homeostatic_pressure": 0.5429685749620219,
+      "hour": 60.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.8296729075500344,
+      "homeostatic_pressure": 0.5492723560519324,
+      "hour": 60.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.853553390593274,
+      "homeostatic_pressure": 0.5554891898251977,
+      "hour": 61.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.8759199037394884,
+      "homeostatic_pressure": 0.5616202755360059,
+      "hour": 61.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.8966766701456175,
+      "homeostatic_pressure": 0.567666795897372,
+      "hour": 61.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.9157348061512726,
+      "homeostatic_pressure": 0.5736299173092883,
+      "hour": 61.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.933012701892219,
+      "homeostatic_pressure": 0.579510790083728,
+      "hour": 62.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.9484363707663439,
+      "homeostatic_pressure": 0.585310548666546,
+      "hour": 62.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.9619397662556433,
+      "homeostatic_pressure": 0.5910303118563177,
+      "hour": 62.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.973465064747553,
+      "homeostatic_pressure": 0.5966711830201605,
+      "hour": 62.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.9829629131445341,
+      "homeostatic_pressure": 0.6022342503065778,
+      "hour": 63.0
+    },
+    {
+      "awake": true,
+      "circadian": 0.9903926402016152,
+      "homeostatic_pressure": 0.6077205868553679,
+      "hour": 63.25
+    },
+    {
+      "awake": true,
+      "circadian": 0.9957224306869052,
+      "homeostatic_pressure": 0.6131312510046368,
+      "hour": 63.5
+    },
+    {
+      "awake": true,
+      "circadian": 0.9989294616193017,
+      "homeostatic_pressure": 0.618467286494957,
+      "hour": 63.75
+    },
+    {
+      "awake": false,
+      "circadian": 1.0,
+      "homeostatic_pressure": 0.6237297226707088,
+      "hour": 64.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.9989294616193017,
+      "homeostatic_pressure": 0.5859398491418905,
+      "hour": 64.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.9957224306869052,
+      "homeostatic_pressure": 0.5504395483068493,
+      "hour": 64.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.9903926402016153,
+      "homeostatic_pressure": 0.5170901019686034,
+      "hour": 64.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.9829629131445343,
+      "homeostatic_pressure": 0.48576119644085825,
+      "hour": 65.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.9734650647475531,
+      "homeostatic_pressure": 0.45633041334444513,
+      "hour": 65.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.9619397662556434,
+      "homeostatic_pressure": 0.4286827512548446,
+      "hour": 65.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.9484363707663441,
+      "homeostatic_pressure": 0.402710176331621,
+      "hour": 65.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.9330127018922192,
+      "homeostatic_pressure": 0.37831120017384295,
+      "hour": 66.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.9157348061512729,
+      "homeostatic_pressure": 0.35539048325195177,
+      "hour": 66.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.8966766701456177,
+      "homeostatic_pressure": 0.3338584623664773,
+      "hour": 66.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.8759199037394887,
+      "homeostatic_pressure": 0.31363100067789,
+      "hour": 66.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.8535533905932743,
+      "homeostatic_pressure": 0.29462905894007196,
+      "hour": 67.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.8296729075500349,
+      "homeostatic_pressure": 0.27677838665274507,
+      "hour": 67.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.8043807145043607,
+      "homeostatic_pressure": 0.2600092319260277,
+      "hour": 67.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.777785116509802,
+      "homeostatic_pressure": 0.24425606892340906,
+      "hour": 67.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.75,
+      "homeostatic_pressure": 0.22945734181811916,
+      "hour": 68.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.7211443451095004,
+      "homeostatic_pressure": 0.21555522426239798,
+      "hour": 68.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.6913417161825446,
+      "homeostatic_pressure": 0.20249539342978495,
+      "hour": 68.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.660719732651581,
+      "homeostatic_pressure": 0.19022681774749406,
+      "hour": 68.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.6294095225512605,
+      "homeostatic_pressure": 0.17870155748943425,
+      "hour": 69.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.5975451610080641,
+      "homeostatic_pressure": 0.16787457745068785,
+      "hour": 69.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.5652630961100265,
+      "homeostatic_pressure": 0.15770357097146873,
+      "hour": 69.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.532701564615072,
+      "homeostatic_pressure": 0.1481487946229298,
+      "hour": 69.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.5000000000000002,
+      "homeostatic_pressure": 0.13917291290885106,
+      "hour": 70.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.46729843538492943,
+      "homeostatic_pressure": 0.1307408523763769,
+      "hour": 70.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.434736903889975,
+      "homeostatic_pressure": 0.12281966456573672,
+      "hour": 70.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.40245483899193557,
+      "homeostatic_pressure": 0.11537839726342246,
+      "hour": 70.75
+    },
+    {
+      "awake": false,
+      "circadian": 0.3705904774487392,
+      "homeostatic_pressure": 0.10838797355574165,
+      "hour": 71.0
+    },
+    {
+      "awake": false,
+      "circadian": 0.33928026734841943,
+      "homeostatic_pressure": 0.10182107821014529,
+      "hour": 71.25
+    },
+    {
+      "awake": false,
+      "circadian": 0.3086582838174552,
+      "homeostatic_pressure": 0.09565205094036304,
+      "hour": 71.5
+    },
+    {
+      "awake": false,
+      "circadian": 0.27885565489049924,
+      "homeostatic_pressure": 0.08985678613827705,
+      "hour": 71.75
+    },
+    {
+      "awake": true,
+      "circadian": 0.2500000000000005,
+      "homeostatic_pressure": 0.08441263868073431,
+      "hour": 72.0
+    }
+  ],
+  "series": {
+    "x": "hour",
+    "y": [
+      "homeostatic_pressure",
+      "circadian"
+    ]
+  },
+  "source_kind": "synthetic_or_conditional",
+  "title": "Homeostatic and circadian time"
+}

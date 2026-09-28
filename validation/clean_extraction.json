@@ -1,0 +1,27 @@
+{
+  "candidate_zip_crc_valid": true,
+  "clean_extraction_manifest": {
+    "verified": true,
+    "files_hashed": 221,
+    "chapter_links": 18,
+    "registered_experiments": 24,
+    "engine_digest": "a6a69af7325df8c12ffd8b0f6b4ac8acc18b5070732559eb8c9da3fee72696c5",
+    "scope": "Local byte inventory and declared contracts; not source truth or external signature"
+  },
+  "tests": 235,
+  "test_failures": 0,
+  "saved_capsules_recomputed": 25,
+  "all_saved_capsules_canonically_identical": true,
+  "new_run_from_clean_extraction": {
+    "atol": 1e-12,
+    "canonical_result_identical": true,
+    "engine_matches": true,
+    "numerically_equal": true,
+    "receipt_digest": "03ae99f06494e6577023e0648998c266c84672d461b87e438ce05d8b2c4f063c",
+    "recomputed": true,
+    "rtol": 1e-09,
+    "trusted_anchor_supplied": false,
+    "verified": true
+  },
+  "scope": "Executed from an extracted source root; not a second independent institution."
+}

@@ -1,0 +1,187 @@
+{
+  "book_sections": [
+    "15.10",
+    "15.14"
+  ],
+  "experiment": "social",
+  "limitations": [
+    "Exchangeable equal-variance correlated observations; repeated reports are not independent sources.",
+    "This is a sampling model, not a judgment about a person, community or cultural value."
+  ],
+  "method": "Effective sample size under exchangeable equal-variance correlation.",
+  "metrics": {
+    "effective_sample_size": 1.6304347826086958,
+    "naive_to_actual_standard_error_ratio": 0.23312620206007845,
+    "nominal_sample_size": 30
+  },
+  "model_version": "1.0.0",
+  "parameters": {
+    "reports": 30,
+    "shared_fraction": 0.6
+  },
+  "question": "How much evidence is added by another correlated report?",
+  "references": [
+    "BOOK"
+  ],
+  "rows": [
+    {
+      "correlated_effective_n": 1.0,
+      "independent_effective_n": 1.0,
+      "reports": 1
+    },
+    {
+      "correlated_effective_n": 1.25,
+      "independent_effective_n": 2.0,
+      "reports": 2
+    },
+    {
+      "correlated_effective_n": 1.3636363636363635,
+      "independent_effective_n": 3.0,
+      "reports": 3
+    },
+    {
+      "correlated_effective_n": 1.4285714285714286,
+      "independent_effective_n": 4.0,
+      "reports": 4
+    },
+    {
+      "correlated_effective_n": 1.4705882352941178,
+      "independent_effective_n": 5.0,
+      "reports": 5
+    },
+    {
+      "correlated_effective_n": 1.5,
+      "independent_effective_n": 6.0,
+      "reports": 6
+    },
+    {
+      "correlated_effective_n": 1.5217391304347827,
+      "independent_effective_n": 7.0,
+      "reports": 7
+    },
+    {
+      "correlated_effective_n": 1.5384615384615383,
+      "independent_effective_n": 8.0,
+      "reports": 8
+    },
+    {
+      "correlated_effective_n": 1.5517241379310345,
+      "independent_effective_n": 9.0,
+      "reports": 9
+    },
+    {
+      "correlated_effective_n": 1.5625000000000002,
+      "independent_effective_n": 10.0,
+      "reports": 10
+    },
+    {
+      "correlated_effective_n": 1.5714285714285714,
+      "independent_effective_n": 11.0,
+      "reports": 11
+    },
+    {
+      "correlated_effective_n": 1.5789473684210527,
+      "independent_effective_n": 12.0,
+      "reports": 12
+    },
+    {
+      "correlated_effective_n": 1.5853658536585367,
+      "independent_effective_n": 13.0,
+      "reports": 13
+    },
+    {
+      "correlated_effective_n": 1.5909090909090908,
+      "independent_effective_n": 14.0,
+      "reports": 14
+    },
+    {
+      "correlated_effective_n": 1.5957446808510638,
+      "independent_effective_n": 15.0,
+      "reports": 15
+    },
+    {
+      "correlated_effective_n": 1.6,
+      "independent_effective_n": 16.0,
+      "reports": 16
+    },
+    {
+      "correlated_effective_n": 1.6037735849056605,
+      "independent_effective_n": 17.0,
+      "reports": 17
+    },
+    {
+      "correlated_effective_n": 1.6071428571428572,
+      "independent_effective_n": 18.0,
+      "reports": 18
+    },
+    {
+      "correlated_effective_n": 1.6101694915254239,
+      "independent_effective_n": 19.0,
+      "reports": 19
+    },
+    {
+      "correlated_effective_n": 1.6129032258064515,
+      "independent_effective_n": 20.0,
+      "reports": 20
+    },
+    {
+      "correlated_effective_n": 1.6153846153846154,
+      "independent_effective_n": 21.0,
+      "reports": 21
+    },
+    {
+      "correlated_effective_n": 1.6176470588235294,
+      "independent_effective_n": 22.0,
+      "reports": 22
+    },
+    {
+      "correlated_effective_n": 1.619718309859155,
+      "independent_effective_n": 23.0,
+      "reports": 23
+    },
+    {
+      "correlated_effective_n": 1.6216216216216217,
+      "independent_effective_n": 24.0,
+      "reports": 24
+    },
+    {
+      "correlated_effective_n": 1.6233766233766236,
+      "independent_effective_n": 25.0,
+      "reports": 25
+    },
+    {
+      "correlated_effective_n": 1.625,
+      "independent_effective_n": 26.0,
+      "reports": 26
+    },
+    {
+      "correlated_effective_n": 1.6265060240963853,
+      "independent_effective_n": 27.0,
+      "reports": 27
+    },
+    {
+      "correlated_effective_n": 1.627906976744186,
+      "independent_effective_n": 28.0,
+      "reports": 28
+    },
+    {
+      "correlated_effective_n": 1.6292134831460674,
+      "independent_effective_n": 29.0,
+      "reports": 29
+    },
+    {
+      "correlated_effective_n": 1.6304347826086958,
+      "independent_effective_n": 30.0,
+      "reports": 30
+    }
+  ],
+  "series": {
+    "x": "reports",
+    "y": [
+      "independent_effective_n",
+      "correlated_effective_n"
+    ]
+  },
+  "source_kind": "synthetic_or_conditional",
+  "title": "Many reports, one common source"
+}

@@ -1,0 +1,195 @@
+[
+  {
+    "experiment": "loop",
+    "metrics": {
+      "feedback_squared_error": 0.07289584944527566,
+      "open_loop_squared_error": 1.1403157125546934
+    }
+  },
+  {
+    "experiment": "nernst",
+    "metrics": {
+      "equilibrium_mV": -89.01562196464293
+    }
+  },
+  {
+    "experiment": "delay",
+    "metrics": {
+      "comparison": "1D diffusion time versus assigned conduction speed"
+    }
+  },
+  {
+    "experiment": "network",
+    "metrics": {
+      "excitatory_max_real_eigenvalue_per_ms": 0.009999999999999998,
+      "opponent_max_real_eigenvalue_per_ms": -0.05,
+      "same_unsigned_adjacency": true
+    }
+  },
+  {
+    "experiment": "development",
+    "metrics": {
+      "final_input_1_weight": 0.8049458063988998,
+      "max_normalization_error": 2.220446049250313e-16
+    }
+  },
+  {
+    "experiment": "hh",
+    "metrics": {
+      "charge_residual_nC_cm2": 5.852207607404125e-12,
+      "ideal_Na_pump_energy_J_cm2": 4.568073492298313e-07,
+      "inward_sodium_C_cm2": 2.644512528317826e-06,
+      "ionic_dissipation_J_cm2": 3.434786286523227e-07,
+      "max_gate": 0.9941700780880394,
+      "min_gate": 0.016049471297346282,
+      "peak_mV": 40.22321518067805,
+      "spike_count": 2
+    }
+  },
+  {
+    "experiment": "release",
+    "metrics": {
+      "expected_mean": 2.0,
+      "expected_variance": 1.5,
+      "failure_probability": 0.1001129150390625,
+      "sample_mean": 2.027,
+      "sample_variance": 1.5060240120060029
+    }
+  },
+  {
+    "experiment": "detection",
+    "metrics": {
+      "balanced_accuracy": 0.763392861668092,
+      "d_prime": 1.5,
+      "false_alarm_rate": 0.14685905637589602,
+      "hit_rate": 0.6736447797120799
+    }
+  },
+  {
+    "experiment": "motor",
+    "metrics": {
+      "delayed_rmse": 0.32986572105021167,
+      "immediate_rmse": 0.3287878080344571
+    }
+  },
+  {
+    "experiment": "body",
+    "metrics": {
+      "balance_residual": 9.947598300641403e-14,
+      "lowest_resource": 7.97318
+    }
+  },
+  {
+    "experiment": "attractor",
+    "metrics": {
+      "final_overlap": 1.0,
+      "largest_energy_increase": 0.0
+    }
+  },
+  {
+    "experiment": "td",
+    "metrics": {
+      "final_value": 0.00023915465233602132
+    }
+  },
+  {
+    "experiment": "sleep",
+    "metrics": {
+      "maximum_pressure": 0.6711101675942489,
+      "minimum_pressure": 0.08441263868073431
+    }
+  },
+  {
+    "experiment": "cable",
+    "metrics": {
+      "charge_residual_fC": 1.0913936421275139e-11,
+      "distal_to_proximal_ratio": 0.09965877347019124
+    }
+  },
+  {
+    "experiment": "social",
+    "metrics": {
+      "effective_sample_size": 1.6304347826086958,
+      "naive_to_actual_standard_error_ratio": 0.23312620206007845,
+      "nominal_sample_size": 30
+    }
+  },
+  {
+    "experiment": "access",
+    "metrics": {
+      "accuracy_among_reports": 0.8,
+      "first_order_accuracy": 0.796,
+      "report_rate": 0.255
+    }
+  },
+  {
+    "experiment": "identify",
+    "metrics": {
+      "hidden_split_difference": 0.6000000000000001,
+      "observability_rank_sum_sensor": 1,
+      "observability_rank_two_selective_sensors": 2,
+      "observation_max_difference": 1.1102230246251565e-16
+    }
+  },
+  {
+    "experiment": "energy",
+    "metrics": {
+      "capacitor_energy_J": 4.2250000000000007e-13,
+      "dimensionless_ratio": 27.986504867125415,
+      "event_energy_J": 8.302695335869234e-20,
+      "landauer_floor_J_bit": 2.9666781812480147e-21,
+      "ratio_via_RT": 27.98650486712542
+    }
+  },
+  {
+    "experiment": "clamp",
+    "metrics": {
+      "h_inf": 0.05044149224155692,
+      "m_inf": 0.5006486315783902,
+      "n_inf": 0.6785909741451827
+    }
+  },
+  {
+    "experiment": "alias",
+    "metrics": {
+      "aliased_frequency_Hz": 10.0,
+      "max_equal_sample_error": 9.275913370743183e-14,
+      "nyquist_Hz": 50.0
+    }
+  },
+  {
+    "experiment": "mapping",
+    "metrics": {
+      "normal_approx_95_high": 0.6935760850575603,
+      "normal_approx_95_low": 0.6610905816091064,
+      "paired_post_shift_accuracy_delta": 0.6773333333333333,
+      "seeds": 24
+    }
+  },
+  {
+    "experiment": "revision",
+    "metrics": {
+      "shared_budget_bytes": 16000,
+      "stale_descendants_after_retraction": 2,
+      "versioned_task_passes": 4
+    }
+  },
+  {
+    "experiment": "tournament",
+    "metrics": {
+      "selected_by_validation": "history",
+      "test_samples": 80,
+      "test_used_for_selection": false,
+      "train_samples": 240,
+      "validation_samples": 80
+    }
+  },
+  {
+    "experiment": "candidate",
+    "metrics": {
+      "baseline_holdout_rmse_nJ": 0.39464817581377665,
+      "candidate_holdout_rmse_nJ": 0.10516249418160456,
+      "fitted_psi_nJ_bit": 0.69597087333643
+    }
+  }
+]

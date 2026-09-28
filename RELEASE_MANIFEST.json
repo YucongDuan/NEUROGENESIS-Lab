@@ -194,7 +194,7 @@
     "neurogenesis/__main__.py": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
     "neurogenesis/bridge.py": "546d8982f994fadade3d1d3925f5fd64453bff63bc891ca85b0d92fb1e63f377",
     "neurogenesis/calibration.py": "e5ab3801a373b75faabbc1fc257e6b5bc63b80f23636205c96ff1ba98b2a1eb6",
-    "neurogenesis/capsule.py": "cdd0e9229150c45bc471cee5d5129a3280c88d381f35fd4333b83db3c7d95b79",
+    "neurogenesis/capsule.py": "bd31451dd3680699373db9c199361b54d712ca32e2804bd0fb7bf962c6466758",
     "neurogenesis/cli.py": "37d7e782a001ed12eed496089680c3031511c9d63b4a346efcf75abb3fa43f0d",
     "neurogenesis/core.py": "961100069b07fcd766115089f9fc29b5699749f3e99cfd9331e1433f54821eb4",
     "neurogenesis/data/book_map.json": "2caf116017bb0ab4508755ca1d1417ebd80b1d33f92024d85f6c5f26db808e8d",

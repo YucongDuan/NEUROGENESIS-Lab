@@ -74,7 +74,11 @@ def save(name:str,parameters:dict,out:Path|str,csv_text:str|None=None)->dict:
         (temp/'events.jsonl').write_text(''.join(canonical(e)+'\n' for e in events),encoding='utf-8')
         (temp/'report.html').write_text(report_html([result]),encoding='utf-8')
         export_csv(temp/'data.csv',result['rows'])
-        if csv_text is not None:(temp/'input.csv').write_text(csv_text,encoding='utf-8')
+        # Preserve the exact UTF-8 bytes used for the protocol digest on every
+        # platform.  ``Path.write_text`` applies newline translation on
+        # Windows, which would otherwise make a valid recording fail its own
+        # integrity check after checkout.
+        if csv_text is not None:(temp/'input.csv').write_bytes(csv_text.encode('utf-8'))
         receipt={'format':'neurogenesis-capsule-v1','engine_digest':protocol['engine_digest'],'event_head':events[-1]['hash'],
           'files':{p.name:file_digest(p) for p in sorted(temp.iterdir())},
           'trust_model':'Unkeyed hashes. Preserve receipt_digest independently; no signature or external timestamp is supplied.'}
